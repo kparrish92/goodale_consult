@@ -1,0 +1,112 @@
+
+
+p = "N"
+st = "BFD"
+data = long_all
+
+
+make_sig_plot_gender(p, st, data)
+
+make_sig_plot_gender = function(p, st, data)
+  
+{
+  # make a dataframe to plot
+  adjnum = data %>% 
+    filter(position == p) %>% 
+    filter(sentence_type == st) %>% 
+    group_by(DEPT, SEX) %>% 
+    summarize(n = n()) 
+
+  
+  plotdf = data %>% 
+    filter(position == p) %>% 
+    filter(sentence_type == st) %>% 
+    group_by(tones, DEPT, SEX) %>% 
+    summarize(n = n()) %>% 
+    pivot_wider(names_from = DEPT, values_from = n) %>% 
+    mutate(Montevideo = round(replace_na(Montevideo, 0)/adjnum$n[3], digits = 2)*100) %>% 
+    mutate(Durazno = round(replace_na(Durazno, 0)/adjnum$n[1], digits = 2)*100) %>% 
+    filter(Montevideo > 5 | Durazno > 5)  %>% 
+    pivot_longer(cols = 3:4, names_to = "City", values_to = "Percentage") %>% 
+    mutate(tones = replace_na(tones, "N/A")) 
+  
+  tone_types = unique(plotdf$tones)
+  
+  results = matrix(ncol = 4, nrow = length(tone_types))
+  
+  model_df = data %>% 
+    group_by(tones, DEPT, sentence_type, SEX) %>% 
+    summarize(n = n()) %>% 
+    pivot_wider(names_from = SEX, values_from = n) %>% 
+#    filter(Female > 5 | Male > 5) %>% 
+    pivot_longer(cols = 4:5, names_to = "Sex", values_to = "count") %>% 
+    mutate(count = replace_na(count, 0)) %>% 
+    mutate(tones = replace_na(tones, "N/A"))
+  
+  
+  cities = c("Durazno", "Montevideo")
+  
+  res_dfs = list()
+  
+  for (thiscity in 1:2) {
+
+  # Run BFD models and store p_values 
+  for (thistone in 1:length(tone_types)) {
+    
+    thisdf = model_df %>% 
+      filter(tones == tone_types[thistone] & sentence_type == st) %>% 
+      mutate(adj = c(1.5, 1)) %>%
+      mutate(count_adj = count*adj) %>% 
+      filter(DEPT == cities[thiscity])
+    
+    poisson_model_city <- glm(count_adj ~ Sex, data = 
+                                thisdf, 
+                              family = poisson(link = "log"))
+    
+    
+    results[thistone, 1] = tone_types[thistone]
+    results[thistone, 2] = st
+    results[thistone, 3] = summary(poisson_model_city)[["coefficients"]][2,4]
+    results[thistone, 4] = cities[thiscity]
+    
+  }
+   res_df = results %>% 
+      as.data.frame() %>% 
+      rename(tones = V1,
+             statement_type = V2,
+             p_value = V3,
+             city = V4) %>% 
+      mutate(p_value = as.numeric(p_value)) %>% 
+      mutate(result = case_when(
+        p_value > .05 ~ "NS",
+        p_value < .05 & p_value > .005 ~ "*",
+        p_value < .005 & p_value > .0005 ~ "**",
+        p_value < .0005 ~ "***"
+      ))
+    
+   res_dfs[[thiscity]] = res_df
+  }
+  
+
+  results = do.call(rbind, res_dfs)
+  # get y positions 
+  ypost = plotdf %>% 
+    group_by(tones, City) %>% 
+    summarize(yp = max(Percentage)) %>% 
+    mutate(tones = replace_na(tones, "N/A"))
+  
+plotdf$tones = factor(plotdf$tones, levels = c(results$tones))
+  
+pdf = left_join(results, ypost, by = "tones")
+
+
+   plotdf %>% 
+    mutate(tones = replace_na(tones, "N/A")) %>% 
+    ggplot(aes(x = tones, y = Percentage, fill = SEX, position = "dodge")) + 
+    geom_col(color = "black", position = "dodge2") + theme_minimal() +
+    facet_wrap(~City)
+  
+  return(plot)
+}
+
+

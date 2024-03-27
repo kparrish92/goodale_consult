@@ -1,0 +1,961 @@
+"","NAME","Age.Group","SEX","EDU.Simplified","DEPT","CITY","HOOD","sentence","position","words","tones","sentence_type","total_speakers"
+"1","MVF20","18-35","Female","Tertiary","Montevideo","Montevideo","Piedras Blancas","BFD1","N","Mandarinas","L* L%","BFD",30
+"2","MVF20","18-35","Female","Tertiary","Montevideo","Montevideo","Piedras Blancas","BFD2","PN1","Maria","L+<H*","BFD",30
+"3","MVF20","18-35","Female","Tertiary","Montevideo","Montevideo","Piedras Blancas","BFD2","PN2","esta","deaccented","BFD",30
+"4","MVF20","18-35","Female","Tertiary","Montevideo","Montevideo","Piedras Blancas","BFD2","PN3","comiendo","deaccented","BFD",30
+"5","MVF20","18-35","Female","Tertiary","Montevideo","Montevideo","Piedras Blancas","BFD2","N","mandarinas","L* L%","BFD",30
+"6","MVF20","18-35","Female","Tertiary","Montevideo","Montevideo","Piedras Blancas","BFD4","PN1","Yo","L*+H","BFD",30
+"7","MVF20","18-35","Female","Tertiary","Montevideo","Montevideo","Piedras Blancas","BFD4","PN2","vivi","H*","BFD",30
+"8","MVF20","18-35","Female","Tertiary","Montevideo","Montevideo","Piedras Blancas","BFD4","PN3","muchos","L+H*","BFD",30
+"9","MVF20","18-35","Female","Tertiary","Montevideo","Montevideo","Piedras Blancas","BFD4","PN4","anos","H*","BFD",30
+"10","MVF20","18-35","Female","Tertiary","Montevideo","Montevideo","Piedras Blancas","BFD4","N","San","L* L%","BFD",30
+"11","MVF20","18-35","Female","Tertiary","Montevideo","Montevideo","Piedras Blancas","NFD1","PN1","Senora","L+H* L-","NFD",30
+"12","MVF20","18-35","Female","Tertiary","Montevideo","Montevideo","Piedras Blancas","NFD1","PN2","no","H*","NFD",30
+"13","MVF20","18-35","Female","Tertiary","Montevideo","Montevideo","Piedras Blancas","NFD1","PN3","quiero","L+H*","NFD",30
+"14","MVF20","18-35","Female","Tertiary","Montevideo","Montevideo","Piedras Blancas","NFD1","PN4","limones","L* L-","NFD",30
+"15","MVF20","18-35","Female","Tertiary","Montevideo","Montevideo","Piedras Blancas","NFD1","PN5","quiero","L+H*","NFD",30
+"16","MVF20","18-35","Female","Tertiary","Montevideo","Montevideo","Piedras Blancas","NFD1","N1","naranjas","L* L%","NFD",30
+"17","MVF20","18-35","Female","Tertiary","Montevideo","Montevideo","Piedras Blancas","NFD2","PN1","Que","H*","NFD",30
+"18","MVF20","18-35","Female","Tertiary","Montevideo","Montevideo","Piedras Blancas","NFD2","PN2","rico","L+¡H*","NFD",30
+"19","MVF20","18-35","Female","Tertiary","Montevideo","Montevideo","Piedras Blancas","NFD2","PN3","olor","deaccented","NFD",30
+"20","MVF20","18-35","Female","Tertiary","Montevideo","Montevideo","Piedras Blancas","NFD2","N1","medialunas","L+¡H* L%","NFD",30
+"21","MVF20","18-35","Female","Tertiary","Montevideo","Montevideo","Piedras Blancas","NFD3","PN1","No","L+H*+L L-","NFD",30
+"22","MVF20","18-35","Female","Tertiary","Montevideo","Montevideo","Piedras Blancas","NFD3","PN2","se","L+H*","NFD",30
+"23","MVF20","18-35","Female","Tertiary","Montevideo","Montevideo","Piedras Blancas","NFD3","PN3","vivir","L+H*","NFD",30
+"24","MVF20","18-35","Female","Tertiary","Montevideo","Montevideo","Piedras Blancas","NFD3","N1","San","H+L* L%","NFD",30
+"25","MVF20","18-35","Female","Tertiary","Montevideo","Montevideo","Piedras Blancas","NFD4","PN1","Es","L+H*","NFD",30
+"26","MVF20","18-35","Female","Tertiary","Montevideo","Montevideo","Piedras Blancas","NFD4","PN2","possible","L+<H*","NFD",30
+"27","MVF20","18-35","Female","Tertiary","Montevideo","Montevideo","Piedras Blancas","NFD4","PN3","No","L+!H*","NFD",30
+"28","MVF20","18-35","Female","Tertiary","Montevideo","Montevideo","Piedras Blancas","NFD4","PN4","le","L+¡H*","NFD",30
+"29","MVF20","18-35","Female","Tertiary","Montevideo","Montevideo","Piedras Blancas","NFD4","N1","regalo","L* L%","NFD",30
+"30","MVF20","18-35","Female","Tertiary","Montevideo","Montevideo","Piedras Blancas","NFD5","N1","con","L+H*+L L%","NFD",30
+"31","MVF20","18-35","Female","Tertiary","Montevideo","Montevideo","Piedras Blancas","NFD6","PN1","Esta","L+<H*","NFD",30
+"32","MVF20","18-35","Female","Tertiary","Montevideo","Montevideo","Piedras Blancas","NFD6","N1","buenisimo","L+¡H*L%","NFD",30
+"33","MVF21","18-35","Female","Tertiary","Montevideo","Montevideo","Pocitos","BFD1","N","Mandarinas","L+H* L%","BFD",30
+"34","MVF21","18-35","Female","Tertiary","Montevideo","Montevideo","Pocitos","BFD2","PN1","Maria","L+<H*","BFD",30
+"35","MVF21","18-35","Female","Tertiary","Montevideo","Montevideo","Pocitos","BFD2","PN2","esta","H+L*","BFD",30
+"36","MVF21","18-35","Female","Tertiary","Montevideo","Montevideo","Pocitos","BFD2","PN3","comiendo","L+!H*","BFD",30
+"37","MVF21","18-35","Female","Tertiary","Montevideo","Montevideo","Pocitos","BFD2","N","mandarinas","L+H* L%","BFD",30
+"38","MVF21","18-35","Female","Tertiary","Montevideo","Montevideo","Pocitos","BFD4","PN1","Yo","L+H*","BFD",30
+"39","MVF21","18-35","Female","Tertiary","Montevideo","Montevideo","Pocitos","BFD4","PN2","vivi","!H*","BFD",30
+"40","MVF21","18-35","Female","Tertiary","Montevideo","Montevideo","Pocitos","BFD4","PN3","muchos","L+<H*","BFD",30
+"41","MVF21","18-35","Female","Tertiary","Montevideo","Montevideo","Pocitos","BFD4","PN4","anos","!H*","BFD",30
+"42","MVF21","18-35","Female","Tertiary","Montevideo","Montevideo","Pocitos","BFD4","N","San","L* L%","BFD",30
+"43","MVF21","18-35","Female","Tertiary","Montevideo","Montevideo","Pocitos","NFD1","PN1","Senora","L+<H*","NFD",30
+"44","MVF21","18-35","Female","Tertiary","Montevideo","Montevideo","Pocitos","NFD1","PN2","no","L+H*","NFD",30
+"45","MVF21","18-35","Female","Tertiary","Montevideo","Montevideo","Pocitos","NFD1","PN3","quiero","L+¡H*","NFD",30
+"46","MVF21","18-35","Female","Tertiary","Montevideo","Montevideo","Pocitos","NFD1","PN4","limones","L* L-","NFD",30
+"47","MVF21","18-35","Female","Tertiary","Montevideo","Montevideo","Pocitos","NFD1","PN5","quiero","L+<H*","NFD",30
+"48","MVF21","18-35","Female","Tertiary","Montevideo","Montevideo","Pocitos","NFD1","N1","naranjas","L* L%","NFD",30
+"49","MVF21","18-35","Female","Tertiary","Montevideo","Montevideo","Pocitos","NFD2","PN1","Que","L+<H*","NFD",30
+"50","MVF21","18-35","Female","Tertiary","Montevideo","Montevideo","Pocitos","NFD2","PN2","rico","L+<¡H*","NFD",30
+"51","MVF21","18-35","Female","Tertiary","Montevideo","Montevideo","Pocitos","NFD2","PN3","olor","L+<H*","NFD",30
+"52","MVF21","18-35","Female","Tertiary","Montevideo","Montevideo","Pocitos","NFD2","N1","medialunas","L+H* L%","NFD",30
+"53","MVF21","18-35","Female","Tertiary","Montevideo","Montevideo","Pocitos","NFD3","PN1","No","L+H*+L L-","NFD",30
+"54","MVF21","18-35","Female","Tertiary","Montevideo","Montevideo","Pocitos","NFD3","PN2","se","L+<H*","NFD",30
+"55","MVF21","18-35","Female","Tertiary","Montevideo","Montevideo","Pocitos","NFD3","PN3","vivir","!H*","NFD",30
+"56","MVF21","18-35","Female","Tertiary","Montevideo","Montevideo","Pocitos","NFD3","N1","San","L* L%","NFD",30
+"57","MVF21","18-35","Female","Tertiary","Montevideo","Montevideo","Pocitos","NFD4","PN1","Es","L+H*","NFD",30
+"58","MVF21","18-35","Female","Tertiary","Montevideo","Montevideo","Pocitos","NFD4","PN2","possible","L+<H*","NFD",30
+"59","MVF21","18-35","Female","Tertiary","Montevideo","Montevideo","Pocitos","NFD4","PN3","No","deaccented","NFD",30
+"60","MVF21","18-35","Female","Tertiary","Montevideo","Montevideo","Pocitos","NFD4","PN4","le","deaccented","NFD",30
+"61","MVF21","18-35","Female","Tertiary","Montevideo","Montevideo","Pocitos","NFD4","N1","regalo","L* L%","NFD",30
+"62","MVF21","18-35","Female","Tertiary","Montevideo","Montevideo","Pocitos","NFD5","N1","con","L+H*+L L%","NFD",30
+"63","MVF21","18-35","Female","Tertiary","Montevideo","Montevideo","Pocitos","NFD6","PN1","Esta","L+<H*","NFD",30
+"64","MVF21","18-35","Female","Tertiary","Montevideo","Montevideo","Pocitos","NFD6","N1","buenisimo","L+!H* L%","NFD",30
+"65","MVF26","18-35","Female","Tertiary","Montevideo","Montevideo","Punta Carretas","BFD1","N","Mandarinas","L* L%","BFD",30
+"66","MVF26","18-35","Female","Tertiary","Montevideo","Montevideo","Punta Carretas","BFD2","PN1","Maria","L+<H*","BFD",30
+"67","MVF26","18-35","Female","Tertiary","Montevideo","Montevideo","Punta Carretas","BFD2","PN2","esta","H+L*","BFD",30
+"68","MVF26","18-35","Female","Tertiary","Montevideo","Montevideo","Punta Carretas","BFD2","PN3","comiendo","L+<H*","BFD",30
+"69","MVF26","18-35","Female","Tertiary","Montevideo","Montevideo","Punta Carretas","BFD2","N","mandarinas","L* L%","BFD",30
+"70","MVF26","18-35","Female","Tertiary","Montevideo","Montevideo","Punta Carretas","BFD4","PN1","Yo","L+<H*","BFD",30
+"71","MVF26","18-35","Female","Tertiary","Montevideo","Montevideo","Punta Carretas","BFD4","PN2","vivi","L+<H*","BFD",30
+"72","MVF26","18-35","Female","Tertiary","Montevideo","Montevideo","Punta Carretas","BFD4","PN3","muchos","L+<H*","BFD",30
+"73","MVF26","18-35","Female","Tertiary","Montevideo","Montevideo","Punta Carretas","BFD4","PN4","anos","L+<H*","BFD",30
+"74","MVF26","18-35","Female","Tertiary","Montevideo","Montevideo","Punta Carretas","BFD4","N","San","L* L%","BFD",30
+"75","MVF26","18-35","Female","Tertiary","Montevideo","Montevideo","Punta Carretas","NFD1","PN1","Senora","L+<H* L-","NFD",30
+"76","MVF26","18-35","Female","Tertiary","Montevideo","Montevideo","Punta Carretas","NFD1","PN2","no","L+H*","NFD",30
+"77","MVF26","18-35","Female","Tertiary","Montevideo","Montevideo","Punta Carretas","NFD1","PN3","quiero","L+<¡H*","NFD",30
+"78","MVF26","18-35","Female","Tertiary","Montevideo","Montevideo","Punta Carretas","NFD1","PN4","limones","!H* L-","NFD",30
+"79","MVF26","18-35","Female","Tertiary","Montevideo","Montevideo","Punta Carretas","NFD1","PN5","quiero","L+<H*","NFD",30
+"80","MVF26","18-35","Female","Tertiary","Montevideo","Montevideo","Punta Carretas","NFD1","N1","naranjas","L+H*+L L%","NFD",30
+"81","MVF26","18-35","Female","Tertiary","Montevideo","Montevideo","Punta Carretas","NFD2","PN1","Que","L+H*","NFD",30
+"82","MVF26","18-35","Female","Tertiary","Montevideo","Montevideo","Punta Carretas","NFD2","PN2","rico","L+H*","NFD",30
+"83","MVF26","18-35","Female","Tertiary","Montevideo","Montevideo","Punta Carretas","NFD2","PN3","olor","L+H*","NFD",30
+"84","MVF26","18-35","Female","Tertiary","Montevideo","Montevideo","Punta Carretas","NFD2","N1","medialunas","L+H* L% ","NFD",30
+"85","MVF26","18-35","Female","Tertiary","Montevideo","Montevideo","Punta Carretas","NFD3","PN1","No","L+H*+L L-","NFD",30
+"86","MVF26","18-35","Female","Tertiary","Montevideo","Montevideo","Punta Carretas","NFD3","PN2","se","L+<H*","NFD",30
+"87","MVF26","18-35","Female","Tertiary","Montevideo","Montevideo","Punta Carretas","NFD3","PN3","vivir","L+H*","NFD",30
+"88","MVF26","18-35","Female","Tertiary","Montevideo","Montevideo","Punta Carretas","NFD3","N1","San","L+H*+L L%","NFD",30
+"89","MVF26","18-35","Female","Tertiary","Montevideo","Montevideo","Punta Carretas","NFD4","PN1","Es","L+<H*","NFD",30
+"90","MVF26","18-35","Female","Tertiary","Montevideo","Montevideo","Punta Carretas","NFD4","PN2","possible","L+<H*","NFD",30
+"91","MVF26","18-35","Female","Tertiary","Montevideo","Montevideo","Punta Carretas","NFD4","PN3","No","L+H*","NFD",30
+"92","MVF26","18-35","Female","Tertiary","Montevideo","Montevideo","Punta Carretas","NFD4","PN4","le","L+¡H*","NFD",30
+"93","MVF26","18-35","Female","Tertiary","Montevideo","Montevideo","Punta Carretas","NFD4","N1","regalo","L* L%","NFD",30
+"94","MVF26","18-35","Female","Tertiary","Montevideo","Montevideo","Punta Carretas","NFD5","N1","con","L+H*+L L%","NFD",30
+"95","MVF26","18-35","Female","Tertiary","Montevideo","Montevideo","Punta Carretas","NFD6","PN1","Esta","L+H*","NFD",30
+"96","MVF26","18-35","Female","Tertiary","Montevideo","Montevideo","Punta Carretas","NFD6","N1","buenisimo","L+H* L%","NFD",30
+"97","MVF34","18-35","Female","Tertiary","Montevideo","Montevideo","Perez Castellano","BFD1","N","Mandarinas","L* L%","BFD",30
+"98","MVF34","18-35","Female","Tertiary","Montevideo","Montevideo","Perez Castellano","BFD2","PN1","Maria","L+<H*","BFD",30
+"99","MVF34","18-35","Female","Tertiary","Montevideo","Montevideo","Perez Castellano","BFD2","PN2","esta","¡H*","BFD",30
+"100","MVF34","18-35","Female","Tertiary","Montevideo","Montevideo","Perez Castellano","BFD2","PN3","comiendo","L+!H*","BFD",30
+"101","MVF34","18-35","Female","Tertiary","Montevideo","Montevideo","Perez Castellano","BFD2","N","mandarinas","L+¡H* L%","BFD",30
+"102","MVF34","18-35","Female","Tertiary","Montevideo","Montevideo","Perez Castellano","BFD4","PN1","Yo","L+<H*","BFD",30
+"103","MVF34","18-35","Female","Tertiary","Montevideo","Montevideo","Perez Castellano","BFD4","PN2","vivi","deaccented","BFD",30
+"104","MVF34","18-35","Female","Tertiary","Montevideo","Montevideo","Perez Castellano","BFD4","PN3","muchos","deaccented","BFD",30
+"105","MVF34","18-35","Female","Tertiary","Montevideo","Montevideo","Perez Castellano","BFD4","PN4","anos","L+¡H*","BFD",30
+"106","MVF34","18-35","Female","Tertiary","Montevideo","Montevideo","Perez Castellano","BFD4","N","San","L* L%","BFD",30
+"107","MVF34","18-35","Female","Tertiary","Montevideo","Montevideo","Perez Castellano","NFD1","PN1","Senora","L+H*+L","NFD",30
+"108","MVF34","18-35","Female","Tertiary","Montevideo","Montevideo","Perez Castellano","NFD1","PN2","no","L+H*","NFD",30
+"109","MVF34","18-35","Female","Tertiary","Montevideo","Montevideo","Perez Castellano","NFD1","PN3","quiero","L+¡H*","NFD",30
+"110","MVF34","18-35","Female","Tertiary","Montevideo","Montevideo","Perez Castellano","NFD1","PN4","limones","L* L-","NFD",30
+"111","MVF34","18-35","Female","Tertiary","Montevideo","Montevideo","Perez Castellano","NFD1","PN5","quiero","L+<H*","NFD",30
+"112","MVF34","18-35","Female","Tertiary","Montevideo","Montevideo","Perez Castellano","NFD1","N1","naranjas","L+H* L%","NFD",30
+"113","MVF34","18-35","Female","Tertiary","Montevideo","Montevideo","Perez Castellano","NFD2","PN1","Que","L+H*","NFD",30
+"114","MVF34","18-35","Female","Tertiary","Montevideo","Montevideo","Perez Castellano","NFD2","PN2","rico","L+H*","NFD",30
+"115","MVF34","18-35","Female","Tertiary","Montevideo","Montevideo","Perez Castellano","NFD2","PN3","olor","L+H*","NFD",30
+"116","MVF34","18-35","Female","Tertiary","Montevideo","Montevideo","Perez Castellano","NFD2","N1","medialunas","L+¡H*+L L%","NFD",30
+"117","MVF34","18-35","Female","Tertiary","Montevideo","Montevideo","Perez Castellano","NFD3","PN1","No","L+H*+L L-","NFD",30
+"118","MVF34","18-35","Female","Tertiary","Montevideo","Montevideo","Perez Castellano","NFD3","PN2","se","L+H*","NFD",30
+"119","MVF34","18-35","Female","Tertiary","Montevideo","Montevideo","Perez Castellano","NFD3","PN3","vivir","L+H*","NFD",30
+"120","MVF34","18-35","Female","Tertiary","Montevideo","Montevideo","Perez Castellano","NFD3","N1","San","H+L* L%","NFD",30
+"121","MVF34","18-35","Female","Tertiary","Montevideo","Montevideo","Perez Castellano","NFD4","PN1","Es","L+<H*","NFD",30
+"122","MVF34","18-35","Female","Tertiary","Montevideo","Montevideo","Perez Castellano","NFD4","PN2","possible","deaccented","NFD",30
+"123","MVF34","18-35","Female","Tertiary","Montevideo","Montevideo","Perez Castellano","NFD4","PN3","No","deaccented","NFD",30
+"124","MVF34","18-35","Female","Tertiary","Montevideo","Montevideo","Perez Castellano","NFD4","PN4","le","L+¡H*","NFD",30
+"125","MVF34","18-35","Female","Tertiary","Montevideo","Montevideo","Perez Castellano","NFD4","N1","regalo","L* L%","NFD",30
+"126","MVF34","18-35","Female","Tertiary","Montevideo","Montevideo","Perez Castellano","NFD5","N1","con","L+H*+L L%","NFD",30
+"127","MVF34","18-35","Female","Tertiary","Montevideo","Montevideo","Perez Castellano","NFD6","PN1","Esta","L+H*","NFD",30
+"128","MVF34","18-35","Female","Tertiary","Montevideo","Montevideo","Perez Castellano","NFD6","N1","buenisimo","L+¡H* L%","NFD",30
+"129","MVF36","36-59","Female","Tertiary","Montevideo","Montevideo","Cordon","BFD1","N","Mandarinas","L+H* L%","BFD",30
+"130","MVF36","36-59","Female","Tertiary","Montevideo","Montevideo","Cordon","BFD2","PN1","Maria","L+H* H-","BFD",30
+"131","MVF36","36-59","Female","Tertiary","Montevideo","Montevideo","Cordon","BFD2","PN2","esta","L*+H","BFD",30
+"132","MVF36","36-59","Female","Tertiary","Montevideo","Montevideo","Cordon","BFD2","PN3","comiendo","H+L*","BFD",30
+"133","MVF36","36-59","Female","Tertiary","Montevideo","Montevideo","Cordon","BFD2","N","mandarinas","L+H* L%","BFD",30
+"134","MVF36","36-59","Female","Tertiary","Montevideo","Montevideo","Cordon","BFD4","PN1","Yo","L+H* H-","BFD",30
+"135","MVF36","36-59","Female","Tertiary","Montevideo","Montevideo","Cordon","BFD4","PN2","vivi","L+<H*","BFD",30
+"136","MVF36","36-59","Female","Tertiary","Montevideo","Montevideo","Cordon","BFD4","PN3","muchos","H*","BFD",30
+"137","MVF36","36-59","Female","Tertiary","Montevideo","Montevideo","Cordon","BFD4","PN4","anos","H+L*","BFD",30
+"138","MVF36","36-59","Female","Tertiary","Montevideo","Montevideo","Cordon","BFD4","N","San","L* L%","BFD",30
+"139","MVF36","36-59","Female","Tertiary","Montevideo","Montevideo","Cordon","NFD1","PN1","Senora","L+<H* L-","NFD",30
+"140","MVF36","36-59","Female","Tertiary","Montevideo","Montevideo","Cordon","NFD1","PN2","no","L+H*","NFD",30
+"141","MVF36","36-59","Female","Tertiary","Montevideo","Montevideo","Cordon","NFD1","PN3","quiero","H*","NFD",30
+"142","MVF36","36-59","Female","Tertiary","Montevideo","Montevideo","Cordon","NFD1","PN4","limones","L* L-","NFD",30
+"143","MVF36","36-59","Female","Tertiary","Montevideo","Montevideo","Cordon","NFD1","PN5","quiero","L+<H*","NFD",30
+"144","MVF36","36-59","Female","Tertiary","Montevideo","Montevideo","Cordon","NFD1","N1","naranjas","L+H*+L L%","NFD",30
+"145","MVF36","36-59","Female","Tertiary","Montevideo","Montevideo","Cordon","NFD2","PN1","Que","L+H*","NFD",30
+"146","MVF36","36-59","Female","Tertiary","Montevideo","Montevideo","Cordon","NFD2","PN2","rico","¡H*","NFD",30
+"147","MVF36","36-59","Female","Tertiary","Montevideo","Montevideo","Cordon","NFD2","PN3","olor","L+H*","NFD",30
+"148","MVF36","36-59","Female","Tertiary","Montevideo","Montevideo","Cordon","NFD2","N1","medialunas","L+¡H* L%","NFD",30
+"149","MVF36","36-59","Female","Tertiary","Montevideo","Montevideo","Cordon","NFD3","PN1","No","L+H*+L L-","NFD",30
+"150","MVF36","36-59","Female","Tertiary","Montevideo","Montevideo","Cordon","NFD3","PN2","se","L+<H*","NFD",30
+"151","MVF36","36-59","Female","Tertiary","Montevideo","Montevideo","Cordon","NFD3","PN3","vivir","L+<H*","NFD",30
+"152","MVF36","36-59","Female","Tertiary","Montevideo","Montevideo","Cordon","NFD3","N1","San","L+H* L%","NFD",30
+"153","MVF36","36-59","Female","Tertiary","Montevideo","Montevideo","Cordon","NFD4","PN1","Es","L+<H*","NFD",30
+"154","MVF36","36-59","Female","Tertiary","Montevideo","Montevideo","Cordon","NFD4","PN2","possible","L+<H* L-","NFD",30
+"155","MVF36","36-59","Female","Tertiary","Montevideo","Montevideo","Cordon","NFD4","PN3","No","L+<H*","NFD",30
+"156","MVF36","36-59","Female","Tertiary","Montevideo","Montevideo","Cordon","NFD4","PN4","le","L+¡H*","NFD",30
+"157","MVF36","36-59","Female","Tertiary","Montevideo","Montevideo","Cordon","NFD4","N1","regalo","L* L%","NFD",30
+"158","MVF36","36-59","Female","Tertiary","Montevideo","Montevideo","Cordon","NFD5","N1","con","L+H*+L L%","NFD",30
+"159","MVF36","36-59","Female","Tertiary","Montevideo","Montevideo","Cordon","NFD6","PN1","Esta","L+<H*","NFD",30
+"160","MVF36","36-59","Female","Tertiary","Montevideo","Montevideo","Cordon","NFD6","N1","buenisimo","L+¡H*+L L%","NFD",30
+"161","MVF49","36-59","Female","Tertiary","Montevideo","Montevideo","Penarol","BFD1","N","Mandarinas","L* L%","BFD",30
+"162","MVF49","36-59","Female","Tertiary","Montevideo","Montevideo","Penarol","BFD2","PN1","Maria","L+<H*","BFD",30
+"163","MVF49","36-59","Female","Tertiary","Montevideo","Montevideo","Penarol","BFD2","PN2","esta","H*","BFD",30
+"164","MVF49","36-59","Female","Tertiary","Montevideo","Montevideo","Penarol","BFD2","PN3","comiendo","L*+¡H","BFD",30
+"165","MVF49","36-59","Female","Tertiary","Montevideo","Montevideo","Penarol","BFD2","N","mandarinas","L+H* L%","BFD",30
+"166","MVF49","36-59","Female","Tertiary","Montevideo","Montevideo","Penarol","BFD4","PN1","Yo","L+<H*","BFD",30
+"167","MVF49","36-59","Female","Tertiary","Montevideo","Montevideo","Penarol","BFD4","PN2","vivi","L+H*","BFD",30
+"168","MVF49","36-59","Female","Tertiary","Montevideo","Montevideo","Penarol","BFD4","PN3","muchos","L+<H*","BFD",30
+"169","MVF49","36-59","Female","Tertiary","Montevideo","Montevideo","Penarol","BFD4","PN4","anos","H+L*","BFD",30
+"170","MVF49","36-59","Female","Tertiary","Montevideo","Montevideo","Penarol","BFD4","N","San","L* L%","BFD",30
+"171","MVF49","36-59","Female","Tertiary","Montevideo","Montevideo","Penarol","NFD1","PN1","Senora","L+H* L-","NFD",30
+"172","MVF49","36-59","Female","Tertiary","Montevideo","Montevideo","Penarol","NFD1","PN2","no","L+H*","NFD",30
+"173","MVF49","36-59","Female","Tertiary","Montevideo","Montevideo","Penarol","NFD1","PN3","quiero","L+¡H*","NFD",30
+"174","MVF49","36-59","Female","Tertiary","Montevideo","Montevideo","Penarol","NFD1","PN4","limones","L+H* L-","NFD",30
+"175","MVF49","36-59","Female","Tertiary","Montevideo","Montevideo","Penarol","NFD1","PN5","quiero","L+<H*","NFD",30
+"176","MVF49","36-59","Female","Tertiary","Montevideo","Montevideo","Penarol","NFD1","N1","naranjas","L+H*+L L%","NFD",30
+"177","MVF49","36-59","Female","Tertiary","Montevideo","Montevideo","Penarol","NFD2","PN1","Que","H*","NFD",30
+"178","MVF49","36-59","Female","Tertiary","Montevideo","Montevideo","Penarol","NFD2","PN2","rico","L+H*","NFD",30
+"179","MVF49","36-59","Female","Tertiary","Montevideo","Montevideo","Penarol","NFD2","PN3","olor","L+H*","NFD",30
+"180","MVF49","36-59","Female","Tertiary","Montevideo","Montevideo","Penarol","NFD2","N1","medialunas","L+H* L%","NFD",30
+"181","MVF49","36-59","Female","Tertiary","Montevideo","Montevideo","Penarol","NFD3","PN1","No","L+H* L-","NFD",30
+"182","MVF49","36-59","Female","Tertiary","Montevideo","Montevideo","Penarol","NFD3","PN2","se","L+H*","NFD",30
+"183","MVF49","36-59","Female","Tertiary","Montevideo","Montevideo","Penarol","NFD3","PN3","vivir","L+H*","NFD",30
+"184","MVF49","36-59","Female","Tertiary","Montevideo","Montevideo","Penarol","NFD3","N1","San","L* L%","NFD",30
+"185","MVF49","36-59","Female","Tertiary","Montevideo","Montevideo","Penarol","NFD4","PN1","Es","deaccented","NFD",30
+"186","MVF49","36-59","Female","Tertiary","Montevideo","Montevideo","Penarol","NFD4","PN2","possible","L*+H","NFD",30
+"187","MVF49","36-59","Female","Tertiary","Montevideo","Montevideo","Penarol","NFD4","PN3","No","deaccented","NFD",30
+"188","MVF49","36-59","Female","Tertiary","Montevideo","Montevideo","Penarol","NFD4","PN4","le","L+¡H*","NFD",30
+"189","MVF49","36-59","Female","Tertiary","Montevideo","Montevideo","Penarol","NFD4","N1","regalo","L* L%","NFD",30
+"190","MVF49","36-59","Female","Tertiary","Montevideo","Montevideo","Penarol","NFD5","N1","con","L+H*+L L%","NFD",30
+"191","MVF49","36-59","Female","Tertiary","Montevideo","Montevideo","Penarol","NFD6","PN1","Esta","H+L*","NFD",30
+"192","MVF49","36-59","Female","Tertiary","Montevideo","Montevideo","Penarol","NFD6","N1","buenisimo","L+!H*+L L%","NFD",30
+"193","MVF50","36-59","Female","Secondary","Montevideo","Montevideo","Villa Teresa","BFD1","N","Mandarinas","L* L%","BFD",30
+"194","MVF50","36-59","Female","Secondary","Montevideo","Montevideo","Villa Teresa","BFD2","PN1","Maria","L+<H*","BFD",30
+"195","MVF50","36-59","Female","Secondary","Montevideo","Montevideo","Villa Teresa","BFD2","PN2","esta","L*+H","BFD",30
+"196","MVF50","36-59","Female","Secondary","Montevideo","Montevideo","Villa Teresa","BFD2","PN3","comiendo","L+H*","BFD",30
+"197","MVF50","36-59","Female","Secondary","Montevideo","Montevideo","Villa Teresa","BFD2","N","mandarinas","L* L%","BFD",30
+"198","MVF50","36-59","Female","Secondary","Montevideo","Montevideo","Villa Teresa","BFD4","PN1","Yo","H*","BFD",30
+"199","MVF50","36-59","Female","Secondary","Montevideo","Montevideo","Villa Teresa","BFD4","PN2","vivi","!H*","BFD",30
+"200","MVF50","36-59","Female","Secondary","Montevideo","Montevideo","Villa Teresa","BFD4","PN3","muchos","L+H*","BFD",30
+"201","MVF50","36-59","Female","Secondary","Montevideo","Montevideo","Villa Teresa","BFD4","PN4","anos","H+L*","BFD",30
+"202","MVF50","36-59","Female","Secondary","Montevideo","Montevideo","Villa Teresa","BFD4","N","San","L* L%","BFD",30
+"203","MVF50","36-59","Female","Secondary","Montevideo","Montevideo","Villa Teresa","NFD1","PN1","Senora","L+H* L-","NFD",30
+"204","MVF50","36-59","Female","Secondary","Montevideo","Montevideo","Villa Teresa","NFD1","PN2","no","L+H*","NFD",30
+"205","MVF50","36-59","Female","Secondary","Montevideo","Montevideo","Villa Teresa","NFD1","PN3","quiero","H+L*","NFD",30
+"206","MVF50","36-59","Female","Secondary","Montevideo","Montevideo","Villa Teresa","NFD1","PN4","limones","L* L-","NFD",30
+"207","MVF50","36-59","Female","Secondary","Montevideo","Montevideo","Villa Teresa","NFD1","PN5","quiero","L*+H","NFD",30
+"208","MVF50","36-59","Female","Secondary","Montevideo","Montevideo","Villa Teresa","NFD1","N1","naranjas","H+L* L%","NFD",30
+"209","MVF50","36-59","Female","Secondary","Montevideo","Montevideo","Villa Teresa","NFD2","PN1","Que","L+H*","NFD",30
+"210","MVF50","36-59","Female","Secondary","Montevideo","Montevideo","Villa Teresa","NFD2","PN2","rico","L+H*","NFD",30
+"211","MVF50","36-59","Female","Secondary","Montevideo","Montevideo","Villa Teresa","NFD2","PN3","olor","L+H*+L","NFD",30
+"212","MVF50","36-59","Female","Secondary","Montevideo","Montevideo","Villa Teresa","NFD2","N1","medialunas","L+H*+L L%","NFD",30
+"213","MVF50","36-59","Female","Secondary","Montevideo","Montevideo","Villa Teresa","NFD3","PN1","No","L+H*+L L-","NFD",30
+"214","MVF50","36-59","Female","Secondary","Montevideo","Montevideo","Villa Teresa","NFD3","PN2","se","L+<H*","NFD",30
+"215","MVF50","36-59","Female","Secondary","Montevideo","Montevideo","Villa Teresa","NFD3","PN3","vivir","L+<H*","NFD",30
+"216","MVF50","36-59","Female","Secondary","Montevideo","Montevideo","Villa Teresa","NFD3","N1","San","L  L%","NFD",30
+"217","MVF50","36-59","Female","Secondary","Montevideo","Montevideo","Villa Teresa","NFD4","PN1","Es","L+H*","NFD",30
+"218","MVF50","36-59","Female","Secondary","Montevideo","Montevideo","Villa Teresa","NFD4","PN2","possible","L+¡H*","NFD",30
+"219","MVF50","36-59","Female","Secondary","Montevideo","Montevideo","Villa Teresa","NFD4","PN3","No","L+!H*","NFD",30
+"220","MVF50","36-59","Female","Secondary","Montevideo","Montevideo","Villa Teresa","NFD4","PN4","le","L+!H*","NFD",30
+"221","MVF50","36-59","Female","Secondary","Montevideo","Montevideo","Villa Teresa","NFD4","N1","regalo","L* L%","NFD",30
+"222","MVF50","36-59","Female","Secondary","Montevideo","Montevideo","Villa Teresa","NFD5","N1","con","L+H*+L L%","NFD",30
+"223","MVF50","36-59","Female","Secondary","Montevideo","Montevideo","Villa Teresa","NFD6","PN1","Esta","L+H*","NFD",30
+"224","MVF50","36-59","Female","Secondary","Montevideo","Montevideo","Villa Teresa","NFD6","N1","buenisimo","L+H* L%","NFD",30
+"225","MVF55","36-59","Female","Tertiary","Montevideo","Montevideo","La Blanqueada","BFD1","N","Mandarinas","L+H* L%","BFD",30
+"226","MVF55","36-59","Female","Tertiary","Montevideo","Montevideo","La Blanqueada","BFD2","PN1","Maria","L+<H*","BFD",30
+"227","MVF55","36-59","Female","Tertiary","Montevideo","Montevideo","La Blanqueada","BFD2","PN2","esta","¡H*","BFD",30
+"228","MVF55","36-59","Female","Tertiary","Montevideo","Montevideo","La Blanqueada","BFD2","PN3","comiendo","H+L*","BFD",30
+"229","MVF55","36-59","Female","Tertiary","Montevideo","Montevideo","La Blanqueada","BFD2","N","mandarinas","L+H* L%","BFD",30
+"230","MVF55","36-59","Female","Tertiary","Montevideo","Montevideo","La Blanqueada","BFD4","PN1","Yo","L+<H*","BFD",30
+"231","MVF55","36-59","Female","Tertiary","Montevideo","Montevideo","La Blanqueada","BFD4","PN2","vivi","H+L*","BFD",30
+"232","MVF55","36-59","Female","Tertiary","Montevideo","Montevideo","La Blanqueada","BFD4","PN3","muchos","L+H*","BFD",30
+"233","MVF55","36-59","Female","Tertiary","Montevideo","Montevideo","La Blanqueada","BFD4","PN4","anos","L+¡H*","BFD",30
+"234","MVF55","36-59","Female","Tertiary","Montevideo","Montevideo","La Blanqueada","BFD4","N","San","L* L%","BFD",30
+"235","MVF55","36-59","Female","Tertiary","Montevideo","Montevideo","La Blanqueada","NFD1","PN1","Senora","L+H* L-","NFD",30
+"236","MVF55","36-59","Female","Tertiary","Montevideo","Montevideo","La Blanqueada","NFD1","PN2","no","L+H*","NFD",30
+"237","MVF55","36-59","Female","Tertiary","Montevideo","Montevideo","La Blanqueada","NFD1","PN3","quiero","L+¡H*","NFD",30
+"238","MVF55","36-59","Female","Tertiary","Montevideo","Montevideo","La Blanqueada","NFD1","PN4","limones","L* L-","NFD",30
+"239","MVF55","36-59","Female","Tertiary","Montevideo","Montevideo","La Blanqueada","NFD1","PN5","quiero","L+<H*","NFD",30
+"240","MVF55","36-59","Female","Tertiary","Montevideo","Montevideo","La Blanqueada","NFD1","N1","naranjas","L+!H*+L L%","NFD",30
+"241","MVF55","36-59","Female","Tertiary","Montevideo","Montevideo","La Blanqueada","NFD2","PN1","Que","H+L*","NFD",30
+"242","MVF55","36-59","Female","Tertiary","Montevideo","Montevideo","La Blanqueada","NFD2","PN2","rico","L+H*","NFD",30
+"243","MVF55","36-59","Female","Tertiary","Montevideo","Montevideo","La Blanqueada","NFD2","PN3","olor","L+H*","NFD",30
+"244","MVF55","36-59","Female","Tertiary","Montevideo","Montevideo","La Blanqueada","NFD2","N1","medialunas","L+¡H*+L L%","NFD",30
+"245","MVF55","36-59","Female","Tertiary","Montevideo","Montevideo","La Blanqueada","NFD3","PN1","No","L+H* L-","NFD",30
+"246","MVF55","36-59","Female","Tertiary","Montevideo","Montevideo","La Blanqueada","NFD3","PN2","se","L+<H*","NFD",30
+"247","MVF55","36-59","Female","Tertiary","Montevideo","Montevideo","La Blanqueada","NFD3","PN3","vivir","L+<H*","NFD",30
+"248","MVF55","36-59","Female","Tertiary","Montevideo","Montevideo","La Blanqueada","NFD3","N1","San","L+H* L%","NFD",30
+"249","MVF55","36-59","Female","Tertiary","Montevideo","Montevideo","La Blanqueada","NFD4","PN1","Es","L+H*","NFD",30
+"250","MVF55","36-59","Female","Tertiary","Montevideo","Montevideo","La Blanqueada","NFD4","PN2","possible","L+<H*","NFD",30
+"251","MVF55","36-59","Female","Tertiary","Montevideo","Montevideo","La Blanqueada","NFD4","PN3","No","L+<H*","NFD",30
+"252","MVF55","36-59","Female","Tertiary","Montevideo","Montevideo","La Blanqueada","NFD4","PN4","le","L+¡H*","NFD",30
+"253","MVF55","36-59","Female","Tertiary","Montevideo","Montevideo","La Blanqueada","NFD4","N1","regalo","L* L%","NFD",30
+"254","MVF55","36-59","Female","Tertiary","Montevideo","Montevideo","La Blanqueada","NFD5","N1","con","L+H* !H%","NFD",30
+"255","MVF55","36-59","Female","Tertiary","Montevideo","Montevideo","La Blanqueada","NFD6","PN1","Esta","L+H*","NFD",30
+"256","MVF55","36-59","Female","Tertiary","Montevideo","Montevideo","La Blanqueada","NFD6","N1","buenisimo","L+¡H* L%","NFD",30
+"257","MVF58-2","36-59","Female","Tertiary","Montevideo","Montevideo","La Comercial","BFD1","N","Mandarinas","L+H* L%","BFD",30
+"258","MVF58-2","36-59","Female","Tertiary","Montevideo","Montevideo","La Comercial","BFD2","PN1","Maria","L+<H*","BFD",30
+"259","MVF58-2","36-59","Female","Tertiary","Montevideo","Montevideo","La Comercial","BFD2","PN2","esta","deaccented","BFD",30
+"260","MVF58-2","36-59","Female","Tertiary","Montevideo","Montevideo","La Comercial","BFD2","PN3","comiendo","deaccented","BFD",30
+"261","MVF58-2","36-59","Female","Tertiary","Montevideo","Montevideo","La Comercial","BFD2","N","mandarinas","L* L%","BFD",30
+"262","MVF58-2","36-59","Female","Tertiary","Montevideo","Montevideo","La Comercial","BFD4","PN1","Yo","L+<H*","BFD",30
+"263","MVF58-2","36-59","Female","Tertiary","Montevideo","Montevideo","La Comercial","BFD4","PN2","vivi","¡H*","BFD",30
+"264","MVF58-2","36-59","Female","Tertiary","Montevideo","Montevideo","La Comercial","BFD4","PN3","muchos","deaccented","BFD",30
+"265","MVF58-2","36-59","Female","Tertiary","Montevideo","Montevideo","La Comercial","BFD4","PN4","anos","L+¡H*","BFD",30
+"266","MVF58-2","36-59","Female","Tertiary","Montevideo","Montevideo","La Comercial","BFD4","N","San","L* L%","BFD",30
+"267","MVF58-2","36-59","Female","Tertiary","Montevideo","Montevideo","La Comercial","NFD1","PN1","Senora","L+H*","NFD",30
+"268","MVF58-2","36-59","Female","Tertiary","Montevideo","Montevideo","La Comercial","NFD1","PN2","no","L+H*","NFD",30
+"269","MVF58-2","36-59","Female","Tertiary","Montevideo","Montevideo","La Comercial","NFD1","PN3","quiero","¡H+L*","NFD",30
+"270","MVF58-2","36-59","Female","Tertiary","Montevideo","Montevideo","La Comercial","NFD1","PN4","limones","L* L-","NFD",30
+"271","MVF58-2","36-59","Female","Tertiary","Montevideo","Montevideo","La Comercial","NFD1","PN5","quiero","L+<H*","NFD",30
+"272","MVF58-2","36-59","Female","Tertiary","Montevideo","Montevideo","La Comercial","NFD1","N1","naranjas","L+H*+L L%","NFD",30
+"273","MVF58-2","36-59","Female","Tertiary","Montevideo","Montevideo","La Comercial","NFD2","PN1","Que","H*","NFD",30
+"274","MVF58-2","36-59","Female","Tertiary","Montevideo","Montevideo","La Comercial","NFD2","PN2","rico","L+¡H*","NFD",30
+"275","MVF58-2","36-59","Female","Tertiary","Montevideo","Montevideo","La Comercial","NFD2","PN3","olor","L+H*","NFD",30
+"276","MVF58-2","36-59","Female","Tertiary","Montevideo","Montevideo","La Comercial","NFD2","N1","medialunas","L+¡H* L%","NFD",30
+"277","MVF58-2","36-59","Female","Tertiary","Montevideo","Montevideo","La Comercial","NFD3","PN1","No","L+H*+L L-","NFD",30
+"278","MVF58-2","36-59","Female","Tertiary","Montevideo","Montevideo","La Comercial","NFD3","PN2","se","L+<H*","NFD",30
+"279","MVF58-2","36-59","Female","Tertiary","Montevideo","Montevideo","La Comercial","NFD3","PN3","vivir","L+<H*","NFD",30
+"280","MVF58-2","36-59","Female","Tertiary","Montevideo","Montevideo","La Comercial","NFD3","N1","San","H+L* L%","NFD",30
+"281","MVF58-2","36-59","Female","Tertiary","Montevideo","Montevideo","La Comercial","NFD4","PN1","Es","H*","NFD",30
+"282","MVF58-2","36-59","Female","Tertiary","Montevideo","Montevideo","La Comercial","NFD4","PN2","possible","L*+¡H","NFD",30
+"283","MVF58-2","36-59","Female","Tertiary","Montevideo","Montevideo","La Comercial","NFD4","PN3","No","deaccented","NFD",30
+"284","MVF58-2","36-59","Female","Tertiary","Montevideo","Montevideo","La Comercial","NFD4","PN4","le","deaccented","NFD",30
+"285","MVF58-2","36-59","Female","Tertiary","Montevideo","Montevideo","La Comercial","NFD4","N1","regalo","L+!H*+L L%","NFD",30
+"286","MVF58-2","36-59","Female","Tertiary","Montevideo","Montevideo","La Comercial","NFD5","N1","con","L+H*+L L%","NFD",30
+"287","MVF58-2","36-59","Female","Tertiary","Montevideo","Montevideo","La Comercial","NFD6","PN1","Esta","L+H*","NFD",30
+"288","MVF58-2","36-59","Female","Tertiary","Montevideo","Montevideo","La Comercial","NFD6","N1","buenisimo","L+¡H* L%","NFD",30
+"289","MVF59","36-59","Female","Tertiary","Montevideo","Montevideo","Atahualpa","BFD1","N","Mandarinas","L+H* L%","BFD",30
+"290","MVF59","36-59","Female","Tertiary","Montevideo","Montevideo","Atahualpa","BFD2","PN1","Maria","L+<H*","BFD",30
+"291","MVF59","36-59","Female","Tertiary","Montevideo","Montevideo","Atahualpa","BFD2","PN2","esta","L+H*","BFD",30
+"292","MVF59","36-59","Female","Tertiary","Montevideo","Montevideo","Atahualpa","BFD2","PN3","comiendo","L+<H*","BFD",30
+"293","MVF59","36-59","Female","Tertiary","Montevideo","Montevideo","Atahualpa","BFD2","N","mandarinas","L* L%","BFD",30
+"294","MVF59","36-59","Female","Tertiary","Montevideo","Montevideo","Atahualpa","BFD4","PN1","Yo","L+<H*","BFD",30
+"295","MVF59","36-59","Female","Tertiary","Montevideo","Montevideo","Atahualpa","BFD4","PN2","vivi","L+H*","BFD",30
+"296","MVF59","36-59","Female","Tertiary","Montevideo","Montevideo","Atahualpa","BFD4","PN3","muchos","H*","BFD",30
+"297","MVF59","36-59","Female","Tertiary","Montevideo","Montevideo","Atahualpa","BFD4","PN4","anos","L+<H*","BFD",30
+"298","MVF59","36-59","Female","Tertiary","Montevideo","Montevideo","Atahualpa","BFD4","N","San","L* L%","BFD",30
+"299","MVF59","36-59","Female","Tertiary","Montevideo","Montevideo","Atahualpa","NFD1","PN1","Senora","L+H*","NFD",30
+"300","MVF59","36-59","Female","Tertiary","Montevideo","Montevideo","Atahualpa","NFD1","PN2","no","L+¡H*","NFD",30
+"301","MVF59","36-59","Female","Tertiary","Montevideo","Montevideo","Atahualpa","NFD1","PN3","quiero","H+L*","NFD",30
+"302","MVF59","36-59","Female","Tertiary","Montevideo","Montevideo","Atahualpa","NFD1","PN4","limones","L* L-","NFD",30
+"303","MVF59","36-59","Female","Tertiary","Montevideo","Montevideo","Atahualpa","NFD1","PN5","quiero","L+<H*","NFD",30
+"304","MVF59","36-59","Female","Tertiary","Montevideo","Montevideo","Atahualpa","NFD1","N1","naranjas","L+H*+L L%","NFD",30
+"305","MVF59","36-59","Female","Tertiary","Montevideo","Montevideo","Atahualpa","NFD2","PN1","Que","H+L*","NFD",30
+"306","MVF59","36-59","Female","Tertiary","Montevideo","Montevideo","Atahualpa","NFD2","PN2","rico","L+H*","NFD",30
+"307","MVF59","36-59","Female","Tertiary","Montevideo","Montevideo","Atahualpa","NFD2","PN3","olor","L+H*","NFD",30
+"308","MVF59","36-59","Female","Tertiary","Montevideo","Montevideo","Atahualpa","NFD2","N1","medialunas","L* L%","NFD",30
+"309","MVF59","36-59","Female","Tertiary","Montevideo","Montevideo","Atahualpa","NFD3","PN1","No","L+H*+L L-","NFD",30
+"310","MVF59","36-59","Female","Tertiary","Montevideo","Montevideo","Atahualpa","NFD3","PN2","se","L+<H*","NFD",30
+"311","MVF59","36-59","Female","Tertiary","Montevideo","Montevideo","Atahualpa","NFD3","PN3","vivir","L+H*","NFD",30
+"312","MVF59","36-59","Female","Tertiary","Montevideo","Montevideo","Atahualpa","NFD3","N1","San","L+H* L%","NFD",30
+"313","MVF59","36-59","Female","Tertiary","Montevideo","Montevideo","Atahualpa","NFD4","PN1","Es","H*","NFD",30
+"314","MVF59","36-59","Female","Tertiary","Montevideo","Montevideo","Atahualpa","NFD4","PN2","possible","L*+¡H","NFD",30
+"315","MVF59","36-59","Female","Tertiary","Montevideo","Montevideo","Atahualpa","NFD4","PN3","No","deaccented","NFD",30
+"316","MVF59","36-59","Female","Tertiary","Montevideo","Montevideo","Atahualpa","NFD4","PN4","le","L+¡H*","NFD",30
+"317","MVF59","36-59","Female","Tertiary","Montevideo","Montevideo","Atahualpa","NFD4","N1","regalo","L* L%","NFD",30
+"318","MVF59","36-59","Female","Tertiary","Montevideo","Montevideo","Atahualpa","NFD5","N1","con","L+H* !H%","NFD",30
+"319","MVF59","36-59","Female","Tertiary","Montevideo","Montevideo","Atahualpa","NFD6","PN1","Esta","L+H*","NFD",30
+"320","MVF59","36-59","Female","Tertiary","Montevideo","Montevideo","Atahualpa","NFD6","N1","buenisimo","L+H* L%","NFD",30
+"321","MVF63","60+","Female","Tertiary","Montevideo","Montevideo","Tres Cruces/Cordon","BFD1","N","Mandarinas","L* L%","BFD",30
+"322","MVF63","60+","Female","Tertiary","Montevideo","Montevideo","Tres Cruces/Cordon","BFD2","PN1","Maria","L+<H* H-","BFD",30
+"323","MVF63","60+","Female","Tertiary","Montevideo","Montevideo","Tres Cruces/Cordon","BFD2","PN2","esta","H*","BFD",30
+"324","MVF63","60+","Female","Tertiary","Montevideo","Montevideo","Tres Cruces/Cordon","BFD2","PN3","comiendo","L*+¡H","BFD",30
+"325","MVF63","60+","Female","Tertiary","Montevideo","Montevideo","Tres Cruces/Cordon","BFD2","N","mandarinas","L+H*+L L%","BFD",30
+"326","MVF63","60+","Female","Tertiary","Montevideo","Montevideo","Tres Cruces/Cordon","BFD4","PN1","Yo",NA,"BFD",30
+"327","MVF63","60+","Female","Tertiary","Montevideo","Montevideo","Tres Cruces/Cordon","BFD4","PN2","vivi",NA,"BFD",30
+"328","MVF63","60+","Female","Tertiary","Montevideo","Montevideo","Tres Cruces/Cordon","BFD4","PN3","muchos",NA,"BFD",30
+"329","MVF63","60+","Female","Tertiary","Montevideo","Montevideo","Tres Cruces/Cordon","BFD4","PN4","anos",NA,"BFD",30
+"330","MVF63","60+","Female","Tertiary","Montevideo","Montevideo","Tres Cruces/Cordon","BFD4","N","San",NA,"BFD",30
+"331","MVF63","60+","Female","Tertiary","Montevideo","Montevideo","Tres Cruces/Cordon","NFD1","PN1","Senora","L+H*+L L-","NFD",30
+"332","MVF63","60+","Female","Tertiary","Montevideo","Montevideo","Tres Cruces/Cordon","NFD1","PN2","no","L+H*","NFD",30
+"333","MVF63","60+","Female","Tertiary","Montevideo","Montevideo","Tres Cruces/Cordon","NFD1","PN3","quiero","¡H+L*","NFD",30
+"334","MVF63","60+","Female","Tertiary","Montevideo","Montevideo","Tres Cruces/Cordon","NFD1","PN4","limones","L* L-","NFD",30
+"335","MVF63","60+","Female","Tertiary","Montevideo","Montevideo","Tres Cruces/Cordon","NFD1","PN5","quiero","L+<H*","NFD",30
+"336","MVF63","60+","Female","Tertiary","Montevideo","Montevideo","Tres Cruces/Cordon","NFD1","N1","naranjas","L+H* L%","NFD",30
+"337","MVF63","60+","Female","Tertiary","Montevideo","Montevideo","Tres Cruces/Cordon","NFD2","PN1","Que","H*","NFD",30
+"338","MVF63","60+","Female","Tertiary","Montevideo","Montevideo","Tres Cruces/Cordon","NFD2","PN2","rico","L+¡H*","NFD",30
+"339","MVF63","60+","Female","Tertiary","Montevideo","Montevideo","Tres Cruces/Cordon","NFD2","PN3","olor","L+H*","NFD",30
+"340","MVF63","60+","Female","Tertiary","Montevideo","Montevideo","Tres Cruces/Cordon","NFD2","N1","medialunas","L+¡H* L%","NFD",30
+"341","MVF63","60+","Female","Tertiary","Montevideo","Montevideo","Tres Cruces/Cordon","NFD3","PN1","No","L+H*+L (x2) L-","NFD",30
+"342","MVF63","60+","Female","Tertiary","Montevideo","Montevideo","Tres Cruces/Cordon","NFD3","PN2","se","L+H*","NFD",30
+"343","MVF63","60+","Female","Tertiary","Montevideo","Montevideo","Tres Cruces/Cordon","NFD3","PN3","vivir","L+H*","NFD",30
+"344","MVF63","60+","Female","Tertiary","Montevideo","Montevideo","Tres Cruces/Cordon","NFD3","N1","San","L+H*+L L%","NFD",30
+"345","MVF63","60+","Female","Tertiary","Montevideo","Montevideo","Tres Cruces/Cordon","NFD4","PN1","Es","H*","NFD",30
+"346","MVF63","60+","Female","Tertiary","Montevideo","Montevideo","Tres Cruces/Cordon","NFD4","PN2","possible","¡H+L*","NFD",30
+"347","MVF63","60+","Female","Tertiary","Montevideo","Montevideo","Tres Cruces/Cordon","NFD4","PN3","No","L+H*","NFD",30
+"348","MVF63","60+","Female","Tertiary","Montevideo","Montevideo","Tres Cruces/Cordon","NFD4","PN4","le","L+H*","NFD",30
+"349","MVF63","60+","Female","Tertiary","Montevideo","Montevideo","Tres Cruces/Cordon","NFD4","N1","regalo","L* L%","NFD",30
+"350","MVF63","60+","Female","Tertiary","Montevideo","Montevideo","Tres Cruces/Cordon","NFD5","N1","con","L+H*+L L%","NFD",30
+"351","MVF63","60+","Female","Tertiary","Montevideo","Montevideo","Tres Cruces/Cordon","NFD6","PN1","Esta","L+H*","NFD",30
+"352","MVF63","60+","Female","Tertiary","Montevideo","Montevideo","Tres Cruces/Cordon","NFD6","N1","buenisimo","L+¡H* L%","NFD",30
+"353","MVF64","60+","Female","Tertiary","Montevideo","Montevideo","La Blanqueada","BFD1","N","Mandarinas","L* L%","BFD",30
+"354","MVF64","60+","Female","Tertiary","Montevideo","Montevideo","La Blanqueada","BFD2","PN1","Maria","L+<H*","BFD",30
+"355","MVF64","60+","Female","Tertiary","Montevideo","Montevideo","La Blanqueada","BFD2","PN2","esta","deaccented","BFD",30
+"356","MVF64","60+","Female","Tertiary","Montevideo","Montevideo","La Blanqueada","BFD2","PN3","comiendo","deaccented","BFD",30
+"357","MVF64","60+","Female","Tertiary","Montevideo","Montevideo","La Blanqueada","BFD2","N","mandarinas","L+H* L%","BFD",30
+"358","MVF64","60+","Female","Tertiary","Montevideo","Montevideo","La Blanqueada","BFD4","PN1","Yo","L*+H","BFD",30
+"359","MVF64","60+","Female","Tertiary","Montevideo","Montevideo","La Blanqueada","BFD4","PN2","vivi","H*","BFD",30
+"360","MVF64","60+","Female","Tertiary","Montevideo","Montevideo","La Blanqueada","BFD4","PN3","muchos","H*","BFD",30
+"361","MVF64","60+","Female","Tertiary","Montevideo","Montevideo","La Blanqueada","BFD4","PN4","anos","L+H*","BFD",30
+"362","MVF64","60+","Female","Tertiary","Montevideo","Montevideo","La Blanqueada","BFD4","N","San","L* L%","BFD",30
+"363","MVF64","60+","Female","Tertiary","Montevideo","Montevideo","La Blanqueada","NFD1","PN1","Senora","L+<H*","NFD",30
+"364","MVF64","60+","Female","Tertiary","Montevideo","Montevideo","La Blanqueada","NFD1","PN2","no","L+H*","NFD",30
+"365","MVF64","60+","Female","Tertiary","Montevideo","Montevideo","La Blanqueada","NFD1","PN3","quiero","!H+L*","NFD",30
+"366","MVF64","60+","Female","Tertiary","Montevideo","Montevideo","La Blanqueada","NFD1","PN4","limones","L* L-","NFD",30
+"367","MVF64","60+","Female","Tertiary","Montevideo","Montevideo","La Blanqueada","NFD1","PN5","quiero","L*+H","NFD",30
+"368","MVF64","60+","Female","Tertiary","Montevideo","Montevideo","La Blanqueada","NFD1","N1","naranjas","L* L%","NFD",30
+"369","MVF64","60+","Female","Tertiary","Montevideo","Montevideo","La Blanqueada","NFD2","PN1","Que","H*","NFD",30
+"370","MVF64","60+","Female","Tertiary","Montevideo","Montevideo","La Blanqueada","NFD2","PN2","rico","L+¡H*","NFD",30
+"371","MVF64","60+","Female","Tertiary","Montevideo","Montevideo","La Blanqueada","NFD2","PN3","olor","L+H*","NFD",30
+"372","MVF64","60+","Female","Tertiary","Montevideo","Montevideo","La Blanqueada","NFD2","N1","medialunas","L+¡H*+L L%","NFD",30
+"373","MVF64","60+","Female","Tertiary","Montevideo","Montevideo","La Blanqueada","NFD3","PN1","No","L+H* L-","NFD",30
+"374","MVF64","60+","Female","Tertiary","Montevideo","Montevideo","La Blanqueada","NFD3","PN2","se","L+H*","NFD",30
+"375","MVF64","60+","Female","Tertiary","Montevideo","Montevideo","La Blanqueada","NFD3","PN3","vivir","L+H*","NFD",30
+"376","MVF64","60+","Female","Tertiary","Montevideo","Montevideo","La Blanqueada","NFD3","N1","San","L* L%","NFD",30
+"377","MVF64","60+","Female","Tertiary","Montevideo","Montevideo","La Blanqueada","NFD4","PN1","Es","H*","NFD",30
+"378","MVF64","60+","Female","Tertiary","Montevideo","Montevideo","La Blanqueada","NFD4","PN2","possible","L*+¡H","NFD",30
+"379","MVF64","60+","Female","Tertiary","Montevideo","Montevideo","La Blanqueada","NFD4","PN3","No","L+<H*","NFD",30
+"380","MVF64","60+","Female","Tertiary","Montevideo","Montevideo","La Blanqueada","NFD4","PN4","le","L+¡H*","NFD",30
+"381","MVF64","60+","Female","Tertiary","Montevideo","Montevideo","La Blanqueada","NFD4","N1","regalo","L* L%","NFD",30
+"382","MVF64","60+","Female","Tertiary","Montevideo","Montevideo","La Blanqueada","NFD5","N1","con","L+H* L%","NFD",30
+"383","MVF64","60+","Female","Tertiary","Montevideo","Montevideo","La Blanqueada","NFD6","PN1","Esta","L*+H","NFD",30
+"384","MVF64","60+","Female","Tertiary","Montevideo","Montevideo","La Blanqueada","NFD6","N1","buenisimo","L+H* L%","NFD",30
+"385","MVF76","60+","Female","Tertiary","Montevideo","Montevideo","Punta Gorda/Carrasco","BFD1","N","Mandarinas","L+H* L%","BFD",30
+"386","MVF76","60+","Female","Tertiary","Montevideo","Montevideo","Punta Gorda/Carrasco","BFD2","PN1","Maria","L+<H*","BFD",30
+"387","MVF76","60+","Female","Tertiary","Montevideo","Montevideo","Punta Gorda/Carrasco","BFD2","PN2","esta","L+H*","BFD",30
+"388","MVF76","60+","Female","Tertiary","Montevideo","Montevideo","Punta Gorda/Carrasco","BFD2","PN3","comiendo","deaccented","BFD",30
+"389","MVF76","60+","Female","Tertiary","Montevideo","Montevideo","Punta Gorda/Carrasco","BFD2","N","mandarinas","L+H* L%","BFD",30
+"390","MVF76","60+","Female","Tertiary","Montevideo","Montevideo","Punta Gorda/Carrasco","BFD4","PN1","Yo","L+<H*","BFD",30
+"391","MVF76","60+","Female","Tertiary","Montevideo","Montevideo","Punta Gorda/Carrasco","BFD4","PN2","vivi","deaccented","BFD",30
+"392","MVF76","60+","Female","Tertiary","Montevideo","Montevideo","Punta Gorda/Carrasco","BFD4","PN3","muchos","L+H*","BFD",30
+"393","MVF76","60+","Female","Tertiary","Montevideo","Montevideo","Punta Gorda/Carrasco","BFD4","PN4","anos","L+H*","BFD",30
+"394","MVF76","60+","Female","Tertiary","Montevideo","Montevideo","Punta Gorda/Carrasco","BFD4","N","San","L* L%","BFD",30
+"395","MVF76","60+","Female","Tertiary","Montevideo","Montevideo","Punta Gorda/Carrasco","NFD1","PN1","Senora","L+H*+L","NFD",30
+"396","MVF76","60+","Female","Tertiary","Montevideo","Montevideo","Punta Gorda/Carrasco","NFD1","PN2","no","L+H*","NFD",30
+"397","MVF76","60+","Female","Tertiary","Montevideo","Montevideo","Punta Gorda/Carrasco","NFD1","PN3","quiero","L+¡H*+L","NFD",30
+"398","MVF76","60+","Female","Tertiary","Montevideo","Montevideo","Punta Gorda/Carrasco","NFD1","PN4","limones","L* L-","NFD",30
+"399","MVF76","60+","Female","Tertiary","Montevideo","Montevideo","Punta Gorda/Carrasco","NFD1","PN5","quiero","L+<H*","NFD",30
+"400","MVF76","60+","Female","Tertiary","Montevideo","Montevideo","Punta Gorda/Carrasco","NFD1","N1","naranjas","L+H* L%","NFD",30
+"401","MVF76","60+","Female","Tertiary","Montevideo","Montevideo","Punta Gorda/Carrasco","NFD2","PN1","Que","L+H*","NFD",30
+"402","MVF76","60+","Female","Tertiary","Montevideo","Montevideo","Punta Gorda/Carrasco","NFD2","PN2","rico","L+H*","NFD",30
+"403","MVF76","60+","Female","Tertiary","Montevideo","Montevideo","Punta Gorda/Carrasco","NFD2","PN3","olor","L+<H*","NFD",30
+"404","MVF76","60+","Female","Tertiary","Montevideo","Montevideo","Punta Gorda/Carrasco","NFD2","N1","medialunas","L+¡H*+L L%","NFD",30
+"405","MVF76","60+","Female","Tertiary","Montevideo","Montevideo","Punta Gorda/Carrasco","NFD3","PN1","No","L+H*+L L-","NFD",30
+"406","MVF76","60+","Female","Tertiary","Montevideo","Montevideo","Punta Gorda/Carrasco","NFD3","PN2","se","L+<H*","NFD",30
+"407","MVF76","60+","Female","Tertiary","Montevideo","Montevideo","Punta Gorda/Carrasco","NFD3","PN3","vivir","L+H*","NFD",30
+"408","MVF76","60+","Female","Tertiary","Montevideo","Montevideo","Punta Gorda/Carrasco","NFD3","N1","San","L+H* L%","NFD",30
+"409","MVF76","60+","Female","Tertiary","Montevideo","Montevideo","Punta Gorda/Carrasco","NFD4","PN1","Es","H*","NFD",30
+"410","MVF76","60+","Female","Tertiary","Montevideo","Montevideo","Punta Gorda/Carrasco","NFD4","PN2","possible","L+<¡H*","NFD",30
+"411","MVF76","60+","Female","Tertiary","Montevideo","Montevideo","Punta Gorda/Carrasco","NFD4","PN3","No","deaccented","NFD",30
+"412","MVF76","60+","Female","Tertiary","Montevideo","Montevideo","Punta Gorda/Carrasco","NFD4","PN4","le","L+¡H*","NFD",30
+"413","MVF76","60+","Female","Tertiary","Montevideo","Montevideo","Punta Gorda/Carrasco","NFD4","N1","regalo","L* L%","NFD",30
+"414","MVF76","60+","Female","Tertiary","Montevideo","Montevideo","Punta Gorda/Carrasco","NFD5","N1","con","L+H*+L L%","NFD",30
+"415","MVF76","60+","Female","Tertiary","Montevideo","Montevideo","Punta Gorda/Carrasco","NFD6","PN1","Esta","L+<H*","NFD",30
+"416","MVF76","60+","Female","Tertiary","Montevideo","Montevideo","Punta Gorda/Carrasco","NFD6","N1","buenisimo","L+¡H*+L L%","NFD",30
+"417","MVF77","60+","Female","Tertiary","Montevideo","Montevideo","Pocitos","BFD1","N","Mandarinas","L* L%","BFD",30
+"418","MVF77","60+","Female","Tertiary","Montevideo","Montevideo","Pocitos","BFD2","PN1","Maria","L+<H*","BFD",30
+"419","MVF77","60+","Female","Tertiary","Montevideo","Montevideo","Pocitos","BFD2","PN2","esta","H+L*","BFD",30
+"420","MVF77","60+","Female","Tertiary","Montevideo","Montevideo","Pocitos","BFD2","PN3","comiendo","L+<H*","BFD",30
+"421","MVF77","60+","Female","Tertiary","Montevideo","Montevideo","Pocitos","BFD2","N","mandarinas","L* L%","BFD",30
+"422","MVF77","60+","Female","Tertiary","Montevideo","Montevideo","Pocitos","BFD4","PN1","Yo",NA,"BFD",30
+"423","MVF77","60+","Female","Tertiary","Montevideo","Montevideo","Pocitos","BFD4","PN2","vivi",NA,"BFD",30
+"424","MVF77","60+","Female","Tertiary","Montevideo","Montevideo","Pocitos","BFD4","PN3","muchos",NA,"BFD",30
+"425","MVF77","60+","Female","Tertiary","Montevideo","Montevideo","Pocitos","BFD4","PN4","anos",NA,"BFD",30
+"426","MVF77","60+","Female","Tertiary","Montevideo","Montevideo","Pocitos","BFD4","N","San",NA,"BFD",30
+"427","MVF77","60+","Female","Tertiary","Montevideo","Montevideo","Pocitos","NFD1","PN1","Senora","L+H* L-","NFD",30
+"428","MVF77","60+","Female","Tertiary","Montevideo","Montevideo","Pocitos","NFD1","PN2","no","L+H*","NFD",30
+"429","MVF77","60+","Female","Tertiary","Montevideo","Montevideo","Pocitos","NFD1","PN3","quiero","L+¡H*","NFD",30
+"430","MVF77","60+","Female","Tertiary","Montevideo","Montevideo","Pocitos","NFD1","PN4","limones","L* L-","NFD",30
+"431","MVF77","60+","Female","Tertiary","Montevideo","Montevideo","Pocitos","NFD1","PN5","quiero","L*+H","NFD",30
+"432","MVF77","60+","Female","Tertiary","Montevideo","Montevideo","Pocitos","NFD1","N1","naranjas","L* L%","NFD",30
+"433","MVF77","60+","Female","Tertiary","Montevideo","Montevideo","Pocitos","NFD2","PN1","Que","L+H*","NFD",30
+"434","MVF77","60+","Female","Tertiary","Montevideo","Montevideo","Pocitos","NFD2","PN2","rico","L+¡H*","NFD",30
+"435","MVF77","60+","Female","Tertiary","Montevideo","Montevideo","Pocitos","NFD2","PN3","olor","L+H*","NFD",30
+"436","MVF77","60+","Female","Tertiary","Montevideo","Montevideo","Pocitos","NFD2","N1","medialunas","L+¡H* L%","NFD",30
+"437","MVF77","60+","Female","Tertiary","Montevideo","Montevideo","Pocitos","NFD3","PN1","No","L+H* L-","NFD",30
+"438","MVF77","60+","Female","Tertiary","Montevideo","Montevideo","Pocitos","NFD3","PN2","se","L*+H","NFD",30
+"439","MVF77","60+","Female","Tertiary","Montevideo","Montevideo","Pocitos","NFD3","PN3","vivir","!H+L*","NFD",30
+"440","MVF77","60+","Female","Tertiary","Montevideo","Montevideo","Pocitos","NFD3","N1","San","L+H* L%","NFD",30
+"441","MVF77","60+","Female","Tertiary","Montevideo","Montevideo","Pocitos","NFD4","PN1","Es","H*","NFD",30
+"442","MVF77","60+","Female","Tertiary","Montevideo","Montevideo","Pocitos","NFD4","PN2","possible","L*+¡H H-","NFD",30
+"443","MVF77","60+","Female","Tertiary","Montevideo","Montevideo","Pocitos","NFD4","PN3","No","L+H*","NFD",30
+"444","MVF77","60+","Female","Tertiary","Montevideo","Montevideo","Pocitos","NFD4","PN4","le","L+H*+L","NFD",30
+"445","MVF77","60+","Female","Tertiary","Montevideo","Montevideo","Pocitos","NFD4","N1","regalo","L* L%","NFD",30
+"446","MVF77","60+","Female","Tertiary","Montevideo","Montevideo","Pocitos","NFD5","N1","con","L+H*+L L%","NFD",30
+"447","MVF77","60+","Female","Tertiary","Montevideo","Montevideo","Pocitos","NFD6","PN1","Esta","L+H*","NFD",30
+"448","MVF77","60+","Female","Tertiary","Montevideo","Montevideo","Pocitos","NFD6","N1","buenisimo","L+H* L%","NFD",30
+"449","MVF77-2","60+","Female","Tertiary","Montevideo","Montevideo","Carrasco","BFD1","N","Mandarinas","L+H* L%","BFD",30
+"450","MVF77-2","60+","Female","Tertiary","Montevideo","Montevideo","Carrasco","BFD2","PN1","Maria","L+<H*","BFD",30
+"451","MVF77-2","60+","Female","Tertiary","Montevideo","Montevideo","Carrasco","BFD2","PN2","esta","H*","BFD",30
+"452","MVF77-2","60+","Female","Tertiary","Montevideo","Montevideo","Carrasco","BFD2","PN3","comiendo","L+H*","BFD",30
+"453","MVF77-2","60+","Female","Tertiary","Montevideo","Montevideo","Carrasco","BFD2","N","mandarinas","L* L%","BFD",30
+"454","MVF77-2","60+","Female","Tertiary","Montevideo","Montevideo","Carrasco","BFD4","PN1","Yo","L+<H*","BFD",30
+"455","MVF77-2","60+","Female","Tertiary","Montevideo","Montevideo","Carrasco","BFD4","PN2","vivi","L+H*","BFD",30
+"456","MVF77-2","60+","Female","Tertiary","Montevideo","Montevideo","Carrasco","BFD4","PN3","muchos","L+¡H*","BFD",30
+"457","MVF77-2","60+","Female","Tertiary","Montevideo","Montevideo","Carrasco","BFD4","PN4","anos","L+H*","BFD",30
+"458","MVF77-2","60+","Female","Tertiary","Montevideo","Montevideo","Carrasco","BFD4","N","San","L* L%","BFD",30
+"459","MVF77-2","60+","Female","Tertiary","Montevideo","Montevideo","Carrasco","NFD1","PN1","Senora","L+H* L-","NFD",30
+"460","MVF77-2","60+","Female","Tertiary","Montevideo","Montevideo","Carrasco","NFD1","PN2","no","L+H*","NFD",30
+"461","MVF77-2","60+","Female","Tertiary","Montevideo","Montevideo","Carrasco","NFD1","PN3","quiero","L+H*","NFD",30
+"462","MVF77-2","60+","Female","Tertiary","Montevideo","Montevideo","Carrasco","NFD1","PN4","limones","L+¡H* L-","NFD",30
+"463","MVF77-2","60+","Female","Tertiary","Montevideo","Montevideo","Carrasco","NFD1","PN5","quiero","L+H*","NFD",30
+"464","MVF77-2","60+","Female","Tertiary","Montevideo","Montevideo","Carrasco","NFD1","N1","naranjas","L+H* L%","NFD",30
+"465","MVF77-2","60+","Female","Tertiary","Montevideo","Montevideo","Carrasco","NFD2","PN1","Que","H+L*","NFD",30
+"466","MVF77-2","60+","Female","Tertiary","Montevideo","Montevideo","Carrasco","NFD2","PN2","rico","L+¡H*","NFD",30
+"467","MVF77-2","60+","Female","Tertiary","Montevideo","Montevideo","Carrasco","NFD2","PN3","olor","L+H*","NFD",30
+"468","MVF77-2","60+","Female","Tertiary","Montevideo","Montevideo","Carrasco","NFD2","N1","medialunas","L+¡H* L%","NFD",30
+"469","MVF77-2","60+","Female","Tertiary","Montevideo","Montevideo","Carrasco","NFD3","PN1","No","L+H*+L L-","NFD",30
+"470","MVF77-2","60+","Female","Tertiary","Montevideo","Montevideo","Carrasco","NFD3","PN2","se","L+H*","NFD",30
+"471","MVF77-2","60+","Female","Tertiary","Montevideo","Montevideo","Carrasco","NFD3","PN3","vivir","L+H*","NFD",30
+"472","MVF77-2","60+","Female","Tertiary","Montevideo","Montevideo","Carrasco","NFD3","N1","San","L+H*+L L%","NFD",30
+"473","MVF77-2","60+","Female","Tertiary","Montevideo","Montevideo","Carrasco","NFD4","PN1","Es","H*","NFD",30
+"474","MVF77-2","60+","Female","Tertiary","Montevideo","Montevideo","Carrasco","NFD4","PN2","possible","L*+¡H","NFD",30
+"475","MVF77-2","60+","Female","Tertiary","Montevideo","Montevideo","Carrasco","NFD4","PN3","No","!H*","NFD",30
+"476","MVF77-2","60+","Female","Tertiary","Montevideo","Montevideo","Carrasco","NFD4","PN4","le","L+¡H*","NFD",30
+"477","MVF77-2","60+","Female","Tertiary","Montevideo","Montevideo","Carrasco","NFD4","N1","regalo","L* L%","NFD",30
+"478","MVF77-2","60+","Female","Tertiary","Montevideo","Montevideo","Carrasco","NFD5","N1","con","L+H*+L L%","NFD",30
+"479","MVF77-2","60+","Female","Tertiary","Montevideo","Montevideo","Carrasco","NFD6","PN1","Esta","L+H*","NFD",30
+"480","MVF77-2","60+","Female","Tertiary","Montevideo","Montevideo","Carrasco","NFD6","N1","buenisimo","L+¡H* L%","NFD",30
+"481","MVM21","18-35","Male","Tertiary","Montevideo","Montevideo","Buceo","BFD1","N","Mandarinas","L* L%","BFD",30
+"482","MVM21","18-35","Male","Tertiary","Montevideo","Montevideo","Buceo","BFD2","PN1","Maria","L+<H*","BFD",30
+"483","MVM21","18-35","Male","Tertiary","Montevideo","Montevideo","Buceo","BFD2","PN2","esta","H+L*","BFD",30
+"484","MVM21","18-35","Male","Tertiary","Montevideo","Montevideo","Buceo","BFD2","PN3","comiendo","L+!H*","BFD",30
+"485","MVM21","18-35","Male","Tertiary","Montevideo","Montevideo","Buceo","BFD2","N","mandarinas","L* L%","BFD",30
+"486","MVM21","18-35","Male","Tertiary","Montevideo","Montevideo","Buceo","BFD4","PN1","Yo","H*","BFD",30
+"487","MVM21","18-35","Male","Tertiary","Montevideo","Montevideo","Buceo","BFD4","PN2","vivi","L+H*","BFD",30
+"488","MVM21","18-35","Male","Tertiary","Montevideo","Montevideo","Buceo","BFD4","PN3","muchos","H+L*","BFD",30
+"489","MVM21","18-35","Male","Tertiary","Montevideo","Montevideo","Buceo","BFD4","PN4","anos","L+H*","BFD",30
+"490","MVM21","18-35","Male","Tertiary","Montevideo","Montevideo","Buceo","BFD4","N","San","L* L%","BFD",30
+"491","MVM21","18-35","Male","Tertiary","Montevideo","Montevideo","Buceo","NFD1","PN1","Senora","L+H* L-","NFD",30
+"492","MVM21","18-35","Male","Tertiary","Montevideo","Montevideo","Buceo","NFD1","PN2","no","L+H*","NFD",30
+"493","MVM21","18-35","Male","Tertiary","Montevideo","Montevideo","Buceo","NFD1","PN3","quiero","L+¡H*","NFD",30
+"494","MVM21","18-35","Male","Tertiary","Montevideo","Montevideo","Buceo","NFD1","PN4","limones","L* L-","NFD",30
+"495","MVM21","18-35","Male","Tertiary","Montevideo","Montevideo","Buceo","NFD1","PN5","quiero","L+<H*","NFD",30
+"496","MVM21","18-35","Male","Tertiary","Montevideo","Montevideo","Buceo","NFD1","N1","naranjas","L+H* L%","NFD",30
+"497","MVM21","18-35","Male","Tertiary","Montevideo","Montevideo","Buceo","NFD2","PN1","Que","H*","NFD",30
+"498","MVM21","18-35","Male","Tertiary","Montevideo","Montevideo","Buceo","NFD2","PN2","rico","L+¡H*","NFD",30
+"499","MVM21","18-35","Male","Tertiary","Montevideo","Montevideo","Buceo","NFD2","PN3","olor","L+H*","NFD",30
+"500","MVM21","18-35","Male","Tertiary","Montevideo","Montevideo","Buceo","NFD2","N1","medialunas","L+¡H* L%","NFD",30
+"501","MVM21","18-35","Male","Tertiary","Montevideo","Montevideo","Buceo","NFD3","PN1","No","L+H* L-","NFD",30
+"502","MVM21","18-35","Male","Tertiary","Montevideo","Montevideo","Buceo","NFD3","PN2","se","L+H*","NFD",30
+"503","MVM21","18-35","Male","Tertiary","Montevideo","Montevideo","Buceo","NFD3","PN3","vivir","L+H*","NFD",30
+"504","MVM21","18-35","Male","Tertiary","Montevideo","Montevideo","Buceo","NFD3","N1","San","H+L* L%","NFD",30
+"505","MVM21","18-35","Male","Tertiary","Montevideo","Montevideo","Buceo","NFD4","PN1","Es","H*","NFD",30
+"506","MVM21","18-35","Male","Tertiary","Montevideo","Montevideo","Buceo","NFD4","PN2","possible","L+<¡H* L-","NFD",30
+"507","MVM21","18-35","Male","Tertiary","Montevideo","Montevideo","Buceo","NFD4","PN3","No","L+H*","NFD",30
+"508","MVM21","18-35","Male","Tertiary","Montevideo","Montevideo","Buceo","NFD4","PN4","le","L+!H*","NFD",30
+"509","MVM21","18-35","Male","Tertiary","Montevideo","Montevideo","Buceo","NFD4","N1","regalo","L* L%","NFD",30
+"510","MVM21","18-35","Male","Tertiary","Montevideo","Montevideo","Buceo","NFD5","N1","con","L+H*+L L%","NFD",30
+"511","MVM21","18-35","Male","Tertiary","Montevideo","Montevideo","Buceo","NFD6","PN1","Esta","L+H*","NFD",30
+"512","MVM21","18-35","Male","Tertiary","Montevideo","Montevideo","Buceo","NFD6","N1","buenisimo","L+H* L%","NFD",30
+"513","MVM23","18-35","Male","Secondary","Montevideo","Montevideo","Barrio Sur","BFD1","N","Mandarinas","L+H* L%","BFD",30
+"514","MVM23","18-35","Male","Secondary","Montevideo","Montevideo","Barrio Sur","BFD2","PN1","Maria","L+H*","BFD",30
+"515","MVM23","18-35","Male","Secondary","Montevideo","Montevideo","Barrio Sur","BFD2","PN2","esta","H*","BFD",30
+"516","MVM23","18-35","Male","Secondary","Montevideo","Montevideo","Barrio Sur","BFD2","PN3","comiendo","L+H*","BFD",30
+"517","MVM23","18-35","Male","Secondary","Montevideo","Montevideo","Barrio Sur","BFD2","N","mandarinas","L+H* L%","BFD",30
+"518","MVM23","18-35","Male","Secondary","Montevideo","Montevideo","Barrio Sur","BFD4","PN1","Yo","deaccented","BFD",30
+"519","MVM23","18-35","Male","Secondary","Montevideo","Montevideo","Barrio Sur","BFD4","PN2","vivi","L+H*","BFD",30
+"520","MVM23","18-35","Male","Secondary","Montevideo","Montevideo","Barrio Sur","BFD4","PN3","muchos","L+H*","BFD",30
+"521","MVM23","18-35","Male","Secondary","Montevideo","Montevideo","Barrio Sur","BFD4","PN4","anos","L+H*","BFD",30
+"522","MVM23","18-35","Male","Secondary","Montevideo","Montevideo","Barrio Sur","BFD4","N","San","!H* !H%","BFD",30
+"523","MVM23","18-35","Male","Secondary","Montevideo","Montevideo","Barrio Sur","NFD1","PN1","Senora","L+<H* L-","NFD",30
+"524","MVM23","18-35","Male","Secondary","Montevideo","Montevideo","Barrio Sur","NFD1","PN2","no","L+H*","NFD",30
+"525","MVM23","18-35","Male","Secondary","Montevideo","Montevideo","Barrio Sur","NFD1","PN3","quiero","L+¡H*","NFD",30
+"526","MVM23","18-35","Male","Secondary","Montevideo","Montevideo","Barrio Sur","NFD1","PN4","limones","L* L-","NFD",30
+"527","MVM23","18-35","Male","Secondary","Montevideo","Montevideo","Barrio Sur","NFD1","PN5","quiero","L+<H*","NFD",30
+"528","MVM23","18-35","Male","Secondary","Montevideo","Montevideo","Barrio Sur","NFD1","N1","naranjas","L+H* L%","NFD",30
+"529","MVM23","18-35","Male","Secondary","Montevideo","Montevideo","Barrio Sur","NFD2","PN1","Que","H*","NFD",30
+"530","MVM23","18-35","Male","Secondary","Montevideo","Montevideo","Barrio Sur","NFD2","PN2","rico","L+¡H*","NFD",30
+"531","MVM23","18-35","Male","Secondary","Montevideo","Montevideo","Barrio Sur","NFD2","PN3","olor","L+H*","NFD",30
+"532","MVM23","18-35","Male","Secondary","Montevideo","Montevideo","Barrio Sur","NFD2","N1","medialunas","L+H* L%","NFD",30
+"533","MVM23","18-35","Male","Secondary","Montevideo","Montevideo","Barrio Sur","NFD3","PN1","No","L+H* L-","NFD",30
+"534","MVM23","18-35","Male","Secondary","Montevideo","Montevideo","Barrio Sur","NFD3","PN2","se","L+H*","NFD",30
+"535","MVM23","18-35","Male","Secondary","Montevideo","Montevideo","Barrio Sur","NFD3","PN3","vivir","L+!H*","NFD",30
+"536","MVM23","18-35","Male","Secondary","Montevideo","Montevideo","Barrio Sur","NFD3","N1","San","L+¡H* !H%","NFD",30
+"537","MVM23","18-35","Male","Secondary","Montevideo","Montevideo","Barrio Sur","NFD4","PN1","Es","L*+H","NFD",30
+"538","MVM23","18-35","Male","Secondary","Montevideo","Montevideo","Barrio Sur","NFD4","PN2","possible","L*+H ","NFD",30
+"539","MVM23","18-35","Male","Secondary","Montevideo","Montevideo","Barrio Sur","NFD4","PN3","No","L+H*","NFD",30
+"540","MVM23","18-35","Male","Secondary","Montevideo","Montevideo","Barrio Sur","NFD4","PN4","le","L*+H","NFD",30
+"541","MVM23","18-35","Male","Secondary","Montevideo","Montevideo","Barrio Sur","NFD4","N1","regalo","L* L%","NFD",30
+"542","MVM23","18-35","Male","Secondary","Montevideo","Montevideo","Barrio Sur","NFD5","N1","con","L+H* !H%","NFD",30
+"543","MVM23","18-35","Male","Secondary","Montevideo","Montevideo","Barrio Sur","NFD6","PN1","Esta","L+H*","NFD",30
+"544","MVM23","18-35","Male","Secondary","Montevideo","Montevideo","Barrio Sur","NFD6","N1","buenisimo","L+¡H* L%","NFD",30
+"545","MVM26-2","18-35","Male","Secondary","Montevideo","Montevideo","Villa Teresa","BFD1","N","Mandarinas","L* L%","BFD",30
+"546","MVM26-2","18-35","Male","Secondary","Montevideo","Montevideo","Villa Teresa","BFD2","PN1","Maria","L+<H*","BFD",30
+"547","MVM26-2","18-35","Male","Secondary","Montevideo","Montevideo","Villa Teresa","BFD2","PN2","esta","deaccented","BFD",30
+"548","MVM26-2","18-35","Male","Secondary","Montevideo","Montevideo","Villa Teresa","BFD2","PN3","comiendo","L+<H*","BFD",30
+"549","MVM26-2","18-35","Male","Secondary","Montevideo","Montevideo","Villa Teresa","BFD2","N","mandarinas","L* L%","BFD",30
+"550","MVM26-2","18-35","Male","Secondary","Montevideo","Montevideo","Villa Teresa","BFD4","PN1","Yo","H*","BFD",30
+"551","MVM26-2","18-35","Male","Secondary","Montevideo","Montevideo","Villa Teresa","BFD4","PN2","vivi","H*","BFD",30
+"552","MVM26-2","18-35","Male","Secondary","Montevideo","Montevideo","Villa Teresa","BFD4","PN3","muchos","H*","BFD",30
+"553","MVM26-2","18-35","Male","Secondary","Montevideo","Montevideo","Villa Teresa","BFD4","PN4","anos","H+L*","BFD",30
+"554","MVM26-2","18-35","Male","Secondary","Montevideo","Montevideo","Villa Teresa","BFD4","N","San","L* L%","BFD",30
+"555","MVM26-2","18-35","Male","Secondary","Montevideo","Montevideo","Villa Teresa","NFD1","PN1","Senora","H+L*","NFD",30
+"556","MVM26-2","18-35","Male","Secondary","Montevideo","Montevideo","Villa Teresa","NFD1","PN2","no","L+H*","NFD",30
+"557","MVM26-2","18-35","Male","Secondary","Montevideo","Montevideo","Villa Teresa","NFD1","PN3","quiero","H+L*","NFD",30
+"558","MVM26-2","18-35","Male","Secondary","Montevideo","Montevideo","Villa Teresa","NFD1","PN4","limones","L* L-","NFD",30
+"559","MVM26-2","18-35","Male","Secondary","Montevideo","Montevideo","Villa Teresa","NFD1","PN5","quiero","H+L*","NFD",30
+"560","MVM26-2","18-35","Male","Secondary","Montevideo","Montevideo","Villa Teresa","NFD1","N1","naranjas","L* L%","NFD",30
+"561","MVM26-2","18-35","Male","Secondary","Montevideo","Montevideo","Villa Teresa","NFD2","PN1","Que","H*","NFD",30
+"562","MVM26-2","18-35","Male","Secondary","Montevideo","Montevideo","Villa Teresa","NFD2","PN2","rico","L+¡H*","NFD",30
+"563","MVM26-2","18-35","Male","Secondary","Montevideo","Montevideo","Villa Teresa","NFD2","PN3","olor","L+<H*","NFD",30
+"564","MVM26-2","18-35","Male","Secondary","Montevideo","Montevideo","Villa Teresa","NFD2","N1","medialunas","L+H* L%","NFD",30
+"565","MVM26-2","18-35","Male","Secondary","Montevideo","Montevideo","Villa Teresa","NFD3","PN1","No","H+L* L-","NFD",30
+"566","MVM26-2","18-35","Male","Secondary","Montevideo","Montevideo","Villa Teresa","NFD3","PN2","se","L+<H*","NFD",30
+"567","MVM26-2","18-35","Male","Secondary","Montevideo","Montevideo","Villa Teresa","NFD3","PN3","vivir","L+<H*","NFD",30
+"568","MVM26-2","18-35","Male","Secondary","Montevideo","Montevideo","Villa Teresa","NFD3","N1","San","L* L%","NFD",30
+"569","MVM26-2","18-35","Male","Secondary","Montevideo","Montevideo","Villa Teresa","NFD4","PN1","Es","H*","NFD",30
+"570","MVM26-2","18-35","Male","Secondary","Montevideo","Montevideo","Villa Teresa","NFD4","PN2","possible","L*+H","NFD",30
+"571","MVM26-2","18-35","Male","Secondary","Montevideo","Montevideo","Villa Teresa","NFD4","PN3","No","deaccented","NFD",30
+"572","MVM26-2","18-35","Male","Secondary","Montevideo","Montevideo","Villa Teresa","NFD4","PN4","le","L+H*","NFD",30
+"573","MVM26-2","18-35","Male","Secondary","Montevideo","Montevideo","Villa Teresa","NFD4","N1","regalo","L* L%","NFD",30
+"574","MVM26-2","18-35","Male","Secondary","Montevideo","Montevideo","Villa Teresa","NFD5","N1","con","L+H* L%","NFD",30
+"575","MVM26-2","18-35","Male","Secondary","Montevideo","Montevideo","Villa Teresa","NFD6","PN1","Esta",NA,"NFD",30
+"576","MVM26-2","18-35","Male","Secondary","Montevideo","Montevideo","Villa Teresa","NFD6","N1","buenisimo",NA,"NFD",30
+"577","MVM28","18-35","Male","Tertiary","Montevideo","Montevideo","Pocitos","BFD1","N","Mandarinas","L* L%","BFD",30
+"578","MVM28","18-35","Male","Tertiary","Montevideo","Montevideo","Pocitos","BFD2","PN1","Maria","L+<H* H-","BFD",30
+"579","MVM28","18-35","Male","Tertiary","Montevideo","Montevideo","Pocitos","BFD2","PN2","esta","deaccented","BFD",30
+"580","MVM28","18-35","Male","Tertiary","Montevideo","Montevideo","Pocitos","BFD2","PN3","comiendo","L+H*","BFD",30
+"581","MVM28","18-35","Male","Tertiary","Montevideo","Montevideo","Pocitos","BFD2","N","mandarinas","L* L%","BFD",30
+"582","MVM28","18-35","Male","Tertiary","Montevideo","Montevideo","Pocitos","BFD4","PN1","Yo","L*+H","BFD",30
+"583","MVM28","18-35","Male","Tertiary","Montevideo","Montevideo","Pocitos","BFD4","PN2","vivi","H*","BFD",30
+"584","MVM28","18-35","Male","Tertiary","Montevideo","Montevideo","Pocitos","BFD4","PN3","muchos","L+H*","BFD",30
+"585","MVM28","18-35","Male","Tertiary","Montevideo","Montevideo","Pocitos","BFD4","PN4","anos","H+L* L-","BFD",30
+"586","MVM28","18-35","Male","Tertiary","Montevideo","Montevideo","Pocitos","BFD4","N","San","L* L%","BFD",30
+"587","MVM28","18-35","Male","Tertiary","Montevideo","Montevideo","Pocitos","NFD1","PN1","Senora","L+<H* L-","NFD",30
+"588","MVM28","18-35","Male","Tertiary","Montevideo","Montevideo","Pocitos","NFD1","PN2","no","L+H*","NFD",30
+"589","MVM28","18-35","Male","Tertiary","Montevideo","Montevideo","Pocitos","NFD1","PN3","quiero","¡H+L*","NFD",30
+"590","MVM28","18-35","Male","Tertiary","Montevideo","Montevideo","Pocitos","NFD1","PN4","limones","L* L-","NFD",30
+"591","MVM28","18-35","Male","Tertiary","Montevideo","Montevideo","Pocitos","NFD1","PN5","quiero","H*","NFD",30
+"592","MVM28","18-35","Male","Tertiary","Montevideo","Montevideo","Pocitos","NFD1","N1","naranjas","L+¡H* L%","NFD",30
+"593","MVM28","18-35","Male","Tertiary","Montevideo","Montevideo","Pocitos","NFD2","PN1","Que","L+!H*","NFD",30
+"594","MVM28","18-35","Male","Tertiary","Montevideo","Montevideo","Pocitos","NFD2","PN2","rico","L+¡H*","NFD",30
+"595","MVM28","18-35","Male","Tertiary","Montevideo","Montevideo","Pocitos","NFD2","PN3","olor","L+H*","NFD",30
+"596","MVM28","18-35","Male","Tertiary","Montevideo","Montevideo","Pocitos","NFD2","N1","medialunas","L+H*+L H%","NFD",30
+"597","MVM28","18-35","Male","Tertiary","Montevideo","Montevideo","Pocitos","NFD3","PN1","No","H+L* L-","NFD",30
+"598","MVM28","18-35","Male","Tertiary","Montevideo","Montevideo","Pocitos","NFD3","PN2","se","L+<H*","NFD",30
+"599","MVM28","18-35","Male","Tertiary","Montevideo","Montevideo","Pocitos","NFD3","PN3","vivir","L*+¡H","NFD",30
+"600","MVM28","18-35","Male","Tertiary","Montevideo","Montevideo","Pocitos","NFD3","N1","San","L* L%","NFD",30
+"601","MVM28","18-35","Male","Tertiary","Montevideo","Montevideo","Pocitos","NFD4","PN1","Es","H*","NFD",30
+"602","MVM28","18-35","Male","Tertiary","Montevideo","Montevideo","Pocitos","NFD4","PN2","possible","L*+H","NFD",30
+"603","MVM28","18-35","Male","Tertiary","Montevideo","Montevideo","Pocitos","NFD4","PN3","No","L+H*","NFD",30
+"604","MVM28","18-35","Male","Tertiary","Montevideo","Montevideo","Pocitos","NFD4","PN4","le","L+¡H*","NFD",30
+"605","MVM28","18-35","Male","Tertiary","Montevideo","Montevideo","Pocitos","NFD4","N1","regalo","L* L%","NFD",30
+"606","MVM28","18-35","Male","Tertiary","Montevideo","Montevideo","Pocitos","NFD5","N1","con","L+H* L%","NFD",30
+"607","MVM28","18-35","Male","Tertiary","Montevideo","Montevideo","Pocitos","NFD6","PN1","Esta","L+<H*","NFD",30
+"608","MVM28","18-35","Male","Tertiary","Montevideo","Montevideo","Pocitos","NFD6","N1","buenisimo","L+¡H* L%","NFD",30
+"609","MVM31","18-35","Male","Tertiary","Montevideo","Montevideo","Pocitos","BFD1","N","Mandarinas","L* !H%","BFD",30
+"610","MVM31","18-35","Male","Tertiary","Montevideo","Montevideo","Pocitos","BFD2","PN1","Maria","L+<H*","BFD",30
+"611","MVM31","18-35","Male","Tertiary","Montevideo","Montevideo","Pocitos","BFD2","PN2","esta","L+H*","BFD",30
+"612","MVM31","18-35","Male","Tertiary","Montevideo","Montevideo","Pocitos","BFD2","PN3","comiendo","L+H*","BFD",30
+"613","MVM31","18-35","Male","Tertiary","Montevideo","Montevideo","Pocitos","BFD2","N","mandarinas","L* L%","BFD",30
+"614","MVM31","18-35","Male","Tertiary","Montevideo","Montevideo","Pocitos","BFD4","PN1","Yo","H*","BFD",30
+"615","MVM31","18-35","Male","Tertiary","Montevideo","Montevideo","Pocitos","BFD4","PN2","vivi","L+<¡H*","BFD",30
+"616","MVM31","18-35","Male","Tertiary","Montevideo","Montevideo","Pocitos","BFD4","PN3","muchos","deaccented","BFD",30
+"617","MVM31","18-35","Male","Tertiary","Montevideo","Montevideo","Pocitos","BFD4","PN4","anos","deaccented","BFD",30
+"618","MVM31","18-35","Male","Tertiary","Montevideo","Montevideo","Pocitos","BFD4","N","San","L* L%","BFD",30
+"619","MVM31","18-35","Male","Tertiary","Montevideo","Montevideo","Pocitos","NFD1","PN1","Senora","L+H* L-","NFD",30
+"620","MVM31","18-35","Male","Tertiary","Montevideo","Montevideo","Pocitos","NFD1","PN2","no","L+H*","NFD",30
+"621","MVM31","18-35","Male","Tertiary","Montevideo","Montevideo","Pocitos","NFD1","PN3","quiero","L+¡H*","NFD",30
+"622","MVM31","18-35","Male","Tertiary","Montevideo","Montevideo","Pocitos","NFD1","PN4","limones","L* L-","NFD",30
+"623","MVM31","18-35","Male","Tertiary","Montevideo","Montevideo","Pocitos","NFD1","PN5","quiero","L+<H*","NFD",30
+"624","MVM31","18-35","Male","Tertiary","Montevideo","Montevideo","Pocitos","NFD1","N1","naranjas","L+H*+L L%","NFD",30
+"625","MVM31","18-35","Male","Tertiary","Montevideo","Montevideo","Pocitos","NFD2","PN1","Que","H*","NFD",30
+"626","MVM31","18-35","Male","Tertiary","Montevideo","Montevideo","Pocitos","NFD2","PN2","rico","L+H*","NFD",30
+"627","MVM31","18-35","Male","Tertiary","Montevideo","Montevideo","Pocitos","NFD2","PN3","olor","deaccented","NFD",30
+"628","MVM31","18-35","Male","Tertiary","Montevideo","Montevideo","Pocitos","NFD2","N1","medialunas","L* L%","NFD",30
+"629","MVM31","18-35","Male","Tertiary","Montevideo","Montevideo","Pocitos","NFD3","PN1","No","L+H* L-","NFD",30
+"630","MVM31","18-35","Male","Tertiary","Montevideo","Montevideo","Pocitos","NFD3","PN2","se","L+H*","NFD",30
+"631","MVM31","18-35","Male","Tertiary","Montevideo","Montevideo","Pocitos","NFD3","PN3","vivir","L+H*","NFD",30
+"632","MVM31","18-35","Male","Tertiary","Montevideo","Montevideo","Pocitos","NFD3","N1","San","L+H* L%","NFD",30
+"633","MVM31","18-35","Male","Tertiary","Montevideo","Montevideo","Pocitos","NFD4","PN1","Es","deaccented","NFD",30
+"634","MVM31","18-35","Male","Tertiary","Montevideo","Montevideo","Pocitos","NFD4","PN2","possible","L+<H*","NFD",30
+"635","MVM31","18-35","Male","Tertiary","Montevideo","Montevideo","Pocitos","NFD4","PN3","No","deaccented","NFD",30
+"636","MVM31","18-35","Male","Tertiary","Montevideo","Montevideo","Pocitos","NFD4","PN4","le","L+H*","NFD",30
+"637","MVM31","18-35","Male","Tertiary","Montevideo","Montevideo","Pocitos","NFD4","N1","regalo","L* L%","NFD",30
+"638","MVM31","18-35","Male","Tertiary","Montevideo","Montevideo","Pocitos","NFD5","N1","con","L+H* !H%","NFD",30
+"639","MVM31","18-35","Male","Tertiary","Montevideo","Montevideo","Pocitos","NFD6","PN1","Esta","L+H*","NFD",30
+"640","MVM31","18-35","Male","Tertiary","Montevideo","Montevideo","Pocitos","NFD6","N1","buenisimo","L+¡H* L%","NFD",30
+"641","MVM36","36-59","Male","Tertiary","Montevideo","Montevideo","Union","BFD1","N","Mandarinas","L+H* L%","BFD",30
+"642","MVM36","36-59","Male","Tertiary","Montevideo","Montevideo","Union","BFD2","PN1","Maria","L+<H*","BFD",30
+"643","MVM36","36-59","Male","Tertiary","Montevideo","Montevideo","Union","BFD2","PN2","esta","deaccented","BFD",30
+"644","MVM36","36-59","Male","Tertiary","Montevideo","Montevideo","Union","BFD2","PN3","comiendo","L+H*","BFD",30
+"645","MVM36","36-59","Male","Tertiary","Montevideo","Montevideo","Union","BFD2","N","mandarinas","L* L%","BFD",30
+"646","MVM36","36-59","Male","Tertiary","Montevideo","Montevideo","Union","BFD4","PN1","Yo","H*","BFD",30
+"647","MVM36","36-59","Male","Tertiary","Montevideo","Montevideo","Union","BFD4","PN2","vivi","H*","BFD",30
+"648","MVM36","36-59","Male","Tertiary","Montevideo","Montevideo","Union","BFD4","PN3","muchos","L+<H*","BFD",30
+"649","MVM36","36-59","Male","Tertiary","Montevideo","Montevideo","Union","BFD4","PN4","anos","L+<H* H-","BFD",30
+"650","MVM36","36-59","Male","Tertiary","Montevideo","Montevideo","Union","BFD4","N","San","L* L%","BFD",30
+"651","MVM36","36-59","Male","Tertiary","Montevideo","Montevideo","Union","NFD1","PN1","Senora","L+H* L-","NFD",30
+"652","MVM36","36-59","Male","Tertiary","Montevideo","Montevideo","Union","NFD1","PN2","no","H*","NFD",30
+"653","MVM36","36-59","Male","Tertiary","Montevideo","Montevideo","Union","NFD1","PN3","quiero","L+H*","NFD",30
+"654","MVM36","36-59","Male","Tertiary","Montevideo","Montevideo","Union","NFD1","PN4","limones","L* L-","NFD",30
+"655","MVM36","36-59","Male","Tertiary","Montevideo","Montevideo","Union","NFD1","PN5","quiero","H+L*","NFD",30
+"656","MVM36","36-59","Male","Tertiary","Montevideo","Montevideo","Union","NFD1","N1","naranjas","L* L%","NFD",30
+"657","MVM36","36-59","Male","Tertiary","Montevideo","Montevideo","Union","NFD2","PN1","Que","H*","NFD",30
+"658","MVM36","36-59","Male","Tertiary","Montevideo","Montevideo","Union","NFD2","PN2","rico","¡H*","NFD",30
+"659","MVM36","36-59","Male","Tertiary","Montevideo","Montevideo","Union","NFD2","PN3","olor","L+H*","NFD",30
+"660","MVM36","36-59","Male","Tertiary","Montevideo","Montevideo","Union","NFD2","N1","medialunas","L+H* L%","NFD",30
+"661","MVM36","36-59","Male","Tertiary","Montevideo","Montevideo","Union","NFD3","PN1","No","H+L* L-","NFD",30
+"662","MVM36","36-59","Male","Tertiary","Montevideo","Montevideo","Union","NFD3","PN2","se","L+H*","NFD",30
+"663","MVM36","36-59","Male","Tertiary","Montevideo","Montevideo","Union","NFD3","PN3","vivir","L+¡H*","NFD",30
+"664","MVM36","36-59","Male","Tertiary","Montevideo","Montevideo","Union","NFD3","N1","San","L* L%","NFD",30
+"665","MVM36","36-59","Male","Tertiary","Montevideo","Montevideo","Union","NFD4","PN1","Es","H*","NFD",30
+"666","MVM36","36-59","Male","Tertiary","Montevideo","Montevideo","Union","NFD4","PN2","possible","L+<¡H*","NFD",30
+"667","MVM36","36-59","Male","Tertiary","Montevideo","Montevideo","Union","NFD4","PN3","No","L+H*","NFD",30
+"668","MVM36","36-59","Male","Tertiary","Montevideo","Montevideo","Union","NFD4","PN4","le","L+H*","NFD",30
+"669","MVM36","36-59","Male","Tertiary","Montevideo","Montevideo","Union","NFD4","N1","regalo","L* L%","NFD",30
+"670","MVM36","36-59","Male","Tertiary","Montevideo","Montevideo","Union","NFD5","N1","con","L+H* L%","NFD",30
+"671","MVM36","36-59","Male","Tertiary","Montevideo","Montevideo","Union","NFD6","PN1","Esta","H*","NFD",30
+"672","MVM36","36-59","Male","Tertiary","Montevideo","Montevideo","Union","NFD6","N1","buenisimo","L* L%","NFD",30
+"673","MVM37","36-59","Male","Tertiary","Montevideo","Montevideo","Ciudad Vieja","BFD1","N","Mandarinas",NA,"BFD",30
+"674","MVM37","36-59","Male","Tertiary","Montevideo","Montevideo","Ciudad Vieja","BFD2","PN1","Maria","L+H*","BFD",30
+"675","MVM37","36-59","Male","Tertiary","Montevideo","Montevideo","Ciudad Vieja","BFD2","PN2","esta","H+L*","BFD",30
+"676","MVM37","36-59","Male","Tertiary","Montevideo","Montevideo","Ciudad Vieja","BFD2","PN3","comiendo","L+H*","BFD",30
+"677","MVM37","36-59","Male","Tertiary","Montevideo","Montevideo","Ciudad Vieja","BFD2","N","mandarinas","L* L%","BFD",30
+"678","MVM37","36-59","Male","Tertiary","Montevideo","Montevideo","Ciudad Vieja","BFD4","PN1","Yo","L+<H*","BFD",30
+"679","MVM37","36-59","Male","Tertiary","Montevideo","Montevideo","Ciudad Vieja","BFD4","PN2","vivi","H+L*","BFD",30
+"680","MVM37","36-59","Male","Tertiary","Montevideo","Montevideo","Ciudad Vieja","BFD4","PN3","muchos","deaccented","BFD",30
+"681","MVM37","36-59","Male","Tertiary","Montevideo","Montevideo","Ciudad Vieja","BFD4","PN4","anos","L+H*","BFD",30
+"682","MVM37","36-59","Male","Tertiary","Montevideo","Montevideo","Ciudad Vieja","BFD4","N","San","L* L%","BFD",30
+"683","MVM37","36-59","Male","Tertiary","Montevideo","Montevideo","Ciudad Vieja","NFD1","PN1","Senora","L+H*+L L-","NFD",30
+"684","MVM37","36-59","Male","Tertiary","Montevideo","Montevideo","Ciudad Vieja","NFD1","PN2","no","L+H*","NFD",30
+"685","MVM37","36-59","Male","Tertiary","Montevideo","Montevideo","Ciudad Vieja","NFD1","PN3","quiero","L+¡H*+L","NFD",30
+"686","MVM37","36-59","Male","Tertiary","Montevideo","Montevideo","Ciudad Vieja","NFD1","PN4","limones","L* L-","NFD",30
+"687","MVM37","36-59","Male","Tertiary","Montevideo","Montevideo","Ciudad Vieja","NFD1","PN5","quiero","L+<H*","NFD",30
+"688","MVM37","36-59","Male","Tertiary","Montevideo","Montevideo","Ciudad Vieja","NFD1","N1","naranjas","L+¡H*+L L%","NFD",30
+"689","MVM37","36-59","Male","Tertiary","Montevideo","Montevideo","Ciudad Vieja","NFD2","PN1","Que","H+L*","NFD",30
+"690","MVM37","36-59","Male","Tertiary","Montevideo","Montevideo","Ciudad Vieja","NFD2","PN2","rico","L+H*","NFD",30
+"691","MVM37","36-59","Male","Tertiary","Montevideo","Montevideo","Ciudad Vieja","NFD2","PN3","olor","L+H*","NFD",30
+"692","MVM37","36-59","Male","Tertiary","Montevideo","Montevideo","Ciudad Vieja","NFD2","N1","medialunas","L+¡H*+L LH%","NFD",30
+"693","MVM37","36-59","Male","Tertiary","Montevideo","Montevideo","Ciudad Vieja","NFD3","PN1","No","L+H*+L L-","NFD",30
+"694","MVM37","36-59","Male","Tertiary","Montevideo","Montevideo","Ciudad Vieja","NFD3","PN2","se","L+H*","NFD",30
+"695","MVM37","36-59","Male","Tertiary","Montevideo","Montevideo","Ciudad Vieja","NFD3","PN3","vivir","L+H*","NFD",30
+"696","MVM37","36-59","Male","Tertiary","Montevideo","Montevideo","Ciudad Vieja","NFD3","N1","San","L+¡H* L%","NFD",30
+"697","MVM37","36-59","Male","Tertiary","Montevideo","Montevideo","Ciudad Vieja","NFD4","PN1","Es","L+H*","NFD",30
+"698","MVM37","36-59","Male","Tertiary","Montevideo","Montevideo","Ciudad Vieja","NFD4","PN2","possible","L+<H*","NFD",30
+"699","MVM37","36-59","Male","Tertiary","Montevideo","Montevideo","Ciudad Vieja","NFD4","PN3","No","L+H*","NFD",30
+"700","MVM37","36-59","Male","Tertiary","Montevideo","Montevideo","Ciudad Vieja","NFD4","PN4","le","deaccented","NFD",30
+"701","MVM37","36-59","Male","Tertiary","Montevideo","Montevideo","Ciudad Vieja","NFD4","N1","regalo","L* L%","NFD",30
+"702","MVM37","36-59","Male","Tertiary","Montevideo","Montevideo","Ciudad Vieja","NFD5","N1","con","L+H*+L L%","NFD",30
+"703","MVM37","36-59","Male","Tertiary","Montevideo","Montevideo","Ciudad Vieja","NFD6","PN1","Esta","H*","NFD",30
+"704","MVM37","36-59","Male","Tertiary","Montevideo","Montevideo","Ciudad Vieja","NFD6","N1","buenisimo","L+¡H*+L L%","NFD",30
+"705","MVM42","36-59","Male","Tertiary","Montevideo","Montevideo","Conciliacion","BFD1","N","Mandarinas","L* L%","BFD",30
+"706","MVM42","36-59","Male","Tertiary","Montevideo","Montevideo","Conciliacion","BFD2","PN1","Maria","L+H* H-","BFD",30
+"707","MVM42","36-59","Male","Tertiary","Montevideo","Montevideo","Conciliacion","BFD2","PN2","esta","H+L*","BFD",30
+"708","MVM42","36-59","Male","Tertiary","Montevideo","Montevideo","Conciliacion","BFD2","PN3","comiendo","L+H*+L","BFD",30
+"709","MVM42","36-59","Male","Tertiary","Montevideo","Montevideo","Conciliacion","BFD2","N","mandarinas","L+H* L%","BFD",30
+"710","MVM42","36-59","Male","Tertiary","Montevideo","Montevideo","Conciliacion","BFD4","PN1","Yo","L+<H*","BFD",30
+"711","MVM42","36-59","Male","Tertiary","Montevideo","Montevideo","Conciliacion","BFD4","PN2","vivi","H*","BFD",30
+"712","MVM42","36-59","Male","Tertiary","Montevideo","Montevideo","Conciliacion","BFD4","PN3","muchos","deaccented","BFD",30
+"713","MVM42","36-59","Male","Tertiary","Montevideo","Montevideo","Conciliacion","BFD4","PN4","anos","L+¡H*","BFD",30
+"714","MVM42","36-59","Male","Tertiary","Montevideo","Montevideo","Conciliacion","BFD4","N","San","L* L%","BFD",30
+"715","MVM42","36-59","Male","Tertiary","Montevideo","Montevideo","Conciliacion","NFD1","PN1","Senora","L+H* L-","NFD",30
+"716","MVM42","36-59","Male","Tertiary","Montevideo","Montevideo","Conciliacion","NFD1","PN2","no","L+H*","NFD",30
+"717","MVM42","36-59","Male","Tertiary","Montevideo","Montevideo","Conciliacion","NFD1","PN3","quiero","¡H+L*","NFD",30
+"718","MVM42","36-59","Male","Tertiary","Montevideo","Montevideo","Conciliacion","NFD1","PN4","limones","L+¡H* !H-","NFD",30
+"719","MVM42","36-59","Male","Tertiary","Montevideo","Montevideo","Conciliacion","NFD1","PN5","quiero","L+<H*","NFD",30
+"720","MVM42","36-59","Male","Tertiary","Montevideo","Montevideo","Conciliacion","NFD1","N1","naranjas","L+¡H* L%","NFD",30
+"721","MVM42","36-59","Male","Tertiary","Montevideo","Montevideo","Conciliacion","NFD2","PN1","Que","L+H*","NFD",30
+"722","MVM42","36-59","Male","Tertiary","Montevideo","Montevideo","Conciliacion","NFD2","PN2","rico","deaccented","NFD",30
+"723","MVM42","36-59","Male","Tertiary","Montevideo","Montevideo","Conciliacion","NFD2","PN3","olor","L+H*","NFD",30
+"724","MVM42","36-59","Male","Tertiary","Montevideo","Montevideo","Conciliacion","NFD2","N1","medialunas","L+¡H* L%","NFD",30
+"725","MVM42","36-59","Male","Tertiary","Montevideo","Montevideo","Conciliacion","NFD3","PN1","No","L+H* L-","NFD",30
+"726","MVM42","36-59","Male","Tertiary","Montevideo","Montevideo","Conciliacion","NFD3","PN2","se","L+H*","NFD",30
+"727","MVM42","36-59","Male","Tertiary","Montevideo","Montevideo","Conciliacion","NFD3","PN3","vivir","L+<¡H*","NFD",30
+"728","MVM42","36-59","Male","Tertiary","Montevideo","Montevideo","Conciliacion","NFD3","N1","San","L+H* L%","NFD",30
+"729","MVM42","36-59","Male","Tertiary","Montevideo","Montevideo","Conciliacion","NFD4","PN1","Es","H+L*","NFD",30
+"730","MVM42","36-59","Male","Tertiary","Montevideo","Montevideo","Conciliacion","NFD4","PN2","possible","L+H*","NFD",30
+"731","MVM42","36-59","Male","Tertiary","Montevideo","Montevideo","Conciliacion","NFD4","PN3","No","L+H*","NFD",30
+"732","MVM42","36-59","Male","Tertiary","Montevideo","Montevideo","Conciliacion","NFD4","PN4","le","L+¡H*","NFD",30
+"733","MVM42","36-59","Male","Tertiary","Montevideo","Montevideo","Conciliacion","NFD4","N1","regalo","¡H+L* L%","NFD",30
+"734","MVM42","36-59","Male","Tertiary","Montevideo","Montevideo","Conciliacion","NFD5","N1","con","L+H* !H%","NFD",30
+"735","MVM42","36-59","Male","Tertiary","Montevideo","Montevideo","Conciliacion","NFD6","PN1","Esta","H+L*","NFD",30
+"736","MVM42","36-59","Male","Tertiary","Montevideo","Montevideo","Conciliacion","NFD6","N1","buenisimo","L+H* L%","NFD",30
+"737","MVM42-2","36-59","Male","Secondary","Montevideo","Montevideo","Prado","BFD1","N","Mandarinas","H+L *L%","BFD",30
+"738","MVM42-2","36-59","Male","Secondary","Montevideo","Montevideo","Prado","BFD2","PN1","Maria","L+H*","BFD",30
+"739","MVM42-2","36-59","Male","Secondary","Montevideo","Montevideo","Prado","BFD2","PN2","esta","H*","BFD",30
+"740","MVM42-2","36-59","Male","Secondary","Montevideo","Montevideo","Prado","BFD2","PN3","comiendo","L+<H*","BFD",30
+"741","MVM42-2","36-59","Male","Secondary","Montevideo","Montevideo","Prado","BFD2","N","mandarinas","L* L%","BFD",30
+"742","MVM42-2","36-59","Male","Secondary","Montevideo","Montevideo","Prado","BFD4","PN1","Yo","L+<H*","BFD",30
+"743","MVM42-2","36-59","Male","Secondary","Montevideo","Montevideo","Prado","BFD4","PN2","vivi","H*","BFD",30
+"744","MVM42-2","36-59","Male","Secondary","Montevideo","Montevideo","Prado","BFD4","PN3","muchos","H*","BFD",30
+"745","MVM42-2","36-59","Male","Secondary","Montevideo","Montevideo","Prado","BFD4","PN4","anos","deaccented","BFD",30
+"746","MVM42-2","36-59","Male","Secondary","Montevideo","Montevideo","Prado","BFD4","N","San","L* L%","BFD",30
+"747","MVM42-2","36-59","Male","Secondary","Montevideo","Montevideo","Prado","NFD1","PN1","Senora","L+H* L-","NFD",30
+"748","MVM42-2","36-59","Male","Secondary","Montevideo","Montevideo","Prado","NFD1","PN2","no","L+H*","NFD",30
+"749","MVM42-2","36-59","Male","Secondary","Montevideo","Montevideo","Prado","NFD1","PN3","quiero","L+¡H*+L","NFD",30
+"750","MVM42-2","36-59","Male","Secondary","Montevideo","Montevideo","Prado","NFD1","PN4","limones","L* L-","NFD",30
+"751","MVM42-2","36-59","Male","Secondary","Montevideo","Montevideo","Prado","NFD1","PN5","quiero","L+<H*","NFD",30
+"752","MVM42-2","36-59","Male","Secondary","Montevideo","Montevideo","Prado","NFD1","N1","naranjas","H+L* L%","NFD",30
+"753","MVM42-2","36-59","Male","Secondary","Montevideo","Montevideo","Prado","NFD2","PN1","Que","L+H*","NFD",30
+"754","MVM42-2","36-59","Male","Secondary","Montevideo","Montevideo","Prado","NFD2","PN2","rico","L+H*","NFD",30
+"755","MVM42-2","36-59","Male","Secondary","Montevideo","Montevideo","Prado","NFD2","PN3","olor","L+<H*","NFD",30
+"756","MVM42-2","36-59","Male","Secondary","Montevideo","Montevideo","Prado","NFD2","N1","medialunas","L+H* L%","NFD",30
+"757","MVM42-2","36-59","Male","Secondary","Montevideo","Montevideo","Prado","NFD3","PN1","No","L+H*+L L-","NFD",30
+"758","MVM42-2","36-59","Male","Secondary","Montevideo","Montevideo","Prado","NFD3","PN2","se","L+H*","NFD",30
+"759","MVM42-2","36-59","Male","Secondary","Montevideo","Montevideo","Prado","NFD3","PN3","vivir","L+¡H*","NFD",30
+"760","MVM42-2","36-59","Male","Secondary","Montevideo","Montevideo","Prado","NFD3","N1","San","L+H*+L L%","NFD",30
+"761","MVM42-2","36-59","Male","Secondary","Montevideo","Montevideo","Prado","NFD4","PN1","Es",NA,"NFD",30
+"762","MVM42-2","36-59","Male","Secondary","Montevideo","Montevideo","Prado","NFD4","PN2","possible",NA,"NFD",30
+"763","MVM42-2","36-59","Male","Secondary","Montevideo","Montevideo","Prado","NFD4","PN3","No",NA,"NFD",30
+"764","MVM42-2","36-59","Male","Secondary","Montevideo","Montevideo","Prado","NFD4","PN4","le",NA,"NFD",30
+"765","MVM42-2","36-59","Male","Secondary","Montevideo","Montevideo","Prado","NFD4","N1","regalo",NA,"NFD",30
+"766","MVM42-2","36-59","Male","Secondary","Montevideo","Montevideo","Prado","NFD5","N1","con","L+H*+L L%","NFD",30
+"767","MVM42-2","36-59","Male","Secondary","Montevideo","Montevideo","Prado","NFD6","PN1","Esta","H+L*","NFD",30
+"768","MVM42-2","36-59","Male","Secondary","Montevideo","Montevideo","Prado","NFD6","N1","buenisimo","L+H* L%","NFD",30
+"769","MVM44","36-59","Male","Tertiary","Montevideo","Montevideo","Centro","BFD1","N","Mandarinas","L+H* L%","BFD",30
+"770","MVM44","36-59","Male","Tertiary","Montevideo","Montevideo","Centro","BFD2","PN1","Maria","L+<H* H-","BFD",30
+"771","MVM44","36-59","Male","Tertiary","Montevideo","Montevideo","Centro","BFD2","PN2","esta","H+L*","BFD",30
+"772","MVM44","36-59","Male","Tertiary","Montevideo","Montevideo","Centro","BFD2","PN3","comiendo","L+H*","BFD",30
+"773","MVM44","36-59","Male","Tertiary","Montevideo","Montevideo","Centro","BFD2","N","mandarinas","L* L%","BFD",30
+"774","MVM44","36-59","Male","Tertiary","Montevideo","Montevideo","Centro","BFD4","PN1","Yo","L+H*","BFD",30
+"775","MVM44","36-59","Male","Tertiary","Montevideo","Montevideo","Centro","BFD4","PN2","vivi","L+H*","BFD",30
+"776","MVM44","36-59","Male","Tertiary","Montevideo","Montevideo","Centro","BFD4","PN3","muchos","H*","BFD",30
+"777","MVM44","36-59","Male","Tertiary","Montevideo","Montevideo","Centro","BFD4","PN4","anos","deaccented","BFD",30
+"778","MVM44","36-59","Male","Tertiary","Montevideo","Montevideo","Centro","BFD4","N","San","L* L%","BFD",30
+"779","MVM44","36-59","Male","Tertiary","Montevideo","Montevideo","Centro","NFD1","PN1","Senora","L+<H* L-","NFD",30
+"780","MVM44","36-59","Male","Tertiary","Montevideo","Montevideo","Centro","NFD1","PN2","no","L+H*","NFD",30
+"781","MVM44","36-59","Male","Tertiary","Montevideo","Montevideo","Centro","NFD1","PN3","quiero","¡H+L*","NFD",30
+"782","MVM44","36-59","Male","Tertiary","Montevideo","Montevideo","Centro","NFD1","PN4","limones","L* L-","NFD",30
+"783","MVM44","36-59","Male","Tertiary","Montevideo","Montevideo","Centro","NFD1","PN5","quiero","L+<H*","NFD",30
+"784","MVM44","36-59","Male","Tertiary","Montevideo","Montevideo","Centro","NFD1","N1","naranjas","L+H*+L L%","NFD",30
+"785","MVM44","36-59","Male","Tertiary","Montevideo","Montevideo","Centro","NFD2","PN1","Que","H+L*","NFD",30
+"786","MVM44","36-59","Male","Tertiary","Montevideo","Montevideo","Centro","NFD2","PN2","rico","H*","NFD",30
+"787","MVM44","36-59","Male","Tertiary","Montevideo","Montevideo","Centro","NFD2","PN3","olor","!H*","NFD",30
+"788","MVM44","36-59","Male","Tertiary","Montevideo","Montevideo","Centro","NFD2","N1","medialunas","L+H* L%","NFD",30
+"789","MVM44","36-59","Male","Tertiary","Montevideo","Montevideo","Centro","NFD3","PN1","No","H+L* L-","NFD",30
+"790","MVM44","36-59","Male","Tertiary","Montevideo","Montevideo","Centro","NFD3","PN2","se","L+<H*","NFD",30
+"791","MVM44","36-59","Male","Tertiary","Montevideo","Montevideo","Centro","NFD3","PN3","vivir","L+H*","NFD",30
+"792","MVM44","36-59","Male","Tertiary","Montevideo","Montevideo","Centro","NFD3","N1","San","H+L* L%","NFD",30
+"793","MVM44","36-59","Male","Tertiary","Montevideo","Montevideo","Centro","NFD4","PN1","Es","devoiced","NFD",30
+"794","MVM44","36-59","Male","Tertiary","Montevideo","Montevideo","Centro","NFD4","PN2","possible","L+<H*","NFD",30
+"795","MVM44","36-59","Male","Tertiary","Montevideo","Montevideo","Centro","NFD4","PN3","No","deaccented","NFD",30
+"796","MVM44","36-59","Male","Tertiary","Montevideo","Montevideo","Centro","NFD4","PN4","le","L+<H*","NFD",30
+"797","MVM44","36-59","Male","Tertiary","Montevideo","Montevideo","Centro","NFD4","N1","regalo","L+H* L%","NFD",30
+"798","MVM44","36-59","Male","Tertiary","Montevideo","Montevideo","Centro","NFD5","N1","con","L+H* L%","NFD",30
+"799","MVM44","36-59","Male","Tertiary","Montevideo","Montevideo","Centro","NFD6","PN1","Esta","H*","NFD",30
+"800","MVM44","36-59","Male","Tertiary","Montevideo","Montevideo","Centro","NFD6","N1","buenisimo","L+H* L%","NFD",30
+"801","MVM49","36-59","Male","Primary/Middle","Montevideo","Montevideo","Villa dolores","BFD1","N","Mandarinas","L+H* L%","BFD",30
+"802","MVM49","36-59","Male","Primary/Middle","Montevideo","Montevideo","Villa dolores","BFD2","PN1","Maria","L+<H*","BFD",30
+"803","MVM49","36-59","Male","Primary/Middle","Montevideo","Montevideo","Villa dolores","BFD2","PN2","esta","L+¡H*","BFD",30
+"804","MVM49","36-59","Male","Primary/Middle","Montevideo","Montevideo","Villa dolores","BFD2","PN3","comiendo","L*+¡H","BFD",30
+"805","MVM49","36-59","Male","Primary/Middle","Montevideo","Montevideo","Villa dolores","BFD2","N","mandarinas","L* L%","BFD",30
+"806","MVM49","36-59","Male","Primary/Middle","Montevideo","Montevideo","Villa dolores","BFD4","PN1","Yo","L+H*","BFD",30
+"807","MVM49","36-59","Male","Primary/Middle","Montevideo","Montevideo","Villa dolores","BFD4","PN2","vivi","L+¡H*","BFD",30
+"808","MVM49","36-59","Male","Primary/Middle","Montevideo","Montevideo","Villa dolores","BFD4","PN3","muchos","L+¡H*","BFD",30
+"809","MVM49","36-59","Male","Primary/Middle","Montevideo","Montevideo","Villa dolores","BFD4","PN4","anos","deaccented","BFD",30
+"810","MVM49","36-59","Male","Primary/Middle","Montevideo","Montevideo","Villa dolores","BFD4","N","San","L* L%","BFD",30
+"811","MVM49","36-59","Male","Primary/Middle","Montevideo","Montevideo","Villa dolores","NFD1","PN1","Senora","L+<H* L-","NFD",30
+"812","MVM49","36-59","Male","Primary/Middle","Montevideo","Montevideo","Villa dolores","NFD1","PN2","no","H*","NFD",30
+"813","MVM49","36-59","Male","Primary/Middle","Montevideo","Montevideo","Villa dolores","NFD1","PN3","quiero","L+¡H*","NFD",30
+"814","MVM49","36-59","Male","Primary/Middle","Montevideo","Montevideo","Villa dolores","NFD1","PN4","limones","L* L-","NFD",30
+"815","MVM49","36-59","Male","Primary/Middle","Montevideo","Montevideo","Villa dolores","NFD1","PN5","quiero","L+<H*","NFD",30
+"816","MVM49","36-59","Male","Primary/Middle","Montevideo","Montevideo","Villa dolores","NFD1","N1","naranjas","L+H*+L L%","NFD",30
+"817","MVM49","36-59","Male","Primary/Middle","Montevideo","Montevideo","Villa dolores","NFD2","PN1","Que","L+H*","NFD",30
+"818","MVM49","36-59","Male","Primary/Middle","Montevideo","Montevideo","Villa dolores","NFD2","PN2","rico","L+¡H*","NFD",30
+"819","MVM49","36-59","Male","Primary/Middle","Montevideo","Montevideo","Villa dolores","NFD2","PN3","olor","L+H*","NFD",30
+"820","MVM49","36-59","Male","Primary/Middle","Montevideo","Montevideo","Villa dolores","NFD2","N1","medialunas","L* L%","NFD",30
+"821","MVM49","36-59","Male","Primary/Middle","Montevideo","Montevideo","Villa dolores","NFD3","PN1","No","L+H*+L L-","NFD",30
+"822","MVM49","36-59","Male","Primary/Middle","Montevideo","Montevideo","Villa dolores","NFD3","PN2","se","L+H*","NFD",30
+"823","MVM49","36-59","Male","Primary/Middle","Montevideo","Montevideo","Villa dolores","NFD3","PN3","vivir","L+<H*","NFD",30
+"824","MVM49","36-59","Male","Primary/Middle","Montevideo","Montevideo","Villa dolores","NFD3","N1","San","L* L%","NFD",30
+"825","MVM49","36-59","Male","Primary/Middle","Montevideo","Montevideo","Villa dolores","NFD4","PN1","Es","deaccented","NFD",30
+"826","MVM49","36-59","Male","Primary/Middle","Montevideo","Montevideo","Villa dolores","NFD4","PN2","possible","L*+H H-","NFD",30
+"827","MVM49","36-59","Male","Primary/Middle","Montevideo","Montevideo","Villa dolores","NFD4","PN3","No","L+H*","NFD",30
+"828","MVM49","36-59","Male","Primary/Middle","Montevideo","Montevideo","Villa dolores","NFD4","PN4","le","L+¡H*","NFD",30
+"829","MVM49","36-59","Male","Primary/Middle","Montevideo","Montevideo","Villa dolores","NFD4","N1","regalo","L* L%","NFD",30
+"830","MVM49","36-59","Male","Primary/Middle","Montevideo","Montevideo","Villa dolores","NFD5","N1","con","L+H* L%","NFD",30
+"831","MVM49","36-59","Male","Primary/Middle","Montevideo","Montevideo","Villa dolores","NFD6","PN1","Esta","H+L*","NFD",30
+"832","MVM49","36-59","Male","Primary/Middle","Montevideo","Montevideo","Villa dolores","NFD6","N1","buenisimo","!H* L%","NFD",30
+"833","MVM50","36-59","Male","Tertiary","Montevideo","Montevideo","Parque Rodo","BFD1","N","Mandarinas","H+L* L%","BFD",30
+"834","MVM50","36-59","Male","Tertiary","Montevideo","Montevideo","Parque Rodo","BFD2","PN1","Maria","L+H*","BFD",30
+"835","MVM50","36-59","Male","Tertiary","Montevideo","Montevideo","Parque Rodo","BFD2","PN2","esta","L+H*","BFD",30
+"836","MVM50","36-59","Male","Tertiary","Montevideo","Montevideo","Parque Rodo","BFD2","PN3","comiendo","L+<H*","BFD",30
+"837","MVM50","36-59","Male","Tertiary","Montevideo","Montevideo","Parque Rodo","BFD2","N","mandarinas","L* L%","BFD",30
+"838","MVM50","36-59","Male","Tertiary","Montevideo","Montevideo","Parque Rodo","BFD4","PN1","Yo","H*","BFD",30
+"839","MVM50","36-59","Male","Tertiary","Montevideo","Montevideo","Parque Rodo","BFD4","PN2","vivi","H*","BFD",30
+"840","MVM50","36-59","Male","Tertiary","Montevideo","Montevideo","Parque Rodo","BFD4","PN3","muchos","H*","BFD",30
+"841","MVM50","36-59","Male","Tertiary","Montevideo","Montevideo","Parque Rodo","BFD4","PN4","anos","L*+H","BFD",30
+"842","MVM50","36-59","Male","Tertiary","Montevideo","Montevideo","Parque Rodo","BFD4","N","San","L* L%","BFD",30
+"843","MVM50","36-59","Male","Tertiary","Montevideo","Montevideo","Parque Rodo","NFD1","PN1","Senora","L+H* L-","NFD",30
+"844","MVM50","36-59","Male","Tertiary","Montevideo","Montevideo","Parque Rodo","NFD1","PN2","no","L+H*","NFD",30
+"845","MVM50","36-59","Male","Tertiary","Montevideo","Montevideo","Parque Rodo","NFD1","PN3","quiero","¡H+L*","NFD",30
+"846","MVM50","36-59","Male","Tertiary","Montevideo","Montevideo","Parque Rodo","NFD1","PN4","limones","L* L-","NFD",30
+"847","MVM50","36-59","Male","Tertiary","Montevideo","Montevideo","Parque Rodo","NFD1","PN5","quiero","L+<H*","NFD",30
+"848","MVM50","36-59","Male","Tertiary","Montevideo","Montevideo","Parque Rodo","NFD1","N1","naranjas","L+H*+L L%","NFD",30
+"849","MVM50","36-59","Male","Tertiary","Montevideo","Montevideo","Parque Rodo","NFD2","PN1","Que","L+H*","NFD",30
+"850","MVM50","36-59","Male","Tertiary","Montevideo","Montevideo","Parque Rodo","NFD2","PN2","rico","L+¡H*","NFD",30
+"851","MVM50","36-59","Male","Tertiary","Montevideo","Montevideo","Parque Rodo","NFD2","PN3","olor","L+H*","NFD",30
+"852","MVM50","36-59","Male","Tertiary","Montevideo","Montevideo","Parque Rodo","NFD2","N1","medialunas","L+¡H* L%","NFD",30
+"853","MVM50","36-59","Male","Tertiary","Montevideo","Montevideo","Parque Rodo","NFD3","PN1","No","L+H* L-","NFD",30
+"854","MVM50","36-59","Male","Tertiary","Montevideo","Montevideo","Parque Rodo","NFD3","PN2","se","L+H*","NFD",30
+"855","MVM50","36-59","Male","Tertiary","Montevideo","Montevideo","Parque Rodo","NFD3","PN3","vivir","L+H*","NFD",30
+"856","MVM50","36-59","Male","Tertiary","Montevideo","Montevideo","Parque Rodo","NFD3","N1","San","L* L%","NFD",30
+"857","MVM50","36-59","Male","Tertiary","Montevideo","Montevideo","Parque Rodo","NFD4","PN1","Es","H*","NFD",30
+"858","MVM50","36-59","Male","Tertiary","Montevideo","Montevideo","Parque Rodo","NFD4","PN2","possible","L+<¡H*","NFD",30
+"859","MVM50","36-59","Male","Tertiary","Montevideo","Montevideo","Parque Rodo","NFD4","PN3","No","L+H*","NFD",30
+"860","MVM50","36-59","Male","Tertiary","Montevideo","Montevideo","Parque Rodo","NFD4","PN4","le","L+H*","NFD",30
+"861","MVM50","36-59","Male","Tertiary","Montevideo","Montevideo","Parque Rodo","NFD4","N1","regalo","L* L%","NFD",30
+"862","MVM50","36-59","Male","Tertiary","Montevideo","Montevideo","Parque Rodo","NFD5","N1","con","L+H* L%","NFD",30
+"863","MVM50","36-59","Male","Tertiary","Montevideo","Montevideo","Parque Rodo","NFD6","PN1","Esta","L+<H*","NFD",30
+"864","MVM50","36-59","Male","Tertiary","Montevideo","Montevideo","Parque Rodo","NFD6","N1","buenisimo","L+¡H* L%","NFD",30
+"865","MVM68","60+","Male","Secondary","Montevideo","Montevideo","Cordon","BFD1","N","Mandarinas","L* L%","BFD",30
+"866","MVM68","60+","Male","Secondary","Montevideo","Montevideo","Cordon","BFD2","PN1","Maria","L+<H*","BFD",30
+"867","MVM68","60+","Male","Secondary","Montevideo","Montevideo","Cordon","BFD2","PN2","esta","H*","BFD",30
+"868","MVM68","60+","Male","Secondary","Montevideo","Montevideo","Cordon","BFD2","PN3","comiendo","L+<H*","BFD",30
+"869","MVM68","60+","Male","Secondary","Montevideo","Montevideo","Cordon","BFD2","N","mandarinas","L* L%","BFD",30
+"870","MVM68","60+","Male","Secondary","Montevideo","Montevideo","Cordon","BFD4","PN1","Yo","L+H*","BFD",30
+"871","MVM68","60+","Male","Secondary","Montevideo","Montevideo","Cordon","BFD4","PN2","vivi","deaccented","BFD",30
+"872","MVM68","60+","Male","Secondary","Montevideo","Montevideo","Cordon","BFD4","PN3","muchos","L+H*","BFD",30
+"873","MVM68","60+","Male","Secondary","Montevideo","Montevideo","Cordon","BFD4","PN4","anos","H*","BFD",30
+"874","MVM68","60+","Male","Secondary","Montevideo","Montevideo","Cordon","BFD4","N","San","L* L%","BFD",30
+"875","MVM68","60+","Male","Secondary","Montevideo","Montevideo","Cordon","NFD1","PN1","Senora","L+H* L-","NFD",30
+"876","MVM68","60+","Male","Secondary","Montevideo","Montevideo","Cordon","NFD1","PN2","no","L+H*","NFD",30
+"877","MVM68","60+","Male","Secondary","Montevideo","Montevideo","Cordon","NFD1","PN3","quiero","H+L*","NFD",30
+"878","MVM68","60+","Male","Secondary","Montevideo","Montevideo","Cordon","NFD1","PN4","limones","L* L-","NFD",30
+"879","MVM68","60+","Male","Secondary","Montevideo","Montevideo","Cordon","NFD1","PN5","quiero","L*+H","NFD",30
+"880","MVM68","60+","Male","Secondary","Montevideo","Montevideo","Cordon","NFD1","N1","naranjas","H+L* L%","NFD",30
+"881","MVM68","60+","Male","Secondary","Montevideo","Montevideo","Cordon","NFD2","PN1","Que","L+H*","NFD",30
+"882","MVM68","60+","Male","Secondary","Montevideo","Montevideo","Cordon","NFD2","PN2","rico","L+H*","NFD",30
+"883","MVM68","60+","Male","Secondary","Montevideo","Montevideo","Cordon","NFD2","PN3","olor","L+H*","NFD",30
+"884","MVM68","60+","Male","Secondary","Montevideo","Montevideo","Cordon","NFD2","N1","medialunas","L+¡H* L%","NFD",30
+"885","MVM68","60+","Male","Secondary","Montevideo","Montevideo","Cordon","NFD3","PN1","No","L+H*+L L-","NFD",30
+"886","MVM68","60+","Male","Secondary","Montevideo","Montevideo","Cordon","NFD3","PN2","se","L+<H*","NFD",30
+"887","MVM68","60+","Male","Secondary","Montevideo","Montevideo","Cordon","NFD3","PN3","vivir","deaccented","NFD",30
+"888","MVM68","60+","Male","Secondary","Montevideo","Montevideo","Cordon","NFD3","N1","San","L+H* L%","NFD",30
+"889","MVM68","60+","Male","Secondary","Montevideo","Montevideo","Cordon","NFD4","PN1","Es","L+H*","NFD",30
+"890","MVM68","60+","Male","Secondary","Montevideo","Montevideo","Cordon","NFD4","PN2","possible","L*+H","NFD",30
+"891","MVM68","60+","Male","Secondary","Montevideo","Montevideo","Cordon","NFD4","PN3","No","L+H*","NFD",30
+"892","MVM68","60+","Male","Secondary","Montevideo","Montevideo","Cordon","NFD4","PN4","le","H+L*","NFD",30
+"893","MVM68","60+","Male","Secondary","Montevideo","Montevideo","Cordon","NFD4","N1","regalo","L* L%","NFD",30
+"894","MVM68","60+","Male","Secondary","Montevideo","Montevideo","Cordon","NFD5","N1","con","L+H* L%","NFD",30
+"895","MVM68","60+","Male","Secondary","Montevideo","Montevideo","Cordon","NFD6","PN1","Esta","L+H*","NFD",30
+"896","MVM68","60+","Male","Secondary","Montevideo","Montevideo","Cordon","NFD6","N1","buenisimo","L+H* L%","NFD",30
+"897","MVM69","60+","Male","Secondary","Montevideo","Montevideo","Punta Carretas","BFD1","N","Mandarinas","L* L%","BFD",30
+"898","MVM69","60+","Male","Secondary","Montevideo","Montevideo","Punta Carretas","BFD2","PN1","Maria","L+H*","BFD",30
+"899","MVM69","60+","Male","Secondary","Montevideo","Montevideo","Punta Carretas","BFD2","PN2","esta","devoiced","BFD",30
+"900","MVM69","60+","Male","Secondary","Montevideo","Montevideo","Punta Carretas","BFD2","PN3","comiendo","L+H*","BFD",30
+"901","MVM69","60+","Male","Secondary","Montevideo","Montevideo","Punta Carretas","BFD2","N","mandarinas","L* L%","BFD",30
+"902","MVM69","60+","Male","Secondary","Montevideo","Montevideo","Punta Carretas","BFD4","PN1","Yo","L+<H*","BFD",30
+"903","MVM69","60+","Male","Secondary","Montevideo","Montevideo","Punta Carretas","BFD4","PN2","vivi","L+H*","BFD",30
+"904","MVM69","60+","Male","Secondary","Montevideo","Montevideo","Punta Carretas","BFD4","PN3","muchos","H*","BFD",30
+"905","MVM69","60+","Male","Secondary","Montevideo","Montevideo","Punta Carretas","BFD4","PN4","anos","deaccented","BFD",30
+"906","MVM69","60+","Male","Secondary","Montevideo","Montevideo","Punta Carretas","BFD4","N","San","L* L%","BFD",30
+"907","MVM69","60+","Male","Secondary","Montevideo","Montevideo","Punta Carretas","NFD1","PN1","Senora","L+H* L-","NFD",30
+"908","MVM69","60+","Male","Secondary","Montevideo","Montevideo","Punta Carretas","NFD1","PN2","no","L+H*","NFD",30
+"909","MVM69","60+","Male","Secondary","Montevideo","Montevideo","Punta Carretas","NFD1","PN3","quiero","L+H*","NFD",30
+"910","MVM69","60+","Male","Secondary","Montevideo","Montevideo","Punta Carretas","NFD1","PN4","limones","L* L-","NFD",30
+"911","MVM69","60+","Male","Secondary","Montevideo","Montevideo","Punta Carretas","NFD1","PN5","quiero","L+<H*","NFD",30
+"912","MVM69","60+","Male","Secondary","Montevideo","Montevideo","Punta Carretas","NFD1","N1","naranjas","L* L%","NFD",30
+"913","MVM69","60+","Male","Secondary","Montevideo","Montevideo","Punta Carretas","NFD2","PN1","Que","H+L*","NFD",30
+"914","MVM69","60+","Male","Secondary","Montevideo","Montevideo","Punta Carretas","NFD2","PN2","rico","L+H*","NFD",30
+"915","MVM69","60+","Male","Secondary","Montevideo","Montevideo","Punta Carretas","NFD2","PN3","olor","L+H*","NFD",30
+"916","MVM69","60+","Male","Secondary","Montevideo","Montevideo","Punta Carretas","NFD2","N1","medialunas","L+¡H* L%","NFD",30
+"917","MVM69","60+","Male","Secondary","Montevideo","Montevideo","Punta Carretas","NFD3","PN1","No","H+L* L-","NFD",30
+"918","MVM69","60+","Male","Secondary","Montevideo","Montevideo","Punta Carretas","NFD3","PN2","se","L+H*","NFD",30
+"919","MVM69","60+","Male","Secondary","Montevideo","Montevideo","Punta Carretas","NFD3","PN3","vivir","L+H*","NFD",30
+"920","MVM69","60+","Male","Secondary","Montevideo","Montevideo","Punta Carretas","NFD3","N1","San","L* L%","NFD",30
+"921","MVM69","60+","Male","Secondary","Montevideo","Montevideo","Punta Carretas","NFD4","PN1","Es","H*","NFD",30
+"922","MVM69","60+","Male","Secondary","Montevideo","Montevideo","Punta Carretas","NFD4","PN2","possible","L+<¡H*","NFD",30
+"923","MVM69","60+","Male","Secondary","Montevideo","Montevideo","Punta Carretas","NFD4","PN3","No","L+H*","NFD",30
+"924","MVM69","60+","Male","Secondary","Montevideo","Montevideo","Punta Carretas","NFD4","PN4","le","L+H*","NFD",30
+"925","MVM69","60+","Male","Secondary","Montevideo","Montevideo","Punta Carretas","NFD4","N1","regalo","L+H* L%","NFD",30
+"926","MVM69","60+","Male","Secondary","Montevideo","Montevideo","Punta Carretas","NFD5","N1","con","L+H* !H%","NFD",30
+"927","MVM69","60+","Male","Secondary","Montevideo","Montevideo","Punta Carretas","NFD6","PN1","Esta","H*","NFD",30
+"928","MVM69","60+","Male","Secondary","Montevideo","Montevideo","Punta Carretas","NFD6","N1","buenisimo","L+¡H* L%","NFD",30
+"929","MVM78","60+","Male","Tertiary","Montevideo","Montevideo","Punta Gorda/Carrasco","BFD1","N","Mandarinas","L+H*+L L%","BFD",30
+"930","MVM78","60+","Male","Tertiary","Montevideo","Montevideo","Punta Gorda/Carrasco","BFD2","PN1","Maria","L+<H*","BFD",30
+"931","MVM78","60+","Male","Tertiary","Montevideo","Montevideo","Punta Gorda/Carrasco","BFD2","PN2","esta","H+L*","BFD",30
+"932","MVM78","60+","Male","Tertiary","Montevideo","Montevideo","Punta Gorda/Carrasco","BFD2","PN3","comiendo","deaccented","BFD",30
+"933","MVM78","60+","Male","Tertiary","Montevideo","Montevideo","Punta Gorda/Carrasco","BFD2","N","mandarinas","L+¡H* L%","BFD",30
+"934","MVM78","60+","Male","Tertiary","Montevideo","Montevideo","Punta Gorda/Carrasco","BFD4","PN1","Yo","L+H*","BFD",30
+"935","MVM78","60+","Male","Tertiary","Montevideo","Montevideo","Punta Gorda/Carrasco","BFD4","PN2","vivi","L+¡H*","BFD",30
+"936","MVM78","60+","Male","Tertiary","Montevideo","Montevideo","Punta Gorda/Carrasco","BFD4","PN3","muchos","L+¡H*","BFD",30
+"937","MVM78","60+","Male","Tertiary","Montevideo","Montevideo","Punta Gorda/Carrasco","BFD4","PN4","anos","H+L*","BFD",30
+"938","MVM78","60+","Male","Tertiary","Montevideo","Montevideo","Punta Gorda/Carrasco","BFD4","N","San","L+H* L%","BFD",30
+"939","MVM78","60+","Male","Tertiary","Montevideo","Montevideo","Punta Gorda/Carrasco","NFD1","PN1","Senora","L+H* L-","NFD",30
+"940","MVM78","60+","Male","Tertiary","Montevideo","Montevideo","Punta Gorda/Carrasco","NFD1","PN2","no","L+H*","NFD",30
+"941","MVM78","60+","Male","Tertiary","Montevideo","Montevideo","Punta Gorda/Carrasco","NFD1","PN3","quiero","L+<¡H*","NFD",30
+"942","MVM78","60+","Male","Tertiary","Montevideo","Montevideo","Punta Gorda/Carrasco","NFD1","PN4","limones","L+H*+L L-","NFD",30
+"943","MVM78","60+","Male","Tertiary","Montevideo","Montevideo","Punta Gorda/Carrasco","NFD1","PN5","quiero","L+<H*","NFD",30
+"944","MVM78","60+","Male","Tertiary","Montevideo","Montevideo","Punta Gorda/Carrasco","NFD1","N1","naranjas","L+H*+L L%","NFD",30
+"945","MVM78","60+","Male","Tertiary","Montevideo","Montevideo","Punta Gorda/Carrasco","NFD2","PN1","Que","H*","NFD",30
+"946","MVM78","60+","Male","Tertiary","Montevideo","Montevideo","Punta Gorda/Carrasco","NFD2","PN2","rico","L+¡H*","NFD",30
+"947","MVM78","60+","Male","Tertiary","Montevideo","Montevideo","Punta Gorda/Carrasco","NFD2","PN3","olor","L+H*","NFD",30
+"948","MVM78","60+","Male","Tertiary","Montevideo","Montevideo","Punta Gorda/Carrasco","NFD2","N1","medialunas","L+H* L%","NFD",30
+"949","MVM78","60+","Male","Tertiary","Montevideo","Montevideo","Punta Gorda/Carrasco","NFD3","PN1","No","L+H*+L L-","NFD",30
+"950","MVM78","60+","Male","Tertiary","Montevideo","Montevideo","Punta Gorda/Carrasco","NFD3","PN2","se","L+H*","NFD",30
+"951","MVM78","60+","Male","Tertiary","Montevideo","Montevideo","Punta Gorda/Carrasco","NFD3","PN3","vivir","L+H*","NFD",30
+"952","MVM78","60+","Male","Tertiary","Montevideo","Montevideo","Punta Gorda/Carrasco","NFD3","N1","San","H+L* L%","NFD",30
+"953","MVM78","60+","Male","Tertiary","Montevideo","Montevideo","Punta Gorda/Carrasco","NFD4","PN1","Es","L+H*","NFD",30
+"954","MVM78","60+","Male","Tertiary","Montevideo","Montevideo","Punta Gorda/Carrasco","NFD4","PN2","possible","L+H*","NFD",30
+"955","MVM78","60+","Male","Tertiary","Montevideo","Montevideo","Punta Gorda/Carrasco","NFD4","PN3","No","L+H*","NFD",30
+"956","MVM78","60+","Male","Tertiary","Montevideo","Montevideo","Punta Gorda/Carrasco","NFD4","PN4","le","L+¡H*+L","NFD",30
+"957","MVM78","60+","Male","Tertiary","Montevideo","Montevideo","Punta Gorda/Carrasco","NFD4","N1","regalo","L* L%","NFD",30
+"958","MVM78","60+","Male","Tertiary","Montevideo","Montevideo","Punta Gorda/Carrasco","NFD5","N1","con","L+H*+L L%","NFD",30
+"959","MVM78","60+","Male","Tertiary","Montevideo","Montevideo","Punta Gorda/Carrasco","NFD6","PN1","Esta","L+H*","NFD",30
+"960","MVM78","60+","Male","Tertiary","Montevideo","Montevideo","Punta Gorda/Carrasco","NFD6","N1","buenisimo","L+!H* L%","NFD",30

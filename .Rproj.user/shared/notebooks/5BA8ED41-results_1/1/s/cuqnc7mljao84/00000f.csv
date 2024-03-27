@@ -1,0 +1,25 @@
+"0","library(tidyverse)"
+"2","Error in exists(cacheKey, where = .rs.WorkingDataEnv, inherits = FALSE) : 
+  invalid first argument
+"
+"0","library(here)"
+"2","Error in exists(cacheKey, where = .rs.WorkingDataEnv, inherits = FALSE) : 
+  invalid first argument
+"
+"0","mv_long = read.csv(here(""data"", ""tidy"", ""mv_long.csv""))"
+"2","Error in exists(cacheKey, where = .rs.WorkingDataEnv, inherits = FALSE) : 
+  invalid first argument
+"
+"0","dz_long = read.csv(here(""data"", ""tidy"", ""dz_long.csv"")) "
+"2","Error in exists(cacheKey, where = .rs.WorkingDataEnv, inherits = FALSE) : 
+  invalid first argument
+"
+"0","long_all = rbind(mv_long, dz_long)"
+"2","Error in exists(cacheKey, where = .rs.WorkingDataEnv, inherits = FALSE) : 
+  invalid first argument
+"
+"0","long_all$tones = gsub(""L*L%""  , ""L* L%"" , long_all$tones , fixed = TRUE)"
+"0",""
+"2","Error in exists(cacheKey, where = .rs.WorkingDataEnv, inherits = FALSE) : 
+  invalid first argument
+"

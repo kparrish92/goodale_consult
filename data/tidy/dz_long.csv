@@ -1,0 +1,641 @@
+"","NAME","Age.Group","SEX","EDU.Simplified","DEPT","CITY","HOOD","sentence","position","words","tones","sentence_type","total_speakers"
+"1","DZF20","18-35","Female","Tertiary","Durazno","Durazno","La Lanera","BFD1","N","Mandarinas",NA,"BFD",20
+"2","DZF20","18-35","Female","Tertiary","Durazno","Durazno","La Lanera","BFD2","PN1","Maria","L+<H*","BFD",20
+"3","DZF20","18-35","Female","Tertiary","Durazno","Durazno","La Lanera","BFD2","PN2","esta","H+L*","BFD",20
+"4","DZF20","18-35","Female","Tertiary","Durazno","Durazno","La Lanera","BFD2","PN3","comiendo","L+<H*","BFD",20
+"5","DZF20","18-35","Female","Tertiary","Durazno","Durazno","La Lanera","BFD2","N","mandarinas","L*L%","BFD",20
+"6","DZF20","18-35","Female","Tertiary","Durazno","Durazno","La Lanera","BFD4","PN1","Yo","L+<H*","BFD",20
+"7","DZF20","18-35","Female","Tertiary","Durazno","Durazno","La Lanera","BFD4","PN2","vivi","deaccented","BFD",20
+"8","DZF20","18-35","Female","Tertiary","Durazno","Durazno","La Lanera","BFD4","PN3","muchos","L+<H*","BFD",20
+"9","DZF20","18-35","Female","Tertiary","Durazno","Durazno","La Lanera","BFD4","PN4","anos","L+<H*","BFD",20
+"10","DZF20","18-35","Female","Tertiary","Durazno","Durazno","La Lanera","BFD4","N","San","L* L%","BFD",20
+"11","DZF20","18-35","Female","Tertiary","Durazno","Durazno","La Lanera","NFD1","PN1","Senora","L+<H*","NFD",20
+"12","DZF20","18-35","Female","Tertiary","Durazno","Durazno","La Lanera","NFD1","PN2","no","H*","NFD",20
+"13","DZF20","18-35","Female","Tertiary","Durazno","Durazno","La Lanera","NFD1","PN3","quiero","L+¡H*","NFD",20
+"14","DZF20","18-35","Female","Tertiary","Durazno","Durazno","La Lanera","NFD1","PN4","limones","L* L-","NFD",20
+"15","DZF20","18-35","Female","Tertiary","Durazno","Durazno","La Lanera","NFD1","PN5","quiero","L+<H*","NFD",20
+"16","DZF20","18-35","Female","Tertiary","Durazno","Durazno","La Lanera","NFD1","N1","naranjas","L* L%","NFD",20
+"17","DZF20","18-35","Female","Tertiary","Durazno","Durazno","La Lanera","NFD2","PN1","Que","L+H*","NFD",20
+"18","DZF20","18-35","Female","Tertiary","Durazno","Durazno","La Lanera","NFD2","PN2","rico","L+¡H*","NFD",20
+"19","DZF20","18-35","Female","Tertiary","Durazno","Durazno","La Lanera","NFD2","PN3","olor","L+H*","NFD",20
+"20","DZF20","18-35","Female","Tertiary","Durazno","Durazno","La Lanera","NFD2","N1","medialunas","L+H* L%","NFD",20
+"21","DZF20","18-35","Female","Tertiary","Durazno","Durazno","La Lanera","NFD3","PN1","No","L+H*+L L-","NFD",20
+"22","DZF20","18-35","Female","Tertiary","Durazno","Durazno","La Lanera","NFD3","PN2","se","L+H*","NFD",20
+"23","DZF20","18-35","Female","Tertiary","Durazno","Durazno","La Lanera","NFD3","PN3","vivir","L+H*","NFD",20
+"24","DZF20","18-35","Female","Tertiary","Durazno","Durazno","La Lanera","NFD3","N1","San","H+L* L%","NFD",20
+"25","DZF20","18-35","Female","Tertiary","Durazno","Durazno","La Lanera","NFD4","PN1","Es","devoiced","NFD",20
+"26","DZF20","18-35","Female","Tertiary","Durazno","Durazno","La Lanera","NFD4","PN2","possible","L*+H","NFD",20
+"27","DZF20","18-35","Female","Tertiary","Durazno","Durazno","La Lanera","NFD4","PN3","No","L+H*","NFD",20
+"28","DZF20","18-35","Female","Tertiary","Durazno","Durazno","La Lanera","NFD4","PN4","le","L+¡H*","NFD",20
+"29","DZF20","18-35","Female","Tertiary","Durazno","Durazno","La Lanera","NFD4","N1","regalo","L* L%","NFD",20
+"30","DZF20","18-35","Female","Tertiary","Durazno","Durazno","La Lanera","NFD5","N1","con","L+H*+L L%","NFD",20
+"31","DZF20","18-35","Female","Tertiary","Durazno","Durazno","La Lanera","NFD6","PN1","Esta","L+H*","NFD",20
+"32","DZF20","18-35","Female","Tertiary","Durazno","Durazno","La Lanera","NFD6","N1","buenisimo","L+H* L%","NFD",20
+"33","DZF34","18-35","Female","Secondary","Durazno","Durazno","Barrio Tabare","BFD1","N","Mandarinas",NA,"BFD",20
+"34","DZF34","18-35","Female","Secondary","Durazno","Durazno","Barrio Tabare","BFD2","PN1","Maria","L+<H*","BFD",20
+"35","DZF34","18-35","Female","Secondary","Durazno","Durazno","Barrio Tabare","BFD2","PN2","esta","H*","BFD",20
+"36","DZF34","18-35","Female","Secondary","Durazno","Durazno","Barrio Tabare","BFD2","PN3","comiendo","deaccented","BFD",20
+"37","DZF34","18-35","Female","Secondary","Durazno","Durazno","Barrio Tabare","BFD2","N","mandarinas","L+H* L%","BFD",20
+"38","DZF34","18-35","Female","Secondary","Durazno","Durazno","Barrio Tabare","BFD4","PN1","Yo",NA,"BFD",20
+"39","DZF34","18-35","Female","Secondary","Durazno","Durazno","Barrio Tabare","BFD4","PN2","vivi",NA,"BFD",20
+"40","DZF34","18-35","Female","Secondary","Durazno","Durazno","Barrio Tabare","BFD4","PN3","muchos",NA,"BFD",20
+"41","DZF34","18-35","Female","Secondary","Durazno","Durazno","Barrio Tabare","BFD4","PN4","anos",NA,"BFD",20
+"42","DZF34","18-35","Female","Secondary","Durazno","Durazno","Barrio Tabare","BFD4","N","San",NA,"BFD",20
+"43","DZF34","18-35","Female","Secondary","Durazno","Durazno","Barrio Tabare","NFD1","PN1","Senora","L+H* L-","NFD",20
+"44","DZF34","18-35","Female","Secondary","Durazno","Durazno","Barrio Tabare","NFD1","PN2","no","L+H*","NFD",20
+"45","DZF34","18-35","Female","Secondary","Durazno","Durazno","Barrio Tabare","NFD1","PN3","quiero","¡H*","NFD",20
+"46","DZF34","18-35","Female","Secondary","Durazno","Durazno","Barrio Tabare","NFD1","PN4","limones","L* L-","NFD",20
+"47","DZF34","18-35","Female","Secondary","Durazno","Durazno","Barrio Tabare","NFD1","PN5","quiero","L*+H","NFD",20
+"48","DZF34","18-35","Female","Secondary","Durazno","Durazno","Barrio Tabare","NFD1","N1","naranjas","L+H* L%","NFD",20
+"49","DZF34","18-35","Female","Secondary","Durazno","Durazno","Barrio Tabare","NFD2","PN1","Que","L+H*","NFD",20
+"50","DZF34","18-35","Female","Secondary","Durazno","Durazno","Barrio Tabare","NFD2","PN2","rico","H*","NFD",20
+"51","DZF34","18-35","Female","Secondary","Durazno","Durazno","Barrio Tabare","NFD2","PN3","olor","L+H*","NFD",20
+"52","DZF34","18-35","Female","Secondary","Durazno","Durazno","Barrio Tabare","NFD2","N1","medialunas","L* L%","NFD",20
+"53","DZF34","18-35","Female","Secondary","Durazno","Durazno","Barrio Tabare","NFD3","PN1","No",NA,"NFD",20
+"54","DZF34","18-35","Female","Secondary","Durazno","Durazno","Barrio Tabare","NFD3","PN2","se",NA,"NFD",20
+"55","DZF34","18-35","Female","Secondary","Durazno","Durazno","Barrio Tabare","NFD3","PN3","vivir",NA,"NFD",20
+"56","DZF34","18-35","Female","Secondary","Durazno","Durazno","Barrio Tabare","NFD3","N1","San",NA,"NFD",20
+"57","DZF34","18-35","Female","Secondary","Durazno","Durazno","Barrio Tabare","NFD4","PN1","Es","H*","NFD",20
+"58","DZF34","18-35","Female","Secondary","Durazno","Durazno","Barrio Tabare","NFD4","PN2","possible","L*+H","NFD",20
+"59","DZF34","18-35","Female","Secondary","Durazno","Durazno","Barrio Tabare","NFD4","PN3","No","L+H*","NFD",20
+"60","DZF34","18-35","Female","Secondary","Durazno","Durazno","Barrio Tabare","NFD4","PN4","le","L+H*","NFD",20
+"61","DZF34","18-35","Female","Secondary","Durazno","Durazno","Barrio Tabare","NFD4","N1","regalo","L* L%","NFD",20
+"62","DZF34","18-35","Female","Secondary","Durazno","Durazno","Barrio Tabare","NFD5","N1","con","L+H* !H%","NFD",20
+"63","DZF34","18-35","Female","Secondary","Durazno","Durazno","Barrio Tabare","NFD6","PN1","Esta","L*+H","NFD",20
+"64","DZF34","18-35","Female","Secondary","Durazno","Durazno","Barrio Tabare","NFD6","N1","buenisimo","L+H* L%","NFD",20
+"65","DZF34-2","18-35","Female","Secondary","Durazno","Durazno","Barrio Varona","BFD1","N","Mandarinas",NA,"BFD",20
+"66","DZF34-2","18-35","Female","Secondary","Durazno","Durazno","Barrio Varona","BFD2","PN1","Maria","L+<H*","BFD",20
+"67","DZF34-2","18-35","Female","Secondary","Durazno","Durazno","Barrio Varona","BFD2","PN2","esta","H+L*","BFD",20
+"68","DZF34-2","18-35","Female","Secondary","Durazno","Durazno","Barrio Varona","BFD2","PN3","comiendo","L+<H*","BFD",20
+"69","DZF34-2","18-35","Female","Secondary","Durazno","Durazno","Barrio Varona","BFD2","N","mandarinas","L*L%","BFD",20
+"70","DZF34-2","18-35","Female","Secondary","Durazno","Durazno","Barrio Varona","BFD4","PN1","Yo","L*+H","BFD",20
+"71","DZF34-2","18-35","Female","Secondary","Durazno","Durazno","Barrio Varona","BFD4","PN2","vivi","L+H*","BFD",20
+"72","DZF34-2","18-35","Female","Secondary","Durazno","Durazno","Barrio Varona","BFD4","PN3","muchos","deaccented","BFD",20
+"73","DZF34-2","18-35","Female","Secondary","Durazno","Durazno","Barrio Varona","BFD4","PN4","anos","L+<H*","BFD",20
+"74","DZF34-2","18-35","Female","Secondary","Durazno","Durazno","Barrio Varona","BFD4","N","San","L* L%","BFD",20
+"75","DZF34-2","18-35","Female","Secondary","Durazno","Durazno","Barrio Varona","NFD1","PN1","Senora","L+H* L-","NFD",20
+"76","DZF34-2","18-35","Female","Secondary","Durazno","Durazno","Barrio Varona","NFD1","PN2","no","L+H*","NFD",20
+"77","DZF34-2","18-35","Female","Secondary","Durazno","Durazno","Barrio Varona","NFD1","PN3","quiero","L+¡H*","NFD",20
+"78","DZF34-2","18-35","Female","Secondary","Durazno","Durazno","Barrio Varona","NFD1","PN4","limones","!H* L-","NFD",20
+"79","DZF34-2","18-35","Female","Secondary","Durazno","Durazno","Barrio Varona","NFD1","PN5","quiero","L+<H*","NFD",20
+"80","DZF34-2","18-35","Female","Secondary","Durazno","Durazno","Barrio Varona","NFD1","N1","naranjas","L* L%","NFD",20
+"81","DZF34-2","18-35","Female","Secondary","Durazno","Durazno","Barrio Varona","NFD2","PN1","Que","L+H*","NFD",20
+"82","DZF34-2","18-35","Female","Secondary","Durazno","Durazno","Barrio Varona","NFD2","PN2","rico","!H*","NFD",20
+"83","DZF34-2","18-35","Female","Secondary","Durazno","Durazno","Barrio Varona","NFD2","PN3","olor","L+<H*","NFD",20
+"84","DZF34-2","18-35","Female","Secondary","Durazno","Durazno","Barrio Varona","NFD2","N1","medialunas","L+H*","NFD",20
+"85","DZF34-2","18-35","Female","Secondary","Durazno","Durazno","Barrio Varona","NFD3","PN1","No","L+H*+L L-","NFD",20
+"86","DZF34-2","18-35","Female","Secondary","Durazno","Durazno","Barrio Varona","NFD3","PN2","se","L+H*","NFD",20
+"87","DZF34-2","18-35","Female","Secondary","Durazno","Durazno","Barrio Varona","NFD3","PN3","vivir","L+<H*","NFD",20
+"88","DZF34-2","18-35","Female","Secondary","Durazno","Durazno","Barrio Varona","NFD3","N1","San","L+¡H*+L L%","NFD",20
+"89","DZF34-2","18-35","Female","Secondary","Durazno","Durazno","Barrio Varona","NFD4","PN1","Es","L+H*","NFD",20
+"90","DZF34-2","18-35","Female","Secondary","Durazno","Durazno","Barrio Varona","NFD4","PN2","possible","L*+¡H","NFD",20
+"91","DZF34-2","18-35","Female","Secondary","Durazno","Durazno","Barrio Varona","NFD4","PN3","No","L+<H*","NFD",20
+"92","DZF34-2","18-35","Female","Secondary","Durazno","Durazno","Barrio Varona","NFD4","PN4","le","L+H*","NFD",20
+"93","DZF34-2","18-35","Female","Secondary","Durazno","Durazno","Barrio Varona","NFD4","N1","regalo","L* L%","NFD",20
+"94","DZF34-2","18-35","Female","Secondary","Durazno","Durazno","Barrio Varona","NFD5","N1","con","L+H* L%","NFD",20
+"95","DZF34-2","18-35","Female","Secondary","Durazno","Durazno","Barrio Varona","NFD6","PN1","Esta","L+H*","NFD",20
+"96","DZF34-2","18-35","Female","Secondary","Durazno","Durazno","Barrio Varona","NFD6","N1","buenisimo","L+H* L%","NFD",20
+"97","DZF35","18-35","Female","Secondary","Durazno","Durazno","Centro","BFD1","N","Mandarinas","L+H* L%","BFD",20
+"98","DZF35","18-35","Female","Secondary","Durazno","Durazno","Centro","BFD2","PN1","Maria","L+<H*","BFD",20
+"99","DZF35","18-35","Female","Secondary","Durazno","Durazno","Centro","BFD2","PN2","esta","H+L*","BFD",20
+"100","DZF35","18-35","Female","Secondary","Durazno","Durazno","Centro","BFD2","PN3","comiendo","L+<H*","BFD",20
+"101","DZF35","18-35","Female","Secondary","Durazno","Durazno","Centro","BFD2","N","mandarinas","L*L%","BFD",20
+"102","DZF35","18-35","Female","Secondary","Durazno","Durazno","Centro","BFD4","PN1","Yo","L+<H*","BFD",20
+"103","DZF35","18-35","Female","Secondary","Durazno","Durazno","Centro","BFD4","PN2","vivi","L+<H*","BFD",20
+"104","DZF35","18-35","Female","Secondary","Durazno","Durazno","Centro","BFD4","PN3","muchos","deaccented","BFD",20
+"105","DZF35","18-35","Female","Secondary","Durazno","Durazno","Centro","BFD4","PN4","anos","L+<H*","BFD",20
+"106","DZF35","18-35","Female","Secondary","Durazno","Durazno","Centro","BFD4","N","San","L* L%","BFD",20
+"107","DZF35","18-35","Female","Secondary","Durazno","Durazno","Centro","NFD1","PN1","Senora","L+H* L-","NFD",20
+"108","DZF35","18-35","Female","Secondary","Durazno","Durazno","Centro","NFD1","PN2","no","L+H*","NFD",20
+"109","DZF35","18-35","Female","Secondary","Durazno","Durazno","Centro","NFD1","PN3","quiero","L+¡H*","NFD",20
+"110","DZF35","18-35","Female","Secondary","Durazno","Durazno","Centro","NFD1","PN4","limones","L* L-","NFD",20
+"111","DZF35","18-35","Female","Secondary","Durazno","Durazno","Centro","NFD1","PN5","quiero","L*+H","NFD",20
+"112","DZF35","18-35","Female","Secondary","Durazno","Durazno","Centro","NFD1","N1","naranjas","L+H* L%","NFD",20
+"113","DZF35","18-35","Female","Secondary","Durazno","Durazno","Centro","NFD2","PN1","Que","L+H*","NFD",20
+"114","DZF35","18-35","Female","Secondary","Durazno","Durazno","Centro","NFD2","PN2","rico","L+¡H*","NFD",20
+"115","DZF35","18-35","Female","Secondary","Durazno","Durazno","Centro","NFD2","PN3","olor","L+H*","NFD",20
+"116","DZF35","18-35","Female","Secondary","Durazno","Durazno","Centro","NFD2","N1","medialunas","L+H* L%","NFD",20
+"117","DZF35","18-35","Female","Secondary","Durazno","Durazno","Centro","NFD3","PN1","No","L+H* L-","NFD",20
+"118","DZF35","18-35","Female","Secondary","Durazno","Durazno","Centro","NFD3","PN2","se","L+<H*","NFD",20
+"119","DZF35","18-35","Female","Secondary","Durazno","Durazno","Centro","NFD3","PN3","vivir","L+<H*","NFD",20
+"120","DZF35","18-35","Female","Secondary","Durazno","Durazno","Centro","NFD3","N1","San","L* L%","NFD",20
+"121","DZF35","18-35","Female","Secondary","Durazno","Durazno","Centro","NFD4","PN1","Es","H*","NFD",20
+"122","DZF35","18-35","Female","Secondary","Durazno","Durazno","Centro","NFD4","PN2","possible","L*+¡H H-","NFD",20
+"123","DZF35","18-35","Female","Secondary","Durazno","Durazno","Centro","NFD4","PN3","No","L+<H*","NFD",20
+"124","DZF35","18-35","Female","Secondary","Durazno","Durazno","Centro","NFD4","PN4","le","L+¡H*","NFD",20
+"125","DZF35","18-35","Female","Secondary","Durazno","Durazno","Centro","NFD4","N1","regalo","L* L%","NFD",20
+"126","DZF35","18-35","Female","Secondary","Durazno","Durazno","Centro","NFD5","N1","con","L+!H*+L L%","NFD",20
+"127","DZF35","18-35","Female","Secondary","Durazno","Durazno","Centro","NFD6","PN1","Esta","L+H*","NFD",20
+"128","DZF35","18-35","Female","Secondary","Durazno","Durazno","Centro","NFD6","N1","buenisimo","L+H* L%","NFD",20
+"129","DZF41-2","36-59","Female","Tertiary","Durazno","Durazno","Barrio Centro","BFD1","N","Mandarinas",NA,"BFD",20
+"130","DZF41-2","36-59","Female","Tertiary","Durazno","Durazno","Barrio Centro","BFD2","PN1","Maria",NA,"BFD",20
+"131","DZF41-2","36-59","Female","Tertiary","Durazno","Durazno","Barrio Centro","BFD2","PN2","esta",NA,"BFD",20
+"132","DZF41-2","36-59","Female","Tertiary","Durazno","Durazno","Barrio Centro","BFD2","PN3","comiendo",NA,"BFD",20
+"133","DZF41-2","36-59","Female","Tertiary","Durazno","Durazno","Barrio Centro","BFD2","N","mandarinas",NA,"BFD",20
+"134","DZF41-2","36-59","Female","Tertiary","Durazno","Durazno","Barrio Centro","BFD4","PN1","Yo",NA,"BFD",20
+"135","DZF41-2","36-59","Female","Tertiary","Durazno","Durazno","Barrio Centro","BFD4","PN2","vivi",NA,"BFD",20
+"136","DZF41-2","36-59","Female","Tertiary","Durazno","Durazno","Barrio Centro","BFD4","PN3","muchos",NA,"BFD",20
+"137","DZF41-2","36-59","Female","Tertiary","Durazno","Durazno","Barrio Centro","BFD4","PN4","anos",NA,"BFD",20
+"138","DZF41-2","36-59","Female","Tertiary","Durazno","Durazno","Barrio Centro","BFD4","N","San",NA,"BFD",20
+"139","DZF41-2","36-59","Female","Tertiary","Durazno","Durazno","Barrio Centro","NFD1","PN1","Senora","L+H* L-","NFD",20
+"140","DZF41-2","36-59","Female","Tertiary","Durazno","Durazno","Barrio Centro","NFD1","PN2","no","L+H*","NFD",20
+"141","DZF41-2","36-59","Female","Tertiary","Durazno","Durazno","Barrio Centro","NFD1","PN3","quiero","L+H*+L","NFD",20
+"142","DZF41-2","36-59","Female","Tertiary","Durazno","Durazno","Barrio Centro","NFD1","PN4","limones","L* L-","NFD",20
+"143","DZF41-2","36-59","Female","Tertiary","Durazno","Durazno","Barrio Centro","NFD1","PN5","quiero","L*+H","NFD",20
+"144","DZF41-2","36-59","Female","Tertiary","Durazno","Durazno","Barrio Centro","NFD1","N1","naranjas","L* L%","NFD",20
+"145","DZF41-2","36-59","Female","Tertiary","Durazno","Durazno","Barrio Centro","NFD2","PN1","Que","L+H*","NFD",20
+"146","DZF41-2","36-59","Female","Tertiary","Durazno","Durazno","Barrio Centro","NFD2","PN2","rico","L+<H*","NFD",20
+"147","DZF41-2","36-59","Female","Tertiary","Durazno","Durazno","Barrio Centro","NFD2","PN3","olor","L+H*","NFD",20
+"148","DZF41-2","36-59","Female","Tertiary","Durazno","Durazno","Barrio Centro","NFD2","N1","medialunas","L+H*+L L%","NFD",20
+"149","DZF41-2","36-59","Female","Tertiary","Durazno","Durazno","Barrio Centro","NFD3","PN1","No","L+H*+L H-","NFD",20
+"150","DZF41-2","36-59","Female","Tertiary","Durazno","Durazno","Barrio Centro","NFD3","PN2","se","L*+H","NFD",20
+"151","DZF41-2","36-59","Female","Tertiary","Durazno","Durazno","Barrio Centro","NFD3","PN3","vivir","L*+H","NFD",20
+"152","DZF41-2","36-59","Female","Tertiary","Durazno","Durazno","Barrio Centro","NFD3","N1","San","L+!H*+L L%","NFD",20
+"153","DZF41-2","36-59","Female","Tertiary","Durazno","Durazno","Barrio Centro","NFD4","PN1","Es","H*","NFD",20
+"154","DZF41-2","36-59","Female","Tertiary","Durazno","Durazno","Barrio Centro","NFD4","PN2","possible","H+L*","NFD",20
+"155","DZF41-2","36-59","Female","Tertiary","Durazno","Durazno","Barrio Centro","NFD4","PN3","No","L+<H*","NFD",20
+"156","DZF41-2","36-59","Female","Tertiary","Durazno","Durazno","Barrio Centro","NFD4","PN4","le","L*+¡H","NFD",20
+"157","DZF41-2","36-59","Female","Tertiary","Durazno","Durazno","Barrio Centro","NFD4","N1","regalo","L+H* L%","NFD",20
+"158","DZF41-2","36-59","Female","Tertiary","Durazno","Durazno","Barrio Centro","NFD5","N1","con","L+H* !H%","NFD",20
+"159","DZF41-2","36-59","Female","Tertiary","Durazno","Durazno","Barrio Centro","NFD6","PN1","Esta","L*+H","NFD",20
+"160","DZF41-2","36-59","Female","Tertiary","Durazno","Durazno","Barrio Centro","NFD6","N1","buenisimo","L+¡H* L%","NFD",20
+"161","DZF55","36-59","Female","Secondary","Durazno","Sarandi del Yi","Barrio Mevir","BFD1","N","Mandarinas","L* L%","BFD",20
+"162","DZF55","36-59","Female","Secondary","Durazno","Sarandi del Yi","Barrio Mevir","BFD2","PN1","Maria","L+<H*","BFD",20
+"163","DZF55","36-59","Female","Secondary","Durazno","Sarandi del Yi","Barrio Mevir","BFD2","PN2","esta","L+H*","BFD",20
+"164","DZF55","36-59","Female","Secondary","Durazno","Sarandi del Yi","Barrio Mevir","BFD2","PN3","comiendo","L*+¡H","BFD",20
+"165","DZF55","36-59","Female","Secondary","Durazno","Sarandi del Yi","Barrio Mevir","BFD2","N","mandarinas","L*L%","BFD",20
+"166","DZF55","36-59","Female","Secondary","Durazno","Sarandi del Yi","Barrio Mevir","BFD4","PN1","Yo","H*","BFD",20
+"167","DZF55","36-59","Female","Secondary","Durazno","Sarandi del Yi","Barrio Mevir","BFD4","PN2","vivi","L+<¡H*","BFD",20
+"168","DZF55","36-59","Female","Secondary","Durazno","Sarandi del Yi","Barrio Mevir","BFD4","PN3","muchos","L+H*","BFD",20
+"169","DZF55","36-59","Female","Secondary","Durazno","Sarandi del Yi","Barrio Mevir","BFD4","PN4","anos","L+<H*","BFD",20
+"170","DZF55","36-59","Female","Secondary","Durazno","Sarandi del Yi","Barrio Mevir","BFD4","N","San","L* L%","BFD",20
+"171","DZF55","36-59","Female","Secondary","Durazno","Sarandi del Yi","Barrio Mevir","NFD1","PN1","Senora","H* L-","NFD",20
+"172","DZF55","36-59","Female","Secondary","Durazno","Sarandi del Yi","Barrio Mevir","NFD1","PN2","no","L+H*","NFD",20
+"173","DZF55","36-59","Female","Secondary","Durazno","Sarandi del Yi","Barrio Mevir","NFD1","PN3","quiero","L+¡H*","NFD",20
+"174","DZF55","36-59","Female","Secondary","Durazno","Sarandi del Yi","Barrio Mevir","NFD1","PN4","limones","L* L-","NFD",20
+"175","DZF55","36-59","Female","Secondary","Durazno","Sarandi del Yi","Barrio Mevir","NFD1","PN5","quiero","L*+H","NFD",20
+"176","DZF55","36-59","Female","Secondary","Durazno","Sarandi del Yi","Barrio Mevir","NFD1","N1","naranjas","L* L%","NFD",20
+"177","DZF55","36-59","Female","Secondary","Durazno","Sarandi del Yi","Barrio Mevir","NFD2","PN1","Que","L+H*","NFD",20
+"178","DZF55","36-59","Female","Secondary","Durazno","Sarandi del Yi","Barrio Mevir","NFD2","PN2","rico","H*","NFD",20
+"179","DZF55","36-59","Female","Secondary","Durazno","Sarandi del Yi","Barrio Mevir","NFD2","PN3","olor","L+H*","NFD",20
+"180","DZF55","36-59","Female","Secondary","Durazno","Sarandi del Yi","Barrio Mevir","NFD2","N1","medialunas","L+H*L%","NFD",20
+"181","DZF55","36-59","Female","Secondary","Durazno","Sarandi del Yi","Barrio Mevir","NFD3","PN1","No","L+H* L-","NFD",20
+"182","DZF55","36-59","Female","Secondary","Durazno","Sarandi del Yi","Barrio Mevir","NFD3","PN2","se","L*+H","NFD",20
+"183","DZF55","36-59","Female","Secondary","Durazno","Sarandi del Yi","Barrio Mevir","NFD3","PN3","vivir","L+<H*","NFD",20
+"184","DZF55","36-59","Female","Secondary","Durazno","Sarandi del Yi","Barrio Mevir","NFD3","N1","San","L* L%","NFD",20
+"185","DZF55","36-59","Female","Secondary","Durazno","Sarandi del Yi","Barrio Mevir","NFD4","PN1","Es","L*+H","NFD",20
+"186","DZF55","36-59","Female","Secondary","Durazno","Sarandi del Yi","Barrio Mevir","NFD4","PN2","possible","L*+¡H","NFD",20
+"187","DZF55","36-59","Female","Secondary","Durazno","Sarandi del Yi","Barrio Mevir","NFD4","PN3","No","L+H*","NFD",20
+"188","DZF55","36-59","Female","Secondary","Durazno","Sarandi del Yi","Barrio Mevir","NFD4","PN4","le","L+¡H*","NFD",20
+"189","DZF55","36-59","Female","Secondary","Durazno","Sarandi del Yi","Barrio Mevir","NFD4","N1","regalo","L* L%","NFD",20
+"190","DZF55","36-59","Female","Secondary","Durazno","Sarandi del Yi","Barrio Mevir","NFD5","N1","con","L+H* L%","NFD",20
+"191","DZF55","36-59","Female","Secondary","Durazno","Sarandi del Yi","Barrio Mevir","NFD6","PN1","Esta","L+H*","NFD",20
+"192","DZF55","36-59","Female","Secondary","Durazno","Sarandi del Yi","Barrio Mevir","NFD6","N1","buenisimo","L+H* L%","NFD",20
+"193","DZF56","36-59","Female","Secondary","Durazno","Sarandi del Yi","Barrio Malbajar","BFD1","N","Mandarinas","L+<H* L%","BFD",20
+"194","DZF56","36-59","Female","Secondary","Durazno","Sarandi del Yi","Barrio Malbajar","BFD2","PN1","Maria","L+<H*","BFD",20
+"195","DZF56","36-59","Female","Secondary","Durazno","Sarandi del Yi","Barrio Malbajar","BFD2","PN2","esta","L+<H*","BFD",20
+"196","DZF56","36-59","Female","Secondary","Durazno","Sarandi del Yi","Barrio Malbajar","BFD2","PN3","comiendo","L*+H","BFD",20
+"197","DZF56","36-59","Female","Secondary","Durazno","Sarandi del Yi","Barrio Malbajar","BFD2","N","mandarinas","L+H* L%","BFD",20
+"198","DZF56","36-59","Female","Secondary","Durazno","Sarandi del Yi","Barrio Malbajar","BFD4","PN1","Yo","L*+H","BFD",20
+"199","DZF56","36-59","Female","Secondary","Durazno","Sarandi del Yi","Barrio Malbajar","BFD4","PN2","vivi","L+H*","BFD",20
+"200","DZF56","36-59","Female","Secondary","Durazno","Sarandi del Yi","Barrio Malbajar","BFD4","PN3","muchos","H*","BFD",20
+"201","DZF56","36-59","Female","Secondary","Durazno","Sarandi del Yi","Barrio Malbajar","BFD4","PN4","anos","L+H*","BFD",20
+"202","DZF56","36-59","Female","Secondary","Durazno","Sarandi del Yi","Barrio Malbajar","BFD4","N","San","L* L%","BFD",20
+"203","DZF56","36-59","Female","Secondary","Durazno","Sarandi del Yi","Barrio Malbajar","NFD1","PN1","Senora","H* L-","NFD",20
+"204","DZF56","36-59","Female","Secondary","Durazno","Sarandi del Yi","Barrio Malbajar","NFD1","PN2","no","L+H*","NFD",20
+"205","DZF56","36-59","Female","Secondary","Durazno","Sarandi del Yi","Barrio Malbajar","NFD1","PN3","quiero","L+¡H*","NFD",20
+"206","DZF56","36-59","Female","Secondary","Durazno","Sarandi del Yi","Barrio Malbajar","NFD1","PN4","limones","L* L-","NFD",20
+"207","DZF56","36-59","Female","Secondary","Durazno","Sarandi del Yi","Barrio Malbajar","NFD1","PN5","quiero","L*+H","NFD",20
+"208","DZF56","36-59","Female","Secondary","Durazno","Sarandi del Yi","Barrio Malbajar","NFD1","N1","naranjas","L+H* L%","NFD",20
+"209","DZF56","36-59","Female","Secondary","Durazno","Sarandi del Yi","Barrio Malbajar","NFD2","PN1","Que","H*","NFD",20
+"210","DZF56","36-59","Female","Secondary","Durazno","Sarandi del Yi","Barrio Malbajar","NFD2","PN2","rico","L+¡H*","NFD",20
+"211","DZF56","36-59","Female","Secondary","Durazno","Sarandi del Yi","Barrio Malbajar","NFD2","PN3","olor","L+H*","NFD",20
+"212","DZF56","36-59","Female","Secondary","Durazno","Sarandi del Yi","Barrio Malbajar","NFD2","N1","medialunas","L+¡H* L%","NFD",20
+"213","DZF56","36-59","Female","Secondary","Durazno","Sarandi del Yi","Barrio Malbajar","NFD3","PN1","No","L+H* L-","NFD",20
+"214","DZF56","36-59","Female","Secondary","Durazno","Sarandi del Yi","Barrio Malbajar","NFD3","PN2","se","L*+H","NFD",20
+"215","DZF56","36-59","Female","Secondary","Durazno","Sarandi del Yi","Barrio Malbajar","NFD3","PN3","vivir","L+<H*","NFD",20
+"216","DZF56","36-59","Female","Secondary","Durazno","Sarandi del Yi","Barrio Malbajar","NFD3","N1","San","L+H* L%","NFD",20
+"217","DZF56","36-59","Female","Secondary","Durazno","Sarandi del Yi","Barrio Malbajar","NFD4","PN1","Es","deaccented","NFD",20
+"218","DZF56","36-59","Female","Secondary","Durazno","Sarandi del Yi","Barrio Malbajar","NFD4","PN2","possible","L*+H","NFD",20
+"219","DZF56","36-59","Female","Secondary","Durazno","Sarandi del Yi","Barrio Malbajar","NFD4","PN3","No","L+<¡H*","NFD",20
+"220","DZF56","36-59","Female","Secondary","Durazno","Sarandi del Yi","Barrio Malbajar","NFD4","PN4","le","L+H*","NFD",20
+"221","DZF56","36-59","Female","Secondary","Durazno","Sarandi del Yi","Barrio Malbajar","NFD4","N1","regalo","L* L%","NFD",20
+"222","DZF56","36-59","Female","Secondary","Durazno","Sarandi del Yi","Barrio Malbajar","NFD5","N1","con","L+H* !H%","NFD",20
+"223","DZF56","36-59","Female","Secondary","Durazno","Sarandi del Yi","Barrio Malbajar","NFD6","PN1","Esta","H*","NFD",20
+"224","DZF56","36-59","Female","Secondary","Durazno","Sarandi del Yi","Barrio Malbajar","NFD6","N1","buenisimo","L+¡H* H%","NFD",20
+"225","DZF60","60+","Female","Secondary","Durazno","Sarandi del Yi","Barrio Banco Hipotecario","BFD1","N","Mandarinas","L* L%","BFD",20
+"226","DZF60","60+","Female","Secondary","Durazno","Sarandi del Yi","Barrio Banco Hipotecario","BFD2","PN1","Maria","L+<H*","BFD",20
+"227","DZF60","60+","Female","Secondary","Durazno","Sarandi del Yi","Barrio Banco Hipotecario","BFD2","PN2","esta","H+L*","BFD",20
+"228","DZF60","60+","Female","Secondary","Durazno","Sarandi del Yi","Barrio Banco Hipotecario","BFD2","PN3","comiendo","deaccented","BFD",20
+"229","DZF60","60+","Female","Secondary","Durazno","Sarandi del Yi","Barrio Banco Hipotecario","BFD2","N","mandarinas","L+¡H* L%","BFD",20
+"230","DZF60","60+","Female","Secondary","Durazno","Sarandi del Yi","Barrio Banco Hipotecario","BFD4","PN1","Yo","L+<H*","BFD",20
+"231","DZF60","60+","Female","Secondary","Durazno","Sarandi del Yi","Barrio Banco Hipotecario","BFD4","PN2","vivi","deaccented","BFD",20
+"232","DZF60","60+","Female","Secondary","Durazno","Sarandi del Yi","Barrio Banco Hipotecario","BFD4","PN3","muchos","deaccented","BFD",20
+"233","DZF60","60+","Female","Secondary","Durazno","Sarandi del Yi","Barrio Banco Hipotecario","BFD4","PN4","anos","deaccented","BFD",20
+"234","DZF60","60+","Female","Secondary","Durazno","Sarandi del Yi","Barrio Banco Hipotecario","BFD4","N","San","L* L%","BFD",20
+"235","DZF60","60+","Female","Secondary","Durazno","Sarandi del Yi","Barrio Banco Hipotecario","NFD1","PN1","Senora","L+H* L-","NFD",20
+"236","DZF60","60+","Female","Secondary","Durazno","Sarandi del Yi","Barrio Banco Hipotecario","NFD1","PN2","no","L+H*","NFD",20
+"237","DZF60","60+","Female","Secondary","Durazno","Sarandi del Yi","Barrio Banco Hipotecario","NFD1","PN3","quiero","L+H*","NFD",20
+"238","DZF60","60+","Female","Secondary","Durazno","Sarandi del Yi","Barrio Banco Hipotecario","NFD1","PN4","limones","L* L-","NFD",20
+"239","DZF60","60+","Female","Secondary","Durazno","Sarandi del Yi","Barrio Banco Hipotecario","NFD1","PN5","quiero","L*+H","NFD",20
+"240","DZF60","60+","Female","Secondary","Durazno","Sarandi del Yi","Barrio Banco Hipotecario","NFD1","N1","naranjas","L* L%","NFD",20
+"241","DZF60","60+","Female","Secondary","Durazno","Sarandi del Yi","Barrio Banco Hipotecario","NFD2","PN1","Que","H*","NFD",20
+"242","DZF60","60+","Female","Secondary","Durazno","Sarandi del Yi","Barrio Banco Hipotecario","NFD2","PN2","rico","!H*","NFD",20
+"243","DZF60","60+","Female","Secondary","Durazno","Sarandi del Yi","Barrio Banco Hipotecario","NFD2","PN3","olor","!H*","NFD",20
+"244","DZF60","60+","Female","Secondary","Durazno","Sarandi del Yi","Barrio Banco Hipotecario","NFD2","N1","medialunas","L+¡H* L%","NFD",20
+"245","DZF60","60+","Female","Secondary","Durazno","Sarandi del Yi","Barrio Banco Hipotecario","NFD3","PN1","No","L+H* !H-","NFD",20
+"246","DZF60","60+","Female","Secondary","Durazno","Sarandi del Yi","Barrio Banco Hipotecario","NFD3","PN2","se","L+<H*","NFD",20
+"247","DZF60","60+","Female","Secondary","Durazno","Sarandi del Yi","Barrio Banco Hipotecario","NFD3","PN3","vivir","!H","NFD",20
+"248","DZF60","60+","Female","Secondary","Durazno","Sarandi del Yi","Barrio Banco Hipotecario","NFD3","N1","San","H+L* L%","NFD",20
+"249","DZF60","60+","Female","Secondary","Durazno","Sarandi del Yi","Barrio Banco Hipotecario","NFD4","PN1","Es","H*","NFD",20
+"250","DZF60","60+","Female","Secondary","Durazno","Sarandi del Yi","Barrio Banco Hipotecario","NFD4","PN2","possible","L+¡H*","NFD",20
+"251","DZF60","60+","Female","Secondary","Durazno","Sarandi del Yi","Barrio Banco Hipotecario","NFD4","PN3","No","!H*","NFD",20
+"252","DZF60","60+","Female","Secondary","Durazno","Sarandi del Yi","Barrio Banco Hipotecario","NFD4","PN4","le","L+<H*","NFD",20
+"253","DZF60","60+","Female","Secondary","Durazno","Sarandi del Yi","Barrio Banco Hipotecario","NFD4","N1","regalo","L* L%","NFD",20
+"254","DZF60","60+","Female","Secondary","Durazno","Sarandi del Yi","Barrio Banco Hipotecario","NFD5","N1","con","L+H* !H%","NFD",20
+"255","DZF60","60+","Female","Secondary","Durazno","Sarandi del Yi","Barrio Banco Hipotecario","NFD6","PN1","Esta","L+H*","NFD",20
+"256","DZF60","60+","Female","Secondary","Durazno","Sarandi del Yi","Barrio Banco Hipotecario","NFD6","N1","buenisimo","L+H* L%","NFD",20
+"257","DZF66","60+","Female","Tertiary","Durazno","Durazno","Plaza de Deportes N1","BFD1","N","Mandarinas","L+H* L!H%","BFD",20
+"258","DZF66","60+","Female","Tertiary","Durazno","Durazno","Plaza de Deportes N1","BFD2","PN1","Maria","L+<H*","BFD",20
+"259","DZF66","60+","Female","Tertiary","Durazno","Durazno","Plaza de Deportes N1","BFD2","PN2","esta","H+L*","BFD",20
+"260","DZF66","60+","Female","Tertiary","Durazno","Durazno","Plaza de Deportes N1","BFD2","PN3","comiendo","L*+H","BFD",20
+"261","DZF66","60+","Female","Tertiary","Durazno","Durazno","Plaza de Deportes N1","BFD2","N","mandarinas","L*L%","BFD",20
+"262","DZF66","60+","Female","Tertiary","Durazno","Durazno","Plaza de Deportes N1","BFD4","PN1","Yo","L*+H","BFD",20
+"263","DZF66","60+","Female","Tertiary","Durazno","Durazno","Plaza de Deportes N1","BFD4","PN2","vivi","L+H*","BFD",20
+"264","DZF66","60+","Female","Tertiary","Durazno","Durazno","Plaza de Deportes N1","BFD4","PN3","muchos","L+<H*","BFD",20
+"265","DZF66","60+","Female","Tertiary","Durazno","Durazno","Plaza de Deportes N1","BFD4","PN4","anos","!H* L-","BFD",20
+"266","DZF66","60+","Female","Tertiary","Durazno","Durazno","Plaza de Deportes N1","BFD4","N","San","L* L%","BFD",20
+"267","DZF66","60+","Female","Tertiary","Durazno","Durazno","Plaza de Deportes N1","NFD1","PN1","Senora","L+H* L-","NFD",20
+"268","DZF66","60+","Female","Tertiary","Durazno","Durazno","Plaza de Deportes N1","NFD1","PN2","no","H*","NFD",20
+"269","DZF66","60+","Female","Tertiary","Durazno","Durazno","Plaza de Deportes N1","NFD1","PN3","quiero","L+¡H*","NFD",20
+"270","DZF66","60+","Female","Tertiary","Durazno","Durazno","Plaza de Deportes N1","NFD1","PN4","limones","L* L-","NFD",20
+"271","DZF66","60+","Female","Tertiary","Durazno","Durazno","Plaza de Deportes N1","NFD1","PN5","quiero","L+<H*","NFD",20
+"272","DZF66","60+","Female","Tertiary","Durazno","Durazno","Plaza de Deportes N1","NFD1","N1","naranjas","L+H* L%","NFD",20
+"273","DZF66","60+","Female","Tertiary","Durazno","Durazno","Plaza de Deportes N1","NFD2","PN1","Que","L+H*","NFD",20
+"274","DZF66","60+","Female","Tertiary","Durazno","Durazno","Plaza de Deportes N1","NFD2","PN2","rico","L+¡H*","NFD",20
+"275","DZF66","60+","Female","Tertiary","Durazno","Durazno","Plaza de Deportes N1","NFD2","PN3","olor","L+H*","NFD",20
+"276","DZF66","60+","Female","Tertiary","Durazno","Durazno","Plaza de Deportes N1","NFD2","N1","medialunas","L+H* L%","NFD",20
+"277","DZF66","60+","Female","Tertiary","Durazno","Durazno","Plaza de Deportes N1","NFD3","PN1","No","L+H*+L L-","NFD",20
+"278","DZF66","60+","Female","Tertiary","Durazno","Durazno","Plaza de Deportes N1","NFD3","PN2","se","L+<H*","NFD",20
+"279","DZF66","60+","Female","Tertiary","Durazno","Durazno","Plaza de Deportes N1","NFD3","PN3","vivir","L+<¡H*","NFD",20
+"280","DZF66","60+","Female","Tertiary","Durazno","Durazno","Plaza de Deportes N1","NFD3","N1","San","L+H*+L L%","NFD",20
+"281","DZF66","60+","Female","Tertiary","Durazno","Durazno","Plaza de Deportes N1","NFD4","PN1","Es","L*+H","NFD",20
+"282","DZF66","60+","Female","Tertiary","Durazno","Durazno","Plaza de Deportes N1","NFD4","PN2","possible","L*+H","NFD",20
+"283","DZF66","60+","Female","Tertiary","Durazno","Durazno","Plaza de Deportes N1","NFD4","PN3","No","L+<H*","NFD",20
+"284","DZF66","60+","Female","Tertiary","Durazno","Durazno","Plaza de Deportes N1","NFD4","PN4","le","L+H*","NFD",20
+"285","DZF66","60+","Female","Tertiary","Durazno","Durazno","Plaza de Deportes N1","NFD4","N1","regalo","L+H* L%","NFD",20
+"286","DZF66","60+","Female","Tertiary","Durazno","Durazno","Plaza de Deportes N1","NFD5","N1","con","L+H* !H%","NFD",20
+"287","DZF66","60+","Female","Tertiary","Durazno","Durazno","Plaza de Deportes N1","NFD6","PN1","Esta","L+<H*","NFD",20
+"288","DZF66","60+","Female","Tertiary","Durazno","Durazno","Plaza de Deportes N1","NFD6","N1","buenisimo","L+H* L%","NFD",20
+"289","DZF67","60+","Female","Tertiary","Durazno","Durazno","Barrio Tabare","BFD1","N","Mandarinas","H+L* L%","BFD",20
+"290","DZF67","60+","Female","Tertiary","Durazno","Durazno","Barrio Tabare","BFD2","PN1","Maria","L+H*","BFD",20
+"291","DZF67","60+","Female","Tertiary","Durazno","Durazno","Barrio Tabare","BFD2","PN2","esta","H+L*","BFD",20
+"292","DZF67","60+","Female","Tertiary","Durazno","Durazno","Barrio Tabare","BFD2","PN3","comiendo","L+<H*","BFD",20
+"293","DZF67","60+","Female","Tertiary","Durazno","Durazno","Barrio Tabare","BFD2","N","mandarinas","H+L* L%","BFD",20
+"294","DZF67","60+","Female","Tertiary","Durazno","Durazno","Barrio Tabare","BFD4","PN1","Yo","L*+H","BFD",20
+"295","DZF67","60+","Female","Tertiary","Durazno","Durazno","Barrio Tabare","BFD4","PN2","vivi","L+¡H*","BFD",20
+"296","DZF67","60+","Female","Tertiary","Durazno","Durazno","Barrio Tabare","BFD4","PN3","muchos","H+L*","BFD",20
+"297","DZF67","60+","Female","Tertiary","Durazno","Durazno","Barrio Tabare","BFD4","PN4","anos","L+<H*","BFD",20
+"298","DZF67","60+","Female","Tertiary","Durazno","Durazno","Barrio Tabare","BFD4","N","San","L+H* L*","BFD",20
+"299","DZF67","60+","Female","Tertiary","Durazno","Durazno","Barrio Tabare","NFD1","PN1","Senora","H+L* L-","NFD",20
+"300","DZF67","60+","Female","Tertiary","Durazno","Durazno","Barrio Tabare","NFD1","PN2","no","L+H*","NFD",20
+"301","DZF67","60+","Female","Tertiary","Durazno","Durazno","Barrio Tabare","NFD1","PN3","quiero","L+¡H*","NFD",20
+"302","DZF67","60+","Female","Tertiary","Durazno","Durazno","Barrio Tabare","NFD1","PN4","limones","L* L-","NFD",20
+"303","DZF67","60+","Female","Tertiary","Durazno","Durazno","Barrio Tabare","NFD1","PN5","quiero","L+<H*","NFD",20
+"304","DZF67","60+","Female","Tertiary","Durazno","Durazno","Barrio Tabare","NFD1","N1","naranjas","L+H* L%","NFD",20
+"305","DZF67","60+","Female","Tertiary","Durazno","Durazno","Barrio Tabare","NFD2","PN1","Que","L+H*","NFD",20
+"306","DZF67","60+","Female","Tertiary","Durazno","Durazno","Barrio Tabare","NFD2","PN2","rico","L+H*","NFD",20
+"307","DZF67","60+","Female","Tertiary","Durazno","Durazno","Barrio Tabare","NFD2","PN3","olor","L+H*","NFD",20
+"308","DZF67","60+","Female","Tertiary","Durazno","Durazno","Barrio Tabare","NFD2","N1","medialunas","L+¡H* L%","NFD",20
+"309","DZF67","60+","Female","Tertiary","Durazno","Durazno","Barrio Tabare","NFD3","PN1","No","L+H* L-","NFD",20
+"310","DZF67","60+","Female","Tertiary","Durazno","Durazno","Barrio Tabare","NFD3","PN2","se","L+H*","NFD",20
+"311","DZF67","60+","Female","Tertiary","Durazno","Durazno","Barrio Tabare","NFD3","PN3","vivir","L+H*","NFD",20
+"312","DZF67","60+","Female","Tertiary","Durazno","Durazno","Barrio Tabare","NFD3","N1","San","L+¡H* L%","NFD",20
+"313","DZF67","60+","Female","Tertiary","Durazno","Durazno","Barrio Tabare","NFD4","PN1","Es","L+H*","NFD",20
+"314","DZF67","60+","Female","Tertiary","Durazno","Durazno","Barrio Tabare","NFD4","PN2","possible","L*+H","NFD",20
+"315","DZF67","60+","Female","Tertiary","Durazno","Durazno","Barrio Tabare","NFD4","PN3","No","L+<H*","NFD",20
+"316","DZF67","60+","Female","Tertiary","Durazno","Durazno","Barrio Tabare","NFD4","PN4","le","L+H*","NFD",20
+"317","DZF67","60+","Female","Tertiary","Durazno","Durazno","Barrio Tabare","NFD4","N1","regalo","L* L%","NFD",20
+"318","DZF67","60+","Female","Tertiary","Durazno","Durazno","Barrio Tabare","NFD5","N1","con","L+H* !H%","NFD",20
+"319","DZF67","60+","Female","Tertiary","Durazno","Durazno","Barrio Tabare","NFD6","PN1","Esta","L*+H","NFD",20
+"320","DZF67","60+","Female","Tertiary","Durazno","Durazno","Barrio Tabare","NFD6","N1","buenisimo","L+H* L%","NFD",20
+"321","DZM20","18-35","Male","Secondary","Durazno","Durazno","Corralon (Salberri & Cerrito)","BFD1","N","Mandarinas",NA,"BFD",20
+"322","DZM20","18-35","Male","Secondary","Durazno","Durazno","Corralon (Salberri & Cerrito)","BFD2","PN1","Maria","L+H*","BFD",20
+"323","DZM20","18-35","Male","Secondary","Durazno","Durazno","Corralon (Salberri & Cerrito)","BFD2","PN2","esta","deaccented","BFD",20
+"324","DZM20","18-35","Male","Secondary","Durazno","Durazno","Corralon (Salberri & Cerrito)","BFD2","PN3","comiendo","deaccented","BFD",20
+"325","DZM20","18-35","Male","Secondary","Durazno","Durazno","Corralon (Salberri & Cerrito)","BFD2","N","mandarinas","L*L%","BFD",20
+"326","DZM20","18-35","Male","Secondary","Durazno","Durazno","Corralon (Salberri & Cerrito)","BFD4","PN1","Yo","H*","BFD",20
+"327","DZM20","18-35","Male","Secondary","Durazno","Durazno","Corralon (Salberri & Cerrito)","BFD4","PN2","vivi","L+<H*","BFD",20
+"328","DZM20","18-35","Male","Secondary","Durazno","Durazno","Corralon (Salberri & Cerrito)","BFD4","PN3","muchos","deaccented","BFD",20
+"329","DZM20","18-35","Male","Secondary","Durazno","Durazno","Corralon (Salberri & Cerrito)","BFD4","PN4","anos","deaccented","BFD",20
+"330","DZM20","18-35","Male","Secondary","Durazno","Durazno","Corralon (Salberri & Cerrito)","BFD4","N","San","L* L%","BFD",20
+"331","DZM20","18-35","Male","Secondary","Durazno","Durazno","Corralon (Salberri & Cerrito)","NFD1","PN1","Senora","L+H* L-","NFD",20
+"332","DZM20","18-35","Male","Secondary","Durazno","Durazno","Corralon (Salberri & Cerrito)","NFD1","PN2","no","L+H*","NFD",20
+"333","DZM20","18-35","Male","Secondary","Durazno","Durazno","Corralon (Salberri & Cerrito)","NFD1","PN3","quiero","L+¡H*","NFD",20
+"334","DZM20","18-35","Male","Secondary","Durazno","Durazno","Corralon (Salberri & Cerrito)","NFD1","PN4","limones","L* L-","NFD",20
+"335","DZM20","18-35","Male","Secondary","Durazno","Durazno","Corralon (Salberri & Cerrito)","NFD1","PN5","quiero","L*+H","NFD",20
+"336","DZM20","18-35","Male","Secondary","Durazno","Durazno","Corralon (Salberri & Cerrito)","NFD1","N1","naranjas","L+H* L%","NFD",20
+"337","DZM20","18-35","Male","Secondary","Durazno","Durazno","Corralon (Salberri & Cerrito)","NFD2","PN1","Que","L+H*","NFD",20
+"338","DZM20","18-35","Male","Secondary","Durazno","Durazno","Corralon (Salberri & Cerrito)","NFD2","PN2","rico","L+H*","NFD",20
+"339","DZM20","18-35","Male","Secondary","Durazno","Durazno","Corralon (Salberri & Cerrito)","NFD2","PN3","olor","L+H*","NFD",20
+"340","DZM20","18-35","Male","Secondary","Durazno","Durazno","Corralon (Salberri & Cerrito)","NFD2","N1","medialunas","L+H* !H%","NFD",20
+"341","DZM20","18-35","Male","Secondary","Durazno","Durazno","Corralon (Salberri & Cerrito)","NFD3","PN1","No","H+L* L-","NFD",20
+"342","DZM20","18-35","Male","Secondary","Durazno","Durazno","Corralon (Salberri & Cerrito)","NFD3","PN2","se","L+<H*","NFD",20
+"343","DZM20","18-35","Male","Secondary","Durazno","Durazno","Corralon (Salberri & Cerrito)","NFD3","PN3","vivir","L+<H*","NFD",20
+"344","DZM20","18-35","Male","Secondary","Durazno","Durazno","Corralon (Salberri & Cerrito)","NFD3","N1","San","H+L* L%","NFD",20
+"345","DZM20","18-35","Male","Secondary","Durazno","Durazno","Corralon (Salberri & Cerrito)","NFD4","PN1","Es","L*+H","NFD",20
+"346","DZM20","18-35","Male","Secondary","Durazno","Durazno","Corralon (Salberri & Cerrito)","NFD4","PN2","possible","L*+H","NFD",20
+"347","DZM20","18-35","Male","Secondary","Durazno","Durazno","Corralon (Salberri & Cerrito)","NFD4","PN3","No","L+<H*","NFD",20
+"348","DZM20","18-35","Male","Secondary","Durazno","Durazno","Corralon (Salberri & Cerrito)","NFD4","PN4","le","!H*","NFD",20
+"349","DZM20","18-35","Male","Secondary","Durazno","Durazno","Corralon (Salberri & Cerrito)","NFD4","N1","regalo","L* L%","NFD",20
+"350","DZM20","18-35","Male","Secondary","Durazno","Durazno","Corralon (Salberri & Cerrito)","NFD5","N1","con","L+H*+L L%","NFD",20
+"351","DZM20","18-35","Male","Secondary","Durazno","Durazno","Corralon (Salberri & Cerrito)","NFD6","PN1","Esta","H*","NFD",20
+"352","DZM20","18-35","Male","Secondary","Durazno","Durazno","Corralon (Salberri & Cerrito)","NFD6","N1","buenisimo","L+H* L%","NFD",20
+"353","DZM25","18-35","Male","Secondary","Durazno","Durazno","Barrio Varona","BFD1","N","Mandarinas","L+H* L%","BFD",20
+"354","DZM25","18-35","Male","Secondary","Durazno","Durazno","Barrio Varona","BFD2","PN1","Maria","L+<H*","BFD",20
+"355","DZM25","18-35","Male","Secondary","Durazno","Durazno","Barrio Varona","BFD2","PN2","esta","L+¡H*","BFD",20
+"356","DZM25","18-35","Male","Secondary","Durazno","Durazno","Barrio Varona","BFD2","PN3","comiendo","L+H*","BFD",20
+"357","DZM25","18-35","Male","Secondary","Durazno","Durazno","Barrio Varona","BFD2","N","mandarinas","L+H* L%","BFD",20
+"358","DZM25","18-35","Male","Secondary","Durazno","Durazno","Barrio Varona","BFD4","PN1","Yo","L+<H*","BFD",20
+"359","DZM25","18-35","Male","Secondary","Durazno","Durazno","Barrio Varona","BFD4","PN2","vivi","H*","BFD",20
+"360","DZM25","18-35","Male","Secondary","Durazno","Durazno","Barrio Varona","BFD4","PN3","muchos","H*","BFD",20
+"361","DZM25","18-35","Male","Secondary","Durazno","Durazno","Barrio Varona","BFD4","PN4","anos","L*+H","BFD",20
+"362","DZM25","18-35","Male","Secondary","Durazno","Durazno","Barrio Varona","BFD4","N","San","L* L%","BFD",20
+"363","DZM25","18-35","Male","Secondary","Durazno","Durazno","Barrio Varona","NFD1","PN1","Senora","L+H* L-","NFD",20
+"364","DZM25","18-35","Male","Secondary","Durazno","Durazno","Barrio Varona","NFD1","PN2","no","L+H*","NFD",20
+"365","DZM25","18-35","Male","Secondary","Durazno","Durazno","Barrio Varona","NFD1","PN3","quiero","¡H+L*","NFD",20
+"366","DZM25","18-35","Male","Secondary","Durazno","Durazno","Barrio Varona","NFD1","PN4","limones","L* L-","NFD",20
+"367","DZM25","18-35","Male","Secondary","Durazno","Durazno","Barrio Varona","NFD1","PN5","quiero","L+<H*","NFD",20
+"368","DZM25","18-35","Male","Secondary","Durazno","Durazno","Barrio Varona","NFD1","N1","naranjas","L* L%","NFD",20
+"369","DZM25","18-35","Male","Secondary","Durazno","Durazno","Barrio Varona","NFD2","PN1","Que","L+H*","NFD",20
+"370","DZM25","18-35","Male","Secondary","Durazno","Durazno","Barrio Varona","NFD2","PN2","rico","L+H*","NFD",20
+"371","DZM25","18-35","Male","Secondary","Durazno","Durazno","Barrio Varona","NFD2","PN3","olor","L+¡H* H-","NFD",20
+"372","DZM25","18-35","Male","Secondary","Durazno","Durazno","Barrio Varona","NFD2","N1","medialunas","L* L%","NFD",20
+"373","DZM25","18-35","Male","Secondary","Durazno","Durazno","Barrio Varona","NFD3","PN1","No","L+H* H-","NFD",20
+"374","DZM25","18-35","Male","Secondary","Durazno","Durazno","Barrio Varona","NFD3","PN2","se","L+H*","NFD",20
+"375","DZM25","18-35","Male","Secondary","Durazno","Durazno","Barrio Varona","NFD3","PN3","vivir","L+<¡H*","NFD",20
+"376","DZM25","18-35","Male","Secondary","Durazno","Durazno","Barrio Varona","NFD3","N1","San","H+L* L%","NFD",20
+"377","DZM25","18-35","Male","Secondary","Durazno","Durazno","Barrio Varona","NFD4","PN1","Es","L+H*","NFD",20
+"378","DZM25","18-35","Male","Secondary","Durazno","Durazno","Barrio Varona","NFD4","PN2","possible","L+<¡H* H-","NFD",20
+"379","DZM25","18-35","Male","Secondary","Durazno","Durazno","Barrio Varona","NFD4","PN3","No","L+H*","NFD",20
+"380","DZM25","18-35","Male","Secondary","Durazno","Durazno","Barrio Varona","NFD4","PN4","le","L+¡H* H-","NFD",20
+"381","DZM25","18-35","Male","Secondary","Durazno","Durazno","Barrio Varona","NFD4","N1","regalo","L* L%","NFD",20
+"382","DZM25","18-35","Male","Secondary","Durazno","Durazno","Barrio Varona","NFD5","N1","con","L+H* !H%","NFD",20
+"383","DZM25","18-35","Male","Secondary","Durazno","Durazno","Barrio Varona","NFD6","PN1","Esta","L+<H*","NFD",20
+"384","DZM25","18-35","Male","Secondary","Durazno","Durazno","Barrio Varona","NFD6","N1","buenisimo","L+¡H* L%","NFD",20
+"385","DZM41","36-59","Male","Primary/Middle","Durazno","Durazno","Bertonasco","BFD1","N","Mandarinas","L+H* !H%","BFD",20
+"386","DZM41","36-59","Male","Primary/Middle","Durazno","Durazno","Bertonasco","BFD2","PN1","Maria",NA,"BFD",20
+"387","DZM41","36-59","Male","Primary/Middle","Durazno","Durazno","Bertonasco","BFD2","PN2","esta",NA,"BFD",20
+"388","DZM41","36-59","Male","Primary/Middle","Durazno","Durazno","Bertonasco","BFD2","PN3","comiendo",NA,"BFD",20
+"389","DZM41","36-59","Male","Primary/Middle","Durazno","Durazno","Bertonasco","BFD2","N","mandarinas",NA,"BFD",20
+"390","DZM41","36-59","Male","Primary/Middle","Durazno","Durazno","Bertonasco","BFD4","PN1","Yo","H*","BFD",20
+"391","DZM41","36-59","Male","Primary/Middle","Durazno","Durazno","Bertonasco","BFD4","PN2","vivi","L+¡H*","BFD",20
+"392","DZM41","36-59","Male","Primary/Middle","Durazno","Durazno","Bertonasco","BFD4","PN3","muchos","H*","BFD",20
+"393","DZM41","36-59","Male","Primary/Middle","Durazno","Durazno","Bertonasco","BFD4","PN4","anos","L+<H*","BFD",20
+"394","DZM41","36-59","Male","Primary/Middle","Durazno","Durazno","Bertonasco","BFD4","N","San","L* L%","BFD",20
+"395","DZM41","36-59","Male","Primary/Middle","Durazno","Durazno","Bertonasco","NFD1","PN1","Senora","L+H* H-","NFD",20
+"396","DZM41","36-59","Male","Primary/Middle","Durazno","Durazno","Bertonasco","NFD1","PN2","no","L+H*","NFD",20
+"397","DZM41","36-59","Male","Primary/Middle","Durazno","Durazno","Bertonasco","NFD1","PN3","quiero","L+¡H*","NFD",20
+"398","DZM41","36-59","Male","Primary/Middle","Durazno","Durazno","Bertonasco","NFD1","PN4","limones","L* L-","NFD",20
+"399","DZM41","36-59","Male","Primary/Middle","Durazno","Durazno","Bertonasco","NFD1","PN5","quiero","L*+H","NFD",20
+"400","DZM41","36-59","Male","Primary/Middle","Durazno","Durazno","Bertonasco","NFD1","N1","naranjas","L* L%","NFD",20
+"401","DZM41","36-59","Male","Primary/Middle","Durazno","Durazno","Bertonasco","NFD2","PN1","Que","H*","NFD",20
+"402","DZM41","36-59","Male","Primary/Middle","Durazno","Durazno","Bertonasco","NFD2","PN2","rico","L+¡H*","NFD",20
+"403","DZM41","36-59","Male","Primary/Middle","Durazno","Durazno","Bertonasco","NFD2","PN3","olor","L+H*","NFD",20
+"404","DZM41","36-59","Male","Primary/Middle","Durazno","Durazno","Bertonasco","NFD2","N1","medialunas","L+H* !H%","NFD",20
+"405","DZM41","36-59","Male","Primary/Middle","Durazno","Durazno","Bertonasco","NFD3","PN1","No","L+H*+L L-","NFD",20
+"406","DZM41","36-59","Male","Primary/Middle","Durazno","Durazno","Bertonasco","NFD3","PN2","se","L+H*","NFD",20
+"407","DZM41","36-59","Male","Primary/Middle","Durazno","Durazno","Bertonasco","NFD3","PN3","vivir","deaccented","NFD",20
+"408","DZM41","36-59","Male","Primary/Middle","Durazno","Durazno","Bertonasco","NFD3","N1","San","L+H* L%","NFD",20
+"409","DZM41","36-59","Male","Primary/Middle","Durazno","Durazno","Bertonasco","NFD4","PN1","Es","H*","NFD",20
+"410","DZM41","36-59","Male","Primary/Middle","Durazno","Durazno","Bertonasco","NFD4","PN2","possible","L+¡H*","NFD",20
+"411","DZM41","36-59","Male","Primary/Middle","Durazno","Durazno","Bertonasco","NFD4","PN3","No","L+H*","NFD",20
+"412","DZM41","36-59","Male","Primary/Middle","Durazno","Durazno","Bertonasco","NFD4","PN4","le","L+¡H*","NFD",20
+"413","DZM41","36-59","Male","Primary/Middle","Durazno","Durazno","Bertonasco","NFD4","N1","regalo","L* L%","NFD",20
+"414","DZM41","36-59","Male","Primary/Middle","Durazno","Durazno","Bertonasco","NFD5","N1","con","L+H* !H%","NFD",20
+"415","DZM41","36-59","Male","Primary/Middle","Durazno","Durazno","Bertonasco","NFD6","PN1","Esta","H*","NFD",20
+"416","DZM41","36-59","Male","Primary/Middle","Durazno","Durazno","Bertonasco","NFD6","N1","buenisimo","L+¡H* L%","NFD",20
+"417","DZM43","36-59","Male","Tertiary","Durazno","Durazno","Parque de la Hispanidad","BFD1","N","Mandarinas",NA,"BFD",20
+"418","DZM43","36-59","Male","Tertiary","Durazno","Durazno","Parque de la Hispanidad","BFD2","PN1","Maria",NA,"BFD",20
+"419","DZM43","36-59","Male","Tertiary","Durazno","Durazno","Parque de la Hispanidad","BFD2","PN2","esta",NA,"BFD",20
+"420","DZM43","36-59","Male","Tertiary","Durazno","Durazno","Parque de la Hispanidad","BFD2","PN3","comiendo",NA,"BFD",20
+"421","DZM43","36-59","Male","Tertiary","Durazno","Durazno","Parque de la Hispanidad","BFD2","N","mandarinas",NA,"BFD",20
+"422","DZM43","36-59","Male","Tertiary","Durazno","Durazno","Parque de la Hispanidad","BFD4","PN1","Yo","L+H*","BFD",20
+"423","DZM43","36-59","Male","Tertiary","Durazno","Durazno","Parque de la Hispanidad","BFD4","PN2","vivi","L+H*","BFD",20
+"424","DZM43","36-59","Male","Tertiary","Durazno","Durazno","Parque de la Hispanidad","BFD4","PN3","muchos","L+¡H*","BFD",20
+"425","DZM43","36-59","Male","Tertiary","Durazno","Durazno","Parque de la Hispanidad","BFD4","PN4","anos","H+L*","BFD",20
+"426","DZM43","36-59","Male","Tertiary","Durazno","Durazno","Parque de la Hispanidad","BFD4","N","San","L* L%","BFD",20
+"427","DZM43","36-59","Male","Tertiary","Durazno","Durazno","Parque de la Hispanidad","NFD1","PN1","Senora","H+L* L-","NFD",20
+"428","DZM43","36-59","Male","Tertiary","Durazno","Durazno","Parque de la Hispanidad","NFD1","PN2","no","L+H*","NFD",20
+"429","DZM43","36-59","Male","Tertiary","Durazno","Durazno","Parque de la Hispanidad","NFD1","PN3","quiero","L+H*","NFD",20
+"430","DZM43","36-59","Male","Tertiary","Durazno","Durazno","Parque de la Hispanidad","NFD1","PN4","limones","L* L-","NFD",20
+"431","DZM43","36-59","Male","Tertiary","Durazno","Durazno","Parque de la Hispanidad","NFD1","PN5","quiero","L*+H","NFD",20
+"432","DZM43","36-59","Male","Tertiary","Durazno","Durazno","Parque de la Hispanidad","NFD1","N1","naranjas","L+H* L%","NFD",20
+"433","DZM43","36-59","Male","Tertiary","Durazno","Durazno","Parque de la Hispanidad","NFD2","PN1","Que","L+H*","NFD",20
+"434","DZM43","36-59","Male","Tertiary","Durazno","Durazno","Parque de la Hispanidad","NFD2","PN2","rico","L+H*","NFD",20
+"435","DZM43","36-59","Male","Tertiary","Durazno","Durazno","Parque de la Hispanidad","NFD2","PN3","olor","L+H*","NFD",20
+"436","DZM43","36-59","Male","Tertiary","Durazno","Durazno","Parque de la Hispanidad","NFD2","N1","medialunas","L+H* L%","NFD",20
+"437","DZM43","36-59","Male","Tertiary","Durazno","Durazno","Parque de la Hispanidad","NFD3","PN1","No","H+L* L-","NFD",20
+"438","DZM43","36-59","Male","Tertiary","Durazno","Durazno","Parque de la Hispanidad","NFD3","PN2","se","L+H*","NFD",20
+"439","DZM43","36-59","Male","Tertiary","Durazno","Durazno","Parque de la Hispanidad","NFD3","PN3","vivir","L+<H*","NFD",20
+"440","DZM43","36-59","Male","Tertiary","Durazno","Durazno","Parque de la Hispanidad","NFD3","N1","San","L* L%","NFD",20
+"441","DZM43","36-59","Male","Tertiary","Durazno","Durazno","Parque de la Hispanidad","NFD4","PN1","Es","L*+H","NFD",20
+"442","DZM43","36-59","Male","Tertiary","Durazno","Durazno","Parque de la Hispanidad","NFD4","PN2","possible","L*+H","NFD",20
+"443","DZM43","36-59","Male","Tertiary","Durazno","Durazno","Parque de la Hispanidad","NFD4","PN3","No","L*+H","NFD",20
+"444","DZM43","36-59","Male","Tertiary","Durazno","Durazno","Parque de la Hispanidad","NFD4","PN4","le","L*+¡H","NFD",20
+"445","DZM43","36-59","Male","Tertiary","Durazno","Durazno","Parque de la Hispanidad","NFD4","N1","regalo","L* L%","NFD",20
+"446","DZM43","36-59","Male","Tertiary","Durazno","Durazno","Parque de la Hispanidad","NFD5","N1","con","H+L* L%","NFD",20
+"447","DZM43","36-59","Male","Tertiary","Durazno","Durazno","Parque de la Hispanidad","NFD6","PN1","Esta","L+H* H-","NFD",20
+"448","DZM43","36-59","Male","Tertiary","Durazno","Durazno","Parque de la Hispanidad","NFD6","N1","buenisimo","L+H* L%","NFD",20
+"449","DZM45","36-59","Male","Secondary","Durazno","Carmen","Barrio Centro","BFD1","N","Mandarinas","L* L%","BFD",20
+"450","DZM45","36-59","Male","Secondary","Durazno","Carmen","Barrio Centro","BFD2","PN1","Maria","L+<H*","BFD",20
+"451","DZM45","36-59","Male","Secondary","Durazno","Carmen","Barrio Centro","BFD2","PN2","esta","H+L*","BFD",20
+"452","DZM45","36-59","Male","Secondary","Durazno","Carmen","Barrio Centro","BFD2","PN3","comiendo","L+<H* H-","BFD",20
+"453","DZM45","36-59","Male","Secondary","Durazno","Carmen","Barrio Centro","BFD2","N","mandarinas","L+H* L%","BFD",20
+"454","DZM45","36-59","Male","Secondary","Durazno","Carmen","Barrio Centro","BFD4","PN1","Yo","L+<H*","BFD",20
+"455","DZM45","36-59","Male","Secondary","Durazno","Carmen","Barrio Centro","BFD4","PN2","vivi","L+<¡H*","BFD",20
+"456","DZM45","36-59","Male","Secondary","Durazno","Carmen","Barrio Centro","BFD4","PN3","muchos","H*","BFD",20
+"457","DZM45","36-59","Male","Secondary","Durazno","Carmen","Barrio Centro","BFD4","PN4","anos","L+<H*","BFD",20
+"458","DZM45","36-59","Male","Secondary","Durazno","Carmen","Barrio Centro","BFD4","N","San","L* L%","BFD",20
+"459","DZM45","36-59","Male","Secondary","Durazno","Carmen","Barrio Centro","NFD1","PN1","Senora","L+H* L-","NFD",20
+"460","DZM45","36-59","Male","Secondary","Durazno","Carmen","Barrio Centro","NFD1","PN2","no","L+H*","NFD",20
+"461","DZM45","36-59","Male","Secondary","Durazno","Carmen","Barrio Centro","NFD1","PN3","quiero","L+¡H*","NFD",20
+"462","DZM45","36-59","Male","Secondary","Durazno","Carmen","Barrio Centro","NFD1","PN4","limones","L+H* L-","NFD",20
+"463","DZM45","36-59","Male","Secondary","Durazno","Carmen","Barrio Centro","NFD1","PN5","quiero","L*+H","NFD",20
+"464","DZM45","36-59","Male","Secondary","Durazno","Carmen","Barrio Centro","NFD1","N1","naranjas","L+H* L%","NFD",20
+"465","DZM45","36-59","Male","Secondary","Durazno","Carmen","Barrio Centro","NFD2","PN1","Que","H*","NFD",20
+"466","DZM45","36-59","Male","Secondary","Durazno","Carmen","Barrio Centro","NFD2","PN2","rico","L+¡H*","NFD",20
+"467","DZM45","36-59","Male","Secondary","Durazno","Carmen","Barrio Centro","NFD2","PN3","olor","L+H*","NFD",20
+"468","DZM45","36-59","Male","Secondary","Durazno","Carmen","Barrio Centro","NFD2","N1","medialunas","L+H* L%","NFD",20
+"469","DZM45","36-59","Male","Secondary","Durazno","Carmen","Barrio Centro","NFD3","PN1","No","L+H* L-","NFD",20
+"470","DZM45","36-59","Male","Secondary","Durazno","Carmen","Barrio Centro","NFD3","PN2","se","L+<H*","NFD",20
+"471","DZM45","36-59","Male","Secondary","Durazno","Carmen","Barrio Centro","NFD3","PN3","vivir","L+<¡H*","NFD",20
+"472","DZM45","36-59","Male","Secondary","Durazno","Carmen","Barrio Centro","NFD3","N1","San","L* L%","NFD",20
+"473","DZM45","36-59","Male","Secondary","Durazno","Carmen","Barrio Centro","NFD4","PN1","Es","L+<H*","NFD",20
+"474","DZM45","36-59","Male","Secondary","Durazno","Carmen","Barrio Centro","NFD4","PN2","possible","L*+¡H H-","NFD",20
+"475","DZM45","36-59","Male","Secondary","Durazno","Carmen","Barrio Centro","NFD4","PN3","No","L+H*","NFD",20
+"476","DZM45","36-59","Male","Secondary","Durazno","Carmen","Barrio Centro","NFD4","PN4","le","L+¡H*","NFD",20
+"477","DZM45","36-59","Male","Secondary","Durazno","Carmen","Barrio Centro","NFD4","N1","regalo","L* L%","NFD",20
+"478","DZM45","36-59","Male","Secondary","Durazno","Carmen","Barrio Centro","NFD5","N1","con","L+H* !H%","NFD",20
+"479","DZM45","36-59","Male","Secondary","Durazno","Carmen","Barrio Centro","NFD6","PN1","Esta","L+<H*","NFD",20
+"480","DZM45","36-59","Male","Secondary","Durazno","Carmen","Barrio Centro","NFD6","N1","buenisimo","L+!H* L%","NFD",20
+"481","DZM48","36-59","Male","Tertiary","Durazno","La Paloma","Centro","BFD1","N","Mandarinas",NA,"BFD",20
+"482","DZM48","36-59","Male","Tertiary","Durazno","La Paloma","Centro","BFD2","PN1","Maria",NA,"BFD",20
+"483","DZM48","36-59","Male","Tertiary","Durazno","La Paloma","Centro","BFD2","PN2","esta",NA,"BFD",20
+"484","DZM48","36-59","Male","Tertiary","Durazno","La Paloma","Centro","BFD2","PN3","comiendo",NA,"BFD",20
+"485","DZM48","36-59","Male","Tertiary","Durazno","La Paloma","Centro","BFD2","N","mandarinas",NA,"BFD",20
+"486","DZM48","36-59","Male","Tertiary","Durazno","La Paloma","Centro","BFD4","PN1","Yo",NA,"BFD",20
+"487","DZM48","36-59","Male","Tertiary","Durazno","La Paloma","Centro","BFD4","PN2","vivi",NA,"BFD",20
+"488","DZM48","36-59","Male","Tertiary","Durazno","La Paloma","Centro","BFD4","PN3","muchos",NA,"BFD",20
+"489","DZM48","36-59","Male","Tertiary","Durazno","La Paloma","Centro","BFD4","PN4","anos",NA,"BFD",20
+"490","DZM48","36-59","Male","Tertiary","Durazno","La Paloma","Centro","BFD4","N","San",NA,"BFD",20
+"491","DZM48","36-59","Male","Tertiary","Durazno","La Paloma","Centro","NFD1","PN1","Senora","L+H* L-","NFD",20
+"492","DZM48","36-59","Male","Tertiary","Durazno","La Paloma","Centro","NFD1","PN2","no","L+H*","NFD",20
+"493","DZM48","36-59","Male","Tertiary","Durazno","La Paloma","Centro","NFD1","PN3","quiero","L+¡H*","NFD",20
+"494","DZM48","36-59","Male","Tertiary","Durazno","La Paloma","Centro","NFD1","PN4","limones","L* L-","NFD",20
+"495","DZM48","36-59","Male","Tertiary","Durazno","La Paloma","Centro","NFD1","PN5","quiero","L*+H","NFD",20
+"496","DZM48","36-59","Male","Tertiary","Durazno","La Paloma","Centro","NFD1","N1","naranjas","L+H* L%","NFD",20
+"497","DZM48","36-59","Male","Tertiary","Durazno","La Paloma","Centro","NFD2","PN1","Que","L+H*","NFD",20
+"498","DZM48","36-59","Male","Tertiary","Durazno","La Paloma","Centro","NFD2","PN2","rico","L+H*","NFD",20
+"499","DZM48","36-59","Male","Tertiary","Durazno","La Paloma","Centro","NFD2","PN3","olor","L+H*","NFD",20
+"500","DZM48","36-59","Male","Tertiary","Durazno","La Paloma","Centro","NFD2","N1","medialunas","L+H* L%","NFD",20
+"501","DZM48","36-59","Male","Tertiary","Durazno","La Paloma","Centro","NFD3","PN1","No","L+H* !H-","NFD",20
+"502","DZM48","36-59","Male","Tertiary","Durazno","La Paloma","Centro","NFD3","PN2","se","L+<H*","NFD",20
+"503","DZM48","36-59","Male","Tertiary","Durazno","La Paloma","Centro","NFD3","PN3","vivir","L*+¡H*","NFD",20
+"504","DZM48","36-59","Male","Tertiary","Durazno","La Paloma","Centro","NFD3","N1","San","L+H* !H%","NFD",20
+"505","DZM48","36-59","Male","Tertiary","Durazno","La Paloma","Centro","NFD4","PN1","Es","H*","NFD",20
+"506","DZM48","36-59","Male","Tertiary","Durazno","La Paloma","Centro","NFD4","PN2","possible","L+<¡H*","NFD",20
+"507","DZM48","36-59","Male","Tertiary","Durazno","La Paloma","Centro","NFD4","PN3","No","L+H*","NFD",20
+"508","DZM48","36-59","Male","Tertiary","Durazno","La Paloma","Centro","NFD4","PN4","le","L+H*","NFD",20
+"509","DZM48","36-59","Male","Tertiary","Durazno","La Paloma","Centro","NFD4","N1","regalo","L* L%","NFD",20
+"510","DZM48","36-59","Male","Tertiary","Durazno","La Paloma","Centro","NFD5","N1","con","L+¡H* !H%","NFD",20
+"511","DZM48","36-59","Male","Tertiary","Durazno","La Paloma","Centro","NFD6","PN1","Esta","L+H*","NFD",20
+"512","DZM48","36-59","Male","Tertiary","Durazno","La Paloma","Centro","NFD6","N1","buenisimo","L+¡H* L%","NFD",20
+"513","DZM60","60+","Male","Primary/Middle","Durazno","Sarandi del Yi","Barrio Mal Bajar","BFD1","N","Mandarinas","L+H* L!H%","BFD",20
+"514","DZM60","60+","Male","Primary/Middle","Durazno","Sarandi del Yi","Barrio Mal Bajar","BFD2","PN1","Maria","L+<H*","BFD",20
+"515","DZM60","60+","Male","Primary/Middle","Durazno","Sarandi del Yi","Barrio Mal Bajar","BFD2","PN2","esta","H+L*","BFD",20
+"516","DZM60","60+","Male","Primary/Middle","Durazno","Sarandi del Yi","Barrio Mal Bajar","BFD2","PN3","comiendo","L+<H* H-","BFD",20
+"517","DZM60","60+","Male","Primary/Middle","Durazno","Sarandi del Yi","Barrio Mal Bajar","BFD2","N","mandarinas","L* L%","BFD",20
+"518","DZM60","60+","Male","Primary/Middle","Durazno","Sarandi del Yi","Barrio Mal Bajar","BFD4","PN1","Yo",NA,"BFD",20
+"519","DZM60","60+","Male","Primary/Middle","Durazno","Sarandi del Yi","Barrio Mal Bajar","BFD4","PN2","vivi",NA,"BFD",20
+"520","DZM60","60+","Male","Primary/Middle","Durazno","Sarandi del Yi","Barrio Mal Bajar","BFD4","PN3","muchos",NA,"BFD",20
+"521","DZM60","60+","Male","Primary/Middle","Durazno","Sarandi del Yi","Barrio Mal Bajar","BFD4","PN4","anos",NA,"BFD",20
+"522","DZM60","60+","Male","Primary/Middle","Durazno","Sarandi del Yi","Barrio Mal Bajar","BFD4","N","San",NA,"BFD",20
+"523","DZM60","60+","Male","Primary/Middle","Durazno","Sarandi del Yi","Barrio Mal Bajar","NFD1","PN1","Senora","L+H* L-","NFD",20
+"524","DZM60","60+","Male","Primary/Middle","Durazno","Sarandi del Yi","Barrio Mal Bajar","NFD1","PN2","no","L+H*","NFD",20
+"525","DZM60","60+","Male","Primary/Middle","Durazno","Sarandi del Yi","Barrio Mal Bajar","NFD1","PN3","quiero","L+<¡H*","NFD",20
+"526","DZM60","60+","Male","Primary/Middle","Durazno","Sarandi del Yi","Barrio Mal Bajar","NFD1","PN4","limones","L* L-","NFD",20
+"527","DZM60","60+","Male","Primary/Middle","Durazno","Sarandi del Yi","Barrio Mal Bajar","NFD1","PN5","quiero","L+<H*","NFD",20
+"528","DZM60","60+","Male","Primary/Middle","Durazno","Sarandi del Yi","Barrio Mal Bajar","NFD1","N1","naranjas","L* L%","NFD",20
+"529","DZM60","60+","Male","Primary/Middle","Durazno","Sarandi del Yi","Barrio Mal Bajar","NFD2","PN1","Que","H*","NFD",20
+"530","DZM60","60+","Male","Primary/Middle","Durazno","Sarandi del Yi","Barrio Mal Bajar","NFD2","PN2","rico","L+¡H*","NFD",20
+"531","DZM60","60+","Male","Primary/Middle","Durazno","Sarandi del Yi","Barrio Mal Bajar","NFD2","PN3","olor","L+H*","NFD",20
+"532","DZM60","60+","Male","Primary/Middle","Durazno","Sarandi del Yi","Barrio Mal Bajar","NFD2","N1","medialunas","L* L%","NFD",20
+"533","DZM60","60+","Male","Primary/Middle","Durazno","Sarandi del Yi","Barrio Mal Bajar","NFD3","PN1","No","L+H* !H-","NFD",20
+"534","DZM60","60+","Male","Primary/Middle","Durazno","Sarandi del Yi","Barrio Mal Bajar","NFD3","PN2","se","L+H*","NFD",20
+"535","DZM60","60+","Male","Primary/Middle","Durazno","Sarandi del Yi","Barrio Mal Bajar","NFD3","PN3","vivir","L+H*","NFD",20
+"536","DZM60","60+","Male","Primary/Middle","Durazno","Sarandi del Yi","Barrio Mal Bajar","NFD3","N1","San","L+H* L%","NFD",20
+"537","DZM60","60+","Male","Primary/Middle","Durazno","Sarandi del Yi","Barrio Mal Bajar","NFD4","PN1","Es","L+H*","NFD",20
+"538","DZM60","60+","Male","Primary/Middle","Durazno","Sarandi del Yi","Barrio Mal Bajar","NFD4","PN2","possible","L+¡H* L-","NFD",20
+"539","DZM60","60+","Male","Primary/Middle","Durazno","Sarandi del Yi","Barrio Mal Bajar","NFD4","PN3","No","L+H*","NFD",20
+"540","DZM60","60+","Male","Primary/Middle","Durazno","Sarandi del Yi","Barrio Mal Bajar","NFD4","PN4","le","L+H*","NFD",20
+"541","DZM60","60+","Male","Primary/Middle","Durazno","Sarandi del Yi","Barrio Mal Bajar","NFD4","N1","regalo","L* L%","NFD",20
+"542","DZM60","60+","Male","Primary/Middle","Durazno","Sarandi del Yi","Barrio Mal Bajar","NFD5","N1","con","L+H* !H%","NFD",20
+"543","DZM60","60+","Male","Primary/Middle","Durazno","Sarandi del Yi","Barrio Mal Bajar","NFD6","PN1","Esta","H*","NFD",20
+"544","DZM60","60+","Male","Primary/Middle","Durazno","Sarandi del Yi","Barrio Mal Bajar","NFD6","N1","buenisimo","L+¡H* L%","NFD",20
+"545","DZM62","60+","Male","Tertiary","Durazno","La Paloma","Centro","BFD1","N","Mandarinas",NA,"BFD",20
+"546","DZM62","60+","Male","Tertiary","Durazno","La Paloma","Centro","BFD2","PN1","Maria","L+<H*","BFD",20
+"547","DZM62","60+","Male","Tertiary","Durazno","La Paloma","Centro","BFD2","PN2","esta","L*+H","BFD",20
+"548","DZM62","60+","Male","Tertiary","Durazno","La Paloma","Centro","BFD2","PN3","comiendo","L*+H","BFD",20
+"549","DZM62","60+","Male","Tertiary","Durazno","La Paloma","Centro","BFD2","N","mandarinas","L* L%","BFD",20
+"550","DZM62","60+","Male","Tertiary","Durazno","La Paloma","Centro","BFD4","PN1","Yo","L+H*","BFD",20
+"551","DZM62","60+","Male","Tertiary","Durazno","La Paloma","Centro","BFD4","PN2","vivi","L+¡H*","BFD",20
+"552","DZM62","60+","Male","Tertiary","Durazno","La Paloma","Centro","BFD4","PN3","muchos","H*","BFD",20
+"553","DZM62","60+","Male","Tertiary","Durazno","La Paloma","Centro","BFD4","PN4","anos","H+L* L-","BFD",20
+"554","DZM62","60+","Male","Tertiary","Durazno","La Paloma","Centro","BFD4","N","San","L* L%","BFD",20
+"555","DZM62","60+","Male","Tertiary","Durazno","La Paloma","Centro","NFD1","PN1","Senora","L+H* L-","NFD",20
+"556","DZM62","60+","Male","Tertiary","Durazno","La Paloma","Centro","NFD1","PN2","no","deaccented","NFD",20
+"557","DZM62","60+","Male","Tertiary","Durazno","La Paloma","Centro","NFD1","PN3","quiero","L*+H","NFD",20
+"558","DZM62","60+","Male","Tertiary","Durazno","La Paloma","Centro","NFD1","PN4","limones","L+¡H* H-","NFD",20
+"559","DZM62","60+","Male","Tertiary","Durazno","La Paloma","Centro","NFD1","PN5","quiero","L+<H*","NFD",20
+"560","DZM62","60+","Male","Tertiary","Durazno","La Paloma","Centro","NFD1","N1","naranjas","L+¡H L%","NFD",20
+"561","DZM62","60+","Male","Tertiary","Durazno","La Paloma","Centro","NFD2","PN1","Que",NA,"NFD",20
+"562","DZM62","60+","Male","Tertiary","Durazno","La Paloma","Centro","NFD2","PN2","rico",NA,"NFD",20
+"563","DZM62","60+","Male","Tertiary","Durazno","La Paloma","Centro","NFD2","PN3","olor",NA,"NFD",20
+"564","DZM62","60+","Male","Tertiary","Durazno","La Paloma","Centro","NFD2","N1","medialunas",NA,"NFD",20
+"565","DZM62","60+","Male","Tertiary","Durazno","La Paloma","Centro","NFD3","PN1","No","L+H* !H-","NFD",20
+"566","DZM62","60+","Male","Tertiary","Durazno","La Paloma","Centro","NFD3","PN2","se","L*+H","NFD",20
+"567","DZM62","60+","Male","Tertiary","Durazno","La Paloma","Centro","NFD3","PN3","vivir","L*+¡H","NFD",20
+"568","DZM62","60+","Male","Tertiary","Durazno","La Paloma","Centro","NFD3","N1","San","L+H* L%","NFD",20
+"569","DZM62","60+","Male","Tertiary","Durazno","La Paloma","Centro","NFD4","PN1","Es","deaccented","NFD",20
+"570","DZM62","60+","Male","Tertiary","Durazno","La Paloma","Centro","NFD4","PN2","possible","L*+H","NFD",20
+"571","DZM62","60+","Male","Tertiary","Durazno","La Paloma","Centro","NFD4","PN3","No","deaccented","NFD",20
+"572","DZM62","60+","Male","Tertiary","Durazno","La Paloma","Centro","NFD4","PN4","le","L+<H*","NFD",20
+"573","DZM62","60+","Male","Tertiary","Durazno","La Paloma","Centro","NFD4","N1","regalo","L+H* L%","NFD",20
+"574","DZM62","60+","Male","Tertiary","Durazno","La Paloma","Centro","NFD5","N1","con","L+H* !H%","NFD",20
+"575","DZM62","60+","Male","Tertiary","Durazno","La Paloma","Centro","NFD6","PN1","Esta","L+H* H-","NFD",20
+"576","DZM62","60+","Male","Tertiary","Durazno","La Paloma","Centro","NFD6","N1","buenisimo","L+H* L%","NFD",20
+"577","DZM68","60+","Male","Primary/Middle","Durazno","Durazno","Barrio Tabare","BFD1","N","Mandarinas","L+H* L%","BFD",20
+"578","DZM68","60+","Male","Primary/Middle","Durazno","Durazno","Barrio Tabare","BFD2","PN1","Maria","L+H*","BFD",20
+"579","DZM68","60+","Male","Primary/Middle","Durazno","Durazno","Barrio Tabare","BFD2","PN2","esta","L+¡H*","BFD",20
+"580","DZM68","60+","Male","Primary/Middle","Durazno","Durazno","Barrio Tabare","BFD2","PN3","comiendo","L+<H*","BFD",20
+"581","DZM68","60+","Male","Primary/Middle","Durazno","Durazno","Barrio Tabare","BFD2","N","mandarinas","L+H* L%","BFD",20
+"582","DZM68","60+","Male","Primary/Middle","Durazno","Durazno","Barrio Tabare","BFD4","PN1","Yo",NA,"BFD",20
+"583","DZM68","60+","Male","Primary/Middle","Durazno","Durazno","Barrio Tabare","BFD4","PN2","vivi",NA,"BFD",20
+"584","DZM68","60+","Male","Primary/Middle","Durazno","Durazno","Barrio Tabare","BFD4","PN3","muchos",NA,"BFD",20
+"585","DZM68","60+","Male","Primary/Middle","Durazno","Durazno","Barrio Tabare","BFD4","PN4","anos",NA,"BFD",20
+"586","DZM68","60+","Male","Primary/Middle","Durazno","Durazno","Barrio Tabare","BFD4","N","San",NA,"BFD",20
+"587","DZM68","60+","Male","Primary/Middle","Durazno","Durazno","Barrio Tabare","NFD1","PN1","Senora","L+H* L-","NFD",20
+"588","DZM68","60+","Male","Primary/Middle","Durazno","Durazno","Barrio Tabare","NFD1","PN2","no","L+H*","NFD",20
+"589","DZM68","60+","Male","Primary/Middle","Durazno","Durazno","Barrio Tabare","NFD1","PN3","quiero","L+<¡H*","NFD",20
+"590","DZM68","60+","Male","Primary/Middle","Durazno","Durazno","Barrio Tabare","NFD1","PN4","limones","L+H* L-","NFD",20
+"591","DZM68","60+","Male","Primary/Middle","Durazno","Durazno","Barrio Tabare","NFD1","PN5","quiero","L+<H*","NFD",20
+"592","DZM68","60+","Male","Primary/Middle","Durazno","Durazno","Barrio Tabare","NFD1","N1","naranjas","L+H* L%","NFD",20
+"593","DZM68","60+","Male","Primary/Middle","Durazno","Durazno","Barrio Tabare","NFD2","PN1","Que","L+H*","NFD",20
+"594","DZM68","60+","Male","Primary/Middle","Durazno","Durazno","Barrio Tabare","NFD2","PN2","rico","L+H*","NFD",20
+"595","DZM68","60+","Male","Primary/Middle","Durazno","Durazno","Barrio Tabare","NFD2","PN3","olor","L+H*","NFD",20
+"596","DZM68","60+","Male","Primary/Middle","Durazno","Durazno","Barrio Tabare","NFD2","N1","medialunas","L+H* L%","NFD",20
+"597","DZM68","60+","Male","Primary/Middle","Durazno","Durazno","Barrio Tabare","NFD3","PN1","No",NA,"NFD",20
+"598","DZM68","60+","Male","Primary/Middle","Durazno","Durazno","Barrio Tabare","NFD3","PN2","se",NA,"NFD",20
+"599","DZM68","60+","Male","Primary/Middle","Durazno","Durazno","Barrio Tabare","NFD3","PN3","vivir",NA,"NFD",20
+"600","DZM68","60+","Male","Primary/Middle","Durazno","Durazno","Barrio Tabare","NFD3","N1","San",NA,"NFD",20
+"601","DZM68","60+","Male","Primary/Middle","Durazno","Durazno","Barrio Tabare","NFD4","PN1","Es","L+H*","NFD",20
+"602","DZM68","60+","Male","Primary/Middle","Durazno","Durazno","Barrio Tabare","NFD4","PN2","possible","L+¡H*","NFD",20
+"603","DZM68","60+","Male","Primary/Middle","Durazno","Durazno","Barrio Tabare","NFD4","PN3","No","L+H*","NFD",20
+"604","DZM68","60+","Male","Primary/Middle","Durazno","Durazno","Barrio Tabare","NFD4","PN4","le","L+¡H*","NFD",20
+"605","DZM68","60+","Male","Primary/Middle","Durazno","Durazno","Barrio Tabare","NFD4","N1","regalo","L* L%","NFD",20
+"606","DZM68","60+","Male","Primary/Middle","Durazno","Durazno","Barrio Tabare","NFD5","N1","con","L+H* !H%","NFD",20
+"607","DZM68","60+","Male","Primary/Middle","Durazno","Durazno","Barrio Tabare","NFD6","PN1","Esta","L+<H*","NFD",20
+"608","DZM68","60+","Male","Primary/Middle","Durazno","Durazno","Barrio Tabare","NFD6","N1","buenisimo","L+H* L%","NFD",20
+"609","DZM70","60+","Male","Primary/Middle","Durazno","Sarandi del Yi","Barrio Malbajar","BFD1","N","Mandarinas",NA,"BFD",20
+"610","DZM70","60+","Male","Primary/Middle","Durazno","Sarandi del Yi","Barrio Malbajar","BFD2","PN1","Maria","L+<H*","BFD",20
+"611","DZM70","60+","Male","Primary/Middle","Durazno","Sarandi del Yi","Barrio Malbajar","BFD2","PN2","esta","L+H*","BFD",20
+"612","DZM70","60+","Male","Primary/Middle","Durazno","Sarandi del Yi","Barrio Malbajar","BFD2","PN3","comiendo","L+H*","BFD",20
+"613","DZM70","60+","Male","Primary/Middle","Durazno","Sarandi del Yi","Barrio Malbajar","BFD2","N","mandarinas","L* L%","BFD",20
+"614","DZM70","60+","Male","Primary/Middle","Durazno","Sarandi del Yi","Barrio Malbajar","BFD4","PN1","Yo","L+H*","BFD",20
+"615","DZM70","60+","Male","Primary/Middle","Durazno","Sarandi del Yi","Barrio Malbajar","BFD4","PN2","vivi","L+H*","BFD",20
+"616","DZM70","60+","Male","Primary/Middle","Durazno","Sarandi del Yi","Barrio Malbajar","BFD4","PN3","muchos","deaccented","BFD",20
+"617","DZM70","60+","Male","Primary/Middle","Durazno","Sarandi del Yi","Barrio Malbajar","BFD4","PN4","anos","L+H*","BFD",20
+"618","DZM70","60+","Male","Primary/Middle","Durazno","Sarandi del Yi","Barrio Malbajar","BFD4","N","San","L* L%","BFD",20
+"619","DZM70","60+","Male","Primary/Middle","Durazno","Sarandi del Yi","Barrio Malbajar","NFD1","PN1","Senora","H+L* L-","NFD",20
+"620","DZM70","60+","Male","Primary/Middle","Durazno","Sarandi del Yi","Barrio Malbajar","NFD1","PN2","no","L+H*","NFD",20
+"621","DZM70","60+","Male","Primary/Middle","Durazno","Sarandi del Yi","Barrio Malbajar","NFD1","PN3","quiero","L+<¡H*","NFD",20
+"622","DZM70","60+","Male","Primary/Middle","Durazno","Sarandi del Yi","Barrio Malbajar","NFD1","PN4","limones","L+H* L-","NFD",20
+"623","DZM70","60+","Male","Primary/Middle","Durazno","Sarandi del Yi","Barrio Malbajar","NFD1","PN5","quiero","L*+H","NFD",20
+"624","DZM70","60+","Male","Primary/Middle","Durazno","Sarandi del Yi","Barrio Malbajar","NFD1","N1","naranjas","L* L%","NFD",20
+"625","DZM70","60+","Male","Primary/Middle","Durazno","Sarandi del Yi","Barrio Malbajar","NFD2","PN1","Que","H*","NFD",20
+"626","DZM70","60+","Male","Primary/Middle","Durazno","Sarandi del Yi","Barrio Malbajar","NFD2","PN2","rico","L+¡H* H-","NFD",20
+"627","DZM70","60+","Male","Primary/Middle","Durazno","Sarandi del Yi","Barrio Malbajar","NFD2","PN3","olor","L+H* H-","NFD",20
+"628","DZM70","60+","Male","Primary/Middle","Durazno","Sarandi del Yi","Barrio Malbajar","NFD2","N1","medialunas","L* L%","NFD",20
+"629","DZM70","60+","Male","Primary/Middle","Durazno","Sarandi del Yi","Barrio Malbajar","NFD3","PN1","No","H+L* L-","NFD",20
+"630","DZM70","60+","Male","Primary/Middle","Durazno","Sarandi del Yi","Barrio Malbajar","NFD3","PN2","se","L+<H*","NFD",20
+"631","DZM70","60+","Male","Primary/Middle","Durazno","Sarandi del Yi","Barrio Malbajar","NFD3","PN3","vivir","L+<¡H*","NFD",20
+"632","DZM70","60+","Male","Primary/Middle","Durazno","Sarandi del Yi","Barrio Malbajar","NFD3","N1","San","L* L%","NFD",20
+"633","DZM70","60+","Male","Primary/Middle","Durazno","Sarandi del Yi","Barrio Malbajar","NFD4","PN1","Es",NA,"NFD",20
+"634","DZM70","60+","Male","Primary/Middle","Durazno","Sarandi del Yi","Barrio Malbajar","NFD4","PN2","possible",NA,"NFD",20
+"635","DZM70","60+","Male","Primary/Middle","Durazno","Sarandi del Yi","Barrio Malbajar","NFD4","PN3","No",NA,"NFD",20
+"636","DZM70","60+","Male","Primary/Middle","Durazno","Sarandi del Yi","Barrio Malbajar","NFD4","PN4","le",NA,"NFD",20
+"637","DZM70","60+","Male","Primary/Middle","Durazno","Sarandi del Yi","Barrio Malbajar","NFD4","N1","regalo",NA,"NFD",20
+"638","DZM70","60+","Male","Primary/Middle","Durazno","Sarandi del Yi","Barrio Malbajar","NFD5","N1","con",NA,"NFD",20
+"639","DZM70","60+","Male","Primary/Middle","Durazno","Sarandi del Yi","Barrio Malbajar","NFD6","PN1","Esta",NA,"NFD",20
+"640","DZM70","60+","Male","Primary/Middle","Durazno","Sarandi del Yi","Barrio Malbajar","NFD6","N1","buenisimo",NA,"NFD",20

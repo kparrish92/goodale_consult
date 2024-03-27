@@ -1,0 +1,55 @@
+"","tones","DEPT","Sentence","Percentage"
+"1","!H* !H%","Montevideo","BFD4",0.0333333333333333
+"2","!H* !H%","Montevideo","BFD1",0
+"3","!H* !H%","Montevideo","BFD2",0
+"4","H+L *L%","Montevideo","BFD4",0
+"5","H+L *L%","Montevideo","BFD1",0.0333333333333333
+"6","H+L *L%","Montevideo","BFD2",0
+"7","H+L* L%","Durazno","BFD4",0
+"8","H+L* L%","Durazno","BFD1",0.05
+"9","H+L* L%","Durazno","BFD2",0.05
+"10","H+L* L%","Montevideo","BFD4",0
+"11","H+L* L%","Montevideo","BFD1",0.0333333333333333
+"12","H+L* L%","Montevideo","BFD2",0
+"13","L* !H%","Montevideo","BFD4",0
+"14","L* !H%","Montevideo","BFD1",0.0333333333333333
+"15","L* !H%","Montevideo","BFD2",0
+"16","L* L%","Durazno","BFD4",0.7
+"17","L* L%","Durazno","BFD1",0.15
+"18","L* L%","Durazno","BFD2",0.45
+"19","L* L%","Montevideo","BFD4",0.866666666666667
+"20","L* L%","Montevideo","BFD1",0.466666666666667
+"21","L* L%","Montevideo","BFD2",0.633333333333333
+"22","L+<H* L%","Durazno","BFD4",0
+"23","L+<H* L%","Durazno","BFD1",0.05
+"24","L+<H* L%","Durazno","BFD2",0
+"25","L+H* !H%","Durazno","BFD4",0
+"26","L+H* !H%","Durazno","BFD1",0.05
+"27","L+H* !H%","Durazno","BFD2",0
+"28","L+H* L!H%","Durazno","BFD4",0
+"29","L+H* L!H%","Durazno","BFD1",0.1
+"30","L+H* L!H%","Durazno","BFD2",0
+"31","L+H* L%","Durazno","BFD4",0
+"32","L+H* L%","Durazno","BFD1",0.15
+"33","L+H* L%","Durazno","BFD2",0.25
+"34","L+H* L%","Montevideo","BFD4",0.0333333333333333
+"35","L+H* L%","Montevideo","BFD1",0.366666666666667
+"36","L+H* L%","Montevideo","BFD2",0.266666666666667
+"37","L+H* L*","Durazno","BFD4",0.05
+"38","L+H* L*","Durazno","BFD1",0
+"39","L+H* L*","Durazno","BFD2",0
+"40","L+H*+L L%","Montevideo","BFD4",0
+"41","L+H*+L L%","Montevideo","BFD1",0.0333333333333333
+"42","L+H*+L L%","Montevideo","BFD2",0.0333333333333333
+"43","L+¡H* L%","Durazno","BFD4",0
+"44","L+¡H* L%","Durazno","BFD1",0
+"45","L+¡H* L%","Durazno","BFD2",0.05
+"46","L+¡H* L%","Montevideo","BFD4",0
+"47","L+¡H* L%","Montevideo","BFD1",0
+"48","L+¡H* L%","Montevideo","BFD2",0.0666666666666667
+"49","N/A","Durazno","BFD4",0.25
+"50","N/A","Durazno","BFD1",0.45
+"51","N/A","Durazno","BFD2",0.2
+"52","N/A","Montevideo","BFD4",0.0666666666666667
+"53","N/A","Montevideo","BFD1",0.0333333333333333
+"54","N/A","Montevideo","BFD2",0
