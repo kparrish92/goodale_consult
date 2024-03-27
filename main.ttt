@@ -1,5 +1,5 @@
 \begin{longtable}[]{@{}lrr@{}}
-\caption{\label{tab:unnamed-chunk-3}Total percentage of each pitch accent in nuclear position for Broad Focus Decaratives.}\tabularnewline
+\caption{\label{tab:unnamed-chunk-4}Table 1: Total percentage of each pitch accent in nuclear position for Broad Focus Decaratives.}\tabularnewline
 \toprule\noalign{}
 tones & Montevideo & Durazno \\
 \midrule\noalign{}
@@ -27,7 +27,7 @@ NA & 3 & 30 \\
 \efloatseparator
  
 \begin{longtable}[]{@{}lrr@{}}
-\caption{\label{tab:unnamed-chunk-4}Total percentage of each pitch accent in nuclear position in which one group had produced it atleast 5 percent of the time in the data for Broad Focus Decaratives.}\tabularnewline
+\caption{\label{tab:unnamed-chunk-5}Table 2: Total percentage of each pitch accent in nuclear position in which one group had produced it atleast 5 percent of the time in the data for Broad Focus Decaratives.}\tabularnewline
 \toprule\noalign{}
 tones & Montevideo & Durazno \\
 \midrule\noalign{}
@@ -45,7 +45,7 @@ NA & 3 & 30 \\
 \efloatseparator
  
 \begin{longtable}[]{@{}lrr@{}}
-\caption{\label{tab:unnamed-chunk-6}Total percentage of each pitch accent in nuclear position for Narrow Focus Decaratives.}\tabularnewline
+\caption{\label{tab:unnamed-chunk-6}Table 3: Total percentage of each pitch accent in nuclear position for Narrow Focus Decaratives.}\tabularnewline
 \toprule\noalign{}
 tones & Montevideo & Durazno \\
 \midrule\noalign{}
@@ -82,7 +82,7 @@ NA & 1 & 5 \\
 \efloatseparator
  
 \begin{longtable}[]{@{}lrr@{}}
-\caption{\label{tab:unnamed-chunk-7}Total percentage of each pitch accent in nuclear position in which one group had produced it atleast 5 percent of the time in the data for Narrow Focus Decaratives.}\tabularnewline
+\caption{\label{tab:unnamed-chunk-8}Table 4: Total percentage of each pitch accent in nuclear position in which one group had produced it atleast 5 percent of the time in the data for Narrow Focus Decaratives.}\tabularnewline
 \toprule\noalign{}
 tones & Montevideo & Durazno \\
 \midrule\noalign{}
@@ -98,4 +98,200 @@ L+H* !H\% & 3 & 12 \\
 L+H* L\% & 23 & 32 \\
 L+H*+L L\% & 17 & 3 \\
 L+¡H* L\% & 13 & 7 \\
+\end{longtable}
+\efloatseparator
+ 
+\begin{longtable}[]{@{}lrr@{}}
+\caption{\label{tab:unnamed-chunk-9}Table 5: Total percentage of each pitch accent in NFD5 `con Manuel'}\tabularnewline
+\toprule\noalign{}
+tones & Durazno & Montevideo \\
+\midrule\noalign{}
+\endfirsthead
+\toprule\noalign{}
+tones & Durazno & Montevideo \\
+\midrule\noalign{}
+\endhead
+\bottomrule\noalign{}
+\endlastfoot
+H+L* L\% & 5 & 0 \\
+L+!H*+L L\% & 5 & 0 \\
+L+H* !H\% & 60 & 20 \\
+L+H* L\% & 10 & 27 \\
+L+H*+L L\% & 10 & 53 \\
+L+¡H* !H\% & 5 & 0 \\
+NA & 5 & 0 \\
+\end{longtable}
+\efloatseparator
+ 
+\begin{longtable}[]{@{}lrr@{}}
+\caption{\label{tab:unnamed-chunk-10}Table 6: Total percentage of each pitch accent in NFD5 `con Manuel' occuring at least 5 total times}\tabularnewline
+\toprule\noalign{}
+tones & Durazno & Montevideo \\
+\midrule\noalign{}
+\endfirsthead
+\toprule\noalign{}
+tones & Durazno & Montevideo \\
+\midrule\noalign{}
+\endhead
+\bottomrule\noalign{}
+\endlastfoot
+L+H* !H\% & 60 & 20 \\
+L+H* L\% & 10 & 27 \\
+L+H*+L L\% & 10 & 53 \\
+\end{longtable}
+\efloatseparator
+ 
+\begin{longtable}[]{@{}lllr@{}}
+\caption{\label{tab:unnamed-chunk-15}Table 7: Total percentage of each pitch accent for narrow focus declaratives in each item per city}\tabularnewline
+\toprule\noalign{}
+tones & DEPT & Sentence & Percentage \\
+\midrule\noalign{}
+\endfirsthead
+\toprule\noalign{}
+tones & DEPT & Sentence & Percentage \\
+\midrule\noalign{}
+\endhead
+\bottomrule\noalign{}
+\endlastfoot
+H+L* L\% & Durazno & NFD3 & 0.2000000 \\
+H+L* L\% & Durazno & NFD1 & 0.0000000 \\
+H+L* L\% & Durazno & NFD2 & 0.0000000 \\
+H+L* L\% & Durazno & NFD4 & 0.0000000 \\
+H+L* L\% & Durazno & NFD5 & 0.0000000 \\
+H+L* L\% & Durazno & NFD6 & 0.0000000 \\
+H+L* L\% & Montevideo & NFD3 & 0.2000000 \\
+H+L* L\% & Montevideo & NFD1 & 0.0000000 \\
+H+L* L\% & Montevideo & NFD2 & 0.0000000 \\
+H+L* L\% & Montevideo & NFD4 & 0.0000000 \\
+H+L* L\% & Montevideo & NFD5 & 0.0000000 \\
+H+L* L\% & Montevideo & NFD6 & 0.0000000 \\
+L* L\% & Durazno & NFD3 & 0.2500000 \\
+L* L\% & Durazno & NFD1 & 0.4500000 \\
+L* L\% & Durazno & NFD2 & 0.2000000 \\
+L* L\% & Durazno & NFD4 & 0.8000000 \\
+L* L\% & Durazno & NFD5 & 0.0000000 \\
+L* L\% & Durazno & NFD6 & 0.0000000 \\
+L* L\% & Montevideo & NFD3 & 0.3000000 \\
+L* L\% & Montevideo & NFD1 & 0.2333333 \\
+L* L\% & Montevideo & NFD2 & 0.0000000 \\
+L* L\% & Montevideo & NFD4 & 0.8333333 \\
+L* L\% & Montevideo & NFD5 & 0.0000000 \\
+L* L\% & Montevideo & NFD6 & 0.0000000 \\
+L+H* !H\% & Durazno & NFD3 & 0.0000000 \\
+L+H* !H\% & Durazno & NFD1 & 0.0000000 \\
+L+H* !H\% & Durazno & NFD2 & 0.0000000 \\
+L+H* !H\% & Durazno & NFD4 & 0.0000000 \\
+L+H* !H\% & Durazno & NFD5 & 0.0000000 \\
+L+H* !H\% & Durazno & NFD6 & 0.0000000 \\
+L+H* !H\% & Montevideo & NFD3 & 0.0000000 \\
+L+H* !H\% & Montevideo & NFD1 & 0.0000000 \\
+L+H* !H\% & Montevideo & NFD2 & 0.0000000 \\
+L+H* !H\% & Montevideo & NFD4 & 0.0000000 \\
+L+H* !H\% & Montevideo & NFD5 & 0.0000000 \\
+L+H* !H\% & Montevideo & NFD6 & 0.0000000 \\
+L+H* L\% & Durazno & NFD3 & 0.2000000 \\
+L+H* L\% & Durazno & NFD1 & 0.5000000 \\
+L+H* L\% & Durazno & NFD2 & 0.3500000 \\
+L+H* L\% & Durazno & NFD4 & 0.1500000 \\
+L+H* L\% & Durazno & NFD5 & 0.6000000 \\
+L+H* L\% & Durazno & NFD6 & 0.6000000 \\
+L+H* L\% & Montevideo & NFD3 & 0.2666667 \\
+L+H* L\% & Montevideo & NFD1 & 0.2000000 \\
+L+H* L\% & Montevideo & NFD2 & 0.2666667 \\
+L+H* L\% & Montevideo & NFD4 & 0.0000000 \\
+L+H* L\% & Montevideo & NFD5 & 0.3333333 \\
+L+H* L\% & Montevideo & NFD6 & 0.3333333 \\
+L+H*+L L\% & Montevideo & NFD3 & 0.1333333 \\
+L+H*+L L\% & Montevideo & NFD1 & 0.3333333 \\
+L+H*+L L\% & Montevideo & NFD2 & 0.0000000 \\
+L+H*+L L\% & Montevideo & NFD4 & 0.0000000 \\
+L+H*+L L\% & Montevideo & NFD5 & 0.0000000 \\
+L+H*+L L\% & Montevideo & NFD6 & 0.0000000 \\
+L+¡H* L\% & Durazno & NFD3 & 0.0000000 \\
+L+¡H* L\% & Durazno & NFD1 & 0.0000000 \\
+L+¡H* L\% & Durazno & NFD2 & 0.1500000 \\
+L+¡H* L\% & Durazno & NFD4 & 0.0000000 \\
+L+¡H* L\% & Durazno & NFD5 & 0.2500000 \\
+L+¡H* L\% & Durazno & NFD6 & 0.2500000 \\
+L+¡H* L\% & Montevideo & NFD3 & 0.0000000 \\
+L+¡H* L\% & Montevideo & NFD1 & 0.0000000 \\
+L+¡H* L\% & Montevideo & NFD2 & 0.3666667 \\
+L+¡H* L\% & Montevideo & NFD4 & 0.0000000 \\
+L+¡H* L\% & Montevideo & NFD5 & 0.3333333 \\
+L+¡H* L\% & Montevideo & NFD6 & 0.3333333 \\
+L+¡H*+L L\% & Montevideo & NFD3 & 0.0000000 \\
+L+¡H*+L L\% & Montevideo & NFD1 & 0.0000000 \\
+L+¡H*+L L\% & Montevideo & NFD2 & 0.1333333 \\
+L+¡H*+L L\% & Montevideo & NFD4 & 0.0000000 \\
+L+¡H*+L L\% & Montevideo & NFD5 & 0.0000000 \\
+L+¡H*+L L\% & Montevideo & NFD6 & 0.0000000 \\
+\end{longtable}
+\efloatseparator
+ 
+\begin{longtable}[]{@{}lllr@{}}
+\caption{\label{tab:unnamed-chunk-17}Table 8: Total percentage of each pitch accent for broad focus declaratives in each item per city}\tabularnewline
+\toprule\noalign{}
+tones & DEPT & Sentence & Percentage \\
+\midrule\noalign{}
+\endfirsthead
+\toprule\noalign{}
+tones & DEPT & Sentence & Percentage \\
+\midrule\noalign{}
+\endhead
+\bottomrule\noalign{}
+\endlastfoot
+!H* !H\% & Montevideo & BFD4 & 0.0333333 \\
+!H* !H\% & Montevideo & BFD1 & 0.0000000 \\
+!H* !H\% & Montevideo & BFD2 & 0.0000000 \\
+H+L *L\% & Montevideo & BFD4 & 0.0000000 \\
+H+L *L\% & Montevideo & BFD1 & 0.0333333 \\
+H+L *L\% & Montevideo & BFD2 & 0.0000000 \\
+H+L* L\% & Durazno & BFD4 & 0.0000000 \\
+H+L* L\% & Durazno & BFD1 & 0.0500000 \\
+H+L* L\% & Durazno & BFD2 & 0.0500000 \\
+H+L* L\% & Montevideo & BFD4 & 0.0000000 \\
+H+L* L\% & Montevideo & BFD1 & 0.0333333 \\
+H+L* L\% & Montevideo & BFD2 & 0.0000000 \\
+L* !H\% & Montevideo & BFD4 & 0.0000000 \\
+L* !H\% & Montevideo & BFD1 & 0.0333333 \\
+L* !H\% & Montevideo & BFD2 & 0.0000000 \\
+L* L\% & Durazno & BFD4 & 0.7000000 \\
+L* L\% & Durazno & BFD1 & 0.1500000 \\
+L* L\% & Durazno & BFD2 & 0.4500000 \\
+L* L\% & Montevideo & BFD4 & 0.8666667 \\
+L* L\% & Montevideo & BFD1 & 0.4666667 \\
+L* L\% & Montevideo & BFD2 & 0.6333333 \\
+L+\textless H* L\% & Durazno & BFD4 & 0.0000000 \\
+L+\textless H* L\% & Durazno & BFD1 & 0.0500000 \\
+L+\textless H* L\% & Durazno & BFD2 & 0.0000000 \\
+L+H* !H\% & Durazno & BFD4 & 0.0000000 \\
+L+H* !H\% & Durazno & BFD1 & 0.0500000 \\
+L+H* !H\% & Durazno & BFD2 & 0.0000000 \\
+L+H* L!H\% & Durazno & BFD4 & 0.0000000 \\
+L+H* L!H\% & Durazno & BFD1 & 0.1000000 \\
+L+H* L!H\% & Durazno & BFD2 & 0.0000000 \\
+L+H* L\% & Durazno & BFD4 & 0.0000000 \\
+L+H* L\% & Durazno & BFD1 & 0.1500000 \\
+L+H* L\% & Durazno & BFD2 & 0.2500000 \\
+L+H* L\% & Montevideo & BFD4 & 0.0333333 \\
+L+H* L\% & Montevideo & BFD1 & 0.3666667 \\
+L+H* L\% & Montevideo & BFD2 & 0.2666667 \\
+L+H* L* & Durazno & BFD4 & 0.0500000 \\
+L+H* L* & Durazno & BFD1 & 0.0000000 \\
+L+H* L* & Durazno & BFD2 & 0.0000000 \\
+L+H*+L L\% & Montevideo & BFD4 & 0.0000000 \\
+L+H*+L L\% & Montevideo & BFD1 & 0.0333333 \\
+L+H*+L L\% & Montevideo & BFD2 & 0.0333333 \\
+L+¡H* L\% & Durazno & BFD4 & 0.0000000 \\
+L+¡H* L\% & Durazno & BFD1 & 0.0000000 \\
+L+¡H* L\% & Durazno & BFD2 & 0.0500000 \\
+L+¡H* L\% & Montevideo & BFD4 & 0.0000000 \\
+L+¡H* L\% & Montevideo & BFD1 & 0.0000000 \\
+L+¡H* L\% & Montevideo & BFD2 & 0.0666667 \\
+N/A & Durazno & BFD4 & 0.2500000 \\
+N/A & Durazno & BFD1 & 0.4500000 \\
+N/A & Durazno & BFD2 & 0.2000000 \\
+N/A & Montevideo & BFD4 & 0.0666667 \\
+N/A & Montevideo & BFD1 & 0.0333333 \\
+N/A & Montevideo & BFD2 & 0.0000000 \\
 \end{longtable}

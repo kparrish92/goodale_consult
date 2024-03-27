@@ -145,7 +145,6 @@
     {}{\InnerPatchFailed}%
   }
 {}{\PatchFailed}
-\keywords{keywords\newline\indent Word count: X}
 \DeclareDelayedFloatFlavor{ThreePartTable}{table}
 \DeclareDelayedFloatFlavor{lltable}{table}
 \DeclareDelayedFloatFlavor*{longtable}{table}
@@ -164,64 +163,39 @@
 \urlstyle{same}
 \hypersetup{
   pdftitle={Goodale Consult},
-  pdfauthor={First Author1 \& Ernst-August Doelle1,2},
+  pdfauthor={Kyle Parrish1},
   pdflang={en-EN},
-  pdfkeywords={keywords},
   hidelinks,
   pdfcreator={LaTeX via pandoc}}
 
 \title{Goodale Consult}
-\author{First Author\textsuperscript{1} \& Ernst-August Doelle\textsuperscript{1,2}}
+\author{Kyle Parrish\textsuperscript{1}}
 \date{}
 
 
-\shorttitle{Prosody}
+\shorttitle{Goodale Consult}
 
-\authornote{
-
-Add complete departmental affiliations for each author here. Each new line herein must be indented, like this line.
-
-Enter author note here.
-
-The authors made the following contributions. First Author: Conceptualization, Writing - Original Draft Preparation, Writing - Review \& Editing; Ernst-August Doelle: Writing - Review \& Editing, Supervision.
-
-Correspondence concerning this article should be addressed to First Author, Postal address. E-mail: \href{mailto:my@email.com}{\nolinkurl{my@email.com}}
-
-}
-
-\affiliation{\vspace{0.5cm}\textsuperscript{1} Wilhelm-Wundt-University\\\textsuperscript{2} Konstanz Business School}
-
-\abstract{%
-One or two sentences providing a \textbf{basic introduction} to the field, comprehensible to a scientist in any discipline.
-
-Two to three sentences of \textbf{more detailed background}, comprehensible to scientists in related disciplines.
-
-One sentence clearly stating the \textbf{general problem} being addressed by this particular study.
-
-One sentence summarizing the main result (with the words ``\textbf{here we show}'' or their equivalent).
-
-Two or three sentences explaining what the \textbf{main result} reveals in direct comparison to what was thought to be the case previously, or how the main result adds to previous knowledge.
-
-One or two sentences to put the results into a more \textbf{general context}.
-
-Two or three sentences to provide a \textbf{broader perspective}, readily comprehensible to a scientist in any discipline.
-}
-
-
+\affiliation{\phantom{0}}
 
 \begin{document}
 \maketitle
 
-\begin{quote}
-What Pitch Accents tend to mark focus?**
-\end{quote}
+Here are some initial plots and tables that I hope are a good start. I took some notes from the excel sheet and applied them as I understood them to the data. This html format is one of the best for copy-pasting, but I can also provide a pdf or word document.
+
+\hypertarget{what-pitch-accents-tend-to-mark-focus}{%
+\subsection{What Pitch Accents tend to mark focus?}\label{what-pitch-accents-tend-to-mark-focus}}
+
+I first created tables to try an answer this question. Each table and figure are comparing pitch accents for the positions ``N'' and ``N1'' in either Broad of Narrow focus in each city (Montevideo or Durazno). I looked back at the spread sheet and may be misunderstanding what is supposed to be focused. If I have chosen the wrong word in the sentence, please just let me know which position and sentence I should make similar visualizations for.
 
 \emph{Broad Focus Declaratives}
 
-Full list, unchanged:
+I started with Broad focus declaratives (position is ``N''). The table shows the occurance of each pitch accent in the data without cleaning up the very rare cases (under 5 occurrences in the data). Table 2 shows the same information, but does omit the rare cases. Figure 1 is a visualization of the filtered data (Table 2). For each comparison, a poisson regression was run, predicting total number (count) of utterances given the city. The line above the bars in the graph shows the result of the regression. NS means the result was not significant, one asterisk means it was significant at p\textless.05, two mean p \textless{} .005, and three mean p \textless{} .0005.
+
+\textbf{Figure 1: Broad Focus Declaratives in position N filtered}
+\includegraphics{main_files/figure-latex/unnamed-chunk-3-1.pdf}
 
 \begin{longtable}[]{@{}lrr@{}}
-\caption{\label{tab:unnamed-chunk-3}Total percentage of each pitch accent in nuclear position for Broad Focus Decaratives.}\tabularnewline
+\caption{\label{tab:unnamed-chunk-4}Table 1: Total percentage of each pitch accent in nuclear position for Broad Focus Decaratives.}\tabularnewline
 \toprule\noalign{}
 tones & Montevideo & Durazno \\
 \midrule\noalign{}
@@ -247,10 +221,8 @@ L+¡H* L\% & 2 & 2 \\
 NA & 3 & 30 \\
 \end{longtable}
 
-Full list, at least 5 total occurrences:
-
 \begin{longtable}[]{@{}lrr@{}}
-\caption{\label{tab:unnamed-chunk-4}Total percentage of each pitch accent in nuclear position in which one group had produced it atleast 5 percent of the time in the data for Broad Focus Decaratives.}\tabularnewline
+\caption{\label{tab:unnamed-chunk-5}Table 2: Total percentage of each pitch accent in nuclear position in which one group had produced it atleast 5 percent of the time in the data for Broad Focus Decaratives.}\tabularnewline
 \toprule\noalign{}
 tones & Montevideo & Durazno \\
 \midrule\noalign{}
@@ -266,21 +238,16 @@ L+H* L\% & 22 & 13 \\
 NA & 3 & 30 \\
 \end{longtable}
 
-\emph{Plot of Table 2}
-\includegraphics{main_files/figure-latex/unnamed-chunk-5-1.pdf}
-
 \begin{quote}
 In BFD we could mostly ignore boundary tones (e.g., L- and L\%)''
 \end{quote}
 
-We can integrate these if you prefer, but there does not look like there would be a major shift in the trend.
+We can integrate these if you prefer, but there does not look like there would be a major shift in the trend. If we need to recode things, it would be easiest for me with a list in an excel format, where one column is the original coding and the other is the simplified version. If I get one comprehensive list I can apply it to all data points and even tweak the recoding if it's needed later on.
 
 \emph{Narrow Focus Declaratives}
 
-Full list, unchanged:
-
 \begin{longtable}[]{@{}lrr@{}}
-\caption{\label{tab:unnamed-chunk-6}Total percentage of each pitch accent in nuclear position for Narrow Focus Decaratives.}\tabularnewline
+\caption{\label{tab:unnamed-chunk-6}Table 3: Total percentage of each pitch accent in nuclear position for Narrow Focus Decaratives.}\tabularnewline
 \toprule\noalign{}
 tones & Montevideo & Durazno \\
 \midrule\noalign{}
@@ -315,10 +282,11 @@ L+¡H*L\% & 1 & 0 \\
 NA & 1 & 5 \\
 \end{longtable}
 
-Full list, at least 5 total occurrences:
+\textbf{Figure 2: Narrow Focus Declaratives in position N1 filtered}
+\includegraphics{main_files/figure-latex/unnamed-chunk-7-1.pdf}
 
 \begin{longtable}[]{@{}lrr@{}}
-\caption{\label{tab:unnamed-chunk-7}Total percentage of each pitch accent in nuclear position in which one group had produced it atleast 5 percent of the time in the data for Narrow Focus Decaratives.}\tabularnewline
+\caption{\label{tab:unnamed-chunk-8}Table 4: Total percentage of each pitch accent in nuclear position in which one group had produced it atleast 5 percent of the time in the data for Narrow Focus Decaratives.}\tabularnewline
 \toprule\noalign{}
 tones & Montevideo & Durazno \\
 \midrule\noalign{}
@@ -336,49 +304,247 @@ L+H*+L L\% & 17 & 3 \\
 L+¡H* L\% & 13 & 7 \\
 \end{longtable}
 
-\emph{Plot of Table 4}
-\includegraphics{main_files/figure-latex/unnamed-chunk-8-1.pdf}
-
-\begin{quote}
-In the NFD it becomes clear that the !H\% IP boundary tone is a clear difference between DZ (which has it) and MV (that mostly doesnt).''
-\end{quote}
+\hypertarget{in-the-nfd-it-becomes-clear-that-the-h-ip-boundary-tone-is-a-clear-difference-between-dz-which-has-it-and-mv-that-mostly-doesnt.}{%
+\subsection{In the NFD it becomes clear that the !H\% IP boundary tone is a clear difference between DZ (which has it) and MV (that mostly doesnt).''}\label{in-the-nfd-it-becomes-clear-that-the-h-ip-boundary-tone-is-a-clear-difference-between-dz-which-has-it-and-mv-that-mostly-doesnt.}}
 
 There is a significant difference here (p \textless{} .005).
 
-\begin{quote}
-At the same time we see that the tritonal L+H*+L is more common in MV than DZ.
-\end{quote}
+\hypertarget{at-the-same-time-we-see-that-the-tritonal-lhl-is-more-common-in-mv-than-dz.}{%
+\subsection{At the same time we see that the tritonal L+H*+L is more common in MV than DZ.}\label{at-the-same-time-we-see-that-the-tritonal-lhl-is-more-common-in-mv-than-dz.}}
 
 This is descriptively true (the count for MV is higher), but the poisson regression was not significant in this case (p \textgreater{} .05). This does not mean the difference is not real, but more likely that there just isn't enough data for the model to return a significant effect.
 
-\begin{quote}
-L*+H is more common in DZ than MV.
-\end{quote}
+\hypertarget{lh-is-more-common-in-dz-than-mv.}{%
+\subsection{L*+H is more common in DZ than MV.}\label{lh-is-more-common-in-dz-than-mv.}}
 
 I don't actually see this in the data.
 
-\begin{quote}
-What seems clear in both DZ and MV is that upstepping (¡) is a big part of marking focus, thus in an utterance full of L+H\emph{, focus is rightly marked with L+¡H}, in cases such as NFD5 Con Manuel, these are all high peaks but due to the lack of an earlier comparative peak they are not classified as upstepped.
-\end{quote}
+\hypertarget{what-seems-clear-in-both-dz-and-mv-is-that-upstepping-is-a-big-part-of-marking-focus-thus-in-an-utterance-full-of-lh-focus-is-rightly-marked-with-lh-in-cases-such-as-nfd5-con-manuel-these-are-all-high-peaks-but-due-to-the-lack-of-an-earlier-comparative-peak-they-are-not-classified-as-upstepped.}{%
+\subsection{\texorpdfstring{What seems clear in both DZ and MV is that upstepping (¡) is a big part of marking focus, thus in an utterance full of L+H\emph{, focus is rightly marked with L+¡H}, in cases such as NFD5 Con Manuel, these are all high peaks but due to the lack of an earlier comparative peak they are not classified as upstepped.}{What seems clear in both DZ and MV is that upstepping (¡) is a big part of marking focus, thus in an utterance full of L+H, focus is rightly marked with L+¡H, in cases such as NFD5 Con Manuel, these are all high peaks but due to the lack of an earlier comparative peak they are not classified as upstepped.}}\label{what-seems-clear-in-both-dz-and-mv-is-that-upstepping-is-a-big-part-of-marking-focus-thus-in-an-utterance-full-of-lh-focus-is-rightly-marked-with-lh-in-cases-such-as-nfd5-con-manuel-these-are-all-high-peaks-but-due-to-the-lack-of-an-earlier-comparative-peak-they-are-not-classified-as-upstepped.}}
 
-Here's a plot showing both cities productions for NFD5. It looks like the two groups are a little different than you've described above: Durazno speakers prefer L+H* !H\%.
-The Montevideo group, on the other hand, produce L+H*+L L\%
+Here's a plot showing both cities productions for NFD5. It looks like the two groups are a little different than you've described above: Durazno speakers prefer L+H* !H\%. The Montevideo group, on the other hand, produce L+H*+L L\% the most.
 
-\includegraphics{main_files/figure-latex/unnamed-chunk-9-1.pdf}
+\begin{longtable}[]{@{}lrr@{}}
+\caption{\label{tab:unnamed-chunk-9}Table 5: Total percentage of each pitch accent in NFD5 `con Manuel'}\tabularnewline
+\toprule\noalign{}
+tones & Durazno & Montevideo \\
+\midrule\noalign{}
+\endfirsthead
+\toprule\noalign{}
+tones & Durazno & Montevideo \\
+\midrule\noalign{}
+\endhead
+\bottomrule\noalign{}
+\endlastfoot
+H+L* L\% & 5 & 0 \\
+L+!H*+L L\% & 5 & 0 \\
+L+H* !H\% & 60 & 20 \\
+L+H* L\% & 10 & 27 \\
+L+H*+L L\% & 10 & 53 \\
+L+¡H* !H\% & 5 & 0 \\
+NA & 5 & 0 \\
+\end{longtable}
 
-\begin{quote}
-Thus if in the count for focalized items L+H* rather than L+¡H* it should be undestood that these are, in such a case not different and can be grouped, whereas in sentences with PN peaks these are different.
-\end{quote}
+\begin{longtable}[]{@{}lrr@{}}
+\caption{\label{tab:unnamed-chunk-10}Table 6: Total percentage of each pitch accent in NFD5 `con Manuel' occuring at least 5 total times}\tabularnewline
+\toprule\noalign{}
+tones & Durazno & Montevideo \\
+\midrule\noalign{}
+\endfirsthead
+\toprule\noalign{}
+tones & Durazno & Montevideo \\
+\midrule\noalign{}
+\endhead
+\bottomrule\noalign{}
+\endlastfoot
+L+H* !H\% & 60 & 20 \\
+L+H* L\% & 10 & 27 \\
+L+H*+L L\% & 10 & 53 \\
+\end{longtable}
 
-Let me know about specific groupings (a list would be ideal), and I can systematically integrate them in the analysis pipeline, which will spit out new plots etc. just by being run again after necessary adjustments.
+\textbf{Figure 3: Total percentage of each pitch accent in NFD5 `con Manuel' occuring at least 5 total times}
+\includegraphics{main_files/figure-latex/unnamed-chunk-11-1.pdf}
 
-\begin{quote}
-Socially, (at least before the current updated data) women tended to use the tritonal L+H*+L as well as the upstep ¡ more than men, this again is a key distinction as it once again provided evidence for the theory of females making greater contrasts and therfore greater clarity in speaking.
-\end{quote}
+\hypertarget{thus-if-in-the-count-for-focalized-items-lh-rather-than-lh-it-should-be-undestood-that-these-are-in-such-a-case-not-different-and-can-be-grouped-whereas-in-sentences-with-pn-peaks-these-are-different.}{%
+\subsection{Thus if in the count for focalized items L+H* rather than L+¡H* it should be undestood that these are, in such a case not different and can be grouped, whereas in sentences with PN peaks these are different.}\label{thus-if-in-the-count-for-focalized-items-lh-rather-than-lh-it-should-be-undestood-that-these-are-in-such-a-case-not-different-and-can-be-grouped-whereas-in-sentences-with-pn-peaks-these-are-different.}}
 
-\begin{quote}
-Also if you find that certain utterance tend to prefer unique forms, such as NFD5 ``a statement of the obvious'' where tritonals may be more common or where the mid-boundary tone !H\% is more frequent this is also of note.
-\end{quote}
+As above, a full list of these cases would be ideal if we need to re-code some things.
+
+\hypertarget{socially-at-least-before-the-current-updated-data-women-tended-to-use-the-tritonal-lhl-as-well-as-the-upstep-more-than-men-this-again-is-a-key-distinction-as-it-once-again-provided-evidence-for-the-theory-of-females-making-greater-contrasts-and-therfore-greater-clarity-in-speaking.}{%
+\subsection{Socially, (at least before the current updated data) women tended to use the tritonal L+H*+L as well as the upstep ¡ more than men, this again is a key distinction as it once again provided evidence for the theory of females making greater contrasts and therfore greater clarity in speaking.}\label{socially-at-least-before-the-current-updated-data-women-tended-to-use-the-tritonal-lhl-as-well-as-the-upstep-more-than-men-this-again-is-a-key-distinction-as-it-once-again-provided-evidence-for-the-theory-of-females-making-greater-contrasts-and-therfore-greater-clarity-in-speaking.}}
+
+Here's some visualizations of sex, if these look good, I can also run inferential statistics for the comparisons of interest.
+
+\textbf{Figure 4: Total percentage of each pitch accent by sex in each city in narrow focus declaratives and the N1 position}
+\includegraphics{main_files/figure-latex/unnamed-chunk-12-1.pdf}
+
+\textbf{Figure 5: Total percentage of each pitch accent by sex in each city in broad focus declaratives and the N position}
+\includegraphics{main_files/figure-latex/unnamed-chunk-13-1.pdf}
+
+\hypertarget{also-if-you-find-that-certain-utterance-tend-to-prefer-unique-forms-such-as-nfd5-a-statement-of-the-obvious-where-tritonals-may-be-more-common-or-where-the-mid-boundary-tone-h-is-more-frequent-this-is-also-of-note.}{%
+\subsection{Also if you find that certain utterance tend to prefer unique forms, such as NFD5 ``a statement of the obvious'' where tritonals may be more common or where the mid-boundary tone !H\% is more frequent this is also of note.}\label{also-if-you-find-that-certain-utterance-tend-to-prefer-unique-forms-such-as-nfd5-a-statement-of-the-obvious-where-tritonals-may-be-more-common-or-where-the-mid-boundary-tone-h-is-more-frequent-this-is-also-of-note.}}
+
+These tables and figures show the percentage of each pitch accent in each item for both broad and narrow focus declaratives. Again, everything is ``N'' or ``N1'' in terms of position.
+
+\textbf{Figure 6: Total percentage of each pitch accent for narrow focus declaratives in each item per city}
+\includegraphics{main_files/figure-latex/unnamed-chunk-14-1.pdf}
+
+\begin{longtable}[]{@{}lllr@{}}
+\caption{\label{tab:unnamed-chunk-15}Table 7: Total percentage of each pitch accent for narrow focus declaratives in each item per city}\tabularnewline
+\toprule\noalign{}
+tones & DEPT & Sentence & Percentage \\
+\midrule\noalign{}
+\endfirsthead
+\toprule\noalign{}
+tones & DEPT & Sentence & Percentage \\
+\midrule\noalign{}
+\endhead
+\bottomrule\noalign{}
+\endlastfoot
+H+L* L\% & Durazno & NFD3 & 0.2000000 \\
+H+L* L\% & Durazno & NFD1 & 0.0000000 \\
+H+L* L\% & Durazno & NFD2 & 0.0000000 \\
+H+L* L\% & Durazno & NFD4 & 0.0000000 \\
+H+L* L\% & Durazno & NFD5 & 0.0000000 \\
+H+L* L\% & Durazno & NFD6 & 0.0000000 \\
+H+L* L\% & Montevideo & NFD3 & 0.2000000 \\
+H+L* L\% & Montevideo & NFD1 & 0.0000000 \\
+H+L* L\% & Montevideo & NFD2 & 0.0000000 \\
+H+L* L\% & Montevideo & NFD4 & 0.0000000 \\
+H+L* L\% & Montevideo & NFD5 & 0.0000000 \\
+H+L* L\% & Montevideo & NFD6 & 0.0000000 \\
+L* L\% & Durazno & NFD3 & 0.2500000 \\
+L* L\% & Durazno & NFD1 & 0.4500000 \\
+L* L\% & Durazno & NFD2 & 0.2000000 \\
+L* L\% & Durazno & NFD4 & 0.8000000 \\
+L* L\% & Durazno & NFD5 & 0.0000000 \\
+L* L\% & Durazno & NFD6 & 0.0000000 \\
+L* L\% & Montevideo & NFD3 & 0.3000000 \\
+L* L\% & Montevideo & NFD1 & 0.2333333 \\
+L* L\% & Montevideo & NFD2 & 0.0000000 \\
+L* L\% & Montevideo & NFD4 & 0.8333333 \\
+L* L\% & Montevideo & NFD5 & 0.0000000 \\
+L* L\% & Montevideo & NFD6 & 0.0000000 \\
+L+H* !H\% & Durazno & NFD3 & 0.0000000 \\
+L+H* !H\% & Durazno & NFD1 & 0.0000000 \\
+L+H* !H\% & Durazno & NFD2 & 0.0000000 \\
+L+H* !H\% & Durazno & NFD4 & 0.0000000 \\
+L+H* !H\% & Durazno & NFD5 & 0.0000000 \\
+L+H* !H\% & Durazno & NFD6 & 0.0000000 \\
+L+H* !H\% & Montevideo & NFD3 & 0.0000000 \\
+L+H* !H\% & Montevideo & NFD1 & 0.0000000 \\
+L+H* !H\% & Montevideo & NFD2 & 0.0000000 \\
+L+H* !H\% & Montevideo & NFD4 & 0.0000000 \\
+L+H* !H\% & Montevideo & NFD5 & 0.0000000 \\
+L+H* !H\% & Montevideo & NFD6 & 0.0000000 \\
+L+H* L\% & Durazno & NFD3 & 0.2000000 \\
+L+H* L\% & Durazno & NFD1 & 0.5000000 \\
+L+H* L\% & Durazno & NFD2 & 0.3500000 \\
+L+H* L\% & Durazno & NFD4 & 0.1500000 \\
+L+H* L\% & Durazno & NFD5 & 0.6000000 \\
+L+H* L\% & Durazno & NFD6 & 0.6000000 \\
+L+H* L\% & Montevideo & NFD3 & 0.2666667 \\
+L+H* L\% & Montevideo & NFD1 & 0.2000000 \\
+L+H* L\% & Montevideo & NFD2 & 0.2666667 \\
+L+H* L\% & Montevideo & NFD4 & 0.0000000 \\
+L+H* L\% & Montevideo & NFD5 & 0.3333333 \\
+L+H* L\% & Montevideo & NFD6 & 0.3333333 \\
+L+H*+L L\% & Montevideo & NFD3 & 0.1333333 \\
+L+H*+L L\% & Montevideo & NFD1 & 0.3333333 \\
+L+H*+L L\% & Montevideo & NFD2 & 0.0000000 \\
+L+H*+L L\% & Montevideo & NFD4 & 0.0000000 \\
+L+H*+L L\% & Montevideo & NFD5 & 0.0000000 \\
+L+H*+L L\% & Montevideo & NFD6 & 0.0000000 \\
+L+¡H* L\% & Durazno & NFD3 & 0.0000000 \\
+L+¡H* L\% & Durazno & NFD1 & 0.0000000 \\
+L+¡H* L\% & Durazno & NFD2 & 0.1500000 \\
+L+¡H* L\% & Durazno & NFD4 & 0.0000000 \\
+L+¡H* L\% & Durazno & NFD5 & 0.2500000 \\
+L+¡H* L\% & Durazno & NFD6 & 0.2500000 \\
+L+¡H* L\% & Montevideo & NFD3 & 0.0000000 \\
+L+¡H* L\% & Montevideo & NFD1 & 0.0000000 \\
+L+¡H* L\% & Montevideo & NFD2 & 0.3666667 \\
+L+¡H* L\% & Montevideo & NFD4 & 0.0000000 \\
+L+¡H* L\% & Montevideo & NFD5 & 0.3333333 \\
+L+¡H* L\% & Montevideo & NFD6 & 0.3333333 \\
+L+¡H*+L L\% & Montevideo & NFD3 & 0.0000000 \\
+L+¡H*+L L\% & Montevideo & NFD1 & 0.0000000 \\
+L+¡H*+L L\% & Montevideo & NFD2 & 0.1333333 \\
+L+¡H*+L L\% & Montevideo & NFD4 & 0.0000000 \\
+L+¡H*+L L\% & Montevideo & NFD5 & 0.0000000 \\
+L+¡H*+L L\% & Montevideo & NFD6 & 0.0000000 \\
+\end{longtable}
+
+\textbf{Figure 7: Total percentage of each pitch accent for broad focus declaratives in each item per city}
+\includegraphics{main_files/figure-latex/unnamed-chunk-16-1.pdf}
+
+\begin{longtable}[]{@{}lllr@{}}
+\caption{\label{tab:unnamed-chunk-17}Table 8: Total percentage of each pitch accent for broad focus declaratives in each item per city}\tabularnewline
+\toprule\noalign{}
+tones & DEPT & Sentence & Percentage \\
+\midrule\noalign{}
+\endfirsthead
+\toprule\noalign{}
+tones & DEPT & Sentence & Percentage \\
+\midrule\noalign{}
+\endhead
+\bottomrule\noalign{}
+\endlastfoot
+!H* !H\% & Montevideo & BFD4 & 0.0333333 \\
+!H* !H\% & Montevideo & BFD1 & 0.0000000 \\
+!H* !H\% & Montevideo & BFD2 & 0.0000000 \\
+H+L *L\% & Montevideo & BFD4 & 0.0000000 \\
+H+L *L\% & Montevideo & BFD1 & 0.0333333 \\
+H+L *L\% & Montevideo & BFD2 & 0.0000000 \\
+H+L* L\% & Durazno & BFD4 & 0.0000000 \\
+H+L* L\% & Durazno & BFD1 & 0.0500000 \\
+H+L* L\% & Durazno & BFD2 & 0.0500000 \\
+H+L* L\% & Montevideo & BFD4 & 0.0000000 \\
+H+L* L\% & Montevideo & BFD1 & 0.0333333 \\
+H+L* L\% & Montevideo & BFD2 & 0.0000000 \\
+L* !H\% & Montevideo & BFD4 & 0.0000000 \\
+L* !H\% & Montevideo & BFD1 & 0.0333333 \\
+L* !H\% & Montevideo & BFD2 & 0.0000000 \\
+L* L\% & Durazno & BFD4 & 0.7000000 \\
+L* L\% & Durazno & BFD1 & 0.1500000 \\
+L* L\% & Durazno & BFD2 & 0.4500000 \\
+L* L\% & Montevideo & BFD4 & 0.8666667 \\
+L* L\% & Montevideo & BFD1 & 0.4666667 \\
+L* L\% & Montevideo & BFD2 & 0.6333333 \\
+L+\textless H* L\% & Durazno & BFD4 & 0.0000000 \\
+L+\textless H* L\% & Durazno & BFD1 & 0.0500000 \\
+L+\textless H* L\% & Durazno & BFD2 & 0.0000000 \\
+L+H* !H\% & Durazno & BFD4 & 0.0000000 \\
+L+H* !H\% & Durazno & BFD1 & 0.0500000 \\
+L+H* !H\% & Durazno & BFD2 & 0.0000000 \\
+L+H* L!H\% & Durazno & BFD4 & 0.0000000 \\
+L+H* L!H\% & Durazno & BFD1 & 0.1000000 \\
+L+H* L!H\% & Durazno & BFD2 & 0.0000000 \\
+L+H* L\% & Durazno & BFD4 & 0.0000000 \\
+L+H* L\% & Durazno & BFD1 & 0.1500000 \\
+L+H* L\% & Durazno & BFD2 & 0.2500000 \\
+L+H* L\% & Montevideo & BFD4 & 0.0333333 \\
+L+H* L\% & Montevideo & BFD1 & 0.3666667 \\
+L+H* L\% & Montevideo & BFD2 & 0.2666667 \\
+L+H* L* & Durazno & BFD4 & 0.0500000 \\
+L+H* L* & Durazno & BFD1 & 0.0000000 \\
+L+H* L* & Durazno & BFD2 & 0.0000000 \\
+L+H*+L L\% & Montevideo & BFD4 & 0.0000000 \\
+L+H*+L L\% & Montevideo & BFD1 & 0.0333333 \\
+L+H*+L L\% & Montevideo & BFD2 & 0.0333333 \\
+L+¡H* L\% & Durazno & BFD4 & 0.0000000 \\
+L+¡H* L\% & Durazno & BFD1 & 0.0000000 \\
+L+¡H* L\% & Durazno & BFD2 & 0.0500000 \\
+L+¡H* L\% & Montevideo & BFD4 & 0.0000000 \\
+L+¡H* L\% & Montevideo & BFD1 & 0.0000000 \\
+L+¡H* L\% & Montevideo & BFD2 & 0.0666667 \\
+N/A & Durazno & BFD4 & 0.2500000 \\
+N/A & Durazno & BFD1 & 0.4500000 \\
+N/A & Durazno & BFD2 & 0.2000000 \\
+N/A & Montevideo & BFD4 & 0.0666667 \\
+N/A & Montevideo & BFD1 & 0.0333333 \\
+N/A & Montevideo & BFD2 & 0.0000000 \\
+\end{longtable}
 
 
 \end{document}
