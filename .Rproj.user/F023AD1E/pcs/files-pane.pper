@@ -3,7 +3,11 @@
         {
             "columnIndex": 2,
             "ascending": true
+        },
+        {
+            "columnIndex": 4,
+            "ascending": false
         }
     ],
-    "path": "~/Documents/GitHub/goodale_consult"
+    "path": "~/Documents/GitHub/goodale_consult/word_plots_age"
 }

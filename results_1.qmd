@@ -36,7 +36,7 @@ long_all$tones = gsub("L*L%"  , "L* L%" , long_all$tones , fixed = TRUE)
 
 <!--- 1 hour, start 12:22 finish 3- 3.5 hrs total--->
 
-Here are some initial plots and tables that I hope are a good start. I took some notes from the excel sheet and applied them as I understood them to the data. This html format is one of the best for copy-pasting, but I can also provide a pdf or word document. 
+Here are some initial plots and tables that I hope are a good start. I took some notes from the excel sheet and applied them as I understood them to the data. This html format is one of the best for copy-pasting, but I can also provide a pdf or word document.
 
 ```{r, include=FALSE}
 knitr::opts_chunk$set(
@@ -50,16 +50,18 @@ I first created tables to try an answer this question. Each table and figure are
 
 *Broad Focus Declaratives*
 
-I started with Broad focus declaratives (position is "N"). The table shows the occurance of each pitch accent in the data without cleaning up the very rare cases (under 5 occurrences in the data). Table 2 shows the same information, but does omit the rare cases. Figure 1 is a visualization of the filtered data (Table 2). For each comparison, a poisson regression was run, predicting total number (count) of utterances given the city. The line above the bars in the graph shows the result of the regression. NS means the result was not significant, one asterisk means it was significant at p<.05, two mean p < .005, and three mean p < .0005. 
+I started with Broad focus declaratives (position is "N"). The table shows the occurance of each pitch accent in the data without cleaning up the very rare cases (under 5 occurrences in the data). Table 2 shows the same information, but does omit the rare cases. Figure 1 is a visualization of the filtered data (Table 2). For each comparison, a poisson regression was run, predicting total number (count) of utterances given the city. The line above the bars in the graph shows the result of the regression. NS means the result was not significant, one asterisk means it was significant at p\<.05, two mean p \< .005, and three mean p \< .0005.
 
 **Figure 1: Broad Focus Declaratives in position N filtered**
+
 ```{r}
 make_sig_plot("N", "BFD", long_all)
 ```
 
-
 <details>
-  <summary>Long Table Version</summary>
+
+<summary>Long Table Version</summary>
+
 ```{r}
 long_all %>% 
   filter(position == "N") %>% 
@@ -71,8 +73,8 @@ long_all %>%
   mutate(Durazno = round(replace_na(Durazno, 0)/60, digits = 2)*100) %>% 
   knitr::kable(format = "pandoc", caption = "Table 1: Total percentage of each pitch accent in nuclear position for Broad Focus Decaratives.")
 ```
-</details>
 
+</details>
 
 ```{r}
 long_all %>% 
@@ -87,7 +89,6 @@ long_all %>%
   knitr::kable(format = "pandoc", caption = "Table 2: Total percentage of each pitch accent in nuclear position in which one group had produced it atleast 5 percent of the time in the data for Broad Focus Decaratives.")
 ```
 
-
 > In BFD we could mostly ignore boundary tones (e.g., L- and L%)"
 
 We can integrate these if you prefer, but there does not look like there would be a major shift in the trend. If we need to recode things, it would be easiest for me with a list in an excel format, where one column is the original coding and the other is the simplified version. If I get one comprehensive list I can apply it to all data points and even tweak the recoding if it's needed later on.
@@ -95,7 +96,9 @@ We can integrate these if you prefer, but there does not look like there would b
 *Narrow Focus Declaratives*
 
 <details>
-  <summary>Table Version</summary>
+
+<summary>Table Version</summary>
+
 ```{r}
 long_all %>% 
   filter(position == "N1") %>% 
@@ -107,16 +110,19 @@ long_all %>%
   mutate(Durazno = round(replace_na(Durazno, 0)/120, digits = 2)*100) %>% 
   knitr::kable(format = "pandoc", caption = "Table 3: Total percentage of each pitch accent in nuclear position for Narrow Focus Decaratives.")
 ```
+
 </details>
 
-
 **Figure 2: Narrow Focus Declaratives in position N1 filtered**
+
 ```{r}
 make_sig_plot("N1","NFD", long_all)
 ```
 
 <details>
-  <summary>Table Version</summary>
+
+<summary>Table Version</summary>
+
 ```{r}
 long_all %>% 
   filter(position == "N1") %>% 
@@ -129,6 +135,7 @@ long_all %>%
   filter(Montevideo > 5 | Durazno > 5) %>% 
   knitr::kable(format = "pandoc", caption = "Table 4: Total percentage of each pitch accent in nuclear position in which one group had produced it atleast 5 percent of the time in the data for Narrow Focus Decaratives.")
 ```
+
 </details>
 
 > In the NFD it becomes clear that the !H% IP boundary tone is a clear difference between DZ (which has it) and MV (that mostly doesnt)."
@@ -171,6 +178,7 @@ long_all %>%
 ```
 
 **Figure 3: Total percentage of each pitch accent in NFD5 'con Manuel' occuring at least 5 total times**
+
 ```{r}
 make_sig_plot("N1","NFD", long_all %>% 
                 filter(sentence == "NFD5"))  
@@ -182,14 +190,16 @@ As above, a full list of these cases would be ideal if we need to re-code some t
 
 > Socially, (at least before the current updated data) women tended to use the tritonal L+H\*+L as well as the upstep ¡ more than men, this again is a key distinction as it once again provided evidence for the theory of females making greater contrasts and therfore greater clarity in speaking.
 
-Here's some visualizations of sex, if these look good, I can also run inferential statistics for the comparisons of interest.  
+Here's some visualizations of sex, if these look good, I can also run inferential statistics for the comparisons of interest.
 
 **Figure 4: Total percentage of each pitch accent by sex in each city in narrow focus declaratives and the N1 position**
+
 ```{r}
 make_sig_plot_gender("N1", "NFD", long_all) + theme(axis.text.x = element_text(angle = 90, vjust = 0.5, hjust=1))
 ```
 
 **Figure 5: Total percentage of each pitch accent by sex in each city in broad focus declaratives and the N position**
+
 ```{r}
 make_sig_plot_gender("N", "BFD", long_all) + theme(axis.text.x = element_text(angle = 90, vjust = 0.5, hjust=1))
 ```
@@ -198,8 +208,8 @@ make_sig_plot_gender("N", "BFD", long_all) + theme(axis.text.x = element_text(an
 
 These tables and figures show the percentage of each pitch accent in each item for both broad and narrow focus declaratives. Again, everything is "N" or "N1" in terms of position.
 
-
 **Figure 6: Total percentage of each pitch accent for narrow focus declaratives in each item per city**
+
 ```{r}
 stim_df %>% 
    ggplot(aes(x = tones, y = Percentage, fill = DEPT, position = "dodge")) + 
@@ -208,16 +218,19 @@ stim_df %>%
 ```
 
 <details>
-  <summary>Table Version</summary>
+
+<summary>Table Version</summary>
+
 ```{r}
 stim_df %>% 
   select(-X) %>% knitr::kable(format = "pandoc", caption = "Table 7: Total percentage of each pitch accent for narrow focus declaratives in each item per city")
 
 ```
+
 </details>
 
-
 **Figure 7: Total percentage of each pitch accent for broad focus declaratives in each item per city**
+
 ```{r}
 stim_df_bfd %>% 
    ggplot(aes(x = tones, y = Percentage, fill = DEPT, position = "dodge")) + 
@@ -226,10 +239,13 @@ stim_df_bfd %>%
 ```
 
 <details>
-  <summary>Table Version</summary>
+
+<summary>Table Version</summary>
+
 ```{r}
 stim_df_bfd %>% 
   select(-X) %>% knitr::kable(format = "pandoc", caption = "Table 8: Total percentage of each pitch accent for broad focus declaratives in each item per city")
 
 ```
+
 </details>

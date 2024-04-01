@@ -1,0 +1,194 @@
+---
+title: "Results Round 2"
+format: html
+editor: visual
+---
+
+```{r, include=FALSE}
+knitr::opts_chunk$set(
+  comment = "#>", echo = FALSE, fig.width = 6, warning = FALSE, error = FALSE, message = FALSE
+)
+```
+
+```{r, echo = FALSE, include = FALSE}
+source(here::here("00_helpers.R"))
+library(ggsignif)
+library(tidyverse)
+library(here)
+
+mv_long = read.csv(here("data", "tidy", "mv_long.csv"))
+dz_long = read.csv(here("data", "tidy", "dz_long.csv")) 
+
+stim_df = read.csv(here("data", "tidy", "stim_df.csv"))
+stim_df_bfd = read.csv(here("data", "tidy", "stim_df_bfd.csv"))
+
+long_all = rbind(mv_long, dz_long)
+
+model_df = long_all %>% 
+  group_by(tones, DEPT, sentence_type) %>% 
+  summarize(n = n()) %>% 
+  pivot_wider(names_from = DEPT, values_from = n) %>% 
+  filter(Montevideo > 5 | Durazno > 5) %>% 
+  pivot_longer(cols = 3:4, names_to = "City", values_to = "count") %>% 
+  mutate(tones = replace_na(tones, "N/A")) %>% 
+  mutate(total_speakers = case_when(
+    City == "Montevideo" ~ 30,
+    City == "Durazno" ~ 20
+  ))
+
+long_all$tones = gsub("L*L%"  , "L* L%" , long_all$tones , fixed = TRUE)
+
+```
+
+# Plots combining all PN and N overall
+
+These plots show the percentage of each pitch accent by city in nuclear or prenuclear positions in broad and narrow focus declarative statement. 
+
+Each comparison was a poisson regression testing whether the count of a given pitch accent different as a function of city for each position (nuclear or prenuclear) and statement type (broad or 
+narrow focus).
+
+Example for in line reporting, looking at the first plot:
+
+> In prenuclear broad focus declaratives, Montevideo speakers were predicted to produce H* significantly more than Durazno speakers (p < .05).
+
+Recall the the number of asterisks is the number of 0's when you report:
+
+NS <- p > .05
+
+\* <- p < .05
+
+** <- p < .005
+
+*** <- p < .005
+
+
+**Prenuclear Broad Focus Declaratives**
+
+```{r}
+make_sig_plot("PN", "BFD", long_all)
+```
+
+**Nuclear Broad Focus Declaratives**
+
+```{r}
+make_sig_plot("N", "BFD", long_all)
+```
+
+**Prenuclear Narrow Focus Declaratives**
+
+```{r}
+make_sig_plot("PN", "NFD", long_all)
+```
+
+**Nuclear Narrow Focus Declaratives**
+
+```{r}
+make_sig_plot("N", "NFD", long_all)
+```
+
+
+# Sentence by sentence word by word indvidually (not combined cities)
+
+I created a ton of plots! I am uploading them to folders in the google drive. Each plot is labeled both in file name and on the plot itself. The are all bar graphs showing the total quantity of occurrences of each pitch accent for each word. *I can integrate any changes to all plots simultaneously.* So if you want different colors, labels etc., let me know. It's pretty easy to adjust!
+
+## Overall 
+
+Here is an example of a plot (I made every possible plot). This one is for Broad Focus Declarative sentence 1 for Durazno (bottom right corner). The word is "Mandarinas" and the position is nuclear. The focused items I've uploaded in a separate section below. These plots are under "plots/overall".
+
+
+```{r}
+knitr::include_graphics(here("word_plots", "BFD1_Durazno_1_Mandarinas_N.png"))
+```
+
+# Look at sex differences/education/age within city:
+
+Here are example plots of each of these differences, and the name of their folders in the google drive:
+
+## Sex 
+
+Find these under "plots/sex/
+
+```{r}
+knitr::include_graphics(here("word_plots_sex", "BFD1_Durazno_1_Mandarinas_N_sex.png"))
+```
+
+## Education 
+
+Find these under "plots/education/
+
+```{r}
+knitr::include_graphics(here("word_plots_education", "BFD1_Durazno_1_Mandarinas_N_edu.png"))
+```
+
+
+## Age 
+
+Find these under "plots/age/
+
+```{r}
+knitr::include_graphics(here("word_plots_age", "BFD1_Durazno_1_Mandarinas_N_age.png"))
+```
+
+
+# Here are the focused words in the a narrow focus conditions (overall):
+
+## NFD1 - Naranjas
+
+```{r}
+knitr::include_graphics(here("word_plots", "NFD1_Montevideo_6_naranjas_N1.png"))
+```
+
+```{r}
+knitr::include_graphics(here("word_plots", "NFD1_Durazno_6_naranjas_N1.png"))
+```
+
+## NFD2 - Medialunas
+
+```{r}
+knitr::include_graphics(here("word_plots", "NFD2_Montevideo_4_medialunas_N1.png"))
+```
+
+```{r}
+knitr::include_graphics(here("word_plots", "NFD2_Durazno_4_medialunas_N1.png"))
+```
+
+## NFD3 - San Juan
+
+```{r}
+knitr::include_graphics(here("word_plots", "NFD3_Montevideo_4_San Juan_N1.png"))
+```
+
+```{r}
+knitr::include_graphics(here("word_plots", "NFD3_Durazno_4_San Juan_N1.png"))
+```
+
+## NFD 4 - le guste el
+
+```{r}
+knitr::include_graphics(here("word_plots", "NFD4_Montevideo_4_le guste el_PN4.png"))
+```
+
+```{r}
+knitr::include_graphics(here("word_plots", "NFD4_Durazno_4_le guste el_PN4.png"))
+```
+
+## NFD5 - con Manuel!
+
+```{r}
+knitr::include_graphics(here("word_plots", "NFD5_Montevideo_1_con Manuel!_N1.png"))
+```
+
+```{r}
+knitr::include_graphics(here("word_plots", "NFD5_Durazno_1_con Manuel!_N1.png"))
+```
+
+## Buenisimo
+
+```{r}
+knitr::include_graphics(here("word_plots", "NFD6_Montevideo_2_buenisimo_N1.png"))
+```
+
+```{r}
+knitr::include_graphics(here("word_plots", "NFD6_Durazno_2_buenisimo_N1.png"))
+```
+

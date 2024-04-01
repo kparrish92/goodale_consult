@@ -155,3 +155,174 @@ make_sig_plot_gender = function(p, st, data)
 
 
 
+plot_word_by_word = function(city, sent)
+{
+  
+  
+  ## Filter for the city and sentence 
+  find_tones = long_all %>%
+    filter(DEPT == city) %>% 
+    filter(sentence == sent) %>% 
+    mutate(tones_new = str_trim(str_replace(tones, "L%", "")))
+  
+  ## Change order 
+  find_tones$words_cat = 
+    factor(find_tones$words_cat, levels=c(unique(find_tones$words_cat)))
+  
+  words_unique = unique(find_tones$words_cat)
+  
+  for (i in 1:length(words_unique)) {
+    
+    plot_r = find_tones %>% 
+      group_by(tones_new, words_cat) %>% 
+      summarize(n = n()) %>% 
+      filter(words_cat == words_unique[i]) %>% 
+      ggplot(aes(x = tones_new, y = n, fill = tones_new)) + 
+      geom_col(color = "black") + theme_minimal() +
+      theme(axis.text.x = element_text(angle = 90, vjust = 0.5, hjust=1)) + 
+      labs(
+        title = words_unique[i],
+        subtitle = element_text(sent),
+        caption = element_text(city),
+        y = "Total occurences",
+        x = "Tone") +
+      theme(legend.position = "none")
+  
+    
+    
+    ggsave(filename = paste0(sent, "_", city, "_", i,"_", words_unique[i],".png"), 
+           plot = plot_r, path = here("word_plots"))
+
+  }
+  
+}
+
+
+
+plot_word_by_word_sex = function(city, sent)
+{
+  
+  
+  ## Filter for the city and sentence 
+  find_tones = long_all %>%
+    filter(DEPT == city) %>% 
+    filter(sentence == sent) %>% 
+    mutate(tones_new = str_trim(str_replace(tones, "L%", "")))
+  
+  ## Change order 
+  find_tones$words_cat = 
+    factor(find_tones$words_cat, levels=c(unique(find_tones$words_cat)))
+  
+  words_unique = unique(find_tones$words_cat)
+  
+  for (i in 1:length(words_unique)) {
+    
+    plot_r = find_tones %>% 
+      group_by(tones_new, words_cat, SEX) %>% 
+      summarize(n = n()) %>% 
+      filter(words_cat == words_unique[i]) %>% 
+      ggplot(aes(x = tones_new, y = n, fill = SEX)) + 
+      geom_col(color = "black") + theme_minimal() +
+      theme(axis.text.x = element_text(angle = 90, vjust = 0.5, hjust=1)) + 
+      labs(
+        title = words_unique[i],
+        subtitle = element_text(sent),
+        caption = element_text(city),
+        y = "Total occurences",
+        x = "Tone")
+    
+    
+    
+    ggsave(filename = paste0(sent, "_", city, "_", i,"_", words_unique[i],"_sex.png"), 
+           plot = plot_r, path = here("word_plots_sex"))
+    
+  }
+  
+}
+
+
+plot_word_by_word_education = function(city, sent)
+{
+  
+  
+  ## Filter for the city and sentence 
+  find_tones = long_all %>%
+    filter(DEPT == city) %>% 
+    filter(sentence == sent) %>% 
+    mutate(tones_new = str_trim(str_replace(tones, "L%", "")))
+  
+  ## Change order 
+  find_tones$words_cat = 
+    factor(find_tones$words_cat, levels=c(unique(find_tones$words_cat)))
+  
+  words_unique = unique(find_tones$words_cat)
+  
+  for (i in 1:length(words_unique)) {
+    
+    plot_r = find_tones %>% 
+      group_by(tones_new, words_cat, EDU.Simplified) %>% 
+      summarize(n = n()) %>% 
+      filter(words_cat == words_unique[i]) %>% 
+      ggplot(aes(x = tones_new, y = n, fill = EDU.Simplified)) + 
+      geom_col(color = "black") + theme_minimal() +
+      theme(axis.text.x = element_text(angle = 90, vjust = 0.5, hjust=1)) + 
+      labs(
+        title = words_unique[i],
+        subtitle = element_text(sent),
+        caption = element_text(city),
+        y = "Total occurences",
+        x = "Tone")
+    
+    
+    
+    ggsave(filename = paste0(sent, "_", city, "_", i,"_", words_unique[i],"_edu.png"), 
+           plot = plot_r, path = here("word_plots_education"))
+    
+  }
+  
+}
+
+
+
+plot_word_by_word_age = function(city, sent)
+{
+  
+  
+  ## Filter for the city and sentence 
+  find_tones = long_all %>%
+    filter(DEPT == city) %>% 
+    filter(sentence == sent) %>% 
+    mutate(tones_new = str_trim(str_replace(tones, "L%", "")))
+  
+  ## Change order 
+  find_tones$words_cat = 
+    factor(find_tones$words_cat, levels=c(unique(find_tones$words_cat)))
+  
+  words_unique = unique(find_tones$words_cat)
+  
+  for (i in 1:length(words_unique)) {
+    
+    plot_r = find_tones %>% 
+      group_by(tones_new, words_cat, Age.Group) %>% 
+      summarize(n = n()) %>% 
+      filter(words_cat == words_unique[i]) %>% 
+      ggplot(aes(x = tones_new, y = n, fill = Age.Group)) + 
+      geom_col(color = "black") + theme_minimal() +
+      theme(axis.text.x = element_text(angle = 90, vjust = 0.5, hjust=1)) + 
+      labs(
+        title = words_unique[i],
+        subtitle = element_text(sent),
+        caption = element_text(city),
+        y = "Total occurences",
+        x = "Tone")
+    
+    
+    
+    ggsave(filename = paste0(sent, "_", city, "_", i,"_", words_unique[i],"_age.png"), 
+           plot = plot_r, path = here("word_plots_age"))
+    
+  }
+  
+}
+
+
