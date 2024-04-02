@@ -42,153 +42,174 @@ long_all$tones = gsub("L*L%"  , "L* L%" , long_all$tones , fixed = TRUE)
 
 # Plots combining all PN and N overall
 
-These plots show the percentage of each pitch accent by city in nuclear or prenuclear positions in broad and narrow focus declarative statement. 
+These plots show the percentage of each pitch accent by city in nuclear or prenuclear positions in broad and narrow focus declarative statement.
 
-Each comparison was a poisson regression testing whether the count of a given pitch accent different as a function of city for each position (nuclear or prenuclear) and statement type (broad or 
-narrow focus).
+Each comparison was a poisson regression testing whether the count of a given pitch accent different as a function of city for each position (nuclear or prenuclear) and statement type (broad or narrow focus).
 
 Example for in line reporting, looking at the first plot:
 
-> In prenuclear broad focus declaratives, Montevideo speakers were predicted to produce H* significantly more than Durazno speakers (p < .05).
+> In prenuclear broad focus declaratives, Montevideo speakers were predicted to produce H\* significantly more than Durazno speakers (p \< .05).
 
 Recall the the number of asterisks is the number of 0's when you report:
 
-NS <- p > .05
+NS \<- p \> .05
 
-\* <- p < .05
+\* \<- p \< .05
 
-** <- p < .005
+\*\* \<- p \< .005
 
-*** <- p < .005
-
-
-**Prenuclear Broad Focus Declaratives**
-
-```{r}
-make_sig_plot("PN", "BFD", long_all)
-```
+\*\*\* \<- p \< .005
 
 **Nuclear Broad Focus Declaratives**
 
 ```{r}
-make_sig_plot("N", "BFD", long_all)
+knitr::include_graphics(here("round_3_plots", "overall_bfd_n.png"))
 ```
 
-**Prenuclear Narrow Focus Declaratives**
+**Prenuclear Broad Focus Declaratives**
 
 ```{r}
-make_sig_plot("PN", "NFD", long_all)
+knitr::include_graphics(here("round_3_plots", "overall_bfd_pn.png"))
 ```
 
-**Nuclear Narrow Focus Declaratives**
+**Focused Narrow Focus Declaratives**
 
 ```{r}
-make_sig_plot("N", "NFD", long_all)
+knitr::include_graphics(here("round_3_plots", "overall_nfd_f.png"))
 ```
 
-
-# Sentence by sentence word by word indvidually (not combined cities)
-
-I created a ton of plots! I am uploading them to folders in the google drive. Each plot is labeled both in file name and on the plot itself. The are all bar graphs showing the total quantity of occurrences of each pitch accent for each word. *I can integrate any changes to all plots simultaneously.* So if you want different colors, labels etc., let me know. It's pretty easy to adjust!
-
-## Overall 
-
-Here is an example of a plot (I made every possible plot). This one is for Broad Focus Declarative sentence 1 for Durazno (bottom right corner). The word is "Mandarinas" and the position is nuclear. The focused items I've uploaded in a separate section below. These plots are under "plots/overall".
-
+**Unfocued Narrow Focus Declaratives**
 
 ```{r}
-knitr::include_graphics(here("word_plots", "BFD1_Durazno_1_Mandarinas_N.png"))
+knitr::include_graphics(here("round_3_plots", "overall_nfd_uf.png"))
 ```
 
-# Look at sex differences/education/age within city:
+# UPDATES
 
-Here are example plots of each of these differences, and the name of their folders in the google drive:
+Here are some of the new requested plot series, in addition to the fixed plots above. We have differences by sex, education and age. Not a lot of significant findings returned for education and age, but I think this is a sampling issue (more people might have turned out a difference in a given comparison). For time's sake and to get this to you sooner, I am leaving the explanation to a minumum in case these need to be majorly edited. Each series of plots has 8 total, four for each city, with two narrow focus and two broad focus, and those being subdivided into focused/unfocused (for NFD) and nuclear or prenuclear (BFD).
 
-## Sex 
+## Sex
 
-Find these under "plots/sex/
-
+**Broad Focus Montevideo Nuclear**
 ```{r}
-knitr::include_graphics(here("word_plots_sex", "BFD1_Durazno_1_Mandarinas_N_sex.png"))
+knitr::include_graphics(here("round_3_plots", "sex_mv_bfd_n.png"))
 ```
 
-## Education 
-
-Find these under "plots/education/
-
+**Broad Focus Durazno Nuclear**
 ```{r}
-knitr::include_graphics(here("word_plots_education", "BFD1_Durazno_1_Mandarinas_N_edu.png"))
+knitr::include_graphics(here("round_3_plots", "sex_d_bfd_n.png"))
 ```
 
-
-## Age 
-
-Find these under "plots/age/
-
+**Broad Focus Montevideo Prenuclear**
 ```{r}
-knitr::include_graphics(here("word_plots_age", "BFD1_Durazno_1_Mandarinas_N_age.png"))
+knitr::include_graphics(here("round_3_plots", "sex_mv_bfd_pn.png"))
 ```
 
-
-# Here are the focused words in the a narrow focus conditions (overall):
-
-## NFD1 - Naranjas
-
+**Broad Focus Durazno Prenuclear**
 ```{r}
-knitr::include_graphics(here("word_plots", "NFD1_Montevideo_6_naranjas_N1.png"))
+knitr::include_graphics(here("round_3_plots", "sex_d_bfd_pn.png"))
 ```
 
+**Narrow Focus Montevideo Focused**
 ```{r}
-knitr::include_graphics(here("word_plots", "NFD1_Durazno_6_naranjas_N1.png"))
+knitr::include_graphics(here("round_3_plots", "sex_mv_nfd_f.png"))
 ```
 
-## NFD2 - Medialunas
-
+**Narrow Focus Durazno Focused**
 ```{r}
-knitr::include_graphics(here("word_plots", "NFD2_Montevideo_4_medialunas_N1.png"))
+knitr::include_graphics(here("round_3_plots", "sex_d_nfd_f.png"))
 ```
 
+**Narrow Focus Montevideo Unfocused**
 ```{r}
-knitr::include_graphics(here("word_plots", "NFD2_Durazno_4_medialunas_N1.png"))
+knitr::include_graphics(here("round_3_plots", "sex_mv_nfd_uf.png"))
 ```
 
-## NFD3 - San Juan
-
+**Narrow Focus Durazno Unfocused**
 ```{r}
-knitr::include_graphics(here("word_plots", "NFD3_Montevideo_4_San Juan_N1.png"))
+knitr::include_graphics(here("round_3_plots", "sex_mv_nfd_uf.png"))
 ```
 
+## Education
+
+**Broad Focus Montevideo Nuclear**
 ```{r}
-knitr::include_graphics(here("word_plots", "NFD3_Durazno_4_San Juan_N1.png"))
+knitr::include_graphics(here("round_3_plots", "ed_mv_bfd_n.png"))
 ```
 
-## NFD 4 - le guste el
-
+**Broad Focus Durazno Nuclear**
 ```{r}
-knitr::include_graphics(here("word_plots", "NFD4_Montevideo_4_le guste el_PN4.png"))
+knitr::include_graphics(here("round_3_plots", "ed_d_bfd_n.png"))
 ```
 
+**Broad Focus Montevideo Prenuclear**
 ```{r}
-knitr::include_graphics(here("word_plots", "NFD4_Durazno_4_le guste el_PN4.png"))
+knitr::include_graphics(here("round_3_plots", "ed_mv_bfd_pn.png"))
 ```
 
-## NFD5 - con Manuel!
-
+**Broad Focus Durazno Prenuclear**
 ```{r}
-knitr::include_graphics(here("word_plots", "NFD5_Montevideo_1_con Manuel!_N1.png"))
+knitr::include_graphics(here("round_3_plots", "ed_d_bfd_pn.png"))
 ```
 
+**Narrow Focus Montevideo Focused**
 ```{r}
-knitr::include_graphics(here("word_plots", "NFD5_Durazno_1_con Manuel!_N1.png"))
+knitr::include_graphics(here("round_3_plots", "ed_mv_nfd_f.png"))
 ```
 
-## Buenisimo
-
+**Narrow Focus Durazno Focused**
 ```{r}
-knitr::include_graphics(here("word_plots", "NFD6_Montevideo_2_buenisimo_N1.png"))
+knitr::include_graphics(here("round_3_plots", "ed_d_nfd_f.png"))
 ```
 
+**Narrow Focus Montevideo Unfocused**
 ```{r}
-knitr::include_graphics(here("word_plots", "NFD6_Durazno_2_buenisimo_N1.png"))
+knitr::include_graphics(here("round_3_plots", "ed_mv_nfd_uf.png"))
 ```
 
+**Narrow Focus Durazno Unfocused**
+```{r}
+knitr::include_graphics(here("round_3_plots", "ed_d_nfd_uf.png"))
+```
+
+## Age
+
+**Broad Focus Montevideo Nuclear**
+```{r}
+knitr::include_graphics(here("round_3_plots", "age_mv_bfd_n.png"))
+```
+
+**Broad Focus Durazno Nuclear**
+```{r}
+knitr::include_graphics(here("round_3_plots", "age_d_bfd_n.png"))
+```
+
+**Broad Focus Montevideo Prenuclear**
+```{r}
+knitr::include_graphics(here("round_3_plots", "age_mv_bfd_pn.png"))
+```
+
+**Broad Focus Durazno Prenuclear**
+```{r}
+knitr::include_graphics(here("round_3_plots", "age_d_bfd_pn.png"))
+```
+
+**Narrow Focus Montevideo Focused**
+```{r}
+knitr::include_graphics(here("round_3_plots", "age_mv_nfd_f.png"))
+```
+
+**Narrow Focus Durazno Focused**
+```{r}
+knitr::include_graphics(here("round_3_plots", "age_d_nfd_f.png"))
+```
+
+**Narrow Focus Montevideo Unfocused**
+```{r}
+knitr::include_graphics(here("round_3_plots", "age_mv_nfd_uf.png"))
+```
+
+**Narrow Focus Durazno Unfocused**
+```{r}
+knitr::include_graphics(here("round_3_plots", "age_d_nfd_uf.png"))
+```

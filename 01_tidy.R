@@ -14,6 +14,14 @@ mv_long = mv_data %>%
   mutate(sentence_type = substr(sentence, start = 1, stop = 3)) %>% 
   mutate(total_speakers = length(unique(mv_data$NAME))) %>% 
   mutate(position_spec = position) %>% 
+  mutate(focused = case_when(
+    sentence == "NFD1" & position == "N1" ~ 1,
+    sentence == "NFD2" & position == "N1" ~ 1,
+    sentence == "NFD3" & position == "N1" ~ 1,
+    sentence == "NFD4" & position == "PN4" ~ 1,
+    sentence == "NFD5" & position == "N1" ~ 1,
+    sentence == "NFD6" & position == "N1" ~ 1
+  )) %>% 
   mutate(position = case_when(
     position == "N" ~ "N",
     position == "N1" ~ "N",
@@ -36,6 +44,14 @@ dz_long = dz_data %>%
   rename("Age.Group" = "AGE.GROUPS") %>% 
   mutate(total_speakers = length(unique(dz_data$NAME))) %>% 
   mutate(position_spec = position) %>%
+  mutate(focused = case_when(
+    sentence == "NFD1" & position == "N1" ~ 1,
+    sentence == "NFD2" & position == "N1" ~ 1,
+    sentence == "NFD3" & position == "N1" ~ 1,
+    sentence == "NFD4" & position == "PN4" ~ 1,
+    sentence == "NFD5" & position == "N1" ~ 1,
+    sentence == "NFD6" & position == "N1" ~ 1
+  )) %>% 
   mutate(position = case_when(
     position == "N" ~ "N",
     position == "N1" ~ "N",
@@ -44,9 +60,7 @@ dz_long = dz_data %>%
     position == "PN3" ~ "PN",
     position == "PN4" ~ "PN",
     position == "PN5" ~ "PN"
-  ))
-
-
+  )) 
 
 dz_long %>% 
   write.csv(here("data", "tidy", "dz_long.csv"))
