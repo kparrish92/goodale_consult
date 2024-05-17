@@ -1,0 +1,373 @@
+---
+title: "New Plots 5-17"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+source(here::here("00_helpers.R"))
+source(here::here("01b_load_data.R"))
+
+mv_long$tones = gsub("deaccented", "DA", mv_long$tones)
+dz_long$tones = gsub("deaccented", "DA", dz_long$tones)
+long_all$tones = gsub("deaccented", "DA", long_all$tones)
+knitr::opts_chunk$set(echo = FALSE, message = FALSE, warning = FALSE)
+```
+
+### Montevideo BFD/non-focalized graphs:
+
+**Graph 1: Montevideo BFD nuclear configurations (i.e., pitch accent + boundary tone) (not by gender or age).**
+
+```{r} 
+mv_long %>% 
+  filter(sentence_type == "BFD" & position_spec == "N") %>%  
+  group_by(tones) %>% 
+  summarize(n = n()) %>% 
+  ggplot(aes(x = tones, y = n, position = "dodge")) + 
+  geom_col(color = "black", position = "dodge2") + goodale_theme() 
+```
+
+```{r, include=FALSE}
+mod1 = mv_long %>%  # Tidy the data for the model and only include levels with 5+ observations
+  filter(sentence_type == "BFD" & position_spec == "N") %>%  
+  group_by(tones, DEPT) %>% 
+  summarize(n = n())  %>% 
+  filter(n > 5)
+
+mod_1 = glm(n ~ tones, data = mod1, family = poisson(link = "log")) # run the model
+mod_report_object = summary(mod_1)[["coefficients"]] # create an object for easier reporting
+mod_diff = round(mod_report_object[2,1], digits = 2) # extract the estimate from the model
+```
+
+> Graph 1: A poisson regression was run where the dependent variable was n (number of occurrences) and the independent variable was tone (only the tones L\*L% and L+H\*L& were included).
+The model revealed a significant difference between these two levels (β = `r mod_diff`; p < .05).
+
+**Graph 2: Montevideo BFD nuclear configurations (i.e., pitch accent + boundary tone) (not by gender or age).**
+
+```{r}
+mv_long %>% 
+  filter(is.na(focused) & position_spec != "N") %>%  
+  group_by(tones, DEPT) %>% 
+  summarize(n = n()) %>% 
+  filter(!stringr::str_detect(tones, '-')) %>% 
+  ggplot(aes(x = tones, y = n, position = "dodge")) + 
+  geom_col(color = "black", position = "dodge2") + goodale_theme() 
+```
+
+```{r, include=FALSE}
+mod_2 = mv_long %>% 
+  filter(is.na(focused) & position_spec != "N") %>%  
+  group_by(tones, DEPT) %>% 
+  summarize(n = n()) %>% 
+  filter(!stringr::str_detect(tones, '-')) %>% 
+  filter(n > 35)
+
+
+mod2 = glm(n ~ tones, data = mod_2, family = poisson(link = "log")) # run the model
+
+mod_df = summary(mod2)[["coefficients"]] %>% 
+  as.data.frame() %>% 
+    mutate(across(everything(), ~ round(., 2))) %>% 
+  rename(`p value` = `Pr(>|z|)`)
+
+mod_df$`p value` = as.character(mod_df$`p value`)
+
+
+mod_df$`p value` = gsub("^0$", "<b>< .005*</b>", mod_df$`p value`)
+
+```
+
+> Graph 2: A poisson regression was run where the dependent variable was n (number of occurrences) and the independent variable was tone (6 levels for this model: H\*, H+L\*, L+¡H\*, L+<H\*, L+H\* and deaccented(DA)).
+The intercept of the model is DA, so the differences which are significant (L+<H\* and L+¡H\*) only tell us that these two pitch accents are predicted by the model to be produced significantly more than deaccented tokens.
+The do not tell us about all possible comparisons, and we would need to do post-hoc tests for this. 
+It would be best to do post-hoc tests only as needed, or re-level to models to change the reference if you want a particular tone to be the baseline that the other tones are compared to. 
+
+```{r}
+mod_df %>% 
+    knitr::kable(format = "pandoc", align = c("l", "r", "r", "r", "r", "r"), 
+    caption = "Table 1: Model summary of the poisson regression for Montevideo BFD nuclear configurations")
+```
+
+**Graph 3: Montevideo BFD nuclear configurations (i.e., pitch accents + boundary tones) by gender. Like you already provided but this time labeled gender.**
+
+```{r}
+plot_sex_per_city("Montevideo", "BFD", "N") + goodale_theme()
+```
+
+> Graph 3: The comparisons here were poisson regressions where the dependent variable in each case was the number of productions and the inpendent variable was gender (2 levels). 
+
+**Graph 4: Montevideo non-focalized prenuclear pitch accents (combined count of prenuclear BFD and prenuclear non-focalized NFD PWs)… Like Graph 2 but by gender.**
+
+```{r}
+sig_plot_for_combined("Montevideo", "gender") + goodale_theme()
+```
+
+> Graph 4: The comparisons here were poisson regressions where the dependent variable in each case was the number of productions and the inpendent variable was gender (2 levels).
+
+**Graph 5: Montevideo BFD nuclear configurations (i.e., pitch accents + boundary tones) by age.**
+
+```{r}
+plot_age_per_city("Montevideo", "BFD", "N") + goodale_theme()
+```
+
+> Graph 5: The comparisons here were poisson regressions where the dependent variable in each case was the number of productions and the inpendent variable was age (3 levels).
+
+**Graph 6: Montevideo non-focalized prenuclear pitch accents (combined count of prenuclear BFD and prenuclear non-focalized NFD PWs)… Like Graph 4 but by age.**
+
+```{r}
+sig_plot_for_combined_age("Montevideo") + goodale_theme()
+```
+
+**Graph 7a: Montevideo focalized NFDs including pitch accents + boundary tones (like the graph you provided but only for Montevideo) (not by gender or age).**
+
+```{r} 
+mv_long %>% 
+  filter(focused == 1 & sentence_type == "NFD") %>% 
+  group_by(tones) %>% 
+  summarize(n = n()) %>% 
+  ggplot(aes(x = tones, y = n, position = "dodge")) + 
+  geom_col(color = "black", position = "dodge2") + goodale_theme() 
+```
+
+**Graph 7b: Montevideo focalized NFDs including pitch accents + boundary tones by gender.**
+```{r}
+plot_seven_function_gender("Montevideo", "NFD", "gender") + goodale_theme()
+```
+
+**Graph 7c: Montevideo focalized NFDs including pitch accents + boundary tones by age**
+```{r}
+plot_seven_function_age("Montevideo", "NFD") + goodale_theme()
+```
+
+
+**Graph 8a-c Montevideo NFD Focused Pitch Accents and Boundary tones for NFD1. Trimmed**
+```{r}
+plot_8_function("Montevideo", "NFD1")
+```
+
+**Graph 9a-c Montevideo NFD Focused Pitch Accents and Boundary tones for NFD2. Trimmed**
+```{r}
+plot_8_function("Montevideo", "NFD2")
+```
+
+**Graph 10a-c Montevideo NFD Focused Pitch Accents and Boundary tones for NFD3. Trimmed**
+```{r}
+plot_8_function("Montevideo", "NFD3")
+```
+
+**Graph 11a-c Montevideo NFD Focused Pitch Accents and Boundary tones for NFD4. Trimmed**
+```{r}
+plot_8_function("Montevideo", "NFD4")
+```
+
+**Graph 12a-c Montevideo NFD Focused Pitch Accents and Boundary tones for NFD5. Trimmed**
+```{r}
+plot_8_function("Montevideo", "NFD5")
+```
+
+**Graph 13a-c Montevideo NFD Focused Pitch Accents and Boundary tones for NFD6. Trimmed**
+```{r}
+plot_8_function("Montevideo", "NFD6")
+```
+
+### Durazno BFD/non-focalized graphs:
+
+**Graph 14: Durazno BFD nuclear configurations (i.e., pitch accent + boundary tone) (not by gender or age).**
+
+```{r} 
+dz_long %>% 
+  filter(sentence_type == "BFD" & position_spec == "N") %>%  
+  group_by(tones) %>% 
+  summarize(n = n()) %>% 
+  ggplot(aes(x = tones, y = n, position = "dodge")) + 
+  geom_col(color = "black", position = "dodge2") + goodale_theme() 
+```
+
+```{r, include=FALSE}
+mod1_d = dz_long %>%  # Tidy the data for the model and only include levels with 5+ observations
+  filter(sentence_type == "BFD" & position_spec == "N") %>%  
+  group_by(tones, DEPT) %>% 
+  summarize(n = n())  %>% 
+  filter(n > 5)
+
+mod1_d$tones <- replace(mod1_d$tones,is.na(mod1_d$tones),"N/A")
+
+mod_1_d = glm(n ~ tones, data = mod1_d, family = poisson(link = "log")) # run the model
+mod_report_object_d = summary(mod_1_d)[["coefficients"]] # create an object for easier reporting
+mod_diff_d = round(mod_report_object_d[2,1], digits = 2) # extract the estimate from the model
+mod_diff_na = round(mod_report_object_d[3,1], digits = 2) # extract the estimate from 
+```
+> Graph 14: A poisson regression was run where the dependent variable was n (number of occurrences) and the independent variable was tone (the tones L\*L% and L+H\*L% and N/A were included).
+The model revealed a significant difference between L\*L% and L+H\*L% two levels (β = `r mod_diff_d`; p < .05). and between L\*L% and N/A `r mod_diff_na`.
+
+**Graph 15: Durazno BFD nuclear configurations (i.e., pitch accent + boundary tone) (not by gender or age).**
+
+```{r}
+dz_long %>% 
+  filter(is.na(focused) & position_spec != "N") %>%  
+  group_by(tones, DEPT) %>% 
+  summarize(n = n()) %>% 
+  filter(!stringr::str_detect(tones, '-')) %>% 
+  ggplot(aes(x = tones, y = n, position = "dodge")) + 
+  geom_col(color = "black", position = "dodge2") + goodale_theme() 
+```
+
+```{r, include=FALSE}
+mod_2_d = dz_long %>% 
+  filter(is.na(focused) & position_spec != "N") %>%  
+  group_by(tones, DEPT) %>% 
+  summarize(n = n()) %>% 
+  filter(!stringr::str_detect(tones, '-')) %>% 
+  filter(n > 35)
+
+mod2_d = glm(n ~ tones, data = mod_2_d, family = poisson(link = "log")) # run the model
+
+mod_df_d = summary(mod2_d)[["coefficients"]] %>% 
+  as.data.frame() %>% 
+    mutate(across(everything(), ~ round(., 2))) %>% 
+  rename(`p value` = `Pr(>|z|)`)
+
+mod_df_d$`p value` = as.character(mod_df_d$`p value`)
+
+
+mod_df_d$`p value` = gsub("^0$", "<b>< .005*</b>", mod_df_d$`p value`)
+mod_df_d$`p value` = gsub("^01$", "<i>< .05*</i>", mod_df_d$`p value`)
+
+
+```
+
+> Graph 15: A poisson regression was run where the dependent variable was n (number of occurrences) and the independent variable was tone (3 levels for this model: L\*+H, L+<H\* and L+H\*).
+The intercept of the model is L\*+H, so, like the model for Montevideo, all differences which are significant only tell us that these two pitch accents are predicted by the model to be produced significantly more than  L\*+H tokens.
+ 
+```{r}
+mod_df_d %>% 
+    knitr::kable(format = "pandoc", align = c("l", "r", "r", "r", "r", "r"), 
+    caption = "Table 2: Model summary of the poisson regression for Durazno BFD nuclear configurations")
+```
+
+**Graph 16: Durazno BFD nuclear configurations (i.e., pitch accents + boundary tones) by gender. Like you already provided but this time labeled gender.**
+
+```{r}
+plot_sex_per_city("Durazno", "BFD", "N") + goodale_theme()
+```
+
+> Graph 16: The comparisons here were poisson regressions where the dependent variable in each case was the number of productions and the inpendent variable was gender (2 levels). 
+
+**Graph 17: Durazno non-focalized prenuclear pitch accents (combined count of prenuclear BFD and prenuclear non-focalized NFD PWs)… Like Graph 2 but by gender.**
+
+```{r}
+sig_plot_for_combined("Durazno", "gender") + goodale_theme()
+```
+
+> Graph 17: The comparisons here were poisson regressions where the dependent variable in each case was the number of productions and the inpendent variable was gender (2 levels).
+
+**Graph 18: Durazno BFD nuclear configurations (i.e., pitch accents + boundary tones) by age.**
+
+```{r}
+plot_age_per_city("Durazno", "BFD", "N") + goodale_theme()
+```
+
+> Graph 5: The comparisons here were poisson regressions where the dependent variable in each case was the number of productions and the inpendent variable was age (3 levels).
+
+**Graph 19: Durazno non-focalized prenuclear pitch accents (combined count of prenuclear BFD and prenuclear non-focalized NFD PWs)… Like Graph 4 but by age.**
+
+```{r}
+sig_plot_for_combined_age("Durazno") + goodale_theme()
+```
+
+**Graph 20a: Durazno focalized NFDs including pitch accents + boundary tones (like the graph you provided but only for Durazno) (not by gender or age).**
+
+```{r} 
+dz_long %>% 
+  filter(focused == 1 & sentence_type == "NFD") %>% 
+  group_by(tones) %>% 
+  summarize(n = n()) %>% 
+  ggplot(aes(x = tones, y = n, position = "dodge")) + 
+  geom_col(color = "black", position = "dodge2") + goodale_theme() 
+```
+
+**Graph 20b: Durazno focalized NFDs including pitch accents + boundary tones by gender.**
+```{r}
+plot_seven_function_gender("Durazno", "NFD", "gender") + goodale_theme()
+```
+
+**Graph 20c: Durazno focalized NFDs including pitch accents + boundary tones by age**
+```{r}
+plot_seven_function_age("Durazno", "NFD") + goodale_theme()
+```
+
+
+**Graph 21a-c Durazno NFD Focused Pitch Accents and Boundary tones for NFD1. Trimmed**
+```{r}
+plot_8_function("Durazno", "NFD1")
+```
+
+**Graph 22a-c Durazno NFD Focused Pitch Accents and Boundary tones for NFD2. Trimmed**
+```{r}
+plot_8_function("Durazno", "NFD2")
+```
+
+**Graph 23a-c Durazno NFD Focused Pitch Accents and Boundary tones for NFD3. Trimmed**
+```{r}
+plot_8_function("Durazno", "NFD3")
+```
+
+**Graph 24a-c Durazno NFD Focused Pitch Accents and Boundary tones for NFD4. Trimmed**
+```{r}
+plot_8_function("Durazno", "NFD4")
+```
+
+**Graph 25a-c Durazno NFD Focused Pitch Accents and Boundary tones for NFD5. Trimmed**
+```{r}
+plot_8_function("Durazno", "NFD5")
+```
+
+**Graph 26a-c Durazno NFD Focused Pitch Accents and Boundary tones for NFD6. Trimmed**
+```{r}
+plot_8_function("Durazno", "NFD6")
+```
+
+### Compare Montevideo and Durazno.
+
+**Graph 27: Montevideo and Durazno BFD nuclear configurations (i.e., pitch accent + boundary tone) (not by gender or age)**
+
+```{r} 
+make_sig_plot("N", "BFD", long_all) + goodale_theme()
+```
+
+**Graph 28: Montevideo and Durazno non-focalized prenuclear pitch accents (combined count of prenuclear BFD and prenuclear non-focalized NFD PWs) Exclude L\* and any pitch accent followed by an ip boundary tone L-, H-, !H-. like the one you already made but ensuring the combined count**
+
+```{r}
+long_all %>% 
+  filter(focused == 0 & position_spec != "N") %>%  
+  group_by(tones, DEPT) %>% 
+  summarize(n = n()) %>% 
+  filter(!stringr::str_detect(tones, '-')) %>% 
+  ggplot(aes(x = tones, y = n, fill = DEPT, position = "dodge")) + 
+  geom_col(color = "black", position = "dodge2") + goodale_theme() 
+```
+
+**Graph 29: Montevideo and Durazno focalized NFDs including pitch accents + boundary tones (like the graph you provided)**
+
+```{r}
+make_sig_plot_2(long_all) + goodale_theme()
+```
+
+**NFD1 (Render each graph in such a way that I can present the three graphs side by side) At this point combining the two may no longer be worth it. I may just have to compare the two individual graphs, do you agree?**
+
+
+> This is totally up to you. If you feel you have the time and space, we can make graphs like one below this message. This kind of plot gets to be pretty busy, given that there's a lot going on on the x axis, so I don't know if it's worth it. If you want, though, we can trim to a minumum number of observations by one or both groups and run poisson regressions on all comparisons. This would take me ~1 hour. However, doing this for NFD1 means I can instantly do the same for all other sentences. 
+
+**Graph 30: NFD1 by city**
+
+```{r}
+df_p7 = long_all %>% 
+  filter(sentence == "NFD1") %>% 
+  group_by(DEPT, tones) %>% 
+  summarize(n = n()) %>% 
+  filter(n > 1) 
+
+df_p7 %>% 
+  ggplot(aes(x = tones, y = n, position = "dodge", fill = DEPT)) + 
+  geom_col(color = "black", position = "dodge2") + goodale_theme() +
+  scale_y_continuous(breaks=seq(1,max(df_p7$n),1)) + 
+```

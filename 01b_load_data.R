@@ -2,9 +2,35 @@ library(here)
 library(tidyverse)
 library(ggsignif)
 
-mv_long = read.csv(here("data", "tidy", "mv_long.csv"))
-dz_long = read.csv(here("data", "tidy", "dz_long.csv")) 
+mv_long = read.csv(here("data", "tidy", "mv_long.csv")) %>% 
+  rename(gender = SEX)
+dz_long = read.csv(here("data", "tidy", "dz_long.csv")) %>% 
+  rename(gender = SEX)
 
+
+goodale_theme <- function() {
+  theme(
+    # add border 1)
+    # color background 2)
+    panel.background = element_rect(fill = "white"),
+    
+  
+  #  panel.grid.major.x = element_line(colour = "black", linetype = 2, size = 0.2),
+    #panel.grid.minor.x = element_blank(),
+#    panel.grid.major.y =  element_line(colour = "black", linetype = 2, size = 0.2),
+   # panel.grid.minor.y = element_blank(),
+    #
+    # modify grid 3)
+    # modify text, axis and colour 4) and 5)
+    axis.text = element_text(colour = "black", family = "Times New Roman", size = 10),
+    axis.title = element_text(colour = "black", family = "Times New Roman", size = 12),
+    axis.text.x = element_text(angle = 90, vjust = 0.5, hjust=1),
+    # legend at the bottom 6)
+    legend.position = "bottom",
+    legend.title = element_text(colour = "black", family = "Times New Roman", size = 10),
+    legend.text = element_text(colour = "black", family = "Times New Roman", size = 10)
+  )
+} 
 
 long_all = rbind(mv_long, dz_long) %>% 
   mutate(words = str_replace(words, "anos", "años en")) %>% 

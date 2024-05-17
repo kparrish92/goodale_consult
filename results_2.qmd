@@ -91,41 +91,49 @@ Here are some of the new requested plot series, in addition to the fixed plots a
 ## Sex
 
 **Broad Focus Montevideo Nuclear**
+
 ```{r}
 knitr::include_graphics(here("round_3_plots", "sex_mv_bfd_n.png"))
 ```
 
 **Broad Focus Durazno Nuclear**
+
 ```{r}
 knitr::include_graphics(here("round_3_plots", "sex_d_bfd_n.png"))
 ```
 
 **Broad Focus Montevideo Prenuclear**
+
 ```{r}
 knitr::include_graphics(here("round_3_plots", "sex_mv_bfd_pn.png"))
 ```
 
 **Broad Focus Durazno Prenuclear**
+
 ```{r}
 knitr::include_graphics(here("round_3_plots", "sex_d_bfd_pn.png"))
 ```
 
 **Narrow Focus Montevideo Focused**
+
 ```{r}
 knitr::include_graphics(here("round_3_plots", "sex_mv_nfd_f.png"))
 ```
 
 **Narrow Focus Durazno Focused**
+
 ```{r}
 knitr::include_graphics(here("round_3_plots", "sex_d_nfd_f.png"))
 ```
 
 **Narrow Focus Montevideo Unfocused**
+
 ```{r}
 knitr::include_graphics(here("round_3_plots", "sex_mv_nfd_uf.png"))
 ```
 
 **Narrow Focus Durazno Unfocused**
+
 ```{r}
 knitr::include_graphics(here("round_3_plots", "sex_mv_nfd_uf.png"))
 ```
@@ -133,41 +141,49 @@ knitr::include_graphics(here("round_3_plots", "sex_mv_nfd_uf.png"))
 ## Education
 
 **Broad Focus Montevideo Nuclear**
+
 ```{r}
 knitr::include_graphics(here("round_3_plots", "ed_mv_bfd_n.png"))
 ```
 
 **Broad Focus Durazno Nuclear**
+
 ```{r}
 knitr::include_graphics(here("round_3_plots", "ed_d_bfd_n.png"))
 ```
 
 **Broad Focus Montevideo Prenuclear**
+
 ```{r}
 knitr::include_graphics(here("round_3_plots", "ed_mv_bfd_pn.png"))
 ```
 
 **Broad Focus Durazno Prenuclear**
+
 ```{r}
 knitr::include_graphics(here("round_3_plots", "ed_d_bfd_pn.png"))
 ```
 
 **Narrow Focus Montevideo Focused**
+
 ```{r}
 knitr::include_graphics(here("round_3_plots", "ed_mv_nfd_f.png"))
 ```
 
 **Narrow Focus Durazno Focused**
+
 ```{r}
 knitr::include_graphics(here("round_3_plots", "ed_d_nfd_f.png"))
 ```
 
 **Narrow Focus Montevideo Unfocused**
+
 ```{r}
 knitr::include_graphics(here("round_3_plots", "ed_mv_nfd_uf.png"))
 ```
 
 **Narrow Focus Durazno Unfocused**
+
 ```{r}
 knitr::include_graphics(here("round_3_plots", "ed_d_nfd_uf.png"))
 ```
@@ -175,54 +191,63 @@ knitr::include_graphics(here("round_3_plots", "ed_d_nfd_uf.png"))
 ## Age
 
 **Broad Focus Montevideo Nuclear**
+
 ```{r}
 knitr::include_graphics(here("round_3_plots", "age_mv_bfd_n.png"))
 ```
 
 **Broad Focus Durazno Nuclear**
+
 ```{r}
 knitr::include_graphics(here("round_3_plots", "age_d_bfd_n.png"))
 ```
 
 **Broad Focus Montevideo Prenuclear**
+
 ```{r}
 knitr::include_graphics(here("round_3_plots", "age_mv_bfd_pn.png"))
 ```
 
 **Broad Focus Durazno Prenuclear**
+
 ```{r}
 knitr::include_graphics(here("round_3_plots", "age_d_bfd_pn.png"))
 ```
 
 **Narrow Focus Montevideo Focused**
+
 ```{r}
 knitr::include_graphics(here("round_3_plots", "age_mv_nfd_f.png"))
 ```
 
 **Narrow Focus Durazno Focused**
+
 ```{r}
 knitr::include_graphics(here("round_3_plots", "age_d_nfd_f.png"))
 ```
 
 **Narrow Focus Montevideo Unfocused**
+
 ```{r}
 knitr::include_graphics(here("round_3_plots", "age_mv_nfd_uf.png"))
 ```
 
 **Narrow Focus Durazno Unfocused**
+
 ```{r}
 knitr::include_graphics(here("round_3_plots", "age_d_nfd_uf.png"))
 ```
 
-## Post 4/2 Email: 
+## Post 4/2 Email:
 
 I am quoting your email here for convenience:
 
-> 1. One graph total, containing NFD 1-6 Focused on the x axis (not the word, just NFD #), count or percentage on the y and colors for pitch accent with boundary tone type as one (show first with all the possible options, then a second plot removing token options with a count less than 5. (separate graphs for each city). If what I said makes sense this should render 4 graphs total and compare the focalized cell of each NFD (with the x-axis labeled e.g., NFD1 not Naranajas.) and above each likely more than one vertical bar (but not a ton) one bar for each pitch accent + Boundary tone% as one in that position color coded to a legend.
+> 1.  One graph total, containing NFD 1-6 Focused on the x axis (not the word, just NFD #), count or percentage on the y and colors for pitch accent with boundary tone type as one (show first with all the possible options, then a second plot removing token options with a count less than 5. (separate graphs for each city). If what I said makes sense this should render 4 graphs total and compare the focalized cell of each NFD (with the x-axis labeled e.g., NFD1 not Naranajas.) and above each likely more than one vertical bar (but not a ton) one bar for each pitch accent + Boundary tone% as one in that position color coded to a legend.
 
-### First 4 
+### First 4
 
 **Montevideo Focused NFD**
+
 ```{r}
 long_all %>% 
   filter(DEPT == "Montevideo") %>% 
@@ -234,6 +259,7 @@ long_all %>%
 ```
 
 **Montevideo Focused NFD trimmed - 3 or greater**
+
 ```{r}
 long_all %>% 
   filter(DEPT == "Montevideo") %>% 
@@ -246,6 +272,7 @@ long_all %>%
 ```
 
 **Durazno Focused NFD trimmed - 3 or greater**
+
 ```{r}
 long_all %>% 
   filter(DEPT == "Durazno") %>% 
@@ -257,6 +284,7 @@ long_all %>%
 ```
 
 **Durazno Focused NFD trimmed - 3 or greater**
+
 ```{r}
 long_all %>% 
   filter(DEPT == "Durazno") %>% 
@@ -268,14 +296,14 @@ long_all %>%
   ggplot(aes(x = sentence, y = n, fill = tones)) + geom_col(position = "dodge2")
 ```
 
-> Afterwards and if possible those same 4 graphs but with a double x axis where the category is still NFD1 through NFD6 but then divides the tokens of the NFD1 though NFD6 into two sets of bars above it, one set for males and another for females. (If too many bars with all Pitch accent types then reduce by excluding uncommon pitch accent types) 2-4 graphs depending on reduction or no
-If this is possible then do the graph again by age group instead of sex (for both of these multiple bar sets only displaying tokens with over 5 occurrences may be needed.) 2-4 graphs.
+> Afterwards and if possible those same 4 graphs but with a double x axis where the category is still NFD1 through NFD6 but then divides the tokens of the NFD1 though NFD6 into two sets of bars above it, one set for males and another for females. (If too many bars with all Pitch accent types then reduce by excluding uncommon pitch accent types) 2-4 graphs depending on reduction or no If this is possible then do the graph again by age group instead of sex (for both of these multiple bar sets only displaying tokens with over 5 occurrences may be needed.) 2-4 graphs.
 
-The double x axis is not really possible (to my knowledge) in ggplot, but we can facet, as I've done below: 
+The double x axis is not really possible (to my knowledge) in ggplot, but we can facet, as I've done below:
 
-## Plots by sex 
+## Plots by sex
 
 **Montevideo Focused NFD by sex**
+
 ```{r}
 long_all %>% 
   filter(DEPT == "Montevideo") %>% 
@@ -288,6 +316,7 @@ long_all %>%
 ```
 
 **Montevideo Focused NFD by sex trimmed**
+
 ```{r}
 long_all %>% 
   filter(DEPT == "Montevideo") %>% 
@@ -301,6 +330,7 @@ long_all %>%
 ```
 
 **Durazno Focused NFD by sex**
+
 ```{r}
 long_all %>% 
   filter(DEPT == "Durazno") %>% 
@@ -313,6 +343,7 @@ long_all %>%
 ```
 
 **Durazno Focused NFD by sex trimmed**
+
 ```{r}
 long_all %>% 
   filter(DEPT == "Durazno") %>% 
@@ -328,6 +359,7 @@ long_all %>%
 ## Plots by age group
 
 **Montevideo Focused NFD by age**
+
 ```{r}
 long_all %>% 
   filter(DEPT == "Montevideo") %>% 
@@ -340,6 +372,7 @@ long_all %>%
 ```
 
 **Montevideo Focused NFD by age group**
+
 ```{r}
 long_all %>% 
   filter(DEPT == "Montevideo") %>% 
@@ -353,6 +386,7 @@ long_all %>%
 ```
 
 **Durazno Focused NFD by age group**
+
 ```{r}
 long_all %>% 
   filter(DEPT == "Durazno") %>% 
@@ -365,6 +399,7 @@ long_all %>%
 ```
 
 **Durazno Focused NFD by age group - trimmed**
+
 ```{r}
 long_all %>% 
   filter(DEPT == "Durazno") %>% 
@@ -377,9 +412,6 @@ long_all %>%
   facet_wrap(~sentence)
 ```
 
-
-> In these graphs from 2 and 3 above, signal if possible if there is statistical significance within the females/age groups choice of X pitch accent+boundary tone for each category (NFD1-6) as well as testing significance for the same pitch accent between men and women of the same category. If this made since we might see for NFD1 that females have two main options L+H\* L% or L+H\*+L L% and I want to know if the women used one significantly more than the other for NFD1 in particular. Then we will have bars representing the males’ options of the same pitch accents and the same analysis as for the women, but additionally I would also like to know if between men and women for the same pitch accent combination in the same category if there is a significant difference. (NFD1 > Female L+H* L% vs NFD1 > Male L+H* L%)
-If that doesn’t make sense please let me know before you spend time trying my make it. I am drawn and attached pictures with made up information. (This is me trying to be clear not insulting) I am a pictures guy. 
+> In these graphs from 2 and 3 above, signal if possible if there is statistical significance within the females/age groups choice of X pitch accent+boundary tone for each category (NFD1-6) as well as testing significance for the same pitch accent between men and women of the same category. If this made since we might see for NFD1 that females have two main options L+H\* L% or L+H\*+L L% and I want to know if the women used one significantly more than the other for NFD1 in particular. Then we will have bars representing the males' options of the same pitch accents and the same analysis as for the women, but additionally I would also like to know if between men and women for the same pitch accent combination in the same category if there is a significant difference. (NFD1 \> Female L+H\* L% vs NFD1 \> Male L+H\* L%) If that doesn't make sense please let me know before you spend time trying my make it. I am drawn and attached pictures with made up information. (This is me trying to be clear not insulting) I am a pictures guy.
 
 No worries! The pictures are helpful. Let's wait for the tests, since they take the most time, but making plots are pretty straight forward. Looking at just these plots, just so you're aware, we are looking at almost 200 total comparisons, so integrating this into the visualizations is what takes the most time. What do you say: let's nail down the figures first and add the needed tests (whether or not it's all possible combinations) once the visuals are done.
-
