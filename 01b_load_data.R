@@ -3,9 +3,9 @@ library(tidyverse)
 library(ggsignif)
 
 mv_long = read.csv(here("data", "tidy", "mv_long.csv")) %>% 
-  rename(gender = SEX)
+  rename(Gender = SEX)
 dz_long = read.csv(here("data", "tidy", "dz_long.csv")) %>% 
-  rename(gender = SEX)
+  rename(Gender = SEX)
 
 
 goodale_theme <- function() {

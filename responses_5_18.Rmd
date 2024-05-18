@@ -1,0 +1,34 @@
+---
+title: "Untitled"
+output: html_document
+date: "2024-05-18"
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = FALSE, message = FALSE, warning = FALSE)
+knitr::opts_chunk$set(echo = TRUE)
+
+source(here::here("00_helpers.R"))
+source(here::here("01b_load_data.R"))
+
+mv_long$tones = gsub("deaccented", "DA", mv_long$tones)
+dz_long$tones = gsub("deaccented", "DA", dz_long$tones)
+long_all$tones = gsub("deaccented", "DA", long_all$tones)
+```
+
+Hi Brandon, 
+
+Thanks for the quick feedback on this! I'm responding here to your email in my time on `May 17, 2024, 8:47 PM`. I am doing this here and will update the graphs in the other link (https://kparrish92.github.io/goodale_consult/plots_5_17.html) once we sort out the issues. I've quoted you below in italics, while my responses are in block quotes. I am including the code used to filter the data, so that you can see and we can figure out where a problem might be. 
+
+
+*Graph 2: Concerns me. IT should be Montevideo non-focalized prenuclear pitch accents (combined count of prenuclear BFD and prenuclear non-focalized NFD PWs) (not by gender or age). As such it should not have any nuclear pitch accents which I can see it does because nuclear pitch accents have % boundary tones. I do not mean chop off the boundary tones, I mean don't include pitch accents that I originally coded with a - or % boundary tone. This same data should be used for Graphs 4 and 6. This same issue as Graph 2 appears in Graph 15*
+
+```{r, echo = TRUE}
+check_graph2_data = mv_long %>% 
+  filter(is.na(focused) & position != "N") %>%  
+  filter(str_detect(tones, "%"))
+
+print(check_graph2_data)
+```
+
+> It looks like the items containing % come from NFD4. The code takes a data set called "mv_long", which is the Montevideo data in a long format. It then filters the data for only non-focused and prenuclear tokens, and then any tone containing the symbol "%". It shows that 29 out of 960 rows contiain %, which all happen to be NFD4. Should NFD4 be marked as focused? 

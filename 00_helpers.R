@@ -43,7 +43,7 @@ make_sig_plot = function(p, st, data)
     pivot_wider(names_from = DEPT, values_from = n) %>% 
     mutate(Montevideo = round(replace_na(Montevideo, 0)/adjnum$n[2], digits = 2)*100) %>% 
     mutate(Durazno = round(replace_na(Durazno, 0)/adjnum$n[1], digits = 2)*100) %>% 
-    filter(Montevideo > 5 | Durazno > 5)  %>% 
+    filter(Montevideo > 3 | Durazno > 3)  %>% 
     pivot_longer(cols = 2:3, names_to = "City", values_to = "Percentage") %>% 
     mutate(tones = replace_na(tones, "N/A")) 
   
@@ -55,7 +55,7 @@ make_sig_plot = function(p, st, data)
     group_by(tones, DEPT, sentence_type) %>% 
     summarize(n = n()) %>% 
     pivot_wider(names_from = DEPT, values_from = n) %>% 
-    filter(Montevideo > 5 | Durazno > 5) %>% 
+    filter(Montevideo > 3 | Durazno > 3) %>% 
     pivot_longer(cols = 3:4, names_to = "City", values_to = "count") %>% 
     mutate(tones = replace_na(tones, "N/A")) %>% 
     mutate(total_speakers = case_when(
@@ -120,33 +120,33 @@ make_sig_plot = function(p, st, data)
 }
 
 
-make_sig_plot_gender = function(p, st, data)
+make_sig_plot_Gender = function(p, st, data)
   
 {
   # make a dataframe to plot
   adjnum = data %>% 
     filter(position == p) %>% 
     filter(sentence_type == st) %>% 
-    group_by(DEPT, gender) %>% 
+    group_by(DEPT, Gender) %>% 
     summarize(n = n()) 
   
   
   plotdf = data %>% 
     filter(position == p) %>% 
     filter(sentence_type == st) %>% 
-    group_by(tones, DEPT, gender) %>% 
+    group_by(tones, DEPT, Gender) %>% 
     summarize(n = n()) %>% 
     pivot_wider(names_from = DEPT, values_from = n) %>% 
     mutate(Montevideo = round(replace_na(Montevideo, 0)/adjnum$n[3], digits = 2)*100) %>% 
     mutate(Durazno = round(replace_na(Durazno, 0)/adjnum$n[1], digits = 2)*100) %>% 
-    filter(Montevideo > 5 | Durazno > 5)  %>% 
+    filter(Montevideo > 3 | Durazno > 3)  %>% 
     pivot_longer(cols = 3:4, names_to = "City", values_to = "Percentage") %>% 
     mutate(tones = replace_na(tones, "N/A")) 
   
 
   plot = plotdf %>% 
     mutate(tones = replace_na(tones, "N/A")) %>% 
-    ggplot(aes(x = tones, y = Percentage, fill = gender, position = "dodge")) + 
+    ggplot(aes(x = tones, y = Percentage, fill = Gender, position = "dodge")) + 
     geom_col(color = "black", position = "dodge2") +
     facet_wrap(~City)
   
@@ -346,7 +346,7 @@ make_sig_plot_f = function(foc, data)
     pivot_wider(names_from = DEPT, values_from = n) %>% 
     mutate(Montevideo = round(replace_na(Montevideo, 0)/adjnum$n[2], digits = 2)*100) %>% 
     mutate(Durazno = round(replace_na(Durazno, 0)/adjnum$n[1], digits = 2)*100) %>% 
-    filter(Montevideo > 5 | Durazno > 5)  %>% 
+    filter(Montevideo > 3 | Durazno > 3)  %>% 
     pivot_longer(cols = 2:3, names_to = "City", values_to = "Percentage") %>% 
     mutate(tones = replace_na(tones, "N/A")) 
   
@@ -358,7 +358,7 @@ make_sig_plot_f = function(foc, data)
     group_by(tones, DEPT, sentence_type) %>% 
     summarize(n = n()) %>% 
     pivot_wider(names_from = DEPT, values_from = n) %>% 
-    filter(Montevideo > 5 | Durazno > 5) %>% 
+    filter(Montevideo > 3 | Durazno > 3) %>% 
     pivot_longer(cols = 3:4, names_to = "City", values_to = "count") %>% 
     mutate(tones = replace_na(tones, "N/A")) %>% 
     mutate(total_speakers = case_when(
@@ -433,13 +433,13 @@ plot_sex_per_city = function(city, st, p)
     filter(DEPT == city) %>% 
     filter(sentence_type == st) %>% 
     filter(position == p) %>% 
-    group_by(gender, tones) %>%
+    group_by(Gender, tones) %>%
     summarize(n = n()) %>% 
-    pivot_wider(names_from = gender, values_from = n) %>% 
+    pivot_wider(names_from = Gender, values_from = n) %>% 
     mutate(Female = replace_na(Female, 0)) %>% 
     mutate(Male = replace_na(Male, 0)) %>% 
-    filter(Male > 5 & Female > 5) %>% 
-    pivot_longer(cols = 2:3, names_to = "gender", values_to = "n") %>% 
+    filter(Male > 3 | Female > 3) %>% 
+    pivot_longer(cols = 2:3, names_to = "Gender", values_to = "n") %>% 
     mutate(tones = replace_na(tones, "N/A"))
   
   tone_types = unique(plotdf$tones)
@@ -452,7 +452,7 @@ plot_sex_per_city = function(city, st, p)
     
     thisdf = plotdf %>% filter(tones == tone_types[thistone]) 
     
-    poisson_model_city <- glm(n ~ gender, data = 
+    poisson_model_city <- glm(n ~ Gender, data = 
                                 thisdf, 
                               family = poisson(link = "log"))
     
@@ -491,7 +491,7 @@ plot_sex_per_city = function(city, st, p)
   
   plot = plotdf %>% 
     mutate(tones = replace_na(tones, "N/A")) %>% 
-    ggplot(aes(x = tones, y = n, fill = gender, position = "dodge")) + 
+    ggplot(aes(x = tones, y = n, fill = Gender, position = "dodge")) + 
     geom_col(color = "black", position = "dodge2") +
     geom_signif(y_position = c(pdf$yp+1), xmin = c(create_xminp(nrow(pdf))), 
                 xmax = c(create_xmaxp(nrow(pdf))), annotation = c(pdf$result),
@@ -516,7 +516,7 @@ plot_ed_per_city_nfd = function(city, st, f)
     mutate(`Primary/Middle` = replace_na(`Primary/Middle`, 0)) %>% 
     mutate(Secondary = replace_na(Secondary, 0)) %>% 
     mutate(Tertiary = replace_na(Tertiary, 0)) %>%  
-    filter(Tertiary > 5 | Secondary > 5 | `Primary/Middle` > 5) %>% 
+    filter(Tertiary > 3 | Secondary > 3 | `Primary/Middle` > 3) %>% 
     pivot_longer(cols = 2:4, names_to = "EDU.Simplified", values_to = "n") %>% 
     mutate(tones = replace_na(tones, "N/A"))
   
@@ -614,7 +614,7 @@ plot_ed_per_city = function(city, st, p)
     mutate(`Primary/Middle` = replace_na(`Primary/Middle`, 0)) %>% 
     mutate(Secondary = replace_na(Secondary, 0)) %>% 
     mutate(Tertiary = replace_na(Tertiary, 0)) %>%  
-    filter(Tertiary > 5 | Secondary > 5 | `Primary/Middle` > 5) %>% 
+    filter(Tertiary > 3 | Secondary > 3 | `Primary/Middle` > 3) %>% 
     pivot_longer(cols = 2:4, names_to = "EDU.Simplified", values_to = "n") %>% 
     mutate(tones = replace_na(tones, "N/A"))
   
@@ -712,7 +712,7 @@ plot_age_per_city = function(city, st, p)
     mutate(x18_35 = replace_na(x18_35, 0)) %>% 
     mutate(x36_59 = replace_na(x36_59, 0)) %>% 
     mutate(x60 = replace_na(x60, 0)) %>%  
-    filter(x18_35 > 5 | x36_59 > 5 | x60 > 5) %>% 
+    filter(x18_35 > 3 | x36_59 > 3 | x60 > 3) %>% 
     pivot_longer(cols = 2:4, names_to = "Age.Group", values_to = "n") %>% 
     mutate(tones = replace_na(tones, "N/A"))
   
@@ -796,7 +796,7 @@ sig_plot_for_combined_age = function(city)
     mutate(x18_35 = replace_na(x18_35, 0)) %>% 
     mutate(x36_59 = replace_na(x36_59, 0)) %>% 
     mutate(x60 = replace_na(x60, 0)) %>%  
-    filter(x18_35 > 5 | x36_59 > 5 | x60 > 5) %>% 
+    filter(x18_35 > 3 | x36_59 > 3 | x60 > 3) %>% 
     pivot_longer(cols = 2:4, names_to = "Age.Group", values_to = "n") %>% 
     mutate(tones = replace_na(tones, "N/A"))
   
@@ -880,7 +880,7 @@ plot_ed_per_city = function(city, st, p)
     mutate(`Primary/Middle` = replace_na(`Primary/Middle`, 0)) %>% 
     mutate(Secondary = replace_na(Secondary, 0)) %>% 
     mutate(Tertiary = replace_na(Tertiary, 0)) %>%  
-    filter(Tertiary > 5 | Secondary > 5 | `Primary/Middle` > 5) %>% 
+    filter(Tertiary > 3 | Secondary > 3 | `Primary/Middle` > 3) %>% 
     pivot_longer(cols = 2:4, names_to = "EDU.Simplified", values_to = "n") %>% 
     mutate(tones = replace_na(tones, "N/A"))
   
@@ -978,7 +978,7 @@ plot_age_per_city_nfd = function(city, st, f)
     mutate(x18_35 = replace_na(x18_35, 0)) %>% 
     mutate(x36_59 = replace_na(x36_59, 0)) %>% 
     mutate(x60 = replace_na(x60, 0)) %>%  
-    filter(x18_35 > 5 | x36_59 > 5 | x60 > 5) %>% 
+    filter(x18_35 > 3 | x36_59 > 3 | x60 > 3) %>% 
     pivot_longer(cols = 2:4, names_to = "Age.Group", values_to = "n") %>% 
     mutate(tones = replace_na(tones, "N/A"))
   
@@ -1055,13 +1055,13 @@ plot_sex_per_city_nfd = function(city, st, f)
     filter(DEPT == city) %>% 
     filter(sentence_type == st) %>% 
     filter(focused == f) %>% 
-    group_by(gender, tones) %>%
+    group_by(Gender, tones) %>%
     summarize(n = n()) %>% 
-    pivot_wider(names_from = gender, values_from = n) %>% 
+    pivot_wider(names_from = Gender, values_from = n) %>% 
     mutate(Female = replace_na(Female, 0)) %>% 
     mutate(Male = replace_na(Male, 0)) %>% 
-    filter(Male > 5 & Female > 5) %>% 
-    pivot_longer(cols = 2:3, names_to = "gender", values_to = "n") %>% 
+    filter(Male > 3 & Female > 3) %>% 
+    pivot_longer(cols = 2:3, names_to = "Gender", values_to = "n") %>% 
     mutate(tones = replace_na(tones, "N/A"))
   
   tone_types = unique(plotdf$tones)
@@ -1074,7 +1074,7 @@ plot_sex_per_city_nfd = function(city, st, f)
     
     thisdf = plotdf %>% filter(tones == tone_types[thistone]) 
     
-    poisson_model_city <- glm(n ~ gender, data = 
+    poisson_model_city <- glm(n ~ Gender, data = 
                                 thisdf, 
                               family = poisson(link = "log"))
     
@@ -1113,7 +1113,7 @@ plot_sex_per_city_nfd = function(city, st, f)
   
   plot = plotdf %>% 
     mutate(tones = replace_na(tones, "N/A")) %>% 
-    ggplot(aes(x = tones, y = n, fill = gender, position = "dodge")) + 
+    ggplot(aes(x = tones, y = n, fill = Gender, position = "dodge")) + 
     geom_col(color = "black", position = "dodge2") +
     geom_signif(y_position = c(pdf$yp+1), xmin = c(create_xminp(nrow(pdf))), 
                 xmax = c(create_xmaxp(nrow(pdf))), annotation = c(pdf$result),
@@ -1184,12 +1184,12 @@ sig_plot_for_combined = function(city, comparison)
     #    mutate(tones_w_boundary = tones) %>% 
     #  mutate(tones = str_trim(str_replace(tones, "L%", ""))) %>% 
     filter(DEPT == city) %>% 
-    group_by(gender, tones) %>%
+    group_by(Gender, tones) %>%
     summarize(n = n()) %>% 
     pivot_wider(names_from = comparison, values_from = n) %>% 
     mutate(Female = replace_na(Female, 0)) %>% 
     mutate(Male = replace_na(Male, 0)) %>% 
-    filter(Male > 5 & Female > 5) %>% 
+    filter(Male > 3 & Female > 3) %>% 
     pivot_longer(cols = 2:3, names_to = paste0(comparison), values_to = "n") %>% 
     mutate(tones = replace_na(tones, "N/A"))
   
@@ -1244,7 +1244,7 @@ sig_plot_for_combined = function(city, comparison)
   
   plot = plotdf %>% 
     mutate(tones = replace_na(tones, "N/A")) %>% 
-    ggplot(aes(x = tones, y = n, fill = gender, position = "dodge")) + 
+    ggplot(aes(x = tones, y = n, fill = Gender, position = "dodge")) + 
     geom_col(color = "black", position = "dodge2") + 
     geom_signif(y_position = c(pdf$yp+1), xmin = c(create_xminp(nrow(pdf))), 
                 xmax = c(create_xmaxp(nrow(pdf))), annotation = c(pdf$result),
@@ -1254,21 +1254,22 @@ sig_plot_for_combined = function(city, comparison)
 }
 
 
-plot_seven_function_gender = function(city, sentence_t, comparison)
+plot_seven_function_Gender = function(city)
   
 {
   plotdf = long_all %>%
-    filter(focused == 1 & sentence_type == sentence_t) %>% 
+    filter(sentence_type == "NFD") %>% 
+    filter(focused == 1) %>% 
     #    mutate(tones_w_boundary = tones) %>% 
     #  mutate(tones = str_trim(str_replace(tones, "L%", ""))) %>% 
     filter(DEPT == city) %>% 
-    group_by(gender, tones) %>%
+    group_by(Gender, tones) %>%
     summarize(n = n()) %>% 
-    pivot_wider(names_from = comparison, values_from = n) %>% 
+    pivot_wider(names_from = Gender, values_from = n) %>% 
     mutate(Female = replace_na(Female, 0)) %>% 
     mutate(Male = replace_na(Male, 0)) %>% 
-    filter(Male > 5 & Female > 5) %>% 
-    pivot_longer(cols = 2:3, names_to = paste0(comparison), values_to = "n") %>% 
+    filter(Male > 3 | Female > 3) %>% 
+    pivot_longer(cols = 2:3, names_to = "Gender", values_to = "n") %>% 
     mutate(tones = replace_na(tones, "N/A"))
   
   tone_types = unique(plotdf$tones)
@@ -1281,9 +1282,7 @@ plot_seven_function_gender = function(city, sentence_t, comparison)
     
     thisdf = plotdf %>% filter(tones == tone_types[thistone]) 
     
-    colnames(thisdf)[2] <- c("comparison")
-    
-    poisson_model_city <- glm(n ~ comparison, data = 
+    poisson_model_city <- glm(n ~ Gender, data = 
                                 thisdf, 
                               family = poisson(link = "log"))
     
@@ -1322,7 +1321,7 @@ plot_seven_function_gender = function(city, sentence_t, comparison)
   
   plot = plotdf %>% 
     mutate(tones = replace_na(tones, "N/A")) %>% 
-    ggplot(aes(x = tones, y = n, fill = gender, position = "dodge")) + 
+    ggplot(aes(x = tones, y = n, fill = Gender, position = "dodge")) + 
     geom_col(color = "black", position = "dodge2") + 
     geom_signif(y_position = c(pdf$yp+1), xmin = c(create_xminp(nrow(pdf))), 
                 xmax = c(create_xmaxp(nrow(pdf))), annotation = c(pdf$result),
@@ -1332,11 +1331,12 @@ plot_seven_function_gender = function(city, sentence_t, comparison)
 }
 
 
-plot_seven_function_age = function(city, sentence_t)
+plot_seven_function_age = function(city)
   
 {
   plotdf = long_all %>%
-    filter(focused == 1 & sentence_type == sentence_t) %>%
+    filter(sentence_type == "NFD") %>% 
+    filter(focused == 1) %>%
     filter(DEPT == city) %>% 
     group_by(Age.Group, tones) %>%
     summarize(n = n()) %>% 
@@ -1345,7 +1345,7 @@ plot_seven_function_age = function(city, sentence_t)
     mutate(x18_35 = replace_na(x18_35, 0)) %>% 
     mutate(x36_59 = replace_na(x36_59, 0)) %>% 
     mutate(x60 = replace_na(x60, 0)) %>%  
-    filter(x18_35 > 5 | x36_59 > 5 | x60 > 5) %>% 
+    filter(x18_35 > 3 | x36_59 > 3 | x60 > 3) %>% 
     pivot_longer(cols = 2:4, names_to = "Age.Group", values_to = "n") %>% 
     mutate(tones = replace_na(tones, "N/A"))
   
@@ -1431,10 +1431,10 @@ plot_8_function = function(city, sent)
   
   b = long_all %>% 
     filter(DEPT == city & focused == 1 & sentence == sent) %>% 
-    group_by(tones, gender) %>% 
+    group_by(tones, Gender) %>% 
     summarize(n = n()) %>% 
     filter(tones %in% df_p7$tones) %>% 
-    ggplot(aes(x = tones, y = n, fill = gender)) + 
+    ggplot(aes(x = tones, y = n, fill = Gender)) + 
     geom_col(color = "black") + goodale_theme() +
     scale_y_continuous(breaks=seq(1,max(df_p7$n),1))
   
@@ -1464,7 +1464,7 @@ make_sig_plot_2 = function(data)
   
   
   adjnum = data %>% 
-    filter(focused == 0 & position_spec != "N") %>%  
+    filter(focused == 1 & sentence_type == "NFD") %>%  
     group_by(DEPT) %>% 
     summarize(n = n()) 
   
@@ -1486,7 +1486,7 @@ make_sig_plot_2 = function(data)
     group_by(tones, DEPT, sentence_type) %>% 
     summarize(n = n()) %>% 
     pivot_wider(names_from = DEPT, values_from = n) %>% 
-    filter(Montevideo > 5 | Durazno > 5) %>% 
+    filter(Montevideo > 3 | Durazno > 3) %>% 
     pivot_longer(cols = 3:4, names_to = "City", values_to = "count") %>% 
     mutate(tones = replace_na(tones, "N/A")) %>% 
     mutate(total_speakers = case_when(
@@ -1541,6 +1541,7 @@ make_sig_plot_2 = function(data)
   
   plot = plotdf %>% 
     mutate(tones = replace_na(tones, "N/A")) %>% 
+    x=factor(tones, level=c("L+H*+L", "L+H*", "H+L*"))
     ggplot(aes(x = tones, y = Percentage, fill = City, position = "dodge")) + 
     geom_col(color = "black", position = "dodge2") +
     geom_signif(y_position = c(pdf$yp+1), xmin = c(create_xminp(nrow(pdf))), 
@@ -1549,5 +1550,476 @@ make_sig_plot_2 = function(data)
   
   return(plot)
 }
+
+
+plot_age_no = function(city)
+  
+{
+  plotdf = long_all %>% 
+    mutate(tones = str_remove(tones, " L-")) %>% 
+    #  mutate(tones = str_trim(str_replace(tones, "L%", ""))) %>% 
+    filter(DEPT == city) %>% 
+    filter(words == "No") %>% 
+    filter(sentence == "NFD3") %>% 
+    group_by(Age.Group, tones) %>%
+    summarize(n = n()) %>% 
+    pivot_wider(names_from = Age.Group, values_from = n) %>% 
+    janitor::clean_names() %>% 
+    mutate(x18_35 = replace_na(x18_35, 0)) %>% 
+    mutate(x36_59 = replace_na(x36_59, 0)) %>% 
+    mutate(x60 = replace_na(x60, 0)) %>%  
+    #    filter(x18_35 > 1 | x36_59 > 1 | x60 > 1) %>% 
+    pivot_longer(cols = 2:4, names_to = "Age.Group", values_to = "n") %>% 
+    mutate(tones = replace_na(tones, "N/A"))
+  
+  
+  tone_types = unique(plotdf$tones)
+  
+  results = matrix(ncol = 4, nrow = length(tone_types))
+  
+  
+  for (thistone in 1:length(tone_types)) {
+    
+    thisdf = plotdf %>% filter(tones == tone_types[thistone]) 
+    
+    thisdf$Age.Group = as.factor(thisdf$Age.Group)
+    thisdf$Age.Group = relevel(thisdf$Age.Group, ref = "x36_59")
+    
+    if (thisdf[2,3] == 0){
+      poisson_model_city = "No test"
+    } else {
+      poisson_model_city = glm(n ~ Age.Group, data = thisdf, family = poisson(link = "log"))
+    }
+    
+    
+    results[thistone, 1] = tone_types[thistone]
+    results[thistone, 2] = "unfocued pn"
+    results[thistone, 3] = ifelse(typeof(poisson_model_city) == "list", 
+                                  ifelse(summary(poisson_model_city)[["coefficients"]][2,4] < .05, print("*"), "NS"),
+                                  "NT")
+    results[thistone, 4] = ifelse(typeof(poisson_model_city) == "list", 
+                                  ifelse(summary(poisson_model_city)[["coefficients"]][3,4] < .05, print("*"), "NS"),
+                                  "NT")
+  }
+  
+  
+  res_df = results %>% 
+    as.data.frame() %>% 
+    rename(tones = V1,
+           statement_type = V2,
+           p_value_sec = V3,
+           p_value_ter = V4)
+  
+  ypost_c1 = plotdf %>% 
+    # filter(EDU.Simplified == "Primary/Middle" | EDU.Simplified == "Secondary") %>% 
+    group_by(tones) %>% 
+    summarize(yp = sum(n)) %>% 
+    mutate(tones = replace_na(tones, "N/A"))
+  
+  pdf = left_join(res_df, ypost_c1, by = "tones")
+  
+  plotdf$tones = factor(plotdf$tones, levels = c(res_df$tones))
+  
+  plot = plotdf %>% 
+    mutate(tones = replace_na(tones, "N/A")) %>% 
+    ggplot(aes(x = tones, y = n, fill = Age.Group)) + 
+    geom_col(color = "black") +
+    geom_signif(y_position = c(pdf$yp+1), xmin = c(create_xminp_c1(nrow(pdf))), 
+                xmax = c(create_xmaxp_c1(nrow(pdf))), annotation = c(pdf$p_value_sec),
+                tip_length = 0)  +
+    geom_signif(y_position = c(pdf$yp+2), xmin = c(create_xminp_c2(nrow(pdf))), 
+                xmax = c(create_xmaxp_c2(nrow(pdf))), annotation = c(pdf$p_value_ter),
+                tip_length = 0) 
+  
+  return(plot)
+}
+
+
+plot_Gender_no = function(city)
+  
+{
+  plotdf = long_all %>% 
+    mutate(tones = str_remove(tones, " L-")) %>% 
+    #  mutate(tones = str_trim(str_replace(tones, "L%", ""))) %>% 
+    filter(DEPT == city) %>% 
+    filter(words == "No") %>% 
+    filter(sentence == "NFD3") %>% 
+    group_by(Gender, tones) %>%
+    summarize(n = n()) %>% 
+    pivot_wider(names_from = Gender, values_from = n) %>% 
+    mutate(Female = replace_na(Female, 0)) %>% 
+    mutate(Male = replace_na(Male, 0)) %>% 
+    # filter(Male > 3 | Female > 3) %>% 
+    pivot_longer(cols = 2:3, names_to = "Gender", values_to = "n") %>% 
+    mutate(tones = replace_na(tones, "N/A"))
+  
+  tone_types = unique(plotdf$tones)
+  
+  results = matrix(ncol = 3, nrow = length(tone_types))
+  
+  # Run BFD models and store p_values 
+  for (thistone in 1:length(tone_types)) {
+    
+    thisdf = plotdf %>% filter(tones == tone_types[thistone]) 
+    
+    poisson_model_city <- glm(n ~ Gender, data = 
+                                thisdf, 
+                              family = poisson(link = "log"))
+    
+    
+    results[thistone, 1] = tone_types[thistone]
+    results[thistone, 2] = "NFD"
+    results[thistone, 3] = summary(poisson_model_city)[["coefficients"]][2,4]
+    
+  }
+  
+  
+  res_df = results %>% 
+    as.data.frame() %>% 
+    rename(tones = V1,
+           statement_type = V2,
+           p_value = V3) %>% 
+    mutate(p_value = as.numeric(p_value)) %>% 
+    mutate(result = case_when(
+      p_value > .05 ~ "NS",
+      p_value < .05 & p_value > .005 ~ "*",
+      p_value < .005 & p_value > .0005 ~ "**",
+      p_value < .0005 ~ "***"
+    ))
+  
+  
+  # get y positions 
+  ypost = plotdf %>% 
+    group_by(tones) %>% 
+    summarize(yp = sum(n)) %>% 
+    mutate(tones = replace_na(tones, "N/A"))
+  
+  
+  pdf = left_join(res_df, ypost, by = "tones")
+  
+  #pdf = left_join(res_df, ypost_c1, by = "tones")
+  
+  plotdf$tones = factor(plotdf$tones, levels = c(res_df$tones))
+  
+  
+  
+  plot = plotdf %>% 
+    mutate(tones = replace_na(tones, "N/A")) %>% 
+    ggplot(aes(x = tones, y = n, fill = Gender)) + 
+    geom_col(color = "black") +
+    geom_signif(y_position = c(pdf$yp+1), xmin = c(create_xminp(nrow(pdf))), 
+                xmax = c(create_xmaxp(nrow(pdf))), annotation = c(pdf$result),
+                tip_length = 0)
+  
+  return(plot)
+}
+Gender_p_table = function(city, sent)
+{  
+  df_p7 = long_all %>% 
+#    mutate(tones = str_remove(tones, " L-")) %>% 
+    filter(DEPT == city & focused == 1 & sentence == sent) %>% 
+    group_by(tones) %>% 
+    summarize(n = n()) %>% 
+    filter(n > 1) 
+  
+  plotdf = long_all %>% 
+    filter(DEPT == city & focused == 1 & sentence == sent) %>% 
+    #mutate(tones = str_remove(tones, " L-")) %>% 
+    #  mutate(tones = str_trim(str_replace(tones, "L%", ""))) %>% 
+    group_by(Gender, tones) %>%
+    summarize(n = n()) %>% 
+    filter(tones %in% df_p7$tones) %>% 
+    pivot_wider(names_from = Gender, values_from = n) %>% 
+    mutate(Female = replace_na(Female, 0)) %>% 
+    mutate(Male = replace_na(Male, 0)) %>% 
+    # filter(Male > 3 | Female > 3) %>% 
+    pivot_longer(cols = 2:3, names_to = "Gender", values_to = "n") %>% 
+    mutate(tones = replace_na(tones, "N/A"))
+  
+  tone_types = unique(plotdf$tones)
+  
+  results = matrix(ncol = 2, nrow = length(tone_types))
+  
+  # Run BFD models and store p_values 
+  for (thistone in 1:length(tone_types)) {
+    
+    thisdf = plotdf %>% filter(tones == tone_types[thistone]) 
+    
+    poisson_model_city <- glm(n ~ Gender, data = 
+                                thisdf, 
+                              family = poisson(link = "log"))
+    
+    
+    results[thistone, 1] = tone_types[thistone]
+    results[thistone, 2] = summary(poisson_model_city)[["coefficients"]][2,4]
+    
+  }
+  
+  
+  res_df = results %>% 
+    as.data.frame() %>% 
+    rename(tones = V1,
+           p_value = V2) %>% 
+    mutate(p_value = as.numeric(p_value)) %>% 
+    mutate(result = case_when(
+      p_value > .05 ~ "NS",
+      p_value < .05 & p_value > .005 ~ "*",
+      p_value < .005 & p_value > .0005 ~ "**",
+      p_value < .0005 ~ "***"
+    ))
+  
+  return(res_df)
+}
+
+age_p_table = function(city, sent)
+  
+{
+  
+  df_p7 = long_all %>% 
+#    mutate(tones = str_remove(tones, " L-")) %>% 
+    filter(DEPT == city & focused == 1 & sentence == sent) %>% 
+    group_by(tones) %>% 
+    summarize(n = n()) %>% 
+    filter(n > 1) 
+  
+  plotdf = long_all %>% 
+    filter(DEPT == city & focused == 1 & sentence == sent) %>% 
+    #  mutate(tones = str_trim(str_replace(tones, "L%", ""))) %>% 
+    group_by(Age.Group, tones) %>%
+    summarize(n = n()) %>% 
+    filter(tones %in% df_p7$tones) %>%
+    pivot_wider(names_from = Age.Group, values_from = n) %>% 
+    janitor::clean_names() %>% 
+    mutate(x18_35 = replace_na(x18_35, 0)) %>% 
+    mutate(x36_59 = replace_na(x36_59, 0)) %>% 
+    mutate(x60 = replace_na(x60, 0)) %>%  
+    #    filter(x18_35 > 1 | x36_59 > 1 | x60 > 1) %>% 
+    pivot_longer(cols = 2:4, names_to = "Age.Group", values_to = "n") %>% 
+    mutate(tones = replace_na(tones, "N/A"))
+  
+  
+  tone_types = unique(plotdf$tones)
+  
+  results = matrix(ncol = 3, nrow = length(tone_types))
+  
+  
+  for (thistone in 1:length(tone_types)) {
+    
+    thisdf = plotdf %>% filter(tones == tone_types[thistone]) 
+    
+    thisdf$Age.Group = as.factor(thisdf$Age.Group)
+    thisdf$Age.Group = relevel(thisdf$Age.Group, ref = "x36_59")
+    
+    if (thisdf[2,3] == 0){
+      poisson_model_city = "No test"
+    } else {
+      poisson_model_city = glm(n ~ Age.Group, data = thisdf, family = poisson(link = "log"))
+    }
+    
+    
+    results[thistone, 1] = tone_types[thistone]
+    results[thistone, 2] = ifelse(typeof(poisson_model_city) == "list", 
+                                  ifelse(summary(poisson_model_city)[["coefficients"]][2,4] < .05, print("*"), "NS"),
+                                  "NT")
+    results[thistone, 3] = ifelse(typeof(poisson_model_city) == "list", 
+                                  ifelse(summary(poisson_model_city)[["coefficients"]][3,4] < .05, print("*"), "NS"),
+                                  "NT")}
+  
+  
+  res_df = results %>% 
+    as.data.frame() %>% 
+    rename(tones = V1,
+           p_value_18_35 = V2,
+           p_value_60 = V3)
+
+  return(res_df)
+}
+
+## Make 8 plot for "no" in NFD 3
+
+no_plot_8 = function(city)
+  
+{  
+  df_p7 = long_all %>% 
+  #  rename(Gender = gender) %>% 
+    mutate(tones = str_remove(tones, " L-")) %>% 
+    #  mutate(tones = str_trim(str_replace(tones, "L%", ""))) %>% 
+    filter(DEPT == city) %>% 
+    filter(words == "No") %>% 
+    filter(sentence == "NFD3") %>% 
+    group_by(tones) %>% 
+    summarize(n = n()) %>% 
+    filter(n > 1) 
+  
+  a = df_p7 %>% 
+    ggplot(aes(x = tones, y = n, position = "dodge")) + 
+    geom_col(color = "black", position = "dodge2") + goodale_theme() +
+    scale_y_continuous(breaks=seq(1,max(df_p7$n),1))
+  
+  
+  b = long_all %>% 
+    mutate(tones = str_remove(tones, " L-")) %>% 
+ #   rename(Gender = gender) %>% 
+    filter(DEPT == city) %>% 
+    filter(words == "No") %>% 
+    filter(sentence == "NFD3") %>% 
+    group_by(tones, Gender) %>% 
+    summarize(n = n()) %>% 
+    filter(tones %in% df_p7$tones) %>% 
+    ggplot(aes(x = tones, y = n, fill = Gender)) + 
+    geom_col(color = "black") + goodale_theme() +
+    scale_y_continuous(breaks=seq(1,max(df_p7$n),1))
+  
+  
+  c = long_all %>% 
+    mutate(tones = str_remove(tones, " L-")) %>% 
+    filter(DEPT == city) %>% 
+    filter(words == "No") %>% 
+    filter(sentence == "NFD3") %>% 
+    group_by(tones, Age.Group) %>% 
+    summarize(n = n()) %>% 
+    filter(tones %in% df_p7$tones) %>% 
+    ggplot(aes(x = tones, y = n, fill = Age.Group)) + 
+    geom_col(color = "black") + goodale_theme() +
+    scale_y_continuous(breaks=seq(1,max(df_p7$n),1))
+  
+  library(patchwork)
+  
+  combined <- a + b + c & theme(legend.position = "bottom")
+  plot = combined + plot_layout(guides = "collect")
+  return(plot)
+}
+
+
+
+age_p_table_no = function(city, sent)
+  
+{
+  
+  df_p7 = long_all %>% 
+    mutate(tones = str_remove(tones, " L-")) %>% 
+    filter(DEPT == city) %>% 
+    filter(words == "No") %>% 
+    filter(sentence == "NFD3") %>% 
+    group_by(tones) %>% 
+    summarize(n = n()) %>% 
+    filter(n > 1) 
+  
+  plotdf = long_all %>% 
+    #  mutate(tones = str_trim(str_replace(tones, "L%", ""))) %>% 
+    mutate(tones = str_remove(tones, " L-")) %>% 
+    filter(DEPT == city) %>% 
+    filter(words == "No") %>% 
+    filter(sentence == "NFD3") %>% 
+    group_by(Age.Group, tones) %>%
+    summarize(n = n()) %>% 
+    filter(tones %in% df_p7$tones) %>%
+    pivot_wider(names_from = Age.Group, values_from = n) %>% 
+    janitor::clean_names() %>% 
+    mutate(x18_35 = replace_na(x18_35, 0)) %>% 
+    mutate(x36_59 = replace_na(x36_59, 0)) %>% 
+    mutate(x60 = replace_na(x60, 0)) %>%  
+    #    filter(x18_35 > 1 | x36_59 > 1 | x60 > 1) %>% 
+    pivot_longer(cols = 2:4, names_to = "Age.Group", values_to = "n") %>% 
+    mutate(tones = replace_na(tones, "N/A"))
+  
+  
+  tone_types = unique(plotdf$tones)
+  
+  results = matrix(ncol = 3, nrow = length(tone_types))
+  
+  
+  for (thistone in 1:length(tone_types)) {
+    
+    thisdf = plotdf %>% filter(tones == tone_types[thistone]) 
+    
+    thisdf$Age.Group = as.factor(thisdf$Age.Group)
+    thisdf$Age.Group = relevel(thisdf$Age.Group, ref = "x36_59")
+    
+    if (thisdf[2,3] == 0){
+      poisson_model_city = "No test"
+    } else {
+      poisson_model_city = glm(n ~ Age.Group, data = thisdf, family = poisson(link = "log"))
+    }
+    
+    
+    results[thistone, 1] = tone_types[thistone]
+    results[thistone, 2] = ifelse(typeof(poisson_model_city) == "list", 
+                                  ifelse(summary(poisson_model_city)[["coefficients"]][2,4] < .05, print("*"), "NS"),
+                                  "NT")
+    results[thistone, 3] = ifelse(typeof(poisson_model_city) == "list", 
+                                  ifelse(summary(poisson_model_city)[["coefficients"]][3,4] < .05, print("*"), "NS"),
+                                  "NT")
+  }
+  
+  
+  res_df = results %>% 
+    as.data.frame() %>% 
+    rename(tones = V1,
+           p_value_18_35 = V2,
+           p_value_60 = V3)
+  
+  return(res_df)
+}
+
+
+Gender_p_table_no = function(city, sent)
+{  
+  df_p7 = long_all %>% 
+    filter(DEPT == city) %>% 
+    filter(words == "No") %>% 
+    filter(sentence == "NFD3") %>% 
+    group_by(tones) %>% 
+    summarize(n = n()) %>% 
+    filter(n > 1) 
+  
+  plotdf = long_all %>% 
+    #mutate(tones = str_remove(tones, " L-")) %>% 
+    #  mutate(tones = str_trim(str_replace(tones, "L%", ""))) %>% 
+    group_by(Gender, tones) %>%
+    summarize(n = n()) %>% 
+    filter(tones %in% df_p7$tones) %>% 
+    pivot_wider(names_from = Gender, values_from = n) %>% 
+    mutate(Female = replace_na(Female, 0)) %>% 
+    mutate(Male = replace_na(Male, 0)) %>% 
+    # filter(Male > 3 | Female > 3) %>% 
+    pivot_longer(cols = 2:3, names_to = "Gender", values_to = "n") %>% 
+    mutate(tones = replace_na(tones, "N/A"))
+  
+  tone_types = unique(plotdf$tones)
+  
+  results = matrix(ncol = 2, nrow = length(tone_types))
+  
+  # Run BFD models and store p_values 
+  for (thistone in 1:length(tone_types)) {
+    
+    thisdf = plotdf %>% filter(tones == tone_types[thistone]) 
+    
+    poisson_model_city <- glm(n ~ Gender, data = 
+                                thisdf, 
+                              family = poisson(link = "log"))
+    
+    
+    results[thistone, 1] = tone_types[thistone]
+    results[thistone, 2] = summary(poisson_model_city)[["coefficients"]][2,4]
+    
+  }
+  
+  
+  res_df = results %>% 
+    as.data.frame() %>% 
+    rename(tones = V1,
+           p_value = V2) %>% 
+    mutate(p_value = as.numeric(p_value)) %>% 
+    mutate(result = case_when(
+      p_value > .05 ~ "NS",
+      p_value < .05 & p_value > .005 ~ "*",
+      p_value < .005 & p_value > .0005 ~ "**",
+      p_value < .0005 ~ "***"
+    ))
+  
+  return(res_df)
+}
+
 
 
