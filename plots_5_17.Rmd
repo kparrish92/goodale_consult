@@ -216,7 +216,7 @@ age_p_table("Montevideo", "NFD3") %>%
 **Graph 11a-c Montevideo NFD Focused Pitch Accents and Boundary tones for NFD4. Trimmed**
 
 ```{r}
-plot_8_function("Montevideo", "NFD4")
+plot_8_function("Montevideo", "NFD4") + goodale_theme()
 ```
 
 ```{r}
@@ -234,7 +234,7 @@ age_p_table("Montevideo", "NFD4") %>%
 **Graph 12a-c Montevideo NFD Focused Pitch Accents and Boundary tones for NFD5. Trimmed**
 
 ```{r}
-plot_8_function("Montevideo", "NFD5")
+plot_8_function("Montevideo", "NFD5") + goodale_theme()
 ```
 
 ```{r}
@@ -252,7 +252,7 @@ age_p_table("Montevideo", "NFD5") %>%
 **Graph 13a-c Montevideo NFD Focused Pitch Accents and Boundary tones for NFD6. Trimmed**
 
 ```{r}
-plot_8_function("Montevideo", "NFD6")
+plot_8_function("Montevideo", "NFD6") + goodale_theme()
 ```
 
 ```{r}
