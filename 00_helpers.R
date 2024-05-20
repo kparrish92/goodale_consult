@@ -1426,7 +1426,8 @@ plot_8_function = function(city, sent)
   a = df_p7 %>% 
     ggplot(aes(x = tones, y = n, position = "dodge")) + 
     geom_col(color = "black", position = "dodge2") + goodale_theme() +
-    scale_y_continuous(breaks=seq(1,max(df_p7$n),1))
+    scale_y_continuous(breaks=seq(1,max(df_p7$n),1)) + scale_fill_grey(start = 0.2, end = 0.8)  # Apply greyscale fill
+
   
   
   b = long_all %>% 
@@ -1436,7 +1437,7 @@ plot_8_function = function(city, sent)
     filter(tones %in% df_p7$tones) %>% 
     ggplot(aes(x = tones, y = n, fill = Gender)) + 
     geom_col(color = "black") + goodale_theme() +
-    scale_y_continuous(breaks=seq(1,max(df_p7$n),1))
+    scale_y_continuous(breaks=seq(1,max(df_p7$n),1)) + scale_fill_grey(start = 0.2, end = 0.8)  
   
   
   
@@ -1447,7 +1448,7 @@ plot_8_function = function(city, sent)
     filter(tones %in% df_p7$tones) %>% 
     ggplot(aes(x = tones, y = n, fill = Age.Group)) + 
     geom_col(color = "black") + goodale_theme() +
-    scale_y_continuous(breaks=seq(1,max(df_p7$n),1))
+    scale_y_continuous(breaks=seq(1,max(df_p7$n),1)) + scale_fill_grey(start = 0.2, end = 0.8)  
   
   library(patchwork)
   
@@ -1854,7 +1855,8 @@ no_plot_8 = function(city)
   a = df_p7 %>% 
     ggplot(aes(x = tones, y = n, position = "dodge")) + 
     geom_col(color = "black", position = "dodge2") + goodale_theme() +
-    scale_y_continuous(breaks=seq(1,max(df_p7$n),1))
+    scale_y_continuous(breaks=seq(1,max(df_p7$n),1)) + scale_fill_grey(start = 0.2, end = 0.8)  # Apply greyscale fill
+
   
   
   b = long_all %>% 
@@ -1868,7 +1870,8 @@ no_plot_8 = function(city)
     filter(tones %in% df_p7$tones) %>% 
     ggplot(aes(x = tones, y = n, fill = Gender)) + 
     geom_col(color = "black") + goodale_theme() +
-    scale_y_continuous(breaks=seq(1,max(df_p7$n),1))
+    scale_y_continuous(breaks=seq(1,max(df_p7$n),1)) + scale_fill_grey(start = 0.2, end = 0.8)  # Apply greyscale fill
+
   
   
   c = long_all %>% 
@@ -1881,7 +1884,8 @@ no_plot_8 = function(city)
     filter(tones %in% df_p7$tones) %>% 
     ggplot(aes(x = tones, y = n, fill = Age.Group)) + 
     geom_col(color = "black") + goodale_theme() +
-    scale_y_continuous(breaks=seq(1,max(df_p7$n),1))
+    scale_y_continuous(breaks=seq(1,max(df_p7$n),1)) + scale_fill_grey(start = 0.2, end = 0.8)  # Apply greyscale fill
+
   
   library(patchwork)
   
