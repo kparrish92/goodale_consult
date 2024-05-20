@@ -108,7 +108,7 @@ sig_plot_for_combined("Montevideo", "Gender") + goodale_theme() + scale_fill_gre
 **Graph 5: Montevideo BFD nuclear configurations (i.e., pitch accents + boundary tones) by age.**
 
 ```{r}
-plot_age_per_city("Montevideo", "BFD", "N") + goodale_theme() + scale_fill_grey(start = 0.2, end = 0.8)
+plot_age_per_city("Montevideo", "BFD", "N") + goodale_theme() + scale_fill_grey(start = 0.2, end = 0.8, labels = c("18-35", "36-59", "60+"))
 ```
 
 > Graph 5: The comparisons here were poisson regressions where the dependent variable in each case was the number of productions and the inpendent variable was age (3 levels).
@@ -116,14 +116,16 @@ plot_age_per_city("Montevideo", "BFD", "N") + goodale_theme() + scale_fill_grey(
 **Graph 6: Montevideo non-focalized prenuclear pitch accents (combined count of prenuclear BFD and prenuclear non-focalized NFD PWs)… Like Graph 4 but by age.**
 
 ```{r}
-sig_plot_for_combined_age("Montevideo") + goodale_theme() + scale_fill_grey(start = 0.2, end = 0.8)
+sig_plot_for_combined_age("Montevideo") + goodale_theme() + 
+  scale_fill_grey(start = 0.2, end = 0.8, labels = c("18-35", "36-59", "60+")) + labs(fill = "Age Group") 
 ```
 
 **Graph 7a: Montevideo focalized NFDs including pitch accents + boundary tones (like the graph you provided but only for Montevideo) (not by Gender or age).**
 
 ```{r} 
 mv_long %>% 
-  filter(focused == 1 & sentence_type == "NFD") %>% 
+   mutate(tones = str_remove(tones, "L%")) %>% 
+  filter(focused == 1 & sentence_type == "NFD" | words == "No" & sentence == "NFD3") %>% 
   group_by(tones) %>% 
   summarize(n = n()) %>% 
   ggplot(aes(x = tones, y = n, position = "dodge")) + 
@@ -138,9 +140,8 @@ plot_seven_function_Gender("Montevideo") + goodale_theme() + scale_fill_grey(sta
 
 **Graph 7c: Montevideo focalized NFDs including pitch accents + boundary tones by age**
 ```{r}
-plot_seven_function_age("Montevideo") + goodale_theme() + scale_fill_grey(start = 0.2, end = 0.8)
+plot_seven_function_age("Montevideo") + goodale_theme() + scale_fill_grey(start = 0.2, end = 0.8, labels = c("18-35", "36-59", "60+"))
 ```
-
 
 **Graph 8a-c Montevideo NFD Focused Pitch Accents and Boundary tones for NFD1. Trimmed**
 ```{r}
@@ -193,7 +194,6 @@ age_p_table_no("Montevideo", "NFD3") %>%
       knitr::kable(format = "pandoc", align = c("l", "r", "r", "r", "r", "r"), 
     caption = "A summary of age poisson regressions for Montevideo NFD3 no")
 ```
-
 
 **Graph 10d-f Montevideo NFD Focused Pitch Accents and Boundary tones for NFD3 - a San Juan. Trimmed**
 
@@ -382,7 +382,7 @@ sig_plot_for_combined_age("Durazno") + goodale_theme() + scale_fill_grey(start =
 
 ```{r} 
 dz_long %>% 
-  filter(focused == 1 & sentence_type == "NFD") %>% 
+  filter(focused == 1 & sentence_type == "NFD" | words == "No" & sentence == "NFD3") %>% 
   group_by(tones) %>% 
   summarize(n = n()) %>% 
   ggplot(aes(x = tones, y = n, position = "dodge")) + 
@@ -544,13 +544,12 @@ long_all %>%
   geom_col(color = "black", position = "dodge2") + goodale_theme() + scale_fill_grey(start = 0.2, end = 0.8) 
 
 ```
-
+ 
 **Graph 29: Montevideo and Durazno focalized NFDs including pitch accents + boundary tones (like the graph you provided)**
 
 ```{r}
-
 data = long_all %>% 
-  filter(focused == 1 & sentence_type == "NFD") 
+  filter(focused == 1 & sentence_type == "NFD" | words == "No" & sentence == "NFD3") 
 
 # get utterance totals 
 
@@ -570,68 +569,69 @@ plotdf = data %>%
   mutate(tones = replace_na(tones, "N/A")) 
 
 tone_types = unique(plotdf$tones)
-  
+
 results = matrix(ncol = 3, nrow = length(tone_types))
-  
+
 model_df = data %>% 
   group_by(tones, DEPT) %>% 
   summarize(n = n()) %>% 
+  mutate(tones = replace_na(tones, "N/A")) %>% 
   pivot_wider(names_from = DEPT, values_from = n) %>% 
-  filter(Montevideo > 3 & Durazno > 3) %>% 
+  filter(Montevideo > 5 | Durazno > 5)  %>% 
   pivot_longer(cols = 2:3, names_to = "City", values_to = "count") %>% 
   mutate(tones = replace_na(tones, "N/A"))
+
+# Run BFD models and store p_values 
+for (thistone in 1:length(tone_types)) {
   
-  # Run BFD models and store p_values 
-  for (thistone in 1:length(tone_types)) {
-    
-    thisdf = model_df %>% filter(tones == tone_types[thistone]) %>% 
-      mutate(adj = c(1.5, 1)) %>%
-      mutate(count_adj = count*adj)
-    
-    poisson_model_city <- glm(count_adj ~ City, data = 
-                                thisdf, 
-                              family = poisson(link = "log"))
-    
-    
-    results[thistone, 1] = tone_types[thistone]
-    results[thistone, 2] = ":)"
-    results[thistone, 3] = summary(poisson_model_city)[["coefficients"]][2,4]
-    
-  }
+  thisdf = model_df %>% filter(tones == tone_types[thistone]) %>% 
+    mutate(adj = c(1.5, 1)) %>%
+    mutate(count_adj = count*adj)
+  
+  poisson_model_city <- glm(count_adj ~ City, data = 
+                              thisdf, 
+                            family = poisson(link = "log"))
   
   
-  res_df = results %>% 
-    as.data.frame() %>% 
-    rename(tones = V1,
-           statement_type = V2,
-           p_value = V3) %>% 
-    mutate(p_value = as.numeric(p_value)) %>% 
-    mutate(result = case_when(
-      p_value > .05 ~ "NS",
-      p_value < .05 & p_value > .005 ~ "*",
-      p_value < .005 & p_value > .0005 ~ "**",
-      p_value < .0005 ~ "***"
-    ))
+  results[thistone, 1] = tone_types[thistone]
+  results[thistone, 2] = ":)"
+  results[thistone, 3] = summary(poisson_model_city)[["coefficients"]][2,4]
   
-  
-  # get y positions 
-  ypost = plotdf %>% 
-    group_by(tones) %>% 
-    summarize(yp = max(Percentage)) %>% 
-    mutate(tones = replace_na(tones, "N/A"))
-  
-  plotdf$tones = factor(plotdf$tones, levels = c(res_df$tones))
-  
-  pdf = left_join(res_df, ypost, by = "tones")
-  
+}
+
+
+res_df = results %>% 
+  as.data.frame() %>% 
+  rename(tones = V1,
+         statement_type = V2,
+         p_value = V3) %>% 
+  mutate(p_value = as.numeric(p_value)) %>% 
+  mutate(result = case_when(
+    p_value > .05 ~ "NS",
+    p_value < .05 & p_value > .005 ~ "*",
+    p_value < .005 & p_value > .0005 ~ "**",
+    p_value < .0005 ~ "***"
+  ))
+
+
+# get y positions 
+ypost = plotdf %>% 
+  group_by(tones) %>% 
+  summarize(yp = max(Percentage)) %>% 
+  mutate(tones = replace_na(tones, "N/A"))
+
+plotdf$tones = factor(plotdf$tones, levels = c(res_df$tones))
+
+pdf = left_join(res_df, ypost, by = "tones")
+
 plotdf %>% 
-    mutate(tones = replace_na(tones, "N/A")) %>% 
-    ggplot(aes(x = tones, y = Percentage, fill = City, position = "dodge")) + 
-    geom_col(color = "black", position = "dodge2") +
-    geom_signif(y_position = c(pdf$yp+1), xmin = c(create_xminp(nrow(pdf))), 
-                xmax = c(create_xmaxp(nrow(pdf))), annotation = c(pdf$result),
-                tip_length = 0) + goodale_theme() + scale_fill_grey(start = 0.2, end = 0.8)
-   
+  mutate(tones = replace_na(tones, "N/A")) %>% 
+  ggplot(aes(x = tones, y = Percentage, fill = City, position = "dodge")) + 
+  geom_col(color = "black", position = "dodge2") +
+  geom_signif(y_position = c(pdf$yp+1), xmin = c(create_xminp(nrow(pdf))), 
+              xmax = c(create_xmaxp(nrow(pdf))), annotation = c(pdf$result),
+              tip_length = 0) + goodale_theme() + scale_fill_grey(start = 0.2, end = 0.8)
+
 ```
 
 **NFD1 (Render each graph in such a way that I can present the three graphs side by side) At this point combining the two may no longer be worth it. I may just have to compare the two individual graphs, do you agree?**

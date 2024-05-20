@@ -1258,10 +1258,10 @@ plot_seven_function_Gender = function(city)
   
 {
   plotdf = long_all %>%
-    filter(sentence_type == "NFD") %>% 
-    filter(focused == 1) %>% 
+    filter(focused == 1 & sentence_type == "NFD" | words == "No" & sentence == "NFD3") %>% 
     #    mutate(tones_w_boundary = tones) %>% 
     #  mutate(tones = str_trim(str_replace(tones, "L%", ""))) %>% 
+    mutate(tones = str_remove(tones, "L%")) %>% 
     filter(DEPT == city) %>% 
     group_by(Gender, tones) %>%
     summarize(n = n()) %>% 
@@ -1335,11 +1335,11 @@ plot_seven_function_age = function(city)
   
 {
   plotdf = long_all %>%
-    filter(sentence_type == "NFD") %>% 
-    filter(focused == 1) %>%
+    filter(focused == 1 & sentence_type == "NFD" | words == "No" & sentence == "NFD3") %>% 
     filter(DEPT == city) %>% 
     group_by(Age.Group, tones) %>%
     summarize(n = n()) %>% 
+    mutate(tones = str_remove(tones, "L%")) %>% 
     pivot_wider(names_from = Age.Group, values_from = n) %>% 
     janitor::clean_names() %>% 
     mutate(x18_35 = replace_na(x18_35, 0)) %>% 
@@ -1418,19 +1418,22 @@ plot_8_function = function(city, sent)
 {
   
   df_p7 = long_all %>% 
+    mutate(tones = str_remove(tones, "L%")) %>% 
     filter(DEPT == city & focused == 1 & sentence == sent) %>% 
     group_by(tones) %>% 
     summarize(n = n()) %>% 
-    filter(n > 1) 
+    filter(n > 1)
+  
   
   a = df_p7 %>% 
     ggplot(aes(x = tones, y = n, position = "dodge")) + 
     geom_col(color = "black", position = "dodge2") + goodale_theme() +
     scale_y_continuous(breaks=seq(1,max(df_p7$n),1)) + scale_fill_grey(start = 0.2, end = 0.8)  # Apply greyscale fill
-
+  
   
   
   b = long_all %>% 
+    mutate(tones = str_remove(tones, "L%")) %>% 
     filter(DEPT == city & focused == 1 & sentence == sent) %>% 
     group_by(tones, Gender) %>% 
     summarize(n = n()) %>% 
@@ -1442,6 +1445,7 @@ plot_8_function = function(city, sent)
   
   
   c = long_all %>% 
+    mutate(tones = str_remove(tones, "L%")) %>% 
     filter(DEPT == city & focused == 1 & sentence == sent) %>% 
     group_by(tones, Age.Group) %>% 
     summarize(n = n()) %>% 
@@ -1457,6 +1461,8 @@ plot_8_function = function(city, sent)
   
   return(plot)  
 }
+
+
 
 make_sig_plot_2 = function(data)
   
@@ -1640,7 +1646,7 @@ plot_Gender_no = function(city)
   
 {
   plotdf = long_all %>% 
-    mutate(tones = str_remove(tones, " L-")) %>% 
+    mutate(tones = str_remove(tones, "L%")) %>% 
     #  mutate(tones = str_trim(str_replace(tones, "L%", ""))) %>% 
     filter(DEPT == city) %>% 
     filter(words == "No") %>% 
@@ -1717,7 +1723,7 @@ plot_Gender_no = function(city)
 Gender_p_table = function(city, sent)
 {  
   df_p7 = long_all %>% 
-#    mutate(tones = str_remove(tones, " L-")) %>% 
+    mutate(tones = str_remove(tones, "L%")) %>% 
     filter(DEPT == city & focused == 1 & sentence == sent) %>% 
     group_by(tones) %>% 
     summarize(n = n()) %>% 
@@ -1725,7 +1731,7 @@ Gender_p_table = function(city, sent)
   
   plotdf = long_all %>% 
     filter(DEPT == city & focused == 1 & sentence == sent) %>% 
-    #mutate(tones = str_remove(tones, " L-")) %>% 
+    mutate(tones = str_remove(tones, "L%")) %>% 
     #  mutate(tones = str_trim(str_replace(tones, "L%", ""))) %>% 
     group_by(Gender, tones) %>%
     summarize(n = n()) %>% 
@@ -1777,7 +1783,7 @@ age_p_table = function(city, sent)
 {
   
   df_p7 = long_all %>% 
-#    mutate(tones = str_remove(tones, " L-")) %>% 
+    mutate(tones = str_remove(tones, "L%")) %>% 
     filter(DEPT == city & focused == 1 & sentence == sent) %>% 
     group_by(tones) %>% 
     summarize(n = n()) %>% 
@@ -1785,6 +1791,7 @@ age_p_table = function(city, sent)
   
   plotdf = long_all %>% 
     filter(DEPT == city & focused == 1 & sentence == sent) %>% 
+    mutate(tones = str_remove(tones, "L%")) %>% 
     #  mutate(tones = str_trim(str_replace(tones, "L%", ""))) %>% 
     group_by(Age.Group, tones) %>%
     summarize(n = n()) %>% 
@@ -1843,7 +1850,7 @@ no_plot_8 = function(city)
 {  
   df_p7 = long_all %>% 
   #  rename(Gender = gender) %>% 
-    mutate(tones = str_remove(tones, " L-")) %>% 
+    mutate(tones = str_remove(tones, "L%")) %>% 
     #  mutate(tones = str_trim(str_replace(tones, "L%", ""))) %>% 
     filter(DEPT == city) %>% 
     filter(words == "No") %>% 
@@ -1860,7 +1867,7 @@ no_plot_8 = function(city)
   
   
   b = long_all %>% 
-    mutate(tones = str_remove(tones, " L-")) %>% 
+    mutate(tones = str_remove(tones, "L%")) %>% 
  #   rename(Gender = gender) %>% 
     filter(DEPT == city) %>% 
     filter(words == "No") %>% 
@@ -1875,7 +1882,7 @@ no_plot_8 = function(city)
   
   
   c = long_all %>% 
-    mutate(tones = str_remove(tones, " L-")) %>% 
+    mutate(tones = str_remove(tones, "L%")) %>% 
     filter(DEPT == city) %>% 
     filter(words == "No") %>% 
     filter(sentence == "NFD3") %>% 
@@ -1901,7 +1908,7 @@ age_p_table_no = function(city, sent)
 {
   
   df_p7 = long_all %>% 
-    mutate(tones = str_remove(tones, " L-")) %>% 
+    mutate(tones = str_remove(tones, "L%")) %>% 
     filter(DEPT == city) %>% 
     filter(words == "No") %>% 
     filter(sentence == "NFD3") %>% 
@@ -1911,7 +1918,7 @@ age_p_table_no = function(city, sent)
   
   plotdf = long_all %>% 
     #  mutate(tones = str_trim(str_replace(tones, "L%", ""))) %>% 
-    mutate(tones = str_remove(tones, " L-")) %>% 
+    mutate(tones = str_remove(tones, "L%")) %>% 
     filter(DEPT == city) %>% 
     filter(words == "No") %>% 
     filter(sentence == "NFD3") %>% 
@@ -1970,6 +1977,7 @@ age_p_table_no = function(city, sent)
 Gender_p_table_no = function(city, sent)
 {  
   df_p7 = long_all %>% 
+    mutate(tones = str_remove(tones, "L%")) %>% 
     filter(DEPT == city) %>% 
     filter(words == "No") %>% 
     filter(sentence == "NFD3") %>% 
@@ -1978,7 +1986,7 @@ Gender_p_table_no = function(city, sent)
     filter(n > 1) 
   
   plotdf = long_all %>% 
-    #mutate(tones = str_remove(tones, " L-")) %>% 
+    mutate(tones = str_remove(tones, "L%")) %>% 
     #  mutate(tones = str_trim(str_replace(tones, "L%", ""))) %>% 
     group_by(Gender, tones) %>%
     summarize(n = n()) %>% 
