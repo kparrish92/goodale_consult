@@ -163,7 +163,7 @@ plot_word_by_word = function(city, sent)
   find_tones = long_all %>%
     filter(DEPT == city) %>% 
     filter(sentence == sent) %>% 
-    mutate(tones_new = str_trim(str_replace(tones, "L%", "")))
+    mutate(tones_new = str_trim(str_replace(tones, " L%", "")))
   
   ## Change order 
   find_tones$words_cat = 
@@ -207,7 +207,7 @@ plot_word_by_word_sex = function(city, sent)
   find_tones = long_all %>%
     filter(DEPT == city) %>% 
     filter(sentence == sent) %>% 
-    mutate(tones_new = str_trim(str_replace(tones, "L%", "")))
+    mutate(tones_new = str_trim(str_replace(tones, " L%", "")))
   
   ## Change order 
   find_tones$words_cat = 
@@ -249,7 +249,7 @@ plot_word_by_word_education = function(city, sent)
   find_tones = long_all %>%
     filter(DEPT == city) %>% 
     filter(sentence == sent) %>% 
-    mutate(tones_new = str_trim(str_replace(tones, "L%", "")))
+    mutate(tones_new = str_trim(str_replace(tones, " L%", "")))
   
   ## Change order 
   find_tones$words_cat = 
@@ -292,7 +292,7 @@ plot_word_by_word_age = function(city, sent)
   find_tones = long_all %>%
     filter(DEPT == city) %>% 
     filter(sentence == sent) %>% 
-    mutate(tones_new = str_trim(str_replace(tones, "L%", "")))
+    mutate(tones_new = str_trim(str_replace(tones, " L%", "")))
   
   ## Change order 
   find_tones$words_cat = 
@@ -870,7 +870,7 @@ plot_ed_per_city = function(city, st, p)
 {
   plotdf = long_all %>% 
     mutate(tones_w_boundary = tones) %>% 
-    mutate(tones = str_trim(str_replace(tones, "L%", ""))) %>% 
+    mutate(tones = str_trim(str_replace(tones, " L%", ""))) %>% 
     filter(DEPT == city) %>% 
     filter(sentence_type == st) %>% 
     filter(position == p) %>% 
@@ -1261,7 +1261,9 @@ plot_seven_function_Gender = function(city)
     filter(focused == 1 & sentence_type == "NFD" | words == "No" & sentence == "NFD3") %>% 
     #    mutate(tones_w_boundary = tones) %>% 
     #  mutate(tones = str_trim(str_replace(tones, "L%", ""))) %>% 
-    mutate(tones = str_remove(tones, "L%")) %>% 
+    mutate(tones = str_remove(tones, " L%")) %>% 
+    mutate(tones = str_remove(tones, " L-")) %>%
+    mutate(tones = str_remove(tones, "L-")) %>% 
     filter(DEPT == city) %>% 
     group_by(Gender, tones) %>%
     summarize(n = n()) %>% 
@@ -1336,10 +1338,12 @@ plot_seven_function_age = function(city)
 {
   plotdf = long_all %>%
     filter(focused == 1 & sentence_type == "NFD" | words == "No" & sentence == "NFD3") %>% 
+    mutate(tones = str_remove(tones, " L%")) %>% 
+    mutate(tones = str_remove(tones, " L-")) %>% 
+    mutate(tones = str_remove(tones, "L-")) %>% 
     filter(DEPT == city) %>% 
     group_by(Age.Group, tones) %>%
     summarize(n = n()) %>% 
-    mutate(tones = str_remove(tones, "L%")) %>% 
     pivot_wider(names_from = Age.Group, values_from = n) %>% 
     janitor::clean_names() %>% 
     mutate(x18_35 = replace_na(x18_35, 0)) %>% 
@@ -1418,7 +1422,7 @@ plot_8_function = function(city, sent)
 {
   
   df_p7 = long_all %>% 
-    mutate(tones = str_remove(tones, "L%")) %>% 
+    mutate(tones = str_remove(tones, " L%")) %>% 
     filter(DEPT == city & focused == 1 & sentence == sent) %>% 
     group_by(tones) %>% 
     summarize(n = n()) %>% 
@@ -1433,7 +1437,7 @@ plot_8_function = function(city, sent)
   
   
   b = long_all %>% 
-    mutate(tones = str_remove(tones, "L%")) %>% 
+    mutate(tones = str_remove(tones, " L%")) %>% 
     filter(DEPT == city & focused == 1 & sentence == sent) %>% 
     group_by(tones, Gender) %>% 
     summarize(n = n()) %>% 
@@ -1445,7 +1449,7 @@ plot_8_function = function(city, sent)
   
   
   c = long_all %>% 
-    mutate(tones = str_remove(tones, "L%")) %>% 
+    mutate(tones = str_remove(tones, " L%")) %>% 
     filter(DEPT == city & focused == 1 & sentence == sent) %>% 
     group_by(tones, Age.Group) %>% 
     summarize(n = n()) %>% 
@@ -1646,7 +1650,7 @@ plot_Gender_no = function(city)
   
 {
   plotdf = long_all %>% 
-    mutate(tones = str_remove(tones, "L%")) %>% 
+    mutate(tones = str_remove(tones, " L%")) %>% 
     #  mutate(tones = str_trim(str_replace(tones, "L%", ""))) %>% 
     filter(DEPT == city) %>% 
     filter(words == "No") %>% 
@@ -1723,7 +1727,7 @@ plot_Gender_no = function(city)
 Gender_p_table = function(city, sent)
 {  
   df_p7 = long_all %>% 
-    mutate(tones = str_remove(tones, "L%")) %>% 
+    mutate(tones = str_remove(tones, " L%")) %>% 
     filter(DEPT == city & focused == 1 & sentence == sent) %>% 
     group_by(tones) %>% 
     summarize(n = n()) %>% 
@@ -1731,7 +1735,7 @@ Gender_p_table = function(city, sent)
   
   plotdf = long_all %>% 
     filter(DEPT == city & focused == 1 & sentence == sent) %>% 
-    mutate(tones = str_remove(tones, "L%")) %>% 
+    mutate(tones = str_remove(tones, " L%")) %>% 
     #  mutate(tones = str_trim(str_replace(tones, "L%", ""))) %>% 
     group_by(Gender, tones) %>%
     summarize(n = n()) %>% 
@@ -1783,7 +1787,7 @@ age_p_table = function(city, sent)
 {
   
   df_p7 = long_all %>% 
-    mutate(tones = str_remove(tones, "L%")) %>% 
+    mutate(tones = str_remove(tones, " L%")) %>% 
     filter(DEPT == city & focused == 1 & sentence == sent) %>% 
     group_by(tones) %>% 
     summarize(n = n()) %>% 
@@ -1791,7 +1795,7 @@ age_p_table = function(city, sent)
   
   plotdf = long_all %>% 
     filter(DEPT == city & focused == 1 & sentence == sent) %>% 
-    mutate(tones = str_remove(tones, "L%")) %>% 
+    mutate(tones = str_remove(tones, " L%")) %>% 
     #  mutate(tones = str_trim(str_replace(tones, "L%", ""))) %>% 
     group_by(Age.Group, tones) %>%
     summarize(n = n()) %>% 
@@ -1850,7 +1854,7 @@ no_plot_8 = function(city)
 {  
   df_p7 = long_all %>% 
   #  rename(Gender = gender) %>% 
-    mutate(tones = str_remove(tones, "L%")) %>% 
+    mutate(tones = str_remove(tones, " L%")) %>% 
     #  mutate(tones = str_trim(str_replace(tones, "L%", ""))) %>% 
     filter(DEPT == city) %>% 
     filter(words == "No") %>% 
@@ -1867,7 +1871,7 @@ no_plot_8 = function(city)
   
   
   b = long_all %>% 
-    mutate(tones = str_remove(tones, "L%")) %>% 
+    mutate(tones = str_remove(tones, " L%")) %>% 
  #   rename(Gender = gender) %>% 
     filter(DEPT == city) %>% 
     filter(words == "No") %>% 
@@ -1882,7 +1886,7 @@ no_plot_8 = function(city)
   
   
   c = long_all %>% 
-    mutate(tones = str_remove(tones, "L%")) %>% 
+    mutate(tones = str_remove(tones, " L%")) %>% 
     filter(DEPT == city) %>% 
     filter(words == "No") %>% 
     filter(sentence == "NFD3") %>% 
@@ -1908,7 +1912,7 @@ age_p_table_no = function(city, sent)
 {
   
   df_p7 = long_all %>% 
-    mutate(tones = str_remove(tones, "L%")) %>% 
+    mutate(tones = str_remove(tones, " L%")) %>% 
     filter(DEPT == city) %>% 
     filter(words == "No") %>% 
     filter(sentence == "NFD3") %>% 
@@ -1918,7 +1922,7 @@ age_p_table_no = function(city, sent)
   
   plotdf = long_all %>% 
     #  mutate(tones = str_trim(str_replace(tones, "L%", ""))) %>% 
-    mutate(tones = str_remove(tones, "L%")) %>% 
+    mutate(tones = str_remove(tones, " L%")) %>% 
     filter(DEPT == city) %>% 
     filter(words == "No") %>% 
     filter(sentence == "NFD3") %>% 
@@ -1977,7 +1981,7 @@ age_p_table_no = function(city, sent)
 Gender_p_table_no = function(city, sent)
 {  
   df_p7 = long_all %>% 
-    mutate(tones = str_remove(tones, "L%")) %>% 
+    mutate(tones = str_remove(tones, " L%")) %>% 
     filter(DEPT == city) %>% 
     filter(words == "No") %>% 
     filter(sentence == "NFD3") %>% 
@@ -1986,7 +1990,7 @@ Gender_p_table_no = function(city, sent)
     filter(n > 1) 
   
   plotdf = long_all %>% 
-    mutate(tones = str_remove(tones, "L%")) %>% 
+    mutate(tones = str_remove(tones, " L%")) %>% 
     #  mutate(tones = str_trim(str_replace(tones, "L%", ""))) %>% 
     group_by(Gender, tones) %>%
     summarize(n = n()) %>% 

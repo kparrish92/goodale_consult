@@ -58,7 +58,7 @@ NS \<- p \> .05
 
 \*\* \<- p \< .005
 
-\*\*\* \<- p \< .005
+\*\*\* \<- p \< .0005
 
 **Nuclear Broad Focus Declaratives**
 
